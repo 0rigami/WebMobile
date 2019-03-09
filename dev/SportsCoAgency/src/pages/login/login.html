@@ -1,0 +1,14 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-input placeholder="Email" [inputmode]="email"></ion-input>
+  <ion-input placeholder="Mot de passe" [inputmode]="password"></ion-input>
+<button ion-button full (click)="doLogin()">Login</button>
+</ion-content>

@@ -1,0 +1,31 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-buttons start>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Messages</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-list>
+    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" >
+      <!--<ion-icon [name]="item.icon" item-start></ion-icon>-->
+      <ion-img src="{{item.icon}}"></ion-img>
+      <div class="info-club">
+        <p class="info-club-titre">{{item.title}} </p>
+        <p>{{item.division}} </p>
+        <p> {{item.localisation}}</p>
+      </div>
+      <div class="item-note" item-end>
+        {{item.points}}
+      </div>
+    </button>
+  </ion-list>
+
+</ion-content>
