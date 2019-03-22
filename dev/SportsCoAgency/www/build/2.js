@@ -1,14 +1,14 @@
 webpackJsonp([2],{
 
-/***/ 282:
+/***/ 274:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Tab8PageModule", function() { return Tab8PageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RechercheClubPageModule", function() { return RechercheClubPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tab8__ = __webpack_require__(296);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__rechercheclub__ = __webpack_require__(284);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,36 +18,37 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var Tab8PageModule = (function () {
-    function Tab8PageModule() {
+var RechercheClubPageModule = (function () {
+    function RechercheClubPageModule() {
     }
-    return Tab8PageModule;
+    return RechercheClubPageModule;
 }());
-Tab8PageModule = __decorate([
+RechercheClubPageModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__tab8__["a" /* Tab8Page */],
+            __WEBPACK_IMPORTED_MODULE_2__rechercheclub__["a" /* RechercheClubPage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__tab8__["a" /* Tab8Page */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__rechercheclub__["a" /* RechercheClubPage */]),
         ],
         exports: [
-            __WEBPACK_IMPORTED_MODULE_2__tab8__["a" /* Tab8Page */]
+            __WEBPACK_IMPORTED_MODULE_2__rechercheclub__["a" /* RechercheClubPage */]
         ]
     })
-], Tab8PageModule);
+], RechercheClubPageModule);
 
-//# sourceMappingURL=tab8.module.js.map
+//# sourceMappingURL=rechercheclub.module.js.map
 
 /***/ }),
 
-/***/ 296:
+/***/ 284:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Tab8Page; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RechercheClubPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__detailclub_detailclub__ = __webpack_require__(192);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -59,30 +60,78 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 /**
- * Generated class for the Tab8Page page.
+ * Generated class for the RechercheClub page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
-var Tab8Page = (function () {
-    function Tab8Page(navCtrl, navParams) {
+var RechercheClubPage = (function () {
+    function RechercheClubPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.DetailClubPage = __WEBPACK_IMPORTED_MODULE_2__detailclub_detailclub__["a" /* DetailClubPage */];
+        // If we navigated to this page, we will have an item available as a nav param
+        this.selectedItem = navParams.get('item');
+        // Let's populate this page with some filler content for funzies
+        this.icons = ['https://static.wixstatic.com/media/8fe0fa_777edc6f59b74a9d845e49d9c6edc17f.png',
+            'https://s1.static-footeo.com/uploads/es-maizieres/e71cf4d594e2f32ecc411c1f1318878ebd5b6c7f__nxnn3y.png',
+            'https://upload.wikimedia.org/wikipedia/fr/c/c5/Logo_Thionville_FC.png'];
+        this.clubs = ['CSO Amnéville', 'ES Maizieres', 'FC Thionville'];
+        this.division = ['Promotion', 'Excellence', 'Honneur'];
+        this.localisation = ['Amneville', 'Maizieres', 'Thionville'];
+        this.presentation = [
+            'Amneville',
+            'Maizieres',
+            'Thionville'
+        ];
+        this.objectifs = [
+            'Amneville',
+            'Maizieres',
+            'Thionville'
+        ];
+        this.historique = [
+            'Amneville',
+            'Maizieres',
+            'Thionville'
+        ];
+        this.items = [];
+        for (var i = 0; i < this.clubs.length; i++) {
+            this.items.push({
+                title: this.clubs[i],
+                division: this.division[i],
+                localisation: this.localisation[i],
+                icon: this.icons[i],
+                presentation: this.presentation[i],
+                objectifs: this.objectifs[i],
+                historique: this.historique[i],
+            });
+        }
     }
-    Tab8Page.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad Tab8Page');
+    RechercheClubPage.prototype.itemTapped = function (event, item) {
+        // That's right, we're pushing to ourselves!
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__detailclub_detailclub__["a" /* DetailClubPage */], {
+            item: item
+        });
     };
-    return Tab8Page;
+    RechercheClubPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad  RechercheJoueurPage');
+    };
+    RechercheClubPage.prototype.Redirection = function () {
+        this.navCtrl.setRoot('MenuPage');
+    };
+    return RechercheClubPage;
 }());
-Tab8Page = __decorate([
+RechercheClubPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-tab8',template:/*ion-inline-start:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/tab8/tab8.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-buttons start>\n        <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n  </ion-buttons>\n    <ion-title>Tab 8</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\nThis is my Tab 8 content!\n</ion-content>\n'/*ion-inline-end:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/tab8/tab8.html"*/,
+        selector: 'page-rechercheclub',template:/*ion-inline-start:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/rechercheclub/rechercheclub.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-buttons start>\n        <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n  </ion-buttons>\n    <ion-title>Rechercher un club</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <ion-searchbar placeholder="Rechercher un club"></ion-searchbar>\n  <button ion-button full (click)="Redirection()">Filtre</button>\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/rechercheclub/rechercheclub.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-], Tab8Page);
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object])
+], RechercheClubPage);
 
-//# sourceMappingURL=tab8.js.map
+var _a, _b;
+//# sourceMappingURL=rechercheclub.js.map
 
 /***/ })
 

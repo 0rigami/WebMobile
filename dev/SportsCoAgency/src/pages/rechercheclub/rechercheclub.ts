@@ -77,4 +77,8 @@ export class RechercheClubPage {
         console.log('ionViewDidLoad  RechercheJoueurPage');
     }
 
+    Redirection() {
+        this.navCtrl.setRoot('MenuPage');
+    }
+
 }

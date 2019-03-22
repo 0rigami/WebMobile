@@ -9,7 +9,7 @@ import { MyApp } from './app.component';
 import {DetailClubPage} from "../pages/detailclub/detailclub";
 import {DetailMessagesPage} from "../pages/detailmessages/detailmessages";
 
-import { HttpClientModule } from '@angular/common/http';
+import { HttpModule } from '@angular/http';
 
 
 @NgModule({
@@ -20,7 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
+      HttpModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],

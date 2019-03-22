@@ -14,9 +14,6 @@ export class TabsPage {
   tab5Root = 'MessagesPage';
   tab6Root = 'FavorisPage';
   tab7Root = 'ComptePage';
-  tab8Root = 'Tab7Page';
-  tab9Root = 'Tab9Page';
-  tab10Root = 'Tab10Page';
   myIndex: number;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {

@@ -15,16 +15,124 @@
 <ion-content class="view-class">
   <ion-slides pager="true">
 
-    <ion-slide>
-      <h1>Slide 1</h1>
+    <ion-slide *ngFor="let itm of item">
+      <h1>Mes informations</h1>
+      <ion-item>
+        <ion-label position="floating">Nom</ion-label>
+        <ion-input value="{{itm.nom}}"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Prénom</ion-label>
+        <ion-input value="{{itm.prenom}}"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Ville</ion-label>
+        <ion-input value="{{itm.ville}}"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Email</ion-label>
+        <ion-input value="{{itm.email}}"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Téléphone</ion-label>
+        <ion-input value="{{itm.telephone}}"></ion-input>
+      </ion-item>
+
     </ion-slide>
 
     <ion-slide>
-      <h1>Slide 2</h1>
+      <ion-card-header>
+
+        <ion-card-title>Mon CV</ion-card-title>
+      </ion-card-header>
+
+      <ion-item href="#" class="activated">
+        <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->
+        <ion-icon name="wifi" slot="start"></ion-icon>
+        <ion-label>Type de sport : FOOTBALL</ion-label>
+      </ion-item>
+
+      <ion-item href="#">
+        <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->
+        <ion-icon name="wine" slot="start"></ion-icon>
+        <ion-label>Date de naissance : 05/02/1985</ion-label>
+        <ion-label>Lieu de Naissance : Funchal</ion-label>
+        <ion-label>Pays de naissance : Portugal</ion-label>
+      </ion-item>
+
+      <ion-item href="#" class="activated">
+        <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->
+        <ion-icon name="wifi" slot="start"></ion-icon>
+        <ion-label>Poids : 82 kg</ion-label>
+        <ion-label>Taille en cm : 187</ion-label>
+        <ion-label>Pieds : Droit</ion-label>
+      </ion-item>
+
+      <ion-item href="#">
+        <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->
+        <ion-icon name="wine" slot="start"></ion-icon>
+        <ion-label>Poste principal : Attaquant</ion-label>
+        <ion-label>Côté principal : Gauche</ion-label>
+        <ion-label>Disponibilité : Jamais</ion-label>
+      </ion-item>
+
+      <ion-item href="#" class="activated">
+        <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->
+        <ion-icon name="wifi" slot="start"></ion-icon>
+        <ion-label>Lien de votre vidéo de présentation : </ion-label>
+      </ion-item>
+
+      <ion-card-header>
+
+        <ion-card-title>Historique</ion-card-title>
+      </ion-card-header>
+
+      <ion-item href="#" class="activated">
+        <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->
+        <ion-icon name="wifi" slot="start"></ion-icon>
+        <ion-label>2018 - 2019 : Ligue 2 / FRANCE</ion-label>
+      </ion-item>
+      <ion-item href="#">
+        <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->
+        <ion-icon name="wifi" slot="start"></ion-icon>
+        <ion-label>2017 - 2018 : Ligue 1 / FRANCE</ion-label>
+      </ion-item>
+
+      <ion-card-header>
+
+        <ion-card-title>Poste</ion-card-title>
+      </ion-card-header>
+
+      <ion-item href="#" class="activated">
+        <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->
+        <ion-icon name="wifi" slot="start"></ion-icon>
+        <ion-label>2018 - 2019 : Attaquant Gauche</ion-label>
+      </ion-item>
+      <ion-item href="#">
+        <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->
+        <ion-icon name="wifi" slot="start"></ion-icon>
+        <ion-label>2017 - 2018 : Attaquant Gauche </ion-label>
+      </ion-item>
+
+      <ion-card-header>
+
+        <ion-card-title>Palmarès</ion-card-title>
+      </ion-card-header>
+
+      <ion-item href="#" class="activated">
+        <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->
+        <ion-icon name="wifi" slot="start"></ion-icon>
+        <ion-label>2018 - 2019 : Coupe de France / FRANCE</ion-label>
+      </ion-item>
+
     </ion-slide>
 
     <ion-slide>
-      <h1>Slide 3</h1>
+      <h1>Ma recherche</h1>
     </ion-slide>
   </ion-slides>
 </ion-content>

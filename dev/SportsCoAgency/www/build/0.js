@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 285:
+/***/ 276:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabsPageModule", function() { return TabsPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs__ = __webpack_require__(286);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -41,7 +41,7 @@ TabsPageModule = __decorate([
 
 /***/ }),
 
-/***/ 299:
+/***/ 286:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -70,16 +70,13 @@ var TabsPage = (function () {
         this.tab5Root = 'MessagesPage';
         this.tab6Root = 'FavorisPage';
         this.tab7Root = 'ComptePage';
-        this.tab8Root = 'Tab7Page';
-        this.tab9Root = 'Tab9Page';
-        this.tab10Root = 'Tab10Page';
         this.myIndex = navParams.data.tabIndex || 0;
     }
     return TabsPage;
 }());
 TabsPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-tabs',template:/*ion-inline-start:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/tabs/tabs.html"*/'<ion-tabs [selectedIndex]="myIndex">\n  <ion-tab [root]="tab1Root" tabTitle="Accueil" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Offre de clubs" tabIcon="football"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Recherche un club" tabIcon="football"></ion-tab>\n  <ion-tab [root]="tab4Root" tabTitle="Recherche un joueur" tabIcon="man"></ion-tab>\n  <ion-tab [root]="tab5Root" tabTitle="Messages" tabIcon="chatbubbles"></ion-tab>\n  <ion-tab [root]="tab6Root" tabTitle="Favoris" tabIcon="star"></ion-tab>\n  <ion-tab [root]="tab7Root" tabTitle="Compte" tabIcon="person"></ion-tab>\n\n  <!--<ion-tab [root]="tab8Root" tabTitle="Tab 8" tabIcon="home"></ion-tab>-->\n  <!--<ion-tab [root]="tab9Root" tabTitle="Tab 9" tabIcon="home"></ion-tab>-->\n  <!--<ion-tab [root]="tab10Root" tabTitle="Tab 10" tabIcon="home"></ion-tab>-->\n</ion-tabs>'/*ion-inline-end:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/tabs/tabs.html"*/,
+        selector: 'page-tabs',template:/*ion-inline-start:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/tabs/tabs.html"*/'<ion-tabs [selectedIndex]="myIndex">\n  <!--<ion-tab [root]="tab1Root" tabTitle="Accueil" tabIcon="home"></ion-tab>-->\n  <ion-tab [root]="tab2Root" tabTitle="Offre de clubs" tabIcon="search"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Recherche un club" tabIcon="football"></ion-tab>\n  <!--<ion-tab [root]="tab4Root" tabTitle="Recherche un joueur" tabIcon="man"></ion-tab>-->\n  <ion-tab [root]="tab5Root" tabTitle="Messages" tabIcon="chatbubbles"></ion-tab>\n  <ion-tab [root]="tab6Root" tabTitle="Favoris" tabIcon="star"></ion-tab>\n  <ion-tab [root]="tab7Root" tabTitle="Compte" tabIcon="person"></ion-tab>\n\n\n</ion-tabs>'/*ion-inline-end:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/tabs/tabs.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], TabsPage);

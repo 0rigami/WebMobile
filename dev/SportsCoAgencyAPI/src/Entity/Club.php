@@ -41,6 +41,9 @@ class Club
      */
     private $Objectifs;
 
+
+    private $favori;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -102,6 +105,23 @@ class Club
     public function setObjectifs(string $Objectifs): self
     {
         $this->Objectifs = $Objectifs;
+
+        return $this;
+    }
+
+    public function getFavori(): ?Favori
+    {
+        return $this->favori;
+    }
+
+    public function setFavori(Favori $favori): self
+    {
+        $this->favori = $favori;
+
+        // set the owning side of the relation if necessary
+        if ($this !== $favori->getIdClub()) {
+            $favori->setIdClub($this);
+        }
 
         return $this;
     }

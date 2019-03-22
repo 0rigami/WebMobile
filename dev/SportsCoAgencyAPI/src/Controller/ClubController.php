@@ -19,8 +19,8 @@ class ClubController extends AbstractController
 
 
     /**
- * @Route("/clubs/get", name="get_club", methods={"GET"})
- */
+     * @Route("/clubs/get", name="get_club", methods={"GET"})
+     */
     public function index(Request $request)
     {
 
@@ -37,6 +37,8 @@ class ClubController extends AbstractController
         $response->headers->set('Content-Type', 'application/json');
         return $response;
     }
+
+
 
 
 }

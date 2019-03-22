@@ -1,6 +1,6 @@
-webpackJsonp([17],{
+webpackJsonp([13],{
 
-/***/ 108:
+/***/ 107:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -13,80 +13,64 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 108;
+webpackEmptyAsyncContext.id = 107;
 
 /***/ }),
 
-/***/ 150:
+/***/ 148:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/accueil/accueil.module": [
-		270,
-		13
-	],
-	"../pages/compte/compte.module": [
-		269,
-		12
-	],
-	"../pages/detailclub/detailclub.module": [
-		271,
-		16
-	],
-	"../pages/detailcluboffre/detailcluboffre.module": [
-		272,
-		15
-	],
-	"../pages/detailmessages/detailmessages.module": [
-		274,
-		14
-	],
-	"../pages/favoris/favoris.module": [
-		273,
-		11
-	],
-	"../pages/login/login.module": [
-		275,
-		10
-	],
-	"../pages/menu/menu.module": [
-		276,
+		265,
 		9
 	],
-	"../pages/messages/messages.module": [
-		284,
+	"../pages/compte/compte.module": [
+		266,
 		8
 	],
-	"../pages/offreclub/offreclub.module": [
-		277,
+	"../pages/detailclub/detailclub.module": [
+		267,
+		12
+	],
+	"../pages/detailcluboffre/detailcluboffre.module": [
+		268,
+		11
+	],
+	"../pages/detailmessages/detailmessages.module": [
+		270,
+		10
+	],
+	"../pages/favoris/favoris.module": [
+		269,
 		7
 	],
-	"../pages/rechercheclub/rechercheclub.module": [
-		278,
+	"../pages/login/login.module": [
+		273,
 		6
 	],
-	"../pages/recherchejoueur/recherchejoueur.module": [
-		279,
+	"../pages/menu/menu.module": [
+		272,
 		5
 	],
-	"../pages/special/special.module": [
-		280,
+	"../pages/messages/messages.module": [
+		271,
 		4
 	],
-	"../pages/tab10/tab10.module": [
-		281,
+	"../pages/offreclub/offreclub.module": [
+		275,
 		3
 	],
-	"../pages/tab8/tab8.module": [
-		282,
+	"../pages/rechercheclub/rechercheclub.module": [
+		274,
 		2
 	],
-	"../pages/tab9/tab9.module": [
-		283,
+	"../pages/recherchejoueur/recherchejoueur.module": [
+		277,
 		1
 	],
 	"../pages/tabs/tabs.module": [
-		285,
+		276,
 		0
 	]
 };
@@ -101,19 +85,19 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 150;
+webpackAsyncContext.id = 148;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 194:
+/***/ 192:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DetailClubPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__detailcluboffre_detailcluboffre__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__detailcluboffre_detailcluboffre__ = __webpack_require__(195);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -154,16 +138,17 @@ var DetailClubPage = (function () {
 }());
 DetailClubPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-detailclub',template:/*ion-inline-start:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/detailclub/detailclub.html"*/'<!--\n  Generated template for the AboutPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar>\n        <ion-title>{{item.title}}</ion-title>\n    </ion-navbar>\n\n</ion-header>\n\n\n<ion-content class="detailclub">\n\n    <ion-card>\n        <ion-card-header>\n\n            <ion-card-title><ion-img src="{{item.icon}}"></ion-img>{{item.title}}</ion-card-title>\n        </ion-card-header>\n\n\n    </ion-card>\n\n    <ion-card>\n        <ion-card-header>\n\n            <ion-card-title>Presentation du club</ion-card-title>\n        </ion-card-header>\n\n        <ion-card-content>\n            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\n        </ion-card-content>\n\n\n    </ion-card>\n\n    <ion-card>\n        <ion-card-header>\n\n            <ion-card-title>Objectifs</ion-card-title>\n        </ion-card-header>\n        <ion-card-content>\n            Les objectifs sont...\n        </ion-card-content>\n    </ion-card>\n\n\n\n    <ion-card>\n\n        <ion-card-header>\n\n            <ion-card-title>Historique</ion-card-title>\n        </ion-card-header>\n\n        <ion-item href="#" class="activated">\n            <ion-icon name="wifi" slot="start"></ion-icon>\n            <ion-label>2018-2019 LIGUE 2 FRANCE</ion-label>\n        </ion-item>\n\n\n    </ion-card>\n\n\n    <ion-card>\n\n        <ion-card-header>\n\n            <ion-card-title>Palmares</ion-card-title>\n        </ion-card-header>\n\n        <ion-item href="#" class="activated">\n            <ion-icon name="wifi" slot="start"></ion-icon>\n            <ion-label>Coupe de France </ion-label>\n        </ion-item>\n    </ion-card>\n\n    <ion-card>\n\n        <ion-card-header>\n\n            <ion-card-title>Offres proposés</ion-card-title>\n        </ion-card-header>\n\n        <ion-item (click)="montrerOffre()" class="activated">\n            <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->\n            <ion-icon name="wifi" slot="start"></ion-icon>\n            <ion-label>Offre 1</ion-label>\n        </ion-item>\n\n        <ion-item (click)="montrerOffre()">\n            <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->\n            <ion-icon name="wine" slot="start"></ion-icon>\n            <ion-label>Offre 2</ion-label>\n        </ion-item>\n    </ion-card>\n\n</ion-content>'/*ion-inline-end:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/detailclub/detailclub.html"*/,
+        selector: 'page-detailclub',template:/*ion-inline-start:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/detailclub/detailclub.html"*/'<!--\n  Generated template for the AboutPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar>\n        <ion-title>{{item.title}}</ion-title>\n    </ion-navbar>\n\n</ion-header>\n\n\n<ion-content class="detailclub">\n\n    <ion-card>\n            <ion-card-header>\n\n                <ion-card-title><ion-img src="{{item.icon}}"></ion-img>{{item.title}}</ion-card-title>\n            </ion-card-header>\n\n\n        </ion-card>\n\n        <ion-card>\n            <ion-card-header>\n\n                <ion-card-title>Presentation du club</ion-card-title>\n            </ion-card-header>\n\n            <ion-card-content>\n                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\n            </ion-card-content>\n\n\n    </ion-card>\n\n    <ion-card>\n        <ion-card-header>\n\n            <ion-card-title>Objectifs</ion-card-title>\n        </ion-card-header>\n        <ion-card-content>\n            Les objectifs sont...\n        </ion-card-content>\n    </ion-card>\n\n\n\n    <ion-card>\n\n        <ion-card-header>\n\n            <ion-card-title>Historique</ion-card-title>\n        </ion-card-header>\n\n        <ion-item href="#" class="activated">\n            <ion-icon name="wifi" slot="start"></ion-icon>\n            <ion-label>2018-2019 LIGUE 2 FRANCE</ion-label>\n        </ion-item>\n\n\n    </ion-card>\n\n\n    <ion-card>\n\n        <ion-card-header>\n\n            <ion-card-title>Palmares</ion-card-title>\n        </ion-card-header>\n\n        <ion-item href="#" class="activated">\n            <ion-icon name="wifi" slot="start"></ion-icon>\n            <ion-label>Coupe de France </ion-label>\n        </ion-item>\n    </ion-card>\n\n    <ion-card>\n\n        <ion-card-header>\n\n            <ion-card-title>Offres proposés</ion-card-title>\n        </ion-card-header>\n\n        <ion-item (click)="montrerOffre()" class="activated">\n            <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->\n            <ion-icon name="wifi" slot="start"></ion-icon>\n            <ion-label>Offre 1</ion-label>\n        </ion-item>\n\n        <ion-item (click)="montrerOffre()">\n            <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->\n            <ion-icon name="wine" slot="start"></ion-icon>\n            <ion-label>Offre 2</ion-label>\n        </ion-item>\n\n    </ion-card>\n\n</ion-content>'/*ion-inline-end:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/detailclub/detailclub.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object])
 ], DetailClubPage);
 
+var _a, _b;
 //# sourceMappingURL=detailclub.js.map
 
 /***/ }),
 
-/***/ 195:
+/***/ 194:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -200,7 +185,7 @@ var DetailMessagesPage = (function () {
 }());
 DetailMessagesPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-detailmessages',template:/*ion-inline-start:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/detailmessages/detailmessages.html"*/'<!--\n  Generated template for the AboutPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar>\n        <ion-title>{{item.title}}</ion-title>\n    </ion-navbar>\n\n</ion-header>\n\n\n<ion-content class="detailmessage">\n    <ion-content>\n        <ion-grid>\n            <ion-row *ngFor="let message of messages">\n                <ion-col col-9 *ngIf="message.from!==currentUser" class="message" [ngClass]="{\'mymessage\': message.from === currentUser, \'othermessage\': message.from !== currentUser}">\n                    <span class="user_name">{{ message.from }}:</span>\n                    <br>\n                    <span>{{ message.text }}</span>\n                    <div class="time">{{message.created | date:\'dd.MM hh:MM\'}}</div>\n                </ion-col>\n\n                <ion-col offset-3 col-9 *ngIf="message.from===currentUser" class="message" [ngClass]="{\'mymessage\': message.from === currentUser, \'othermessage\': message.from !== currentUser}">\n                    <span class="user_name">{{ message.from }}:</span>\n                    <br>\n                    <span>{{ message.text }}</span>\n                    <div class="time">{{message.created | date:\'dd.MM hh:MM\'}}</div>\n                </ion-col>\n            </ion-row>\n        </ion-grid>\n    </ion-content>\n</ion-content>'/*ion-inline-end:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/detailmessages/detailmessages.html"*/,
+        selector: 'page-detailmessages',template:/*ion-inline-start:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/detailmessages/detailmessages.html"*/'<!--\n  Generated template for the AboutPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar>\n        <ion-title>Messages avec {{item.title}}</ion-title>\n    </ion-navbar>\n\n</ion-header>\n\n\n<ion-content class="detailmessage">\n    <ion-content>\n        <ion-grid>\n            <ion-row *ngFor="let message of messages">\n                <ion-col col-9 *ngIf="message.from!==currentUser" class="message" [ngClass]="{\'mymessage\': message.from === currentUser, \'othermessage\': message.from !== currentUser}">\n                    <span class="user_name">{{ message.from }}:</span>\n                    <br>\n                    <span>{{ message.text }}</span>\n                    <div class="time">{{message.created | date:\'dd.MM hh:MM\'}}</div>\n                </ion-col>\n\n                <ion-col offset-3 col-9 *ngIf="message.from===currentUser" class="message" [ngClass]="{\'mymessage\': message.from === currentUser, \'othermessage\': message.from !== currentUser}">\n                    <span class="user_name">{{ message.from }}:</span>\n                    <br>\n                    <span>{{ message.text }}</span>\n                    <div class="time">{{message.created | date:\'dd.MM hh:MM\'}}</div>\n                </ion-col>\n            </ion-row>\n        </ion-grid>\n    </ion-content>\n</ion-content>'/*ion-inline-end:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/detailmessages/detailmessages.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], DetailMessagesPage);
@@ -209,7 +194,7 @@ DetailMessagesPage = __decorate([
 
 /***/ }),
 
-/***/ 196:
+/***/ 195:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -258,12 +243,12 @@ DetailClubOffrePage = __decorate([
 
 /***/ }),
 
-/***/ 197:
+/***/ 196:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(197);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(215);
 
 
@@ -277,15 +262,15 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(190);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(263);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_detailclub_detailclub__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_detailmessages_detailmessages__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_common_http__ = __webpack_require__(264);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(264);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_detailclub_detailclub__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_detailmessages_detailmessages__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_http__ = __webpack_require__(193);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -315,26 +300,22 @@ AppModule = __decorate([
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-            __WEBPACK_IMPORTED_MODULE_8__angular_common_http__["a" /* HttpClientModule */],
+            __WEBPACK_IMPORTED_MODULE_8__angular_http__["b" /* HttpModule */],
             __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */], {}, {
                 links: [
-                    { loadChildren: '../pages/compte/compte.module#CompteModule', name: 'ComptePage', segment: 'compte', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/accueil/accueil.module#AccueilPageModule', name: 'AccueilPage', segment: 'accueil', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/compte/compte.module#CompteModule', name: 'ComptePage', segment: 'compte', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/detailclub/detailclub.module#DetailClubPageModule', name: 'DetailClubPage', segment: 'detailclub', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/detailcluboffre/detailcluboffre.module#DetailClubOffrePageModule', name: 'DetailClubOffrePage', segment: 'detailcluboffre', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/favoris/favoris.module#FavorisModule', name: 'FavorisPage', segment: 'favoris', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/detailmessages/detailmessages.module#DetailMessagesPageModule', name: 'DetailMessagesPage', segment: 'detailmessages', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/menu/menu.module#MenuPageModule', name: 'MenuPage', segment: 'menu', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/offreclub/offreclub.module#OffreClubPageModule', name: 'OffreClubPage', segment: 'offreclub', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/rechercheclub/rechercheclub.module#RechercheClubPageModule', name: 'RechercheClubPage', segment: 'rechercheclub', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/recherchejoueur/recherchejoueur.module#RechercheJoueurModule', name: 'RechercheJoueurPage', segment: 'recherchejoueur', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/special/special.module#SpecialPageModule', name: 'SpecialPage', segment: 'special', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/tab10/tab10.module#Tab10PageModule', name: 'Tab10Page', segment: 'tab10', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/tab8/tab8.module#Tab8PageModule', name: 'Tab8Page', segment: 'tab8', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/tab9/tab9.module#Tab9PageModule', name: 'Tab9Page', segment: 'tab9', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/messages/messages.module#MessagesModule', name: 'MessagesPage', segment: 'messages', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'TabsPage', segment: 'tabs', priority: 'low', defaultHistory: [] }
+                    { loadChildren: '../pages/menu/menu.module#MenuPageModule', name: 'MenuPage', segment: 'menu', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/rechercheclub/rechercheclub.module#RechercheClubPageModule', name: 'RechercheClubPage', segment: 'rechercheclub', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/offreclub/offreclub.module#OffreClubPageModule', name: 'OffreClubPage', segment: 'offreclub', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'TabsPage', segment: 'tabs', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/recherchejoueur/recherchejoueur.module#RechercheJoueurModule', name: 'RechercheJoueurPage', segment: 'recherchejoueur', priority: 'low', defaultHistory: [] }
                 ]
             })
         ],
@@ -356,15 +337,15 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 263:
+/***/ 264:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(188);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -400,5 +381,5 @@ MyApp = __decorate([
 
 /***/ })
 
-},[197]);
+},[196]);
 //# sourceMappingURL=main.js.map

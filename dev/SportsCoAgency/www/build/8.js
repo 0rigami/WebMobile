@@ -1,14 +1,14 @@
 webpackJsonp([8],{
 
-/***/ 284:
+/***/ 266:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MessagesModule", function() { return MessagesModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CompteModule", function() { return CompteModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__messages__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__compte__ = __webpack_require__(279);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,37 +18,37 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var MessagesModule = (function () {
-    function MessagesModule() {
+var CompteModule = (function () {
+    function CompteModule() {
     }
-    return MessagesModule;
+    return CompteModule;
 }());
-MessagesModule = __decorate([
+CompteModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__messages__["a" /* MessagesPage */],
+            __WEBPACK_IMPORTED_MODULE_2__compte__["a" /* ComptePage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__messages__["a" /* MessagesPage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__compte__["a" /* ComptePage */]),
         ],
         exports: [
-            __WEBPACK_IMPORTED_MODULE_2__messages__["a" /* MessagesPage */]
+            __WEBPACK_IMPORTED_MODULE_2__compte__["a" /* ComptePage */]
         ]
     })
-], MessagesModule);
+], CompteModule);
 
-//# sourceMappingURL=messages.module.js.map
+//# sourceMappingURL=compte.module.js.map
 
 /***/ }),
 
-/***/ 298:
+/***/ 279:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MessagesPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ComptePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__detailmessages_detailmessages__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(193);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -62,73 +62,44 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the RechercheClub page.
+ * Generated class for the Tab6Page page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
-var MessagesPage = MessagesPage_1 = (function () {
-    function MessagesPage(navCtrl, navParams) {
+var ComptePage = (function () {
+    function ComptePage(navCtrl, navParams, http) {
+        var _this = this;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.MessagesPage = MessagesPage_1;
-        // If we navigated to this page, we will have an item available as a nav param
-        this.selectedItem = navParams.get('item');
-        // Let's populate this page with some filler content for funzies
-        this.icons = ['https://static.wixstatic.com/media/8fe0fa_777edc6f59b74a9d845e49d9c6edc17f.png',
-            'https://s1.static-footeo.com/uploads/es-maizieres/e71cf4d594e2f32ecc411c1f1318878ebd5b6c7f__nxnn3y.png',
-            'https://upload.wikimedia.org/wikipedia/fr/c/c5/Logo_Thionville_FC.png'];
-        this.clubs = ['CSO Amnéville', 'ES Maizieres', 'FC Thionville'];
-        this.division = ['Promotion', 'Excellence', 'Honneur'];
-        this.localisation = ['Amneville', 'Maizieres', 'Thionville'];
-        this.presentation = [
-            'Amneville',
-            'Maizieres',
-            'Thionville'
-        ];
-        this.objectifs = [
-            'Amneville',
-            'Maizieres',
-            'Thionville'
-        ];
-        this.historique = [
-            'Amneville',
-            'Maizieres',
-            'Thionville'
-        ];
-        this.items = [];
-        for (var i = 0; i < this.clubs.length; i++) {
-            this.items.push({
-                title: this.clubs[i],
-                division: this.division[i],
-                localisation: this.localisation[i],
-                icon: this.icons[i],
-                presentation: this.presentation[i],
-                objectifs: this.objectifs[i],
-                historique: this.historique[i],
+        this.http = http;
+        this.firstname = 'John';
+        this.array = new Array();
+        this.item = [];
+        this.http.get('http://127.0.0.1:8000/user/get').subscribe(function (data) {
+            _this.array = data.json();
+            _this.item.push({ nom: _this.array[0].name,
+                prenom: _this.array[0].prenom,
+                ville: _this.array[0].ville,
+                email: _this.array[0].email,
+                telephone: _this.array[0].telephone
             });
-        }
-    }
-    MessagesPage.prototype.itemTapped = function (event, item) {
-        // That's right, we're pushing to ourselves!
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__detailmessages_detailmessages__["a" /* DetailMessagesPage */], {
-            item: item
+            console.log(_this.item[0].nom);
         });
+    }
+    ComptePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Compte');
     };
-    MessagesPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad  RechercheJoueurPage');
-    };
-    return MessagesPage;
+    return ComptePage;
 }());
-MessagesPage = MessagesPage_1 = __decorate([
+ComptePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-messages',template:/*ion-inline-start:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/messages/messages.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-buttons start>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Messages</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <ion-list>\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" >\n      <!--<ion-icon [name]="item.icon" item-start></ion-icon>-->\n      <ion-img src="{{item.icon}}"></ion-img>\n      <div class="info-club">\n        <p class="info-club-titre">{{item.title}} </p>\n        <p>{{item.division}} </p>\n        <p> {{item.localisation}}</p>\n      </div>\n      <div class="item-note" item-end>\n        {{item.points}}\n      </div>\n    </button>\n  </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/messages/messages.html"*/,
+        selector: 'page-compte',template:/*ion-inline-start:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/compte/compte.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-buttons start>\n        <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n  </ion-buttons>\n    <ion-title>Mon compte</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content class="view-class">\n  <ion-slides pager="true">\n\n    <ion-slide *ngFor="let itm of item">\n      <h1>Mes informations</h1>\n      <ion-item>\n        <ion-label position="floating">Nom</ion-label>\n        <ion-input value="{{itm.nom}}"></ion-input>\n      </ion-item>\n\n      <ion-item>\n        <ion-label position="floating">Prénom</ion-label>\n        <ion-input value="{{itm.prenom}}"></ion-input>\n      </ion-item>\n\n      <ion-item>\n        <ion-label position="floating">Ville</ion-label>\n        <ion-input value="{{itm.ville}}"></ion-input>\n      </ion-item>\n\n      <ion-item>\n        <ion-label position="floating">Email</ion-label>\n        <ion-input value="{{itm.email}}"></ion-input>\n      </ion-item>\n\n      <ion-item>\n        <ion-label position="floating">Téléphone</ion-label>\n        <ion-input value="{{itm.telephone}}"></ion-input>\n      </ion-item>\n\n    </ion-slide>\n\n    <ion-slide>\n      <ion-card-header>\n\n        <ion-card-title>Mon CV</ion-card-title>\n      </ion-card-header>\n\n      <ion-item href="#" class="activated">\n        <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->\n        <ion-icon name="wifi" slot="start"></ion-icon>\n        <ion-label>Type de sport : FOOTBALL</ion-label>\n      </ion-item>\n\n      <ion-item href="#">\n        <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->\n        <ion-icon name="wine" slot="start"></ion-icon>\n        <ion-label>Date de naissance : 05/02/1985</ion-label>\n        <ion-label>Lieu de Naissance : Funchal</ion-label>\n        <ion-label>Pays de naissance : Portugal</ion-label>\n      </ion-item>\n\n      <ion-item href="#" class="activated">\n        <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->\n        <ion-icon name="wifi" slot="start"></ion-icon>\n        <ion-label>Poids : 82 kg</ion-label>\n        <ion-label>Taille en cm : 187</ion-label>\n        <ion-label>Pieds : Droit</ion-label>\n      </ion-item>\n\n      <ion-item href="#">\n        <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->\n        <ion-icon name="wine" slot="start"></ion-icon>\n        <ion-label>Poste principal : Attaquant</ion-label>\n        <ion-label>Côté principal : Gauche</ion-label>\n        <ion-label>Disponibilité : Jamais</ion-label>\n      </ion-item>\n\n      <ion-item href="#" class="activated">\n        <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->\n        <ion-icon name="wifi" slot="start"></ion-icon>\n        <ion-label>Lien de votre vidéo de présentation : </ion-label>\n      </ion-item>\n\n      <ion-card-header>\n\n        <ion-card-title>Historique</ion-card-title>\n      </ion-card-header>\n\n      <ion-item href="#" class="activated">\n        <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->\n        <ion-icon name="wifi" slot="start"></ion-icon>\n        <ion-label>2018 - 2019 : Ligue 2 / FRANCE</ion-label>\n      </ion-item>\n      <ion-item href="#">\n        <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->\n        <ion-icon name="wifi" slot="start"></ion-icon>\n        <ion-label>2017 - 2018 : Ligue 1 / FRANCE</ion-label>\n      </ion-item>\n\n      <ion-card-header>\n\n        <ion-card-title>Poste</ion-card-title>\n      </ion-card-header>\n\n      <ion-item href="#" class="activated">\n        <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->\n        <ion-icon name="wifi" slot="start"></ion-icon>\n        <ion-label>2018 - 2019 : Attaquant Gauche</ion-label>\n      </ion-item>\n      <ion-item href="#">\n        <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->\n        <ion-icon name="wifi" slot="start"></ion-icon>\n        <ion-label>2017 - 2018 : Attaquant Gauche </ion-label>\n      </ion-item>\n\n      <ion-card-header>\n\n        <ion-card-title>Palmarès</ion-card-title>\n      </ion-card-header>\n\n      <ion-item href="#" class="activated">\n        <!--<button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)" />-->\n        <ion-icon name="wifi" slot="start"></ion-icon>\n        <ion-label>2018 - 2019 : Coupe de France / FRANCE</ion-label>\n      </ion-item>\n\n    </ion-slide>\n\n    <ion-slide>\n      <h1>Ma recherche</h1>\n    </ion-slide>\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/compte/compte.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-], MessagesPage);
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */]])
+], ComptePage);
 
-var MessagesPage_1;
-//# sourceMappingURL=messages.js.map
+//# sourceMappingURL=compte.js.map
 
 /***/ })
 

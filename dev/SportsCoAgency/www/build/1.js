@@ -1,14 +1,14 @@
 webpackJsonp([1],{
 
-/***/ 283:
+/***/ 277:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Tab9PageModule", function() { return Tab9PageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RechercheJoueurModule", function() { return RechercheJoueurModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tab9__ = __webpack_require__(297);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__recherchejoueur__ = __webpack_require__(287);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,34 +18,34 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var Tab9PageModule = (function () {
-    function Tab9PageModule() {
+var RechercheJoueurModule = (function () {
+    function RechercheJoueurModule() {
     }
-    return Tab9PageModule;
+    return RechercheJoueurModule;
 }());
-Tab9PageModule = __decorate([
+RechercheJoueurModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__tab9__["a" /* Tab9Page */],
+            __WEBPACK_IMPORTED_MODULE_2__recherchejoueur__["a" /* RechercheJoueurPage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__tab9__["a" /* Tab9Page */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__recherchejoueur__["a" /* RechercheJoueurPage */]),
         ],
         exports: [
-            __WEBPACK_IMPORTED_MODULE_2__tab9__["a" /* Tab9Page */]
+            __WEBPACK_IMPORTED_MODULE_2__recherchejoueur__["a" /* RechercheJoueurPage */]
         ]
     })
-], Tab9PageModule);
+], RechercheJoueurModule);
 
-//# sourceMappingURL=tab9.module.js.map
+//# sourceMappingURL=recherchejoueur.module.js.map
 
 /***/ }),
 
-/***/ 297:
+/***/ 287:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Tab9Page; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RechercheJoueurPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(31);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -60,29 +60,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the Tab9Page page.
+ * Generated class for the RechercheJoueurPage page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
-var Tab9Page = (function () {
-    function Tab9Page(navCtrl, navParams) {
+var RechercheJoueurPage = (function () {
+    function RechercheJoueurPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    Tab9Page.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad Tab8Page');
+    RechercheJoueurPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad  RechercheJoueurPage');
     };
-    return Tab9Page;
+    return RechercheJoueurPage;
 }());
-Tab9Page = __decorate([
+RechercheJoueurPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-tab9',template:/*ion-inline-start:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/tab9/tab9.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-buttons start>\n        <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n  </ion-buttons>\n    <ion-title>Tab 9</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\nThis is my Tab 9 content!\n</ion-content>\n'/*ion-inline-end:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/tab9/tab9.html"*/,
+        selector: 'page-recherchejoueur',template:/*ion-inline-start:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/recherchejoueur/recherchejoueur.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-buttons start>\n        <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n  </ion-buttons>\n    <ion-title>Rechercher un joueur</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  Rechercher un joueur\n</ion-content>\n'/*ion-inline-end:"/Users/tomybien/Documents/LP/WebMobile/dev/SportsCoAgency/src/pages/recherchejoueur/recherchejoueur.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-], Tab9Page);
+], RechercheJoueurPage);
 
-//# sourceMappingURL=tab9.js.map
+//# sourceMappingURL=recherchejoueur.js.map
 
 /***/ })
 

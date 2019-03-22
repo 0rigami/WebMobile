@@ -34,7 +34,7 @@
 /******/
 /******/ 	// objects to store loaded and loading chunks
 /******/ 	var installedChunks = {
-/******/ 		18: 0
+/******/ 		14: 0
 /******/ 	};
 /******/
 /******/ 	// The require function
@@ -349,7 +349,7 @@
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_merge__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_merge__ = __webpack_require__(201);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_merge___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_merge__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_share__ = __webpack_require__(210);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_share___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_operator_share__);
@@ -6013,7 +6013,7 @@ var SystemJsNgModuleLoader = (function () {
         if (exportName === undefined) {
             exportName = 'default';
         }
-        return __webpack_require__(108)(module)
+        return __webpack_require__(107)(module)
             .then(function (module) { return module[exportName]; })
             .then(function (type) { return checkNotEmpty(type, module, exportName); })
             .then(function (type) { return _this._compiler.compileModuleAsync(type); });
@@ -6029,7 +6029,7 @@ var SystemJsNgModuleLoader = (function () {
             exportName = 'default';
             factoryClassSuffix = '';
         }
-        return __webpack_require__(108)(this._config.factoryPathPrefix + module + this._config.factoryPathSuffix)
+        return __webpack_require__(107)(this._config.factoryPathPrefix + module + this._config.factoryPathSuffix)
             .then(function (module) { return module[exportName + factoryClassSuffix]; })
             .then(function (factory) { return checkNotEmpty(factory, module, exportName); });
     };
@@ -17448,8 +17448,8 @@ var DEFAULT_CSS_CLASS = 'ion-page';
 /* unused harmony export getNavByIdOrName */
 /* unused harmony export findTopNavs */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_constants__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_constants__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_nav_util__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__menu_controller__ = __webpack_require__(26);
@@ -18318,7 +18318,7 @@ function dispatch(timeStamp, r, w) {
 "use strict";
 
 var root_1 = __webpack_require__(28);
-var toSubscriber_1 = __webpack_require__(200);
+var toSubscriber_1 = __webpack_require__(199);
 var observable_1 = __webpack_require__(104);
 /**
  * A representation of any set of values over any amount of time. This is the most basic building block
@@ -20020,7 +20020,7 @@ var NavParams = (function () {
 /* unused harmony export getNavFromTree */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__nav_util__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__url_serializer__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__url_serializer__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__view_controller__ = __webpack_require__(5);
 
 
@@ -20524,9 +20524,9 @@ function getNavFromTree(nav, id) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_forkJoin___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_forkJoin__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_observable_fromPromise__ = __webpack_require__(226);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_observable_fromPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_observable_fromPromise__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_map__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_map__ = __webpack_require__(228);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_platform_browser__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_platform_browser__ = __webpack_require__(25);
 
 /**
  * @license Angular v4.4.3
@@ -26717,7 +26717,7 @@ var IonicFormInput = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Item; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__button_button__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__button_button__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_form__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__icon_icon__ = __webpack_require__(62);
@@ -27208,10 +27208,10 @@ var KEY_TAB = 9;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ion__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__navigation_nav_util__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__platform_keyboard__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__platform_keyboard__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__navigation_nav_controller__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__util_scroll_view__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__util_scroll_view__ = __webpack_require__(121);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__navigation_view_controller__ = __webpack_require__(5);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -28660,7 +28660,7 @@ var NavController = (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UIEventManager; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pointer_events__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pointer_events__ = __webpack_require__(110);
 
 /**
  * @hidden
@@ -28716,7 +28716,7 @@ var UIEventManager = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_ion__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__debouncer__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__debouncer__ = __webpack_require__(120);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -29256,690 +29256,6 @@ function __importDefault(mod) {
 
 /***/ }),
 /* 25 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-var isFunction_1 = __webpack_require__(52);
-var Subscription_1 = __webpack_require__(32);
-var Observer_1 = __webpack_require__(103);
-var rxSubscriber_1 = __webpack_require__(54);
-/**
- * Implements the {@link Observer} interface and extends the
- * {@link Subscription} class. While the {@link Observer} is the public API for
- * consuming the values of an {@link Observable}, all Observers get converted to
- * a Subscriber, in order to provide Subscription-like capabilities such as
- * `unsubscribe`. Subscriber is a common type in RxJS, and crucial for
- * implementing operators, but it is rarely used as a public API.
- *
- * @class Subscriber<T>
- */
-var Subscriber = (function (_super) {
-    __extends(Subscriber, _super);
-    /**
-     * @param {Observer|function(value: T): void} [destinationOrNext] A partially
-     * defined Observer or a `next` callback function.
-     * @param {function(e: ?any): void} [error] The `error` callback of an
-     * Observer.
-     * @param {function(): void} [complete] The `complete` callback of an
-     * Observer.
-     */
-    function Subscriber(destinationOrNext, error, complete) {
-        _super.call(this);
-        this.syncErrorValue = null;
-        this.syncErrorThrown = false;
-        this.syncErrorThrowable = false;
-        this.isStopped = false;
-        switch (arguments.length) {
-            case 0:
-                this.destination = Observer_1.empty;
-                break;
-            case 1:
-                if (!destinationOrNext) {
-                    this.destination = Observer_1.empty;
-                    break;
-                }
-                if (typeof destinationOrNext === 'object') {
-                    if (destinationOrNext instanceof Subscriber) {
-                        this.destination = destinationOrNext;
-                        this.destination.add(this);
-                    }
-                    else {
-                        this.syncErrorThrowable = true;
-                        this.destination = new SafeSubscriber(this, destinationOrNext);
-                    }
-                    break;
-                }
-            default:
-                this.syncErrorThrowable = true;
-                this.destination = new SafeSubscriber(this, destinationOrNext, error, complete);
-                break;
-        }
-    }
-    Subscriber.prototype[rxSubscriber_1.rxSubscriber] = function () { return this; };
-    /**
-     * A static factory for a Subscriber, given a (potentially partial) definition
-     * of an Observer.
-     * @param {function(x: ?T): void} [next] The `next` callback of an Observer.
-     * @param {function(e: ?any): void} [error] The `error` callback of an
-     * Observer.
-     * @param {function(): void} [complete] The `complete` callback of an
-     * Observer.
-     * @return {Subscriber<T>} A Subscriber wrapping the (partially defined)
-     * Observer represented by the given arguments.
-     */
-    Subscriber.create = function (next, error, complete) {
-        var subscriber = new Subscriber(next, error, complete);
-        subscriber.syncErrorThrowable = false;
-        return subscriber;
-    };
-    /**
-     * The {@link Observer} callback to receive notifications of type `next` from
-     * the Observable, with a value. The Observable may call this method 0 or more
-     * times.
-     * @param {T} [value] The `next` value.
-     * @return {void}
-     */
-    Subscriber.prototype.next = function (value) {
-        if (!this.isStopped) {
-            this._next(value);
-        }
-    };
-    /**
-     * The {@link Observer} callback to receive notifications of type `error` from
-     * the Observable, with an attached {@link Error}. Notifies the Observer that
-     * the Observable has experienced an error condition.
-     * @param {any} [err] The `error` exception.
-     * @return {void}
-     */
-    Subscriber.prototype.error = function (err) {
-        if (!this.isStopped) {
-            this.isStopped = true;
-            this._error(err);
-        }
-    };
-    /**
-     * The {@link Observer} callback to receive a valueless notification of type
-     * `complete` from the Observable. Notifies the Observer that the Observable
-     * has finished sending push-based notifications.
-     * @return {void}
-     */
-    Subscriber.prototype.complete = function () {
-        if (!this.isStopped) {
-            this.isStopped = true;
-            this._complete();
-        }
-    };
-    Subscriber.prototype.unsubscribe = function () {
-        if (this.closed) {
-            return;
-        }
-        this.isStopped = true;
-        _super.prototype.unsubscribe.call(this);
-    };
-    Subscriber.prototype._next = function (value) {
-        this.destination.next(value);
-    };
-    Subscriber.prototype._error = function (err) {
-        this.destination.error(err);
-        this.unsubscribe();
-    };
-    Subscriber.prototype._complete = function () {
-        this.destination.complete();
-        this.unsubscribe();
-    };
-    Subscriber.prototype._unsubscribeAndRecycle = function () {
-        var _a = this, _parent = _a._parent, _parents = _a._parents;
-        this._parent = null;
-        this._parents = null;
-        this.unsubscribe();
-        this.closed = false;
-        this.isStopped = false;
-        this._parent = _parent;
-        this._parents = _parents;
-        return this;
-    };
-    return Subscriber;
-}(Subscription_1.Subscription));
-exports.Subscriber = Subscriber;
-/**
- * We need this JSDoc comment for affecting ESDoc.
- * @ignore
- * @extends {Ignored}
- */
-var SafeSubscriber = (function (_super) {
-    __extends(SafeSubscriber, _super);
-    function SafeSubscriber(_parentSubscriber, observerOrNext, error, complete) {
-        _super.call(this);
-        this._parentSubscriber = _parentSubscriber;
-        var next;
-        var context = this;
-        if (isFunction_1.isFunction(observerOrNext)) {
-            next = observerOrNext;
-        }
-        else if (observerOrNext) {
-            next = observerOrNext.next;
-            error = observerOrNext.error;
-            complete = observerOrNext.complete;
-            if (observerOrNext !== Observer_1.empty) {
-                context = Object.create(observerOrNext);
-                if (isFunction_1.isFunction(context.unsubscribe)) {
-                    this.add(context.unsubscribe.bind(context));
-                }
-                context.unsubscribe = this.unsubscribe.bind(this);
-            }
-        }
-        this._context = context;
-        this._next = next;
-        this._error = error;
-        this._complete = complete;
-    }
-    SafeSubscriber.prototype.next = function (value) {
-        if (!this.isStopped && this._next) {
-            var _parentSubscriber = this._parentSubscriber;
-            if (!_parentSubscriber.syncErrorThrowable) {
-                this.__tryOrUnsub(this._next, value);
-            }
-            else if (this.__tryOrSetError(_parentSubscriber, this._next, value)) {
-                this.unsubscribe();
-            }
-        }
-    };
-    SafeSubscriber.prototype.error = function (err) {
-        if (!this.isStopped) {
-            var _parentSubscriber = this._parentSubscriber;
-            if (this._error) {
-                if (!_parentSubscriber.syncErrorThrowable) {
-                    this.__tryOrUnsub(this._error, err);
-                    this.unsubscribe();
-                }
-                else {
-                    this.__tryOrSetError(_parentSubscriber, this._error, err);
-                    this.unsubscribe();
-                }
-            }
-            else if (!_parentSubscriber.syncErrorThrowable) {
-                this.unsubscribe();
-                throw err;
-            }
-            else {
-                _parentSubscriber.syncErrorValue = err;
-                _parentSubscriber.syncErrorThrown = true;
-                this.unsubscribe();
-            }
-        }
-    };
-    SafeSubscriber.prototype.complete = function () {
-        var _this = this;
-        if (!this.isStopped) {
-            var _parentSubscriber = this._parentSubscriber;
-            if (this._complete) {
-                var wrappedComplete = function () { return _this._complete.call(_this._context); };
-                if (!_parentSubscriber.syncErrorThrowable) {
-                    this.__tryOrUnsub(wrappedComplete);
-                    this.unsubscribe();
-                }
-                else {
-                    this.__tryOrSetError(_parentSubscriber, wrappedComplete);
-                    this.unsubscribe();
-                }
-            }
-            else {
-                this.unsubscribe();
-            }
-        }
-    };
-    SafeSubscriber.prototype.__tryOrUnsub = function (fn, value) {
-        try {
-            fn.call(this._context, value);
-        }
-        catch (err) {
-            this.unsubscribe();
-            throw err;
-        }
-    };
-    SafeSubscriber.prototype.__tryOrSetError = function (parent, fn, value) {
-        try {
-            fn.call(this._context, value);
-        }
-        catch (err) {
-            parent.syncErrorValue = err;
-            parent.syncErrorThrown = true;
-            return true;
-        }
-        return false;
-    };
-    SafeSubscriber.prototype._unsubscribe = function () {
-        var _parentSubscriber = this._parentSubscriber;
-        this._context = null;
-        this._parentSubscriber = null;
-        _parentSubscriber.unsubscribe();
-    };
-    return SafeSubscriber;
-}(Subscriber));
-//# sourceMappingURL=Subscriber.js.map
-
-/***/ }),
-/* 26 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuController; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
-
-/**
- * @name MenuController
- * @description
- * The MenuController is a provider which makes it easy to control a [Menu](../../Menu/Menu/).
- * Its methods can be used to display the menu, enable the menu, toggle the menu, and more.
- * The controller will grab a reference to the menu by the `side`, `id`, or, if neither
- * of these are passed to it, it will grab the first menu it finds.
- *
- *
- * @usage
- *
- * Add a basic menu component to start with. See the [Menu](../../Menu/Menu/) API docs
- * for more information on adding menu components.
- *
- * ```html
- * <ion-menu [content]="mycontent">
- *   <ion-content>
- *     <ion-list>
- *     ...
- *     </ion-list>
- *   </ion-content>
- * </ion-menu>
- *
- * <ion-nav #mycontent [root]="rootPage"></ion-nav>
- * ```
- *
- * To call the controller methods, inject the `MenuController` provider
- * into the page. Then, create some methods for opening, closing, and
- * toggling the menu.
- *
- * ```ts
- * import { Component } from '@angular/core';
- * import { MenuController } from 'ionic-angular';
- *
- * @Component({...})
- * export class MyPage {
- *
- *  constructor(public menuCtrl: MenuController) {
- *
- *  }
- *
- *  openMenu() {
- *    this.menuCtrl.open();
- *  }
- *
- *  closeMenu() {
- *    this.menuCtrl.close();
- *  }
- *
- *  toggleMenu() {
- *    this.menuCtrl.toggle();
- *  }
- *
- * }
- * ```
- *
- * Since only one menu exists, the `MenuController` will grab the
- * correct menu and call the correct method for each.
- *
- *
- * ### Multiple Menus on Different Sides
- *
- * For applications with both a left and right menu, the desired menu can be
- * grabbed by passing the `side` of the menu. If nothing is passed, it will
- * default to the `"left"` menu.
- *
- * ```html
- * <ion-menu side="left" [content]="mycontent">...</ion-menu>
- * <ion-menu side="right" [content]="mycontent">...</ion-menu>
- * <ion-nav #mycontent [root]="rootPage"></ion-nav>
- * ```
- *
- * ```ts
- *  toggleLeftMenu() {
- *    this.menuCtrl.toggle();
- *  }
- *
- *  toggleRightMenu() {
- *    this.menuCtrl.toggle('right');
- *  }
- * ```
- *
- *
- * ### Multiple Menus on the Same Side
- *
- * An application can have multiple menus on the same side. In order to determine
- * the menu to control, an `id` should be passed. In the example below, the menu
- * with the `authenticated` id will be enabled, and the menu with the `unauthenticated`
- * id will be disabled.
- *
- * ```html
- * <ion-menu id="authenticated" side="left" [content]="mycontent">...</ion-menu>
- * <ion-menu id="unauthenticated" side="left" [content]="mycontent">...</ion-menu>
- * <ion-nav #mycontent [root]="rootPage"></ion-nav>
- * ```
- *
- * ```ts
- *  enableAuthenticatedMenu() {
- *    this.menuCtrl.enable(true, 'authenticated');
- *    this.menuCtrl.enable(false, 'unauthenticated');
- *  }
- * ```
- *
- * Note: if an app only has one menu, there is no reason to pass an `id`.
- *
- *
- * @demo /docs/demos/src/menu/
- *
- * @see {@link /docs/components#menus Menu Component Docs}
- * @see {@link ../Menu Menu API Docs}
- *
- */
-var MenuController = (function () {
-    function MenuController() {
-        this._menus = [];
-    }
-    /**
-     * Programatically open the Menu.
-     * @param {string} [menuId]  Optionally get the menu by its id, or side.
-     * @return {Promise} returns a promise when the menu is fully opened
-     */
-    MenuController.prototype.open = function (menuId) {
-        var menu = this.get(menuId);
-        if (menu && !this.isAnimating()) {
-            var openedMenu = this.getOpen();
-            if (openedMenu && menu !== openedMenu) {
-                openedMenu.setOpen(false, false);
-            }
-            return menu.open();
-        }
-        return Promise.resolve(false);
-    };
-    /**
-     * Programatically close the Menu. If no `menuId` is given as the first
-     * argument then it'll close any menu which is open. If a `menuId`
-     * is given then it'll close that exact menu.
-     * @param {string} [menuId]  Optionally get the menu by its id, or side.
-     * @return {Promise} returns a promise when the menu is fully closed
-     */
-    MenuController.prototype.close = function (menuId) {
-        var menu;
-        if (menuId) {
-            // find the menu by its id
-            menu = this.get(menuId);
-        }
-        else {
-            // find the menu that is open
-            menu = this.getOpen();
-        }
-        if (menu) {
-            // close the menu
-            return menu.close();
-        }
-        return Promise.resolve(false);
-    };
-    /**
-     * Toggle the menu. If it's closed, it will open, and if opened, it
-     * will close.
-     * @param {string} [menuId]  Optionally get the menu by its id, or side.
-     * @return {Promise} returns a promise when the menu has been toggled
-     */
-    MenuController.prototype.toggle = function (menuId) {
-        var menu = this.get(menuId);
-        if (menu && !this.isAnimating()) {
-            var openedMenu = this.getOpen();
-            if (openedMenu && menu !== openedMenu) {
-                openedMenu.setOpen(false, false);
-            }
-            return menu.toggle();
-        }
-        return Promise.resolve(false);
-    };
-    /**
-     * Used to enable or disable a menu. For example, there could be multiple
-     * left menus, but only one of them should be able to be opened at the same
-     * time. If there are multiple menus on the same side, then enabling one menu
-     * will also automatically disable all the others that are on the same side.
-     * @param {string} [menuId]  Optionally get the menu by its id, or side.
-     * @return {Menu}  Returns the instance of the menu, which is useful for chaining.
-     */
-    MenuController.prototype.enable = function (shouldEnable, menuId) {
-        var menu = this.get(menuId);
-        if (menu) {
-            return menu.enable(shouldEnable);
-        }
-    };
-    /**
-     * Used to enable or disable the ability to swipe open the menu.
-     * @param {boolean} shouldEnable  True if it should be swipe-able, false if not.
-     * @param {string} [menuId]  Optionally get the menu by its id, or side.
-     * @return {Menu}  Returns the instance of the menu, which is useful for chaining.
-     */
-    MenuController.prototype.swipeEnable = function (shouldEnable, menuId) {
-        var menu = this.get(menuId);
-        if (menu) {
-            return menu.swipeEnable(shouldEnable);
-        }
-    };
-    /**
-     * @param {string} [menuId] Optionally get the menu by its id, or side.
-     * @return {boolean} Returns true if the specified menu is currently open, otherwise false.
-     * If the menuId is not specified, it returns true if ANY menu is currenly open.
-     */
-    MenuController.prototype.isOpen = function (menuId) {
-        if (menuId) {
-            var menu = this.get(menuId);
-            return menu && menu.isOpen || false;
-        }
-        else {
-            return !!this.getOpen();
-        }
-    };
-    /**
-     * @param {string} [menuId]  Optionally get the menu by its id, or side.
-     * @return {boolean} Returns true if the menu is currently enabled, otherwise false.
-     */
-    MenuController.prototype.isEnabled = function (menuId) {
-        var menu = this.get(menuId);
-        return menu && menu.enabled || false;
-    };
-    /**
-     * Used to get a menu instance. If a `menuId` is not provided then it'll
-     * return the first menu found. If a `menuId` is `left` or `right`, then
-     * it'll return the enabled menu on that side. Otherwise, if a `menuId` is
-     * provided, then it'll try to find the menu using the menu's `id`
-     * property. If a menu is not found then it'll return `null`.
-     * @param {string} [menuId]  Optionally get the menu by its id, or side.
-     * @return {Menu} Returns the instance of the menu if found, otherwise `null`.
-     */
-    MenuController.prototype.get = function (menuId) {
-        var menu;
-        if (menuId === 'left' || menuId === 'right') {
-            // there could be more than one menu on the same side
-            // so first try to get the enabled one
-            menu = this._menus.find(function (m) { return m.side === menuId && m.enabled; });
-            if (menu) {
-                return menu;
-            }
-            // didn't find a menu side that is enabled
-            // so try to get the first menu side found
-            return this._menus.find(function (m) { return m.side === menuId; }) || null;
-        }
-        else if (menuId) {
-            // the menuId was not left or right
-            // so try to get the menu by its "id"
-            return this._menus.find(function (m) { return m.id === menuId; }) || null;
-        }
-        // return the first enabled menu
-        menu = this._menus.find(function (m) { return m.enabled; });
-        if (menu) {
-            return menu;
-        }
-        // get the first menu in the array, if one exists
-        return (this._menus.length ? this._menus[0] : null);
-    };
-    /**
-     * @return {Menu} Returns the instance of the menu already opened, otherwise `null`.
-     */
-    MenuController.prototype.getOpen = function () {
-        return this._menus.find(function (m) { return m.isOpen; });
-    };
-    /**
-     * @return {Array<Menu>}  Returns an array of all menu instances.
-     */
-    MenuController.prototype.getMenus = function () {
-        return this._menus;
-    };
-    /**
-     * @hidden
-     * @return {boolean} if any menu is currently animating
-     */
-    MenuController.prototype.isAnimating = function () {
-        return this._menus.some(function (menu) { return menu.isAnimating(); });
-    };
-    /**
-     * @hidden
-     */
-    MenuController.prototype._register = function (menu) {
-        (void 0) /* assert */;
-        this._menus.push(menu);
-    };
-    /**
-     * @hidden
-     */
-    MenuController.prototype._unregister = function (menu) {
-        (void 0) /* assert */;
-        Object(__WEBPACK_IMPORTED_MODULE_0__util_util__["q" /* removeArrayItem */])(this._menus, menu);
-    };
-    /**
-     * @hidden
-     */
-    MenuController.prototype._setActiveMenu = function (menu) {
-        (void 0) /* assert */;
-        (void 0) /* assert */;
-        // if this menu should be enabled
-        // then find all the other menus on this same side
-        // and automatically disable other same side menus
-        var side = menu.side;
-        this._menus
-            .filter(function (m) { return m.side === side && m !== menu; })
-            .map(function (m) { return m.enable(false); });
-    };
-    /**
-     * @hidden
-     */
-    MenuController.registerType = function (name, cls) {
-        menuTypes[name] = cls;
-    };
-    /**
-     * @hidden
-     */
-    MenuController.create = function (type, menuCmp, plt) {
-        return new menuTypes[type](menuCmp, plt);
-    };
-    return MenuController;
-}());
-
-var menuTypes = {};
-//# sourceMappingURL=menu-controller.js.map
-
-/***/ }),
-/* 27 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Transition; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__animations_animation__ = __webpack_require__(11);
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-
-/**
- * @hidden
- *
- * - play
- * - Add before classes - DOM WRITE
- * - Remove before classes - DOM WRITE
- * - Add before inline styles - DOM WRITE
- * - set inline FROM styles - DOM WRITE
- * - RAF
- * - read toolbar dimensions - DOM READ
- * - write content top/bottom padding - DOM WRITE
- * - set css transition duration/easing - DOM WRITE
- * - RAF
- * - set inline TO styles - DOM WRITE
- */
-var Transition = (function (_super) {
-    __extends(Transition, _super);
-    function Transition(plt, enteringView, leavingView, opts) {
-        var _this = _super.call(this, plt, null, opts) || this;
-        _this.enteringView = enteringView;
-        _this.leavingView = leavingView;
-        return _this;
-    }
-    Transition.prototype.init = function () { };
-    Transition.prototype.registerStart = function (trnsStart) {
-        this._trnsStart = trnsStart;
-    };
-    Transition.prototype.start = function () {
-        this._trnsStart && this._trnsStart();
-        this._trnsStart = null;
-        // bubble up start
-        this.parent && this.parent.start();
-    };
-    Transition.prototype.destroy = function () {
-        _super.prototype.destroy.call(this);
-        this.parent = this.enteringView = this.leavingView = this._trnsStart = null;
-    };
-    return Transition;
-}(__WEBPACK_IMPORTED_MODULE_0__animations_animation__["a" /* Animation */]));
-
-//# sourceMappingURL=transition.js.map
-
-/***/ }),
-/* 28 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
-// CommonJS / Node have global context exposed as "global" variable.
-// We don't want to include the whole node.d.ts this this compilation unit so we'll just fake
-// the global "global" var for now.
-var __window = typeof window !== 'undefined' && window;
-var __self = typeof self !== 'undefined' && typeof WorkerGlobalScope !== 'undefined' &&
-    self instanceof WorkerGlobalScope && self;
-var __global = typeof global !== 'undefined' && global;
-var _root = __window || __global || __self;
-exports.root = _root;
-// Workaround Closure Compiler restriction: The body of a goog.module cannot use throw.
-// This is needed when used with angular/tsickle which inserts a goog.module statement.
-// Wrap in IIFE
-(function () {
-    if (!_root) {
-        throw new Error('RxJS could not find any global context (window, self, global)');
-    }
-})();
-//# sourceMappingURL=root.js.map
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(99)))
-
-/***/ }),
-/* 29 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29988,7 +29304,7 @@ exports.root = _root;
 /* unused harmony export ɵd */
 /* unused harmony export ɵe */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
 
 /**
@@ -34428,6 +33744,690 @@ var VERSION = new __WEBPACK_IMPORTED_MODULE_2__angular_core__["_12" /* Version *
 
 
 /***/ }),
+/* 26 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuController; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
+
+/**
+ * @name MenuController
+ * @description
+ * The MenuController is a provider which makes it easy to control a [Menu](../../Menu/Menu/).
+ * Its methods can be used to display the menu, enable the menu, toggle the menu, and more.
+ * The controller will grab a reference to the menu by the `side`, `id`, or, if neither
+ * of these are passed to it, it will grab the first menu it finds.
+ *
+ *
+ * @usage
+ *
+ * Add a basic menu component to start with. See the [Menu](../../Menu/Menu/) API docs
+ * for more information on adding menu components.
+ *
+ * ```html
+ * <ion-menu [content]="mycontent">
+ *   <ion-content>
+ *     <ion-list>
+ *     ...
+ *     </ion-list>
+ *   </ion-content>
+ * </ion-menu>
+ *
+ * <ion-nav #mycontent [root]="rootPage"></ion-nav>
+ * ```
+ *
+ * To call the controller methods, inject the `MenuController` provider
+ * into the page. Then, create some methods for opening, closing, and
+ * toggling the menu.
+ *
+ * ```ts
+ * import { Component } from '@angular/core';
+ * import { MenuController } from 'ionic-angular';
+ *
+ * @Component({...})
+ * export class MyPage {
+ *
+ *  constructor(public menuCtrl: MenuController) {
+ *
+ *  }
+ *
+ *  openMenu() {
+ *    this.menuCtrl.open();
+ *  }
+ *
+ *  closeMenu() {
+ *    this.menuCtrl.close();
+ *  }
+ *
+ *  toggleMenu() {
+ *    this.menuCtrl.toggle();
+ *  }
+ *
+ * }
+ * ```
+ *
+ * Since only one menu exists, the `MenuController` will grab the
+ * correct menu and call the correct method for each.
+ *
+ *
+ * ### Multiple Menus on Different Sides
+ *
+ * For applications with both a left and right menu, the desired menu can be
+ * grabbed by passing the `side` of the menu. If nothing is passed, it will
+ * default to the `"left"` menu.
+ *
+ * ```html
+ * <ion-menu side="left" [content]="mycontent">...</ion-menu>
+ * <ion-menu side="right" [content]="mycontent">...</ion-menu>
+ * <ion-nav #mycontent [root]="rootPage"></ion-nav>
+ * ```
+ *
+ * ```ts
+ *  toggleLeftMenu() {
+ *    this.menuCtrl.toggle();
+ *  }
+ *
+ *  toggleRightMenu() {
+ *    this.menuCtrl.toggle('right');
+ *  }
+ * ```
+ *
+ *
+ * ### Multiple Menus on the Same Side
+ *
+ * An application can have multiple menus on the same side. In order to determine
+ * the menu to control, an `id` should be passed. In the example below, the menu
+ * with the `authenticated` id will be enabled, and the menu with the `unauthenticated`
+ * id will be disabled.
+ *
+ * ```html
+ * <ion-menu id="authenticated" side="left" [content]="mycontent">...</ion-menu>
+ * <ion-menu id="unauthenticated" side="left" [content]="mycontent">...</ion-menu>
+ * <ion-nav #mycontent [root]="rootPage"></ion-nav>
+ * ```
+ *
+ * ```ts
+ *  enableAuthenticatedMenu() {
+ *    this.menuCtrl.enable(true, 'authenticated');
+ *    this.menuCtrl.enable(false, 'unauthenticated');
+ *  }
+ * ```
+ *
+ * Note: if an app only has one menu, there is no reason to pass an `id`.
+ *
+ *
+ * @demo /docs/demos/src/menu/
+ *
+ * @see {@link /docs/components#menus Menu Component Docs}
+ * @see {@link ../Menu Menu API Docs}
+ *
+ */
+var MenuController = (function () {
+    function MenuController() {
+        this._menus = [];
+    }
+    /**
+     * Programatically open the Menu.
+     * @param {string} [menuId]  Optionally get the menu by its id, or side.
+     * @return {Promise} returns a promise when the menu is fully opened
+     */
+    MenuController.prototype.open = function (menuId) {
+        var menu = this.get(menuId);
+        if (menu && !this.isAnimating()) {
+            var openedMenu = this.getOpen();
+            if (openedMenu && menu !== openedMenu) {
+                openedMenu.setOpen(false, false);
+            }
+            return menu.open();
+        }
+        return Promise.resolve(false);
+    };
+    /**
+     * Programatically close the Menu. If no `menuId` is given as the first
+     * argument then it'll close any menu which is open. If a `menuId`
+     * is given then it'll close that exact menu.
+     * @param {string} [menuId]  Optionally get the menu by its id, or side.
+     * @return {Promise} returns a promise when the menu is fully closed
+     */
+    MenuController.prototype.close = function (menuId) {
+        var menu;
+        if (menuId) {
+            // find the menu by its id
+            menu = this.get(menuId);
+        }
+        else {
+            // find the menu that is open
+            menu = this.getOpen();
+        }
+        if (menu) {
+            // close the menu
+            return menu.close();
+        }
+        return Promise.resolve(false);
+    };
+    /**
+     * Toggle the menu. If it's closed, it will open, and if opened, it
+     * will close.
+     * @param {string} [menuId]  Optionally get the menu by its id, or side.
+     * @return {Promise} returns a promise when the menu has been toggled
+     */
+    MenuController.prototype.toggle = function (menuId) {
+        var menu = this.get(menuId);
+        if (menu && !this.isAnimating()) {
+            var openedMenu = this.getOpen();
+            if (openedMenu && menu !== openedMenu) {
+                openedMenu.setOpen(false, false);
+            }
+            return menu.toggle();
+        }
+        return Promise.resolve(false);
+    };
+    /**
+     * Used to enable or disable a menu. For example, there could be multiple
+     * left menus, but only one of them should be able to be opened at the same
+     * time. If there are multiple menus on the same side, then enabling one menu
+     * will also automatically disable all the others that are on the same side.
+     * @param {string} [menuId]  Optionally get the menu by its id, or side.
+     * @return {Menu}  Returns the instance of the menu, which is useful for chaining.
+     */
+    MenuController.prototype.enable = function (shouldEnable, menuId) {
+        var menu = this.get(menuId);
+        if (menu) {
+            return menu.enable(shouldEnable);
+        }
+    };
+    /**
+     * Used to enable or disable the ability to swipe open the menu.
+     * @param {boolean} shouldEnable  True if it should be swipe-able, false if not.
+     * @param {string} [menuId]  Optionally get the menu by its id, or side.
+     * @return {Menu}  Returns the instance of the menu, which is useful for chaining.
+     */
+    MenuController.prototype.swipeEnable = function (shouldEnable, menuId) {
+        var menu = this.get(menuId);
+        if (menu) {
+            return menu.swipeEnable(shouldEnable);
+        }
+    };
+    /**
+     * @param {string} [menuId] Optionally get the menu by its id, or side.
+     * @return {boolean} Returns true if the specified menu is currently open, otherwise false.
+     * If the menuId is not specified, it returns true if ANY menu is currenly open.
+     */
+    MenuController.prototype.isOpen = function (menuId) {
+        if (menuId) {
+            var menu = this.get(menuId);
+            return menu && menu.isOpen || false;
+        }
+        else {
+            return !!this.getOpen();
+        }
+    };
+    /**
+     * @param {string} [menuId]  Optionally get the menu by its id, or side.
+     * @return {boolean} Returns true if the menu is currently enabled, otherwise false.
+     */
+    MenuController.prototype.isEnabled = function (menuId) {
+        var menu = this.get(menuId);
+        return menu && menu.enabled || false;
+    };
+    /**
+     * Used to get a menu instance. If a `menuId` is not provided then it'll
+     * return the first menu found. If a `menuId` is `left` or `right`, then
+     * it'll return the enabled menu on that side. Otherwise, if a `menuId` is
+     * provided, then it'll try to find the menu using the menu's `id`
+     * property. If a menu is not found then it'll return `null`.
+     * @param {string} [menuId]  Optionally get the menu by its id, or side.
+     * @return {Menu} Returns the instance of the menu if found, otherwise `null`.
+     */
+    MenuController.prototype.get = function (menuId) {
+        var menu;
+        if (menuId === 'left' || menuId === 'right') {
+            // there could be more than one menu on the same side
+            // so first try to get the enabled one
+            menu = this._menus.find(function (m) { return m.side === menuId && m.enabled; });
+            if (menu) {
+                return menu;
+            }
+            // didn't find a menu side that is enabled
+            // so try to get the first menu side found
+            return this._menus.find(function (m) { return m.side === menuId; }) || null;
+        }
+        else if (menuId) {
+            // the menuId was not left or right
+            // so try to get the menu by its "id"
+            return this._menus.find(function (m) { return m.id === menuId; }) || null;
+        }
+        // return the first enabled menu
+        menu = this._menus.find(function (m) { return m.enabled; });
+        if (menu) {
+            return menu;
+        }
+        // get the first menu in the array, if one exists
+        return (this._menus.length ? this._menus[0] : null);
+    };
+    /**
+     * @return {Menu} Returns the instance of the menu already opened, otherwise `null`.
+     */
+    MenuController.prototype.getOpen = function () {
+        return this._menus.find(function (m) { return m.isOpen; });
+    };
+    /**
+     * @return {Array<Menu>}  Returns an array of all menu instances.
+     */
+    MenuController.prototype.getMenus = function () {
+        return this._menus;
+    };
+    /**
+     * @hidden
+     * @return {boolean} if any menu is currently animating
+     */
+    MenuController.prototype.isAnimating = function () {
+        return this._menus.some(function (menu) { return menu.isAnimating(); });
+    };
+    /**
+     * @hidden
+     */
+    MenuController.prototype._register = function (menu) {
+        (void 0) /* assert */;
+        this._menus.push(menu);
+    };
+    /**
+     * @hidden
+     */
+    MenuController.prototype._unregister = function (menu) {
+        (void 0) /* assert */;
+        Object(__WEBPACK_IMPORTED_MODULE_0__util_util__["q" /* removeArrayItem */])(this._menus, menu);
+    };
+    /**
+     * @hidden
+     */
+    MenuController.prototype._setActiveMenu = function (menu) {
+        (void 0) /* assert */;
+        (void 0) /* assert */;
+        // if this menu should be enabled
+        // then find all the other menus on this same side
+        // and automatically disable other same side menus
+        var side = menu.side;
+        this._menus
+            .filter(function (m) { return m.side === side && m !== menu; })
+            .map(function (m) { return m.enable(false); });
+    };
+    /**
+     * @hidden
+     */
+    MenuController.registerType = function (name, cls) {
+        menuTypes[name] = cls;
+    };
+    /**
+     * @hidden
+     */
+    MenuController.create = function (type, menuCmp, plt) {
+        return new menuTypes[type](menuCmp, plt);
+    };
+    return MenuController;
+}());
+
+var menuTypes = {};
+//# sourceMappingURL=menu-controller.js.map
+
+/***/ }),
+/* 27 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Transition; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__animations_animation__ = __webpack_require__(11);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+/**
+ * @hidden
+ *
+ * - play
+ * - Add before classes - DOM WRITE
+ * - Remove before classes - DOM WRITE
+ * - Add before inline styles - DOM WRITE
+ * - set inline FROM styles - DOM WRITE
+ * - RAF
+ * - read toolbar dimensions - DOM READ
+ * - write content top/bottom padding - DOM WRITE
+ * - set css transition duration/easing - DOM WRITE
+ * - RAF
+ * - set inline TO styles - DOM WRITE
+ */
+var Transition = (function (_super) {
+    __extends(Transition, _super);
+    function Transition(plt, enteringView, leavingView, opts) {
+        var _this = _super.call(this, plt, null, opts) || this;
+        _this.enteringView = enteringView;
+        _this.leavingView = leavingView;
+        return _this;
+    }
+    Transition.prototype.init = function () { };
+    Transition.prototype.registerStart = function (trnsStart) {
+        this._trnsStart = trnsStart;
+    };
+    Transition.prototype.start = function () {
+        this._trnsStart && this._trnsStart();
+        this._trnsStart = null;
+        // bubble up start
+        this.parent && this.parent.start();
+    };
+    Transition.prototype.destroy = function () {
+        _super.prototype.destroy.call(this);
+        this.parent = this.enteringView = this.leavingView = this._trnsStart = null;
+    };
+    return Transition;
+}(__WEBPACK_IMPORTED_MODULE_0__animations_animation__["a" /* Animation */]));
+
+//# sourceMappingURL=transition.js.map
+
+/***/ }),
+/* 28 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+// CommonJS / Node have global context exposed as "global" variable.
+// We don't want to include the whole node.d.ts this this compilation unit so we'll just fake
+// the global "global" var for now.
+var __window = typeof window !== 'undefined' && window;
+var __self = typeof self !== 'undefined' && typeof WorkerGlobalScope !== 'undefined' &&
+    self instanceof WorkerGlobalScope && self;
+var __global = typeof global !== 'undefined' && global;
+var _root = __window || __global || __self;
+exports.root = _root;
+// Workaround Closure Compiler restriction: The body of a goog.module cannot use throw.
+// This is needed when used with angular/tsickle which inserts a goog.module statement.
+// Wrap in IIFE
+(function () {
+    if (!_root) {
+        throw new Error('RxJS could not find any global context (window, self, global)');
+    }
+})();
+//# sourceMappingURL=root.js.map
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(99)))
+
+/***/ }),
+/* 29 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var isFunction_1 = __webpack_require__(50);
+var Subscription_1 = __webpack_require__(32);
+var Observer_1 = __webpack_require__(103);
+var rxSubscriber_1 = __webpack_require__(52);
+/**
+ * Implements the {@link Observer} interface and extends the
+ * {@link Subscription} class. While the {@link Observer} is the public API for
+ * consuming the values of an {@link Observable}, all Observers get converted to
+ * a Subscriber, in order to provide Subscription-like capabilities such as
+ * `unsubscribe`. Subscriber is a common type in RxJS, and crucial for
+ * implementing operators, but it is rarely used as a public API.
+ *
+ * @class Subscriber<T>
+ */
+var Subscriber = (function (_super) {
+    __extends(Subscriber, _super);
+    /**
+     * @param {Observer|function(value: T): void} [destinationOrNext] A partially
+     * defined Observer or a `next` callback function.
+     * @param {function(e: ?any): void} [error] The `error` callback of an
+     * Observer.
+     * @param {function(): void} [complete] The `complete` callback of an
+     * Observer.
+     */
+    function Subscriber(destinationOrNext, error, complete) {
+        _super.call(this);
+        this.syncErrorValue = null;
+        this.syncErrorThrown = false;
+        this.syncErrorThrowable = false;
+        this.isStopped = false;
+        switch (arguments.length) {
+            case 0:
+                this.destination = Observer_1.empty;
+                break;
+            case 1:
+                if (!destinationOrNext) {
+                    this.destination = Observer_1.empty;
+                    break;
+                }
+                if (typeof destinationOrNext === 'object') {
+                    if (destinationOrNext instanceof Subscriber) {
+                        this.destination = destinationOrNext;
+                        this.destination.add(this);
+                    }
+                    else {
+                        this.syncErrorThrowable = true;
+                        this.destination = new SafeSubscriber(this, destinationOrNext);
+                    }
+                    break;
+                }
+            default:
+                this.syncErrorThrowable = true;
+                this.destination = new SafeSubscriber(this, destinationOrNext, error, complete);
+                break;
+        }
+    }
+    Subscriber.prototype[rxSubscriber_1.rxSubscriber] = function () { return this; };
+    /**
+     * A static factory for a Subscriber, given a (potentially partial) definition
+     * of an Observer.
+     * @param {function(x: ?T): void} [next] The `next` callback of an Observer.
+     * @param {function(e: ?any): void} [error] The `error` callback of an
+     * Observer.
+     * @param {function(): void} [complete] The `complete` callback of an
+     * Observer.
+     * @return {Subscriber<T>} A Subscriber wrapping the (partially defined)
+     * Observer represented by the given arguments.
+     */
+    Subscriber.create = function (next, error, complete) {
+        var subscriber = new Subscriber(next, error, complete);
+        subscriber.syncErrorThrowable = false;
+        return subscriber;
+    };
+    /**
+     * The {@link Observer} callback to receive notifications of type `next` from
+     * the Observable, with a value. The Observable may call this method 0 or more
+     * times.
+     * @param {T} [value] The `next` value.
+     * @return {void}
+     */
+    Subscriber.prototype.next = function (value) {
+        if (!this.isStopped) {
+            this._next(value);
+        }
+    };
+    /**
+     * The {@link Observer} callback to receive notifications of type `error` from
+     * the Observable, with an attached {@link Error}. Notifies the Observer that
+     * the Observable has experienced an error condition.
+     * @param {any} [err] The `error` exception.
+     * @return {void}
+     */
+    Subscriber.prototype.error = function (err) {
+        if (!this.isStopped) {
+            this.isStopped = true;
+            this._error(err);
+        }
+    };
+    /**
+     * The {@link Observer} callback to receive a valueless notification of type
+     * `complete` from the Observable. Notifies the Observer that the Observable
+     * has finished sending push-based notifications.
+     * @return {void}
+     */
+    Subscriber.prototype.complete = function () {
+        if (!this.isStopped) {
+            this.isStopped = true;
+            this._complete();
+        }
+    };
+    Subscriber.prototype.unsubscribe = function () {
+        if (this.closed) {
+            return;
+        }
+        this.isStopped = true;
+        _super.prototype.unsubscribe.call(this);
+    };
+    Subscriber.prototype._next = function (value) {
+        this.destination.next(value);
+    };
+    Subscriber.prototype._error = function (err) {
+        this.destination.error(err);
+        this.unsubscribe();
+    };
+    Subscriber.prototype._complete = function () {
+        this.destination.complete();
+        this.unsubscribe();
+    };
+    Subscriber.prototype._unsubscribeAndRecycle = function () {
+        var _a = this, _parent = _a._parent, _parents = _a._parents;
+        this._parent = null;
+        this._parents = null;
+        this.unsubscribe();
+        this.closed = false;
+        this.isStopped = false;
+        this._parent = _parent;
+        this._parents = _parents;
+        return this;
+    };
+    return Subscriber;
+}(Subscription_1.Subscription));
+exports.Subscriber = Subscriber;
+/**
+ * We need this JSDoc comment for affecting ESDoc.
+ * @ignore
+ * @extends {Ignored}
+ */
+var SafeSubscriber = (function (_super) {
+    __extends(SafeSubscriber, _super);
+    function SafeSubscriber(_parentSubscriber, observerOrNext, error, complete) {
+        _super.call(this);
+        this._parentSubscriber = _parentSubscriber;
+        var next;
+        var context = this;
+        if (isFunction_1.isFunction(observerOrNext)) {
+            next = observerOrNext;
+        }
+        else if (observerOrNext) {
+            next = observerOrNext.next;
+            error = observerOrNext.error;
+            complete = observerOrNext.complete;
+            if (observerOrNext !== Observer_1.empty) {
+                context = Object.create(observerOrNext);
+                if (isFunction_1.isFunction(context.unsubscribe)) {
+                    this.add(context.unsubscribe.bind(context));
+                }
+                context.unsubscribe = this.unsubscribe.bind(this);
+            }
+        }
+        this._context = context;
+        this._next = next;
+        this._error = error;
+        this._complete = complete;
+    }
+    SafeSubscriber.prototype.next = function (value) {
+        if (!this.isStopped && this._next) {
+            var _parentSubscriber = this._parentSubscriber;
+            if (!_parentSubscriber.syncErrorThrowable) {
+                this.__tryOrUnsub(this._next, value);
+            }
+            else if (this.__tryOrSetError(_parentSubscriber, this._next, value)) {
+                this.unsubscribe();
+            }
+        }
+    };
+    SafeSubscriber.prototype.error = function (err) {
+        if (!this.isStopped) {
+            var _parentSubscriber = this._parentSubscriber;
+            if (this._error) {
+                if (!_parentSubscriber.syncErrorThrowable) {
+                    this.__tryOrUnsub(this._error, err);
+                    this.unsubscribe();
+                }
+                else {
+                    this.__tryOrSetError(_parentSubscriber, this._error, err);
+                    this.unsubscribe();
+                }
+            }
+            else if (!_parentSubscriber.syncErrorThrowable) {
+                this.unsubscribe();
+                throw err;
+            }
+            else {
+                _parentSubscriber.syncErrorValue = err;
+                _parentSubscriber.syncErrorThrown = true;
+                this.unsubscribe();
+            }
+        }
+    };
+    SafeSubscriber.prototype.complete = function () {
+        var _this = this;
+        if (!this.isStopped) {
+            var _parentSubscriber = this._parentSubscriber;
+            if (this._complete) {
+                var wrappedComplete = function () { return _this._complete.call(_this._context); };
+                if (!_parentSubscriber.syncErrorThrowable) {
+                    this.__tryOrUnsub(wrappedComplete);
+                    this.unsubscribe();
+                }
+                else {
+                    this.__tryOrSetError(_parentSubscriber, wrappedComplete);
+                    this.unsubscribe();
+                }
+            }
+            else {
+                this.unsubscribe();
+            }
+        }
+    };
+    SafeSubscriber.prototype.__tryOrUnsub = function (fn, value) {
+        try {
+            fn.call(this._context, value);
+        }
+        catch (err) {
+            this.unsubscribe();
+            throw err;
+        }
+    };
+    SafeSubscriber.prototype.__tryOrSetError = function (parent, fn, value) {
+        try {
+            fn.call(this._context, value);
+        }
+        catch (err) {
+            parent.syncErrorValue = err;
+            parent.syncErrorThrown = true;
+            return true;
+        }
+        return false;
+    };
+    SafeSubscriber.prototype._unsubscribe = function () {
+        var _parentSubscriber = this._parentSubscriber;
+        this._context = null;
+        this._parentSubscriber = null;
+        _parentSubscriber.unsubscribe();
+    };
+    return SafeSubscriber;
+}(Subscriber));
+//# sourceMappingURL=Subscriber.js.map
+
+/***/ }),
 /* 30 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -34490,81 +34490,81 @@ var PageTransition = (function (_super) {
 /* unused harmony reexport MenuController */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_action_sheet_action_sheet__ = __webpack_require__(57);
 /* unused harmony reexport ActionSheet */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_action_sheet_action_sheet_controller__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_action_sheet_action_sheet_controller__ = __webpack_require__(111);
 /* unused harmony reexport ActionSheetController */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_action_sheet_action_sheet_component__ = __webpack_require__(58);
 /* unused harmony reexport ActionSheetCmp */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_alert_alert__ = __webpack_require__(59);
 /* unused harmony reexport Alert */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_alert_alert_controller__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_alert_alert_controller__ = __webpack_require__(112);
 /* unused harmony reexport AlertController */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_alert_alert_component__ = __webpack_require__(60);
 /* unused harmony reexport AlertCmp */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_app_app__ = __webpack_require__(6);
 /* unused harmony reexport App */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_avatar_avatar__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_avatar_avatar__ = __webpack_require__(113);
 /* unused harmony reexport Avatar */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_backdrop_backdrop__ = __webpack_require__(61);
 /* unused harmony reexport Backdrop */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_badge_badge__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_badge_badge__ = __webpack_require__(114);
 /* unused harmony reexport Badge */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_button_button__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_button_button__ = __webpack_require__(35);
 /* unused harmony reexport Button */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_card_card__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_card_card__ = __webpack_require__(115);
 /* unused harmony reexport Card */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_card_card_content__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_card_card_content__ = __webpack_require__(116);
 /* unused harmony reexport CardContent */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_card_card_header__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_card_card_header__ = __webpack_require__(117);
 /* unused harmony reexport CardHeader */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_card_card_title__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_card_card_title__ = __webpack_require__(118);
 /* unused harmony reexport CardTitle */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_checkbox_checkbox__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_checkbox_checkbox__ = __webpack_require__(119);
 /* unused harmony reexport Checkbox */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_chip_chip__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_chip_chip__ = __webpack_require__(123);
 /* unused harmony reexport Chip */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_content_content__ = __webpack_require__(19);
 /* unused harmony reexport Content */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_datetime_datetime__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_datetime_datetime__ = __webpack_require__(124);
 /* unused harmony reexport DateTime */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_fab_fab__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_fab_fab__ = __webpack_require__(45);
 /* unused harmony reexport FabButton */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_fab_fab_container__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_fab_fab_container__ = __webpack_require__(126);
 /* unused harmony reexport FabContainer */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_fab_fab_list__ = __webpack_require__(68);
 /* unused harmony reexport FabList */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_grid_col__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_grid_col__ = __webpack_require__(127);
 /* unused harmony reexport Col */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_grid_grid__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_grid_grid__ = __webpack_require__(128);
 /* unused harmony reexport Grid */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_grid_row__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_grid_row__ = __webpack_require__(129);
 /* unused harmony reexport Row */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_ion__ = __webpack_require__(4);
 /* unused harmony reexport Ion */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_icon_icon__ = __webpack_require__(62);
 /* unused harmony reexport Icon */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__components_img_img__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__components_img_img__ = __webpack_require__(130);
 /* unused harmony reexport Img */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_infinite_scroll_infinite_scroll__ = __webpack_require__(69);
 /* unused harmony reexport InfiniteScroll */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__components_infinite_scroll_infinite_scroll_content__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__components_infinite_scroll_infinite_scroll_content__ = __webpack_require__(131);
 /* unused harmony reexport InfiniteScrollContent */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__components_input_input__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__components_input_input__ = __webpack_require__(132);
 /* unused harmony reexport TextInput */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__components_item_item__ = __webpack_require__(17);
 /* unused harmony reexport Item */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__components_item_item_content__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__components_item_item_content__ = __webpack_require__(134);
 /* unused harmony reexport ItemContent */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__components_item_item_divider__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__components_item_item_divider__ = __webpack_require__(135);
 /* unused harmony reexport ItemDivider */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__components_item_item_group__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__components_item_item_group__ = __webpack_require__(136);
 /* unused harmony reexport ItemGroup */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__components_item_item_options__ = __webpack_require__(70);
 /* unused harmony reexport ItemOptions */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__components_item_item_reorder__ = __webpack_require__(64);
 /* unused harmony reexport ItemReorder */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__components_item_item_sliding__ = __webpack_require__(139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__components_item_item_sliding__ = __webpack_require__(137);
 /* unused harmony reexport ItemSliding */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__components_item_reorder__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__components_item_reorder__ = __webpack_require__(138);
 /* unused harmony reexport Reorder */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__components_label_label__ = __webpack_require__(63);
 /* unused harmony reexport Label */
@@ -34572,41 +34572,41 @@ var PageTransition = (function (_super) {
 /* unused harmony reexport List */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__components_list_list_header__ = __webpack_require__(72);
 /* unused harmony reexport ListHeader */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__components_loading_loading__ = __webpack_require__(141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__components_loading_loading__ = __webpack_require__(139);
 /* unused harmony reexport Loading */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__components_loading_loading_controller__ = __webpack_require__(142);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__components_loading_loading_controller__ = __webpack_require__(140);
 /* unused harmony reexport LoadingController */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__components_loading_loading_component__ = __webpack_require__(73);
 /* unused harmony reexport LoadingCmp */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__components_menu_menu__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__components_menu_menu__ = __webpack_require__(141);
 /* unused harmony reexport Menu */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__components_menu_menu_close__ = __webpack_require__(144);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__components_menu_menu_close__ = __webpack_require__(142);
 /* unused harmony reexport MenuClose */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__components_menu_menu_toggle__ = __webpack_require__(145);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__components_menu_menu_toggle__ = __webpack_require__(143);
 /* unused harmony reexport MenuToggle */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__components_menu_menu_types__ = __webpack_require__(236);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__components_menu_menu_types__ = __webpack_require__(237);
 /* unused harmony reexport MenuType */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__components_modal_modal__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__components_modal_modal__ = __webpack_require__(145);
 /* unused harmony reexport Modal */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__components_modal_modal_component__ = __webpack_require__(75);
 /* unused harmony reexport ModalCmp */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__components_modal_modal_controller__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__components_modal_modal_controller__ = __webpack_require__(149);
 /* unused harmony reexport ModalController */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__components_nav_nav__ = __webpack_require__(74);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_54__components_nav_nav__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__components_nav_nav_pop__ = __webpack_require__(77);
 /* unused harmony reexport NavPop */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__components_nav_nav_pop_anchor__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__components_nav_nav_pop_anchor__ = __webpack_require__(150);
 /* unused harmony reexport NavPopAnchor */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__components_nav_nav_push__ = __webpack_require__(78);
 /* unused harmony reexport NavPush */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__components_nav_nav_push_anchor__ = __webpack_require__(153);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__components_nav_nav_push_anchor__ = __webpack_require__(151);
 /* unused harmony reexport NavPushAnchor */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__components_note_note__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__components_note_note__ = __webpack_require__(152);
 /* unused harmony reexport Note */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__components_option_option__ = __webpack_require__(79);
 /* unused harmony reexport Option */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__components_picker_picker__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__components_picker_picker__ = __webpack_require__(125);
 /* unused harmony reexport Picker */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__components_picker_picker_component__ = __webpack_require__(66);
 /* unused harmony reexport PickerCmp */
@@ -34618,78 +34618,78 @@ var PageTransition = (function (_super) {
 /* unused harmony reexport Popover */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__components_popover_popover_component__ = __webpack_require__(81);
 /* unused harmony reexport PopoverCmp */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_67__components_popover_popover_controller__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_67__components_popover_popover_controller__ = __webpack_require__(153);
 /* unused harmony reexport PopoverController */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__components_radio_radio_button__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__components_radio_radio_button__ = __webpack_require__(154);
 /* unused harmony reexport RadioButton */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_69__components_radio_radio_group__ = __webpack_require__(82);
 /* unused harmony reexport RadioGroup */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_70__components_range_range__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_70__components_range_range__ = __webpack_require__(155);
 /* unused harmony reexport Range */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__components_range_range_knob__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__components_range_range_knob__ = __webpack_require__(156);
 /* unused harmony reexport RangeKnob */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_72__components_refresher_refresher__ = __webpack_require__(83);
 /* unused harmony reexport Refresher */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_73__components_refresher_refresher_content__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_73__components_refresher_refresher_content__ = __webpack_require__(157);
 /* unused harmony reexport RefresherContent */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_74__components_scroll_scroll__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_74__components_scroll_scroll__ = __webpack_require__(158);
 /* unused harmony reexport Scroll */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_75__components_searchbar_searchbar__ = __webpack_require__(161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_75__components_searchbar_searchbar__ = __webpack_require__(159);
 /* unused harmony reexport Searchbar */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_76__components_segment_segment__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_76__components_segment_segment__ = __webpack_require__(160);
 /* unused harmony reexport Segment */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_77__components_segment_segment_button__ = __webpack_require__(84);
 /* unused harmony reexport SegmentButton */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_78__components_select_select__ = __webpack_require__(163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_78__components_select_select__ = __webpack_require__(161);
 /* unused harmony reexport Select */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_79__components_select_select_popover_component__ = __webpack_require__(85);
 /* unused harmony reexport SelectPopover */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_80__components_show_hide_when_show_when__ = __webpack_require__(164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_80__components_show_hide_when_show_when__ = __webpack_require__(162);
 /* unused harmony reexport ShowWhen */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_81__components_show_hide_when_display_when__ = __webpack_require__(86);
 /* unused harmony reexport DisplayWhen */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_82__components_show_hide_when_hide_when__ = __webpack_require__(165);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_82__components_show_hide_when_hide_when__ = __webpack_require__(163);
 /* unused harmony reexport HideWhen */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_83__components_slides_slide__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_83__components_slides_slide__ = __webpack_require__(164);
 /* unused harmony reexport Slide */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_84__components_slides_slides__ = __webpack_require__(87);
 /* unused harmony reexport Slides */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_85__components_spinner_spinner__ = __webpack_require__(170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_85__components_spinner_spinner__ = __webpack_require__(168);
 /* unused harmony reexport Spinner */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_86__components_split_pane_split_pane__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_86__components_split_pane_split_pane__ = __webpack_require__(38);
 /* unused harmony reexport SplitPane */
 /* unused harmony reexport RootNode */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_87__components_tabs_tab__ = __webpack_require__(171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_87__components_tabs_tab__ = __webpack_require__(169);
 /* unused harmony reexport Tab */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_88__components_tabs_tab_button__ = __webpack_require__(172);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_88__components_tabs_tab_button__ = __webpack_require__(170);
 /* unused harmony reexport TabButton */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_89__components_tabs_tab_highlight__ = __webpack_require__(93);
 /* unused harmony reexport TabHighlight */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_90__components_tabs_tabs__ = __webpack_require__(92);
 /* unused harmony reexport Tabs */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_91__components_toast_toast__ = __webpack_require__(173);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_91__components_toast_toast__ = __webpack_require__(171);
 /* unused harmony reexport Toast */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_92__components_toast_toast_component__ = __webpack_require__(94);
 /* unused harmony reexport ToastCmp */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_93__components_toast_toast_controller__ = __webpack_require__(174);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_93__components_toast_toast_controller__ = __webpack_require__(172);
 /* unused harmony reexport ToastController */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_94__components_toggle_toggle__ = __webpack_require__(175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_94__components_toggle_toggle__ = __webpack_require__(173);
 /* unused harmony reexport Toggle */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_95__components_toolbar_toolbar_footer__ = __webpack_require__(176);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_95__components_toolbar_toolbar_footer__ = __webpack_require__(174);
 /* unused harmony reexport Footer */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_96__components_toolbar_toolbar_header__ = __webpack_require__(177);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_96__components_toolbar_toolbar_header__ = __webpack_require__(175);
 /* unused harmony reexport Header */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_97__components_toolbar_toolbar__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_97__components_toolbar_toolbar__ = __webpack_require__(49);
 /* unused harmony reexport Toolbar */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_98__components_toolbar_toolbar_item__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_98__components_toolbar_toolbar_item__ = __webpack_require__(176);
 /* unused harmony reexport ToolbarItem */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_99__components_toolbar_toolbar_title__ = __webpack_require__(179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_99__components_toolbar_toolbar_title__ = __webpack_require__(177);
 /* unused harmony reexport ToolbarTitle */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_100__components_toolbar_navbar__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_100__components_toolbar_navbar__ = __webpack_require__(39);
 /* unused harmony reexport Navbar */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_101__components_thumbnail_thumbnail__ = __webpack_require__(180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_101__components_thumbnail_thumbnail__ = __webpack_require__(178);
 /* unused harmony reexport Thumbnail */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_102__components_typography_typography__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_102__components_typography_typography__ = __webpack_require__(179);
 /* unused harmony reexport Typography */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_103__components_virtual_scroll_virtual_footer__ = __webpack_require__(95);
 /* unused harmony reexport VirtualFooter */
@@ -34697,7 +34697,7 @@ var PageTransition = (function (_super) {
 /* unused harmony reexport VirtualHeader */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_105__components_virtual_scroll_virtual_item__ = __webpack_require__(97);
 /* unused harmony reexport VirtualItem */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_106__components_virtual_scroll_virtual_scroll__ = __webpack_require__(182);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_106__components_virtual_scroll_virtual_scroll__ = __webpack_require__(180);
 /* unused harmony reexport VirtualScroll */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_107__config_config__ = __webpack_require__(1);
 /* unused harmony reexport Config */
@@ -34708,37 +34708,37 @@ var PageTransition = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_109__platform_platform__ = __webpack_require__(3);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_109__platform_platform__["a"]; });
 /* unused harmony reexport setupPlatform */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_110__tap_click_haptic__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_110__tap_click_haptic__ = __webpack_require__(37);
 /* unused harmony reexport Haptic */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_111__navigation_deep_linker__ = __webpack_require__(14);
 /* unused harmony reexport DeepLinker */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_112__navigation_ionic_page__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_112__navigation_ionic_page__ = __webpack_require__(249);
 /* unused harmony reexport IonicPage */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_113__navigation_nav_controller__ = __webpack_require__(21);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_113__navigation_nav_controller__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_114__navigation_nav_controller_base__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_114__navigation_nav_controller_base__ = __webpack_require__(42);
 /* unused harmony reexport NavControllerBase */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_115__navigation_nav_params__ = __webpack_require__(13);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_115__navigation_nav_params__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_116__navigation_nav_util__ = __webpack_require__(20);
 /* unused harmony reexport DeepLinkMetadata */
 /* unused harmony reexport DeepLinkMetadataFactory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_117__tap_click_tap_click__ = __webpack_require__(183);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_117__tap_click_tap_click__ = __webpack_require__(181);
 /* unused harmony reexport TapClick */
 /* unused harmony reexport setupTapClick */
 /* unused harmony reexport isActivatable */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_118__navigation_url_serializer__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_118__navigation_url_serializer__ = __webpack_require__(41);
 /* unused harmony reexport UrlSerializer */
 /* unused harmony reexport DeepLinkConfigToken */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_119__navigation_view_controller__ = __webpack_require__(5);
 /* unused harmony reexport ViewController */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_120__gestures_pan_gesture__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_120__gestures_pan_gesture__ = __webpack_require__(43);
 /* unused harmony reexport PanGesture */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_121__gestures_gesture__ = __webpack_require__(250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_121__gestures_gesture__ = __webpack_require__(251);
 /* unused harmony reexport Gesture */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_122__gestures_slide_edge_gesture__ = __webpack_require__(56);
 /* unused harmony reexport SlideEdgeGesture */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_123__gestures_slide_gesture__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_123__gestures_slide_gesture__ = __webpack_require__(109);
 /* unused harmony reexport SlideGesture */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_124__gestures_gesture_controller__ = __webpack_require__(7);
 /* unused harmony reexport BLOCK_ALL */
@@ -34750,13 +34750,13 @@ var PageTransition = (function (_super) {
 /* unused harmony reexport GestureController */
 /* unused harmony reexport GestureDelegate */
 /* unused harmony reexport BlockerDelegate */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_125__util_events__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_125__util_events__ = __webpack_require__(184);
 /* unused harmony reexport Events */
 /* unused harmony reexport setupEvents */
 /* unused harmony reexport setupProvideEvents */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_126__util_ionic_error_handler__ = __webpack_require__(252);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_126__util_ionic_error_handler__ = __webpack_require__(253);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_126__util_ionic_error_handler__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_127__platform_keyboard__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_127__platform_keyboard__ = __webpack_require__(36);
 /* unused harmony reexport Keyboard */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_128__util_form__ = __webpack_require__(16);
 /* unused harmony reexport Form */
@@ -34771,13 +34771,13 @@ var PageTransition = (function (_super) {
 /* unused harmony reexport PageTransition */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_132__transitions_transition__ = __webpack_require__(27);
 /* unused harmony reexport Transition */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_133__platform_platform_registry__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_133__platform_platform_registry__ = __webpack_require__(185);
 /* unused harmony reexport PlatformConfigToken */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_134__config_mode_registry__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_134__config_mode_registry__ = __webpack_require__(186);
 /* unused harmony reexport registerModeConfigs */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_135__gestures_gesture_config__ = __webpack_require__(189);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_135__gestures_gesture_config__ = __webpack_require__(187);
 /* unused harmony reexport IonicGestureConfig */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_136__module__ = __webpack_require__(253);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_136__module__ = __webpack_require__(254);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_136__module__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_136__module__["b"]; });
 /* unused harmony reexport provideLocationStrategy */
@@ -34934,10 +34934,10 @@ var PageTransition = (function (_super) {
 
 var isArray_1 = __webpack_require__(100);
 var isObject_1 = __webpack_require__(101);
-var isFunction_1 = __webpack_require__(52);
+var isFunction_1 = __webpack_require__(50);
 var tryCatch_1 = __webpack_require__(102);
-var errorObject_1 = __webpack_require__(53);
-var UnsubscriptionError_1 = __webpack_require__(201);
+var errorObject_1 = __webpack_require__(51);
+var UnsubscriptionError_1 = __webpack_require__(200);
 /**
  * Represents a disposable resource, such as the execution of an Observable. A
  * Subscription has one important method, `unsubscribe`, that takes no argument
@@ -35137,11 +35137,11 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Observable_1 = __webpack_require__(9);
-var Subscriber_1 = __webpack_require__(25);
+var Subscriber_1 = __webpack_require__(29);
 var Subscription_1 = __webpack_require__(32);
 var ObjectUnsubscribedError_1 = __webpack_require__(213);
 var SubjectSubscription_1 = __webpack_require__(214);
-var rxSubscriber_1 = __webpack_require__(54);
+var rxSubscriber_1 = __webpack_require__(52);
 /**
  * @class SubjectSubscriber<T>
  */
@@ -35301,6 +35301,1340 @@ exports.AnonymousSubject = AnonymousSubject;
 
 /***/ }),
 /* 34 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PORTAL_DEFAULT; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return PORTAL_MODAL; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return PORTAL_LOADING; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return PORTAL_TOAST; });
+var PORTAL_DEFAULT = 1;
+var PORTAL_MODAL = 2;
+var PORTAL_LOADING = 3;
+var PORTAL_TOAST = 4;
+//# sourceMappingURL=app-constants.js.map
+
+/***/ }),
+/* 35 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Button; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ion__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_util__ = __webpack_require__(2);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+/**
+  * @name Button
+  * @module ionic
+  * @description
+  * Buttons are simple components in Ionic. They can consist of text and icons
+  * and be enhanced by a wide range of attributes.
+  *
+  * @usage
+  *
+  * ```html
+  *
+  *  <!-- Colors -->
+  *  <button ion-button>Default</button>
+  *
+  *  <button ion-button color="secondary">Secondary</button>
+  *
+  *  <button ion-button color="danger">Danger</button>
+  *
+  *  <button ion-button color="light">Light</button>
+  *
+  *  <button ion-button color="dark">Dark</button>
+  *
+  *  <!-- Shapes -->
+  *  <button ion-button full>Full Button</button>
+  *
+  *  <button ion-button block>Block Button</button>
+  *
+  *  <button ion-button round>Round Button</button>
+  *
+  *  <!-- Outline -->
+  *  <button ion-button full outline>Outline + Full</button>
+  *
+  *  <button ion-button block outline>Outline + Block</button>
+  *
+  *  <button ion-button round outline>Outline + Round</button>
+  *
+  *  <!-- Icons -->
+  *  <button ion-button icon-start>
+  *    <ion-icon name="star"></ion-icon>
+  *    Left Icon
+  *  </button>
+  *
+  *  <button ion-button icon-end>
+  *    Right Icon
+  *    <ion-icon name="star"></ion-icon>
+  *  </button>
+  *
+  *  <button ion-button icon-only>
+  *    <ion-icon name="star"></ion-icon>
+  *  </button>
+  *
+  *  <!-- Sizes -->
+  *  <button ion-button large>Large</button>
+  *
+  *  <button ion-button>Default</button>
+  *
+  *  <button ion-button small>Small</button>
+  * ```
+  *
+  * @advanced
+  *
+  * ```html
+  *
+  * <!-- Bind the color and outline inputs to an expression -->
+  * <button ion-button [color]="isDanger ? 'danger' : 'primary'" [outline]="isOutline">
+  *   Danger (Solid)
+  * </button>
+  *
+  * <!-- Bind the color and round inputs to an expression -->
+  * <button ion-button [color]="myColor" [round]="isRound">
+  *   Secondary (Round)
+  * </button>
+  *
+  * <!-- Bind the color and clear inputs to an expression -->
+  * <button ion-button [color]="isSecondary ? 'secondary' : 'primary'"  [clear]="isClear">
+  *   Primary (Clear)
+  * </button>
+  *
+  * <!-- Bind the color, outline and round inputs to an expression -->
+  * <button ion-button [color]="myColor2" [outline]="isOutline" [round]="isRound">
+  *   Dark (Solid + Round)
+  * </button>
+  *
+  * <!-- Bind the click event to a method -->
+  * <button ion-button (click)="logEvent($event)">
+  *   Click me!
+  * </button>
+  * ```
+  *
+  * ```ts
+  * @Component({
+  *   templateUrl: 'main.html'
+  * })
+  * class E2EPage {
+  *   isDanger: boolean = true;
+  *   isSecondary: boolean = false;
+  *   isRound: boolean = true;
+  *   isOutline: boolean = false;
+  *   isClear: boolean = true;
+  *   myColor: string = 'secondary';
+  *   myColor2: string = 'dark';
+  *
+  *   logEvent(event) {
+  *     console.log(event)
+  *   }
+  * }
+  *
+  * ```
+  *
+  * @demo /docs/demos/src/button/
+  * @see {@link /docs/components#buttons Button Component Docs}
+  * @see {@link /docs/components#fabs FabButton Docs}
+  * @see {@link ../../fab/FabButton FabButton API Docs}
+  * @see {@link ../../fab/FabContainer FabContainer API Docs}
+ */
+var Button = (function (_super) {
+    __extends(Button, _super);
+    function Button(ionButton, config, elementRef, renderer) {
+        var _this = _super.call(this, config, elementRef, renderer) || this;
+        /** @hidden */
+        _this._role = 'button'; // bar-button
+        /** @hidden */
+        _this._style = 'default'; // outline/clear/solid
+        _this._mode = config.get('mode');
+        if (config.get('hoverCSS') === false) {
+            _this.setElementClass('disable-hover', true);
+        }
+        if (ionButton.trim().length > 0) {
+            _this.setRole(ionButton);
+        }
+        return _this;
+    }
+    Object.defineProperty(Button.prototype, "large", {
+        /**
+         * @input {boolean} If true, activates the large button size.
+         */
+        set: function (val) {
+            this._attr('_size', 'large', val);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Button.prototype, "small", {
+        /**
+         * @input {boolean} If true, activates the small button size.
+         */
+        set: function (val) {
+            this._attr('_size', 'small', val);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Button.prototype, "default", {
+        /**
+         * @input {boolean} If true, activates the default button size. Normally the default, useful for buttons in an item.
+         */
+        set: function (val) {
+            this._attr('_size', 'default', val);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Button.prototype, "outline", {
+        /**
+         * @input {boolean} If true, activates a transparent button style with a border.
+         */
+        set: function (val) {
+            this._attr('_style', 'outline', val);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Button.prototype, "clear", {
+        /**
+         * @input {boolean} If true, activates a transparent button style without a border.
+         */
+        set: function (val) {
+            this._attr('_style', 'clear', val);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Button.prototype, "solid", {
+        /**
+         * @input {boolean} If true, activates a solid button style. Normally the default, useful for buttons in a toolbar.
+         */
+        set: function (val) {
+            this._attr('_style', 'solid', val);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Button.prototype, "round", {
+        /**
+         * @input {boolean} If true, activates a button with rounded corners.
+         */
+        set: function (val) {
+            this._attr('_shape', 'round', val);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Button.prototype, "block", {
+        /**
+         * @input {boolean} If true, activates a button style that fills the available width.
+         */
+        set: function (val) {
+            this._attr('_display', 'block', val);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Button.prototype, "full", {
+        /**
+         * @input {boolean} If true, activates a button style that fills the available width without
+         * a left and right border.
+         */
+        set: function (val) {
+            this._attr('_display', 'full', val);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Button.prototype, "strong", {
+        /**
+         * @input {boolean} If true, activates a button with a heavier font weight.
+         */
+        set: function (val) {
+            this._attr('_decorator', 'strong', val);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Button.prototype, "mode", {
+        /**
+         * @input {string} The mode determines which platform styles to use.
+         * Possible values are: `"ios"`, `"md"`, or `"wp"`.
+         * For more information, see [Platform Styles](/docs/theming/platform-specific-styles).
+         */
+        set: function (val) {
+            this._assignCss(false);
+            this._mode = val;
+            this._assignCss(true);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /** @hidden */
+    Button.prototype._attr = function (type, attrName, attrValue) {
+        if (type === '_style') {
+            this._updateColor(this._color, false);
+        }
+        this._setClass(this[type], false);
+        if (Object(__WEBPACK_IMPORTED_MODULE_3__util_util__["o" /* isTrueProperty */])(attrValue)) {
+            this[type] = attrName;
+            this._setClass(attrName, true);
+        }
+        else {
+            // Special handling for '_style' which defaults to 'default'.
+            this[type] = (type === '_style' ? 'default' : null);
+            this._setClass(this[type], true);
+        }
+        if (type === '_style') {
+            this._updateColor(this._color, true);
+        }
+    };
+    Object.defineProperty(Button.prototype, "color", {
+        /**
+         * @input {string} The color to use from your Sass `$colors` map.
+         * Default options are: `"primary"`, `"secondary"`, `"danger"`, `"light"`, and `"dark"`.
+         * For more information, see [Theming your App](/docs/theming/theming-your-app).
+         */
+        set: function (val) {
+            this._updateColor(this._color, false);
+            this._updateColor(val, true);
+            this._color = val;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /** @hidden */
+    Button.prototype.ngAfterContentInit = function () {
+        this._init = true;
+        this._assignCss(true);
+    };
+    /**
+     * @hidden
+     */
+    Button.prototype.setRole = function (val) {
+        this._assignCss(false);
+        this._role = val;
+        this._assignCss(true);
+    };
+    /**
+     * @hidden
+     */
+    Button.prototype._assignCss = function (assignCssClass) {
+        var role = this._role;
+        if (role) {
+            this.setElementClass(role, assignCssClass); // button
+            this.setElementClass(role + "-" + this._mode, assignCssClass); // button
+            this._setClass(this._style, assignCssClass); // button-clear
+            this._setClass(this._shape, assignCssClass); // button-round
+            this._setClass(this._display, assignCssClass); // button-full
+            this._setClass(this._size, assignCssClass); // button-small
+            this._setClass(this._decorator, assignCssClass); // button-strong
+            this._updateColor(this._color, assignCssClass); // button-secondary, bar-button-secondary
+        }
+    };
+    /**
+     * @hidden
+     */
+    Button.prototype._setClass = function (type, assignCssClass) {
+        if (type && this._init) {
+            type = type.toLocaleLowerCase();
+            this.setElementClass(this._role + "-" + type, assignCssClass);
+            this.setElementClass(this._role + "-" + type + "-" + this._mode, assignCssClass);
+        }
+    };
+    /**
+     * @hidden
+     */
+    Button.prototype._updateColor = function (color, isAdd) {
+        if (color && this._init) {
+            // The class should begin with the button role
+            // button, bar-button
+            var className = this._role;
+            // If the role is not a bar-button, don't apply the solid style
+            var style = this._style;
+            style = (this._role !== 'bar-button' && style === 'solid' ? 'default' : style);
+            className += (style !== null && style !== '' && style !== 'default' ? '-' + style.toLowerCase() : '');
+            if (color !== null && color !== '') {
+                this.setElementClass(className + "-" + this._mode + "-" + color, isAdd);
+            }
+        }
+    };
+    Button.decorators = [
+        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
+                    selector: '[ion-button]',
+                    template: '<span class="button-inner">' +
+                        '<ng-content></ng-content>' +
+                        '</span>' +
+                        '<div class="button-effect"></div>',
+                    changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ChangeDetectionStrategy */].OnPush,
+                    encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ViewEncapsulation */].None,
+                },] },
+    ];
+    /** @nocollapse */
+    Button.ctorParameters = function () { return [
+        { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Attribute */], args: ['ion-button',] },] },
+        { type: __WEBPACK_IMPORTED_MODULE_1__config_config__["a" /* Config */], },
+        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* Renderer */], },
+    ]; };
+    Button.propDecorators = {
+        'large': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+        'small': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+        'default': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+        'outline': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+        'clear': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+        'solid': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+        'round': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+        'block': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+        'full': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+        'strong': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+        'mode': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+        'color': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    };
+    return Button;
+}(__WEBPACK_IMPORTED_MODULE_2__ion__["a" /* Ion */]));
+
+//# sourceMappingURL=button.js.map
+
+/***/ }),
+/* 36 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Keyboard; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dom_controller__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_dom__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__key__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__platform__ = __webpack_require__(3);
+
+
+
+
+
+
+/**
+ * @name Keyboard
+ * @description
+ * The `Keyboard` class allows you to work with the keyboard events provided
+ * by the Ionic keyboard plugin.
+ *
+ * @usage
+ * ```ts
+ * export class MyClass {
+ *
+ *   constructor(public keyboard: Keyboard) { }
+ *
+ * }
+ * ```
+ */
+var Keyboard = (function () {
+    function Keyboard(config, _plt, _zone, _dom) {
+        this._plt = _plt;
+        this._zone = _zone;
+        this._dom = _dom;
+        this.willShow = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        this.willHide = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        this.didShow = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        this.didHide = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        this.eventsAvailable = false;
+        this.focusOutline(config.get('focusOutline'));
+        var win = _plt.win();
+        if (win.Ionic && win.Ionic.keyboardPlugin) {
+            this.listenV2(win);
+        }
+        else {
+            this.listenV1(win);
+        }
+    }
+    Keyboard.prototype.listenV2 = function (win) {
+        var _this = this;
+        var platform = this._plt;
+        platform.registerListener(win, 'keyboardWillShow', function (ev) {
+            _this._zone.run(function () {
+                _this.willShow.emit(ev.keyboardHeight);
+            });
+        }, { zone: false, passive: true });
+        platform.registerListener(win, 'keyboardWillHide', function () {
+            _this._zone.run(function () {
+                _this.willHide.emit();
+            });
+        }, { zone: false, passive: true });
+        platform.registerListener(win, 'keyboardDidShow', function (ev) {
+            _this._zone.run(function () {
+                _this.didShow.emit(ev.keyboardHeight);
+            });
+        }, { zone: false, passive: true });
+        platform.registerListener(win, 'keyboardDidHide', function () {
+            _this._zone.run(function () {
+                _this.didHide.emit();
+            });
+        }, { zone: false, passive: true });
+        this.eventsAvailable = true;
+    };
+    Keyboard.prototype.listenV1 = function (win) {
+        var _this = this;
+        var platform = this._plt;
+        platform.registerListener(win, 'native.keyboardhide', function () {
+            _this.blurActiveInput(true);
+        }, { zone: false, passive: true });
+        platform.registerListener(win, 'native.keyboardshow', function () {
+            _this.blurActiveInput(false);
+        }, { zone: false, passive: true });
+    };
+    Keyboard.prototype.blurActiveInput = function (shouldBlur) {
+        var _this = this;
+        var platform = this._plt;
+        platform.cancelTimeout(this._tmr);
+        if (shouldBlur) {
+            this._tmr = platform.timeout(function () {
+                // this custom cordova plugin event fires when the keyboard will hide
+                // useful when the virtual keyboard is closed natively
+                // https://github.com/ionic-team/ionic-plugin-keyboard
+                if (_this.isOpen()) {
+                    platform.focusOutActiveElement();
+                }
+            }, 80);
+        }
+    };
+    /**
+     * Check to see if the keyboard is open or not.
+     *
+     * ```ts
+     * export class MyClass {
+     *   constructor(public keyboard: Keyboard) {
+     *
+     *   }
+     *
+     *   keyboardCheck() {
+     *     console.log('The keyboard is open:', this.keyboard.isOpen());
+     *   }
+     * }
+     * ```
+     *
+     * @return {boolean} returns a true or false value if the keyboard is open or not.
+     */
+    Keyboard.prototype.isOpen = function () {
+        return this.hasFocusedTextInput();
+    };
+    /**
+     * When the keyboard is closed, call any methods you want.
+     *
+     * ```ts
+     * export class MyClass {
+     *   constructor(public keyboard: Keyboard) {
+     *     this.keyboard.onClose(this.closeCallback);
+     *   }
+     *   closeCallback() {
+     *     // call what ever functionality you want on keyboard close
+     *     console.log('Closing time');
+     *   }
+     * }
+     * ```
+     *
+     * @param {function} callback method you want to call when the keyboard has been closed.
+     * @return {function} returns a callback that gets fired when the keyboard is closed.
+     */
+    Keyboard.prototype.onClose = function (callback, pollingInternval, pollingChecksMax) {
+        if (pollingInternval === void 0) { pollingInternval = KEYBOARD_CLOSE_POLLING; }
+        if (pollingChecksMax === void 0) { pollingChecksMax = KEYBOARD_POLLING_CHECKS_MAX; }
+        (void 0) /* console.debug */;
+        var self = this;
+        var checks = 0;
+        var promise = null;
+        if (!callback) {
+            // a callback wasn't provided, so let's return a promise instead
+            promise = new Promise(function (resolve) { callback = resolve; });
+        }
+        function checkKeyboard() {
+            (void 0) /* console.debug */;
+            if (!self.isOpen() || checks > pollingChecksMax) {
+                self._plt.timeout(function () {
+                    self._zone.run(function () {
+                        (void 0) /* console.debug */;
+                        callback();
+                    });
+                }, 400);
+            }
+            else {
+                self._plt.timeout(checkKeyboard, pollingInternval);
+            }
+            checks++;
+        }
+        self._plt.timeout(checkKeyboard, pollingInternval);
+        return promise;
+    };
+    /**
+     * Programmatically close the keyboard.
+     */
+    Keyboard.prototype.close = function () {
+        var _this = this;
+        this._dom.read(function () {
+            if (_this.isOpen()) {
+                // only focus out when a text input has focus
+                (void 0) /* console.debug */;
+                _this._dom.write(function () {
+                    _this._plt.focusOutActiveElement();
+                });
+            }
+        });
+    };
+    /**
+     * @hidden
+     */
+    Keyboard.prototype.focusOutline = function (setting) {
+        /* Focus Outline
+         * --------------------------------------------------
+         * By default, when a keydown event happens from a tab key, then
+         * the 'focus-outline' css class is added to the body element
+         * so focusable elements have an outline. On a mousedown or
+         * touchstart event, then the 'focus-outline' css class is removed.
+         *
+         * Config default overrides:
+         * focusOutline: true     - Always add the focus-outline
+         * focusOutline: false    - Do not add the focus-outline
+         */
+        var self = this;
+        var platform = self._plt;
+        var doc = platform.doc();
+        var isKeyInputEnabled = false;
+        var unRegMouse;
+        var unRegTouch;
+        var evOpts = { passive: true, zone: false };
+        function cssClass() {
+            self._dom.write(function () {
+                platform.doc().body.classList[isKeyInputEnabled ? 'add' : 'remove']('focus-outline');
+            });
+        }
+        if (setting === true) {
+            isKeyInputEnabled = true;
+            return cssClass();
+        }
+        else if (setting === false) {
+            return;
+        }
+        // default is to add the focus-outline when the tab key is used
+        function keyDown(ev) {
+            if (!isKeyInputEnabled && ev.keyCode === __WEBPACK_IMPORTED_MODULE_4__key__["g" /* KEY_TAB */]) {
+                isKeyInputEnabled = true;
+                enableKeyInput();
+            }
+        }
+        function pointerDown() {
+            isKeyInputEnabled = false;
+            enableKeyInput();
+        }
+        function enableKeyInput() {
+            cssClass();
+            unRegMouse && unRegMouse();
+            unRegTouch && unRegTouch();
+            if (isKeyInputEnabled) {
+                // listen for when a mousedown or touchstart event happens
+                unRegMouse = platform.registerListener(doc, 'mousedown', pointerDown, evOpts);
+                unRegTouch = platform.registerListener(doc, 'touchstart', pointerDown, evOpts);
+            }
+        }
+        // always listen for tab keydown events
+        platform.registerListener(platform.doc(), 'keydown', keyDown, evOpts);
+    };
+    Keyboard.prototype.hasFocusedTextInput = function () {
+        var activeEle = this._plt.getActiveElement();
+        if (Object(__WEBPACK_IMPORTED_MODULE_3__util_dom__["e" /* isTextInput */])(activeEle)) {
+            return (activeEle.parentElement.querySelector(':focus') === activeEle);
+        }
+        return false;
+    };
+    /**
+     * Set to true to hide the additional toolbar that is on top of the keyboard.
+     * This toolbar features the Prev, Next, and Done buttons.
+     * @param hidden
+     */
+    Keyboard.prototype.hideFormAccessoryBar = function (hidden) {
+        var win = this._plt.win();
+        if (win && win.Keyboard && win.Keyboard.hideFormAccessoryBar) {
+            win.Keyboard.hideFormAccessoryBar(hidden);
+        }
+    };
+    Keyboard.decorators = [
+        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */] },
+    ];
+    /** @nocollapse */
+    Keyboard.ctorParameters = function () { return [
+        { type: __WEBPACK_IMPORTED_MODULE_1__config_config__["a" /* Config */], },
+        { type: __WEBPACK_IMPORTED_MODULE_5__platform__["a" /* Platform */], },
+        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* NgZone */], },
+        { type: __WEBPACK_IMPORTED_MODULE_2__dom_controller__["a" /* DomController */], },
+    ]; };
+    return Keyboard;
+}());
+
+var KEYBOARD_CLOSE_POLLING = 150;
+var KEYBOARD_POLLING_CHECKS_MAX = 100;
+//# sourceMappingURL=keyboard.js.map
+
+/***/ }),
+/* 37 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Haptic; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__platform_platform__ = __webpack_require__(3);
+
+
+/**
+ * @name Haptic
+ * @description
+ * The `Haptic` class interacts with a haptic engine on the device, if
+ * available. Generally, Ionic components use this under the hood, but you're
+ * welcome to get a bit crazy with it if you fancy.
+ *
+ * Currently, this uses the Taptic engine on iOS.
+ *
+ * @usage
+ * ```ts
+ * export class MyClass {
+ *
+ *  constructor(haptic: Haptic) {
+ *    haptic.selection();
+ *  }
+ * }
+ *
+ * ```
+ */
+var Haptic = (function () {
+    function Haptic(plt) {
+        var _this = this;
+        if (plt) {
+            plt.ready().then(function () {
+                _this._p = plt.win().TapticEngine;
+            });
+        }
+    }
+    /**
+     * Check to see if the Haptic Plugin is available
+     * @return {boolean} Returns true or false if the plugin is available
+     *
+     */
+    Haptic.prototype.available = function () {
+        return !!this._p;
+    };
+    /**
+     * Trigger a selection changed haptic event. Good for one-time events
+     * (not for gestures)
+     */
+    Haptic.prototype.selection = function () {
+        this._p && this._p.selection();
+    };
+    /**
+     * Tell the haptic engine that a gesture for a selection change is starting.
+     */
+    Haptic.prototype.gestureSelectionStart = function () {
+        this._p && this._p.gestureSelectionStart();
+    };
+    /**
+     * Tell the haptic engine that a selection changed during a gesture.
+     */
+    Haptic.prototype.gestureSelectionChanged = function () {
+        this._p && this._p.gestureSelectionChanged();
+    };
+    /**
+     * Tell the haptic engine we are done with a gesture. This needs to be
+     * called lest resources are not properly recycled.
+     */
+    Haptic.prototype.gestureSelectionEnd = function () {
+        this._p && this._p.gestureSelectionEnd();
+    };
+    /**
+     * Use this to indicate success/failure/warning to the user.
+     * options should be of the type `{ type: 'success' }` (or `warning`/`error`)
+     */
+    Haptic.prototype.notification = function (options) {
+        this._p && this._p.notification(options);
+    };
+    /**
+     * Use this to indicate success/failure/warning to the user.
+     * options should be of the type `{ style: 'light' }` (or `medium`/`heavy`)
+     */
+    Haptic.prototype.impact = function (options) {
+        this._p && this._p.impact(options);
+    };
+    Haptic.decorators = [
+        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */] },
+    ];
+    /** @nocollapse */
+    Haptic.ctorParameters = function () { return [
+        { type: __WEBPACK_IMPORTED_MODULE_1__platform_platform__["a" /* Platform */], },
+    ]; };
+    return Haptic;
+}());
+
+//# sourceMappingURL=haptic.js.map
+
+/***/ }),
+/* 38 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RootNode; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return SplitPane; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ion__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_util__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config_config__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__platform_platform__ = __webpack_require__(3);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+
+var QUERY = {
+    xs: '(min-width: 0px)',
+    sm: '(min-width: 576px)',
+    md: '(min-width: 768px)',
+    lg: '(min-width: 992px)',
+    xl: '(min-width: 1200px)',
+    never: ''
+};
+/**
+ * @hidden
+ */
+var RootNode = (function () {
+    function RootNode() {
+    }
+    return RootNode;
+}());
+
+/**
+ * @name SplitPane
+ *
+ * @description
+ * SplitPane is a component that makes it possible to create multi-view layout.
+ * Similar to iPad apps, SplitPane allows UI elements, like Menus, to be
+ * displayed as the viewport increases.
+ *
+ * If the devices screen size is below a certain size, the SplitPane will
+ * collapse and the menu will become hidden again. This is especially useful when
+ * creating an app that will be served over a browser or deployed through the app
+ * store to phones and tablets.
+ *
+ * @usage
+ * To use SplitPane, simply add the component around your root component.
+ * In this example, we'll be using a sidemenu layout, similar to what is
+ * provided from the sidemenu starter template.
+ *
+ *  ```html
+ *  <ion-split-pane>
+ *    <!--  our side menu  -->
+ *    <ion-menu [content]="content">
+ *      <ion-header>
+ *        <ion-toolbar>
+ *          <ion-title>Menu</ion-title>
+ *        </ion-toolbar>
+ *      </ion-header>
+ *    </ion-menu>
+ *
+ *    <!-- the main content -->
+ *    <ion-nav [root]="root" main #content></ion-nav>
+ *  </ion-split-pane>
+ *  ```
+ *
+ *  Here, SplitPane will look for the element with the `main` attribute and make
+ *  that the central component on larger screens. The `main` component can be any
+ *  Ionic component (`ion-nav` or `ion-tabs`) except `ion-menu`.
+ *
+ *  ### Setting breakpoints
+ *
+ *  By default, SplitPane will expand when the screen is larger than 768px.
+ *  If you want to customize this, use the `when` input. The `when` input can
+ *  accept any valid media query, as it uses `matchMedia()` underneath.
+ *
+ *  ```
+ *  <ion-split-pane when="(min-width: 475px)">
+ *
+ *    <!--  our side menu  -->
+ *    <ion-menu [content]="content">
+ *    ....
+ *    </ion-menu>
+ *
+ *    <!-- the main content -->
+ *    <ion-nav [root]="root" main #content></ion-nav>
+ *  </ion-split-pane>
+ *  ```
+ *
+ *  SplitPane also provides some predefined media queries that can be used.
+ *
+ *  ```html
+ *  <!-- could be "xs", "sm", "md", "lg", or "xl" -->
+ *  <ion-split-pane when="lg">
+ *  ...
+ *  </ion-split-pane>
+ *  ```
+ *
+ *
+ *  | Size | Value                 | Description                                                           |
+ *  |------|-----------------------|-----------------------------------------------------------------------|
+ *  | `xs` | `(min-width: 0px)`    | Show the split-pane when the min-width is 0px (meaning, always)       |
+ *  | `sm` | `(min-width: 576px)`  | Show the split-pane when the min-width is 576px                       |
+ *  | `md` | `(min-width: 768px)`  | Show the split-pane when the min-width is 768px (default break point) |
+ *  | `lg` | `(min-width: 992px)`  | Show the split-pane when the min-width is 992px                       |
+ *  | `xl` | `(min-width: 1200px)` | Show the split-pane when the min-width is 1200px                      |
+ *
+ *  You can also pass in boolean values that will trigger SplitPane when the value
+ *  or expression evaluates to true.
+ *
+ *
+ *  ```html
+ *  <ion-split-pane [when]="isLarge">
+ *  ...
+ *  </ion-split-pane>
+ *  ```
+ *
+ *  ```ts
+ *  class MyClass {
+ *    public isLarge = false;
+ *    constructor(){}
+ *  }
+ *  ```
+ *
+ *  Or
+ *
+ *  ```html
+ *  <ion-split-pane [when]="shouldShow()">
+ *  ...
+ *  </ion-split-pane>
+ *  ```
+ *
+ *  ```ts
+ *  class MyClass {
+ *    constructor(){}
+ *    shouldShow(){
+ *      if(conditionA){
+ *        return true
+ *      } else {
+ *        return false
+ *      }
+ *    }
+ *  }
+ *  ```
+ *
+ */
+var SplitPane = (function (_super) {
+    __extends(SplitPane, _super);
+    function SplitPane(_zone, _plt, config, elementRef, renderer) {
+        var _this = _super.call(this, config, elementRef, renderer, 'split-pane') || this;
+        _this._zone = _zone;
+        _this._plt = _plt;
+        _this._init = false;
+        _this._visible = false;
+        _this._isEnabled = true;
+        _this._mediaQuery = QUERY['md'];
+        /**
+         * @hidden
+         */
+        _this.sideContent = null;
+        /**
+         * @hidden
+         */
+        _this.mainContent = null;
+        /**
+         * @output {any} Expression to be called when the split-pane visibility has changed
+         */
+        _this.ionChange = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        return _this;
+    }
+    Object.defineProperty(SplitPane.prototype, "_setchildren", {
+        /**
+         * @hidden
+         */
+        set: function (query) {
+            var _this = this;
+            var children = this._children = query.filter((function (child) { return child !== _this; }));
+            children.forEach(function (child) {
+                var isMain = child.initPane();
+                _this._setPaneCSSClass(child.getElementRef(), isMain);
+            });
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(SplitPane.prototype, "when", {
+        get: function () {
+            return this._mediaQuery;
+        },
+        /**
+         * @input {string | boolean} When the split-pane should be shown.
+         * Can be a CSS media query expression, or a shortcut expression.
+         * Can also be a boolean expression.
+         */
+        set: function (query) {
+            if (typeof query === 'boolean') {
+                this._mediaQuery = query;
+            }
+            else {
+                var defaultQuery = QUERY[query];
+                this._mediaQuery = (defaultQuery)
+                    ? defaultQuery
+                    : query;
+            }
+            this._update();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(SplitPane.prototype, "enabled", {
+        get: function () {
+            return this._isEnabled;
+        },
+        /**
+         * @input {boolean} If `false`, the split-pane is disabled, ie. the side pane will
+         * never be displayed. Default `true`.
+         */
+        set: function (val) {
+            this._isEnabled = Object(__WEBPACK_IMPORTED_MODULE_2__util_util__["o" /* isTrueProperty */])(val);
+            this._update();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @hidden
+     */
+    SplitPane.prototype._register = function (node, isMain, callback) {
+        if (this.getElementRef().nativeElement !== node.getElementRef().nativeElement.parentNode) {
+            return false;
+        }
+        this._setPaneCSSClass(node.getElementRef(), isMain);
+        if (callback) {
+            this.ionChange.subscribe(callback);
+        }
+        if (isMain) {
+            if (this.mainContent) {
+                console.error('split pane: main content was already set');
+            }
+            this.mainContent = node;
+        }
+        return true;
+    };
+    /**
+     * @hidden
+     */
+    SplitPane.prototype.ngAfterViewInit = function () {
+        this._init = true;
+        this._update();
+    };
+    /**
+     * @hidden
+     */
+    SplitPane.prototype._update = function () {
+        var _this = this;
+        if (!this._init) {
+            return;
+        }
+        // Unlisten
+        this._rmListener && this._rmListener();
+        this._rmListener = null;
+        // Check if the split-pane is disabled
+        if (!this._isEnabled) {
+            this._setVisible(false);
+            return;
+        }
+        var query = this._mediaQuery;
+        if (typeof query === 'boolean') {
+            this._setVisible(query);
+            return;
+        }
+        if (query && query.length > 0) {
+            // Listen
+            var callback_1 = function (query) { return _this._setVisible(query.matches); };
+            var mediaList_1 = this._plt.win().matchMedia(query);
+            mediaList_1.addListener(callback_1);
+            this._setVisible(mediaList_1.matches);
+            this._rmListener = function () {
+                mediaList_1.removeListener(callback_1);
+            };
+        }
+        else {
+            this._setVisible(false);
+        }
+    };
+    /**
+     * @hidden
+     */
+    SplitPane.prototype._updateChildren = function () {
+        this.mainContent = null;
+        this.sideContent = null;
+        var visible = this._visible;
+        this._children.forEach(function (child) { return child.paneChanged && child.paneChanged(visible); });
+    };
+    /**
+     * @hidden
+     */
+    SplitPane.prototype._setVisible = function (visible) {
+        var _this = this;
+        if (this._visible === visible) {
+            return;
+        }
+        this._visible = visible;
+        this.setElementClass('split-pane-visible', visible);
+        this._updateChildren();
+        this._zone.run(function () {
+            _this.ionChange.emit(_this);
+        });
+    };
+    /**
+     * @hidden
+     */
+    SplitPane.prototype.isVisible = function () {
+        return this._visible;
+    };
+    /**
+     * @hidden
+     */
+    SplitPane.prototype.setElementClass = function (className, add) {
+        this._renderer.setElementClass(this._elementRef.nativeElement, className, add);
+    };
+    /**
+     * @hidden
+     */
+    SplitPane.prototype._setPaneCSSClass = function (elementRef, isMain) {
+        var ele = elementRef.nativeElement;
+        this._renderer.setElementClass(ele, 'split-pane-main', isMain);
+        this._renderer.setElementClass(ele, 'split-pane-side', !isMain);
+    };
+    /**
+     * @hidden
+     */
+    SplitPane.prototype.ngOnDestroy = function () {
+        (void 0) /* assert */;
+        this._rmListener && this._rmListener();
+        this._rmListener = null;
+    };
+    /**
+     * @hidden
+     */
+    SplitPane.prototype.initPane = function () {
+        return true;
+    };
+    SplitPane.decorators = [
+        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
+                    selector: 'ion-split-pane',
+                    providers: [{ provide: RootNode, useExisting: Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_20" /* forwardRef */])(function () { return SplitPane; }) }]
+                },] },
+    ];
+    /** @nocollapse */
+    SplitPane.ctorParameters = function () { return [
+        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* NgZone */], },
+        { type: __WEBPACK_IMPORTED_MODULE_4__platform_platform__["a" /* Platform */], },
+        { type: __WEBPACK_IMPORTED_MODULE_3__config_config__["a" /* Config */], },
+        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* Renderer */], },
+    ]; };
+    SplitPane.propDecorators = {
+        '_setchildren': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["s" /* ContentChildren */], args: [RootNode, { descendants: false },] },],
+        'when': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+        'enabled': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+        'ionChange': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* Output */] },],
+    };
+    return SplitPane;
+}(__WEBPACK_IMPORTED_MODULE_1__ion__["a" /* Ion */]));
+
+//# sourceMappingURL=split-pane.js.map
+
+/***/ }),
+/* 39 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Navbar; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_util__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_nav_controller__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__toolbar_base__ = __webpack_require__(144);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__navigation_view_controller__ = __webpack_require__(5);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+
+
+
+/**
+ * @name Navbar
+ * @description
+ * Navbar acts as the navigational toolbar, which also comes with a back
+ * button. A navbar can contain a `ion-title`, any number of buttons,
+ * a segment, or a searchbar. Navbars must be placed within an
+ * `<ion-header>` in order for them to be placed above the content.
+ * It's important to note that navbar's are part of the dynamic navigation
+ * stack. If you need a static toolbar, use ion-toolbar.
+ *
+ * @usage
+ * ```html
+ * <ion-header>
+ *
+ *   <ion-navbar>
+ *     <button ion-button icon-only menuToggle>
+ *       <ion-icon name="menu"></ion-icon>
+ *     </button>
+ *
+ *     <ion-title>
+ *       Page Title
+ *     </ion-title>
+ *
+ *     <ion-buttons end>
+ *       <button ion-button icon-only (click)="openModal()">
+ *         <ion-icon name="options"></ion-icon>
+ *       </button>
+ *     </ion-buttons>
+ *   </ion-navbar>
+ *
+ * </ion-header>
+ * ```
+ *
+ * @demo /docs/demos/src/navbar/
+ * @see {@link ../../toolbar/Toolbar/ Toolbar API Docs}
+ */
+var Navbar = (function (_super) {
+    __extends(Navbar, _super);
+    function Navbar(_app, viewCtrl, navCtrl, config, elementRef, renderer) {
+        var _this = _super.call(this, config, elementRef, renderer) || this;
+        _this._app = _app;
+        _this.navCtrl = navCtrl;
+        /**
+         * @hidden
+         */
+        _this._hidden = false;
+        /**
+         * @hidden
+         */
+        _this._hideBb = false;
+        viewCtrl && viewCtrl._setNavbar(_this);
+        _this._bbIcon = config.get('backButtonIcon');
+        _this._sbPadding = config.getBoolean('statusbarPadding');
+        _this._backText = config.get('backButtonText', 'Back');
+        return _this;
+    }
+    Object.defineProperty(Navbar.prototype, "hideBackButton", {
+        /**
+         * @input {boolean} If true, the back button will be hidden.
+         */
+        get: function () {
+            return this._hideBb;
+        },
+        set: function (val) {
+            this._hideBb = Object(__WEBPACK_IMPORTED_MODULE_3__util_util__["o" /* isTrueProperty */])(val);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Navbar.prototype.backButtonClick = function (ev) {
+        ev.preventDefault();
+        ev.stopPropagation();
+        this.navCtrl && this.navCtrl.pop(null, null);
+    };
+    /**
+     * Set the text of the Back Button in the Nav Bar. Defaults to "Back".
+     */
+    Navbar.prototype.setBackButtonText = function (text) {
+        this._backText = text;
+    };
+    /**
+     * @hidden
+     */
+    Navbar.prototype.didEnter = function () {
+        try {
+            this._app.setTitle(this.getTitleText());
+        }
+        catch (e) {
+            console.error(e);
+        }
+    };
+    /**
+     * @hidden
+     */
+    Navbar.prototype.setHidden = function (isHidden) {
+        // used to display none/block the navbar
+        this._hidden = isHidden;
+    };
+    Navbar.decorators = [
+        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
+                    selector: 'ion-navbar',
+                    template: '<div class="toolbar-background" [ngClass]="\'toolbar-background-\' + _mode"></div>' +
+                        '<button (click)="backButtonClick($event)" ion-button="bar-button" class="back-button" [ngClass]="\'back-button-\' + _mode" [hidden]="_hideBb">' +
+                        '<ion-icon class="back-button-icon" [ngClass]="\'back-button-icon-\' + _mode" [name]="_bbIcon"></ion-icon>' +
+                        '<span class="back-button-text" [ngClass]="\'back-button-text-\' + _mode">{{_backText}}</span>' +
+                        '</button>' +
+                        '<ng-content select="[menuToggle],ion-buttons[left]"></ng-content>' +
+                        '<ng-content select="ion-buttons[start]"></ng-content>' +
+                        '<ng-content select="ion-buttons[end],ion-buttons[right]"></ng-content>' +
+                        '<div class="toolbar-content" [ngClass]="\'toolbar-content-\' + _mode">' +
+                        '<ng-content></ng-content>' +
+                        '</div>',
+                    host: {
+                        '[hidden]': '_hidden',
+                        'class': 'toolbar',
+                        '[class.statusbar-padding]': '_sbPadding'
+                    }
+                },] },
+    ];
+    /** @nocollapse */
+    Navbar.ctorParameters = function () { return [
+        { type: __WEBPACK_IMPORTED_MODULE_1__app_app__["a" /* App */], },
+        { type: __WEBPACK_IMPORTED_MODULE_6__navigation_view_controller__["a" /* ViewController */], decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Q" /* Optional */] },] },
+        { type: __WEBPACK_IMPORTED_MODULE_4__navigation_nav_controller__["a" /* NavController */], decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Q" /* Optional */] },] },
+        { type: __WEBPACK_IMPORTED_MODULE_2__config_config__["a" /* Config */], },
+        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* Renderer */], },
+    ]; };
+    Navbar.propDecorators = {
+        'hideBackButton': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    };
+    return Navbar;
+}(__WEBPACK_IMPORTED_MODULE_5__toolbar_base__["a" /* ToolbarBase */]));
+
+//# sourceMappingURL=navbar.js.map
+
+/***/ }),
+/* 40 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39359,1461 +40693,7 @@ var VERSION = new __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* Version *
 
 
 /***/ }),
-/* 35 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PORTAL_DEFAULT; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return PORTAL_MODAL; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return PORTAL_LOADING; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return PORTAL_TOAST; });
-var PORTAL_DEFAULT = 1;
-var PORTAL_MODAL = 2;
-var PORTAL_LOADING = 3;
-var PORTAL_TOAST = 4;
-//# sourceMappingURL=app-constants.js.map
-
-/***/ }),
-/* 36 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Button; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ion__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_util__ = __webpack_require__(2);
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-
-
-
-
-/**
-  * @name Button
-  * @module ionic
-  * @description
-  * Buttons are simple components in Ionic. They can consist of text and icons
-  * and be enhanced by a wide range of attributes.
-  *
-  * @usage
-  *
-  * ```html
-  *
-  *  <!-- Colors -->
-  *  <button ion-button>Default</button>
-  *
-  *  <button ion-button color="secondary">Secondary</button>
-  *
-  *  <button ion-button color="danger">Danger</button>
-  *
-  *  <button ion-button color="light">Light</button>
-  *
-  *  <button ion-button color="dark">Dark</button>
-  *
-  *  <!-- Shapes -->
-  *  <button ion-button full>Full Button</button>
-  *
-  *  <button ion-button block>Block Button</button>
-  *
-  *  <button ion-button round>Round Button</button>
-  *
-  *  <!-- Outline -->
-  *  <button ion-button full outline>Outline + Full</button>
-  *
-  *  <button ion-button block outline>Outline + Block</button>
-  *
-  *  <button ion-button round outline>Outline + Round</button>
-  *
-  *  <!-- Icons -->
-  *  <button ion-button icon-start>
-  *    <ion-icon name="star"></ion-icon>
-  *    Left Icon
-  *  </button>
-  *
-  *  <button ion-button icon-end>
-  *    Right Icon
-  *    <ion-icon name="star"></ion-icon>
-  *  </button>
-  *
-  *  <button ion-button icon-only>
-  *    <ion-icon name="star"></ion-icon>
-  *  </button>
-  *
-  *  <!-- Sizes -->
-  *  <button ion-button large>Large</button>
-  *
-  *  <button ion-button>Default</button>
-  *
-  *  <button ion-button small>Small</button>
-  * ```
-  *
-  * @advanced
-  *
-  * ```html
-  *
-  * <!-- Bind the color and outline inputs to an expression -->
-  * <button ion-button [color]="isDanger ? 'danger' : 'primary'" [outline]="isOutline">
-  *   Danger (Solid)
-  * </button>
-  *
-  * <!-- Bind the color and round inputs to an expression -->
-  * <button ion-button [color]="myColor" [round]="isRound">
-  *   Secondary (Round)
-  * </button>
-  *
-  * <!-- Bind the color and clear inputs to an expression -->
-  * <button ion-button [color]="isSecondary ? 'secondary' : 'primary'"  [clear]="isClear">
-  *   Primary (Clear)
-  * </button>
-  *
-  * <!-- Bind the color, outline and round inputs to an expression -->
-  * <button ion-button [color]="myColor2" [outline]="isOutline" [round]="isRound">
-  *   Dark (Solid + Round)
-  * </button>
-  *
-  * <!-- Bind the click event to a method -->
-  * <button ion-button (click)="logEvent($event)">
-  *   Click me!
-  * </button>
-  * ```
-  *
-  * ```ts
-  * @Component({
-  *   templateUrl: 'main.html'
-  * })
-  * class E2EPage {
-  *   isDanger: boolean = true;
-  *   isSecondary: boolean = false;
-  *   isRound: boolean = true;
-  *   isOutline: boolean = false;
-  *   isClear: boolean = true;
-  *   myColor: string = 'secondary';
-  *   myColor2: string = 'dark';
-  *
-  *   logEvent(event) {
-  *     console.log(event)
-  *   }
-  * }
-  *
-  * ```
-  *
-  * @demo /docs/demos/src/button/
-  * @see {@link /docs/components#buttons Button Component Docs}
-  * @see {@link /docs/components#fabs FabButton Docs}
-  * @see {@link ../../fab/FabButton FabButton API Docs}
-  * @see {@link ../../fab/FabContainer FabContainer API Docs}
- */
-var Button = (function (_super) {
-    __extends(Button, _super);
-    function Button(ionButton, config, elementRef, renderer) {
-        var _this = _super.call(this, config, elementRef, renderer) || this;
-        /** @hidden */
-        _this._role = 'button'; // bar-button
-        /** @hidden */
-        _this._style = 'default'; // outline/clear/solid
-        _this._mode = config.get('mode');
-        if (config.get('hoverCSS') === false) {
-            _this.setElementClass('disable-hover', true);
-        }
-        if (ionButton.trim().length > 0) {
-            _this.setRole(ionButton);
-        }
-        return _this;
-    }
-    Object.defineProperty(Button.prototype, "large", {
-        /**
-         * @input {boolean} If true, activates the large button size.
-         */
-        set: function (val) {
-            this._attr('_size', 'large', val);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Button.prototype, "small", {
-        /**
-         * @input {boolean} If true, activates the small button size.
-         */
-        set: function (val) {
-            this._attr('_size', 'small', val);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Button.prototype, "default", {
-        /**
-         * @input {boolean} If true, activates the default button size. Normally the default, useful for buttons in an item.
-         */
-        set: function (val) {
-            this._attr('_size', 'default', val);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Button.prototype, "outline", {
-        /**
-         * @input {boolean} If true, activates a transparent button style with a border.
-         */
-        set: function (val) {
-            this._attr('_style', 'outline', val);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Button.prototype, "clear", {
-        /**
-         * @input {boolean} If true, activates a transparent button style without a border.
-         */
-        set: function (val) {
-            this._attr('_style', 'clear', val);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Button.prototype, "solid", {
-        /**
-         * @input {boolean} If true, activates a solid button style. Normally the default, useful for buttons in a toolbar.
-         */
-        set: function (val) {
-            this._attr('_style', 'solid', val);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Button.prototype, "round", {
-        /**
-         * @input {boolean} If true, activates a button with rounded corners.
-         */
-        set: function (val) {
-            this._attr('_shape', 'round', val);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Button.prototype, "block", {
-        /**
-         * @input {boolean} If true, activates a button style that fills the available width.
-         */
-        set: function (val) {
-            this._attr('_display', 'block', val);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Button.prototype, "full", {
-        /**
-         * @input {boolean} If true, activates a button style that fills the available width without
-         * a left and right border.
-         */
-        set: function (val) {
-            this._attr('_display', 'full', val);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Button.prototype, "strong", {
-        /**
-         * @input {boolean} If true, activates a button with a heavier font weight.
-         */
-        set: function (val) {
-            this._attr('_decorator', 'strong', val);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Button.prototype, "mode", {
-        /**
-         * @input {string} The mode determines which platform styles to use.
-         * Possible values are: `"ios"`, `"md"`, or `"wp"`.
-         * For more information, see [Platform Styles](/docs/theming/platform-specific-styles).
-         */
-        set: function (val) {
-            this._assignCss(false);
-            this._mode = val;
-            this._assignCss(true);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /** @hidden */
-    Button.prototype._attr = function (type, attrName, attrValue) {
-        if (type === '_style') {
-            this._updateColor(this._color, false);
-        }
-        this._setClass(this[type], false);
-        if (Object(__WEBPACK_IMPORTED_MODULE_3__util_util__["o" /* isTrueProperty */])(attrValue)) {
-            this[type] = attrName;
-            this._setClass(attrName, true);
-        }
-        else {
-            // Special handling for '_style' which defaults to 'default'.
-            this[type] = (type === '_style' ? 'default' : null);
-            this._setClass(this[type], true);
-        }
-        if (type === '_style') {
-            this._updateColor(this._color, true);
-        }
-    };
-    Object.defineProperty(Button.prototype, "color", {
-        /**
-         * @input {string} The color to use from your Sass `$colors` map.
-         * Default options are: `"primary"`, `"secondary"`, `"danger"`, `"light"`, and `"dark"`.
-         * For more information, see [Theming your App](/docs/theming/theming-your-app).
-         */
-        set: function (val) {
-            this._updateColor(this._color, false);
-            this._updateColor(val, true);
-            this._color = val;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /** @hidden */
-    Button.prototype.ngAfterContentInit = function () {
-        this._init = true;
-        this._assignCss(true);
-    };
-    /**
-     * @hidden
-     */
-    Button.prototype.setRole = function (val) {
-        this._assignCss(false);
-        this._role = val;
-        this._assignCss(true);
-    };
-    /**
-     * @hidden
-     */
-    Button.prototype._assignCss = function (assignCssClass) {
-        var role = this._role;
-        if (role) {
-            this.setElementClass(role, assignCssClass); // button
-            this.setElementClass(role + "-" + this._mode, assignCssClass); // button
-            this._setClass(this._style, assignCssClass); // button-clear
-            this._setClass(this._shape, assignCssClass); // button-round
-            this._setClass(this._display, assignCssClass); // button-full
-            this._setClass(this._size, assignCssClass); // button-small
-            this._setClass(this._decorator, assignCssClass); // button-strong
-            this._updateColor(this._color, assignCssClass); // button-secondary, bar-button-secondary
-        }
-    };
-    /**
-     * @hidden
-     */
-    Button.prototype._setClass = function (type, assignCssClass) {
-        if (type && this._init) {
-            type = type.toLocaleLowerCase();
-            this.setElementClass(this._role + "-" + type, assignCssClass);
-            this.setElementClass(this._role + "-" + type + "-" + this._mode, assignCssClass);
-        }
-    };
-    /**
-     * @hidden
-     */
-    Button.prototype._updateColor = function (color, isAdd) {
-        if (color && this._init) {
-            // The class should begin with the button role
-            // button, bar-button
-            var className = this._role;
-            // If the role is not a bar-button, don't apply the solid style
-            var style = this._style;
-            style = (this._role !== 'bar-button' && style === 'solid' ? 'default' : style);
-            className += (style !== null && style !== '' && style !== 'default' ? '-' + style.toLowerCase() : '');
-            if (color !== null && color !== '') {
-                this.setElementClass(className + "-" + this._mode + "-" + color, isAdd);
-            }
-        }
-    };
-    Button.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
-                    selector: '[ion-button]',
-                    template: '<span class="button-inner">' +
-                        '<ng-content></ng-content>' +
-                        '</span>' +
-                        '<div class="button-effect"></div>',
-                    changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ChangeDetectionStrategy */].OnPush,
-                    encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ViewEncapsulation */].None,
-                },] },
-    ];
-    /** @nocollapse */
-    Button.ctorParameters = function () { return [
-        { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Attribute */], args: ['ion-button',] },] },
-        { type: __WEBPACK_IMPORTED_MODULE_1__config_config__["a" /* Config */], },
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* Renderer */], },
-    ]; };
-    Button.propDecorators = {
-        'large': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-        'small': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-        'default': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-        'outline': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-        'clear': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-        'solid': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-        'round': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-        'block': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-        'full': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-        'strong': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-        'mode': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-        'color': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-    };
-    return Button;
-}(__WEBPACK_IMPORTED_MODULE_2__ion__["a" /* Ion */]));
-
-//# sourceMappingURL=button.js.map
-
-/***/ }),
-/* 37 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Keyboard; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dom_controller__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_dom__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__key__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__platform__ = __webpack_require__(3);
-
-
-
-
-
-
-/**
- * @name Keyboard
- * @description
- * The `Keyboard` class allows you to work with the keyboard events provided
- * by the Ionic keyboard plugin.
- *
- * @usage
- * ```ts
- * export class MyClass {
- *
- *   constructor(public keyboard: Keyboard) { }
- *
- * }
- * ```
- */
-var Keyboard = (function () {
-    function Keyboard(config, _plt, _zone, _dom) {
-        this._plt = _plt;
-        this._zone = _zone;
-        this._dom = _dom;
-        this.willShow = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
-        this.willHide = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
-        this.didShow = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
-        this.didHide = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
-        this.eventsAvailable = false;
-        this.focusOutline(config.get('focusOutline'));
-        var win = _plt.win();
-        if (win.Ionic && win.Ionic.keyboardPlugin) {
-            this.listenV2(win);
-        }
-        else {
-            this.listenV1(win);
-        }
-    }
-    Keyboard.prototype.listenV2 = function (win) {
-        var _this = this;
-        var platform = this._plt;
-        platform.registerListener(win, 'keyboardWillShow', function (ev) {
-            _this._zone.run(function () {
-                _this.willShow.emit(ev.keyboardHeight);
-            });
-        }, { zone: false, passive: true });
-        platform.registerListener(win, 'keyboardWillHide', function () {
-            _this._zone.run(function () {
-                _this.willHide.emit();
-            });
-        }, { zone: false, passive: true });
-        platform.registerListener(win, 'keyboardDidShow', function (ev) {
-            _this._zone.run(function () {
-                _this.didShow.emit(ev.keyboardHeight);
-            });
-        }, { zone: false, passive: true });
-        platform.registerListener(win, 'keyboardDidHide', function () {
-            _this._zone.run(function () {
-                _this.didHide.emit();
-            });
-        }, { zone: false, passive: true });
-        this.eventsAvailable = true;
-    };
-    Keyboard.prototype.listenV1 = function (win) {
-        var _this = this;
-        var platform = this._plt;
-        platform.registerListener(win, 'native.keyboardhide', function () {
-            _this.blurActiveInput(true);
-        }, { zone: false, passive: true });
-        platform.registerListener(win, 'native.keyboardshow', function () {
-            _this.blurActiveInput(false);
-        }, { zone: false, passive: true });
-    };
-    Keyboard.prototype.blurActiveInput = function (shouldBlur) {
-        var _this = this;
-        var platform = this._plt;
-        platform.cancelTimeout(this._tmr);
-        if (shouldBlur) {
-            this._tmr = platform.timeout(function () {
-                // this custom cordova plugin event fires when the keyboard will hide
-                // useful when the virtual keyboard is closed natively
-                // https://github.com/ionic-team/ionic-plugin-keyboard
-                if (_this.isOpen()) {
-                    platform.focusOutActiveElement();
-                }
-            }, 80);
-        }
-    };
-    /**
-     * Check to see if the keyboard is open or not.
-     *
-     * ```ts
-     * export class MyClass {
-     *   constructor(public keyboard: Keyboard) {
-     *
-     *   }
-     *
-     *   keyboardCheck() {
-     *     console.log('The keyboard is open:', this.keyboard.isOpen());
-     *   }
-     * }
-     * ```
-     *
-     * @return {boolean} returns a true or false value if the keyboard is open or not.
-     */
-    Keyboard.prototype.isOpen = function () {
-        return this.hasFocusedTextInput();
-    };
-    /**
-     * When the keyboard is closed, call any methods you want.
-     *
-     * ```ts
-     * export class MyClass {
-     *   constructor(public keyboard: Keyboard) {
-     *     this.keyboard.onClose(this.closeCallback);
-     *   }
-     *   closeCallback() {
-     *     // call what ever functionality you want on keyboard close
-     *     console.log('Closing time');
-     *   }
-     * }
-     * ```
-     *
-     * @param {function} callback method you want to call when the keyboard has been closed.
-     * @return {function} returns a callback that gets fired when the keyboard is closed.
-     */
-    Keyboard.prototype.onClose = function (callback, pollingInternval, pollingChecksMax) {
-        if (pollingInternval === void 0) { pollingInternval = KEYBOARD_CLOSE_POLLING; }
-        if (pollingChecksMax === void 0) { pollingChecksMax = KEYBOARD_POLLING_CHECKS_MAX; }
-        (void 0) /* console.debug */;
-        var self = this;
-        var checks = 0;
-        var promise = null;
-        if (!callback) {
-            // a callback wasn't provided, so let's return a promise instead
-            promise = new Promise(function (resolve) { callback = resolve; });
-        }
-        function checkKeyboard() {
-            (void 0) /* console.debug */;
-            if (!self.isOpen() || checks > pollingChecksMax) {
-                self._plt.timeout(function () {
-                    self._zone.run(function () {
-                        (void 0) /* console.debug */;
-                        callback();
-                    });
-                }, 400);
-            }
-            else {
-                self._plt.timeout(checkKeyboard, pollingInternval);
-            }
-            checks++;
-        }
-        self._plt.timeout(checkKeyboard, pollingInternval);
-        return promise;
-    };
-    /**
-     * Programmatically close the keyboard.
-     */
-    Keyboard.prototype.close = function () {
-        var _this = this;
-        this._dom.read(function () {
-            if (_this.isOpen()) {
-                // only focus out when a text input has focus
-                (void 0) /* console.debug */;
-                _this._dom.write(function () {
-                    _this._plt.focusOutActiveElement();
-                });
-            }
-        });
-    };
-    /**
-     * @hidden
-     */
-    Keyboard.prototype.focusOutline = function (setting) {
-        /* Focus Outline
-         * --------------------------------------------------
-         * By default, when a keydown event happens from a tab key, then
-         * the 'focus-outline' css class is added to the body element
-         * so focusable elements have an outline. On a mousedown or
-         * touchstart event, then the 'focus-outline' css class is removed.
-         *
-         * Config default overrides:
-         * focusOutline: true     - Always add the focus-outline
-         * focusOutline: false    - Do not add the focus-outline
-         */
-        var self = this;
-        var platform = self._plt;
-        var doc = platform.doc();
-        var isKeyInputEnabled = false;
-        var unRegMouse;
-        var unRegTouch;
-        var evOpts = { passive: true, zone: false };
-        function cssClass() {
-            self._dom.write(function () {
-                platform.doc().body.classList[isKeyInputEnabled ? 'add' : 'remove']('focus-outline');
-            });
-        }
-        if (setting === true) {
-            isKeyInputEnabled = true;
-            return cssClass();
-        }
-        else if (setting === false) {
-            return;
-        }
-        // default is to add the focus-outline when the tab key is used
-        function keyDown(ev) {
-            if (!isKeyInputEnabled && ev.keyCode === __WEBPACK_IMPORTED_MODULE_4__key__["g" /* KEY_TAB */]) {
-                isKeyInputEnabled = true;
-                enableKeyInput();
-            }
-        }
-        function pointerDown() {
-            isKeyInputEnabled = false;
-            enableKeyInput();
-        }
-        function enableKeyInput() {
-            cssClass();
-            unRegMouse && unRegMouse();
-            unRegTouch && unRegTouch();
-            if (isKeyInputEnabled) {
-                // listen for when a mousedown or touchstart event happens
-                unRegMouse = platform.registerListener(doc, 'mousedown', pointerDown, evOpts);
-                unRegTouch = platform.registerListener(doc, 'touchstart', pointerDown, evOpts);
-            }
-        }
-        // always listen for tab keydown events
-        platform.registerListener(platform.doc(), 'keydown', keyDown, evOpts);
-    };
-    Keyboard.prototype.hasFocusedTextInput = function () {
-        var activeEle = this._plt.getActiveElement();
-        if (Object(__WEBPACK_IMPORTED_MODULE_3__util_dom__["e" /* isTextInput */])(activeEle)) {
-            return (activeEle.parentElement.querySelector(':focus') === activeEle);
-        }
-        return false;
-    };
-    /**
-     * Set to true to hide the additional toolbar that is on top of the keyboard.
-     * This toolbar features the Prev, Next, and Done buttons.
-     * @param hidden
-     */
-    Keyboard.prototype.hideFormAccessoryBar = function (hidden) {
-        var win = this._plt.win();
-        if (win && win.Keyboard && win.Keyboard.hideFormAccessoryBar) {
-            win.Keyboard.hideFormAccessoryBar(hidden);
-        }
-    };
-    Keyboard.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */] },
-    ];
-    /** @nocollapse */
-    Keyboard.ctorParameters = function () { return [
-        { type: __WEBPACK_IMPORTED_MODULE_1__config_config__["a" /* Config */], },
-        { type: __WEBPACK_IMPORTED_MODULE_5__platform__["a" /* Platform */], },
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* NgZone */], },
-        { type: __WEBPACK_IMPORTED_MODULE_2__dom_controller__["a" /* DomController */], },
-    ]; };
-    return Keyboard;
-}());
-
-var KEYBOARD_CLOSE_POLLING = 150;
-var KEYBOARD_POLLING_CHECKS_MAX = 100;
-//# sourceMappingURL=keyboard.js.map
-
-/***/ }),
-/* 38 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Haptic; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__platform_platform__ = __webpack_require__(3);
-
-
-/**
- * @name Haptic
- * @description
- * The `Haptic` class interacts with a haptic engine on the device, if
- * available. Generally, Ionic components use this under the hood, but you're
- * welcome to get a bit crazy with it if you fancy.
- *
- * Currently, this uses the Taptic engine on iOS.
- *
- * @usage
- * ```ts
- * export class MyClass {
- *
- *  constructor(haptic: Haptic) {
- *    haptic.selection();
- *  }
- * }
- *
- * ```
- */
-var Haptic = (function () {
-    function Haptic(plt) {
-        var _this = this;
-        if (plt) {
-            plt.ready().then(function () {
-                _this._p = plt.win().TapticEngine;
-            });
-        }
-    }
-    /**
-     * Check to see if the Haptic Plugin is available
-     * @return {boolean} Returns true or false if the plugin is available
-     *
-     */
-    Haptic.prototype.available = function () {
-        return !!this._p;
-    };
-    /**
-     * Trigger a selection changed haptic event. Good for one-time events
-     * (not for gestures)
-     */
-    Haptic.prototype.selection = function () {
-        this._p && this._p.selection();
-    };
-    /**
-     * Tell the haptic engine that a gesture for a selection change is starting.
-     */
-    Haptic.prototype.gestureSelectionStart = function () {
-        this._p && this._p.gestureSelectionStart();
-    };
-    /**
-     * Tell the haptic engine that a selection changed during a gesture.
-     */
-    Haptic.prototype.gestureSelectionChanged = function () {
-        this._p && this._p.gestureSelectionChanged();
-    };
-    /**
-     * Tell the haptic engine we are done with a gesture. This needs to be
-     * called lest resources are not properly recycled.
-     */
-    Haptic.prototype.gestureSelectionEnd = function () {
-        this._p && this._p.gestureSelectionEnd();
-    };
-    /**
-     * Use this to indicate success/failure/warning to the user.
-     * options should be of the type `{ type: 'success' }` (or `warning`/`error`)
-     */
-    Haptic.prototype.notification = function (options) {
-        this._p && this._p.notification(options);
-    };
-    /**
-     * Use this to indicate success/failure/warning to the user.
-     * options should be of the type `{ style: 'light' }` (or `medium`/`heavy`)
-     */
-    Haptic.prototype.impact = function (options) {
-        this._p && this._p.impact(options);
-    };
-    Haptic.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */] },
-    ];
-    /** @nocollapse */
-    Haptic.ctorParameters = function () { return [
-        { type: __WEBPACK_IMPORTED_MODULE_1__platform_platform__["a" /* Platform */], },
-    ]; };
-    return Haptic;
-}());
-
-//# sourceMappingURL=haptic.js.map
-
-/***/ }),
-/* 39 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RootNode; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return SplitPane; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ion__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__platform_platform__ = __webpack_require__(3);
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-
-
-
-
-
-var QUERY = {
-    xs: '(min-width: 0px)',
-    sm: '(min-width: 576px)',
-    md: '(min-width: 768px)',
-    lg: '(min-width: 992px)',
-    xl: '(min-width: 1200px)',
-    never: ''
-};
-/**
- * @hidden
- */
-var RootNode = (function () {
-    function RootNode() {
-    }
-    return RootNode;
-}());
-
-/**
- * @name SplitPane
- *
- * @description
- * SplitPane is a component that makes it possible to create multi-view layout.
- * Similar to iPad apps, SplitPane allows UI elements, like Menus, to be
- * displayed as the viewport increases.
- *
- * If the devices screen size is below a certain size, the SplitPane will
- * collapse and the menu will become hidden again. This is especially useful when
- * creating an app that will be served over a browser or deployed through the app
- * store to phones and tablets.
- *
- * @usage
- * To use SplitPane, simply add the component around your root component.
- * In this example, we'll be using a sidemenu layout, similar to what is
- * provided from the sidemenu starter template.
- *
- *  ```html
- *  <ion-split-pane>
- *    <!--  our side menu  -->
- *    <ion-menu [content]="content">
- *      <ion-header>
- *        <ion-toolbar>
- *          <ion-title>Menu</ion-title>
- *        </ion-toolbar>
- *      </ion-header>
- *    </ion-menu>
- *
- *    <!-- the main content -->
- *    <ion-nav [root]="root" main #content></ion-nav>
- *  </ion-split-pane>
- *  ```
- *
- *  Here, SplitPane will look for the element with the `main` attribute and make
- *  that the central component on larger screens. The `main` component can be any
- *  Ionic component (`ion-nav` or `ion-tabs`) except `ion-menu`.
- *
- *  ### Setting breakpoints
- *
- *  By default, SplitPane will expand when the screen is larger than 768px.
- *  If you want to customize this, use the `when` input. The `when` input can
- *  accept any valid media query, as it uses `matchMedia()` underneath.
- *
- *  ```
- *  <ion-split-pane when="(min-width: 475px)">
- *
- *    <!--  our side menu  -->
- *    <ion-menu [content]="content">
- *    ....
- *    </ion-menu>
- *
- *    <!-- the main content -->
- *    <ion-nav [root]="root" main #content></ion-nav>
- *  </ion-split-pane>
- *  ```
- *
- *  SplitPane also provides some predefined media queries that can be used.
- *
- *  ```html
- *  <!-- could be "xs", "sm", "md", "lg", or "xl" -->
- *  <ion-split-pane when="lg">
- *  ...
- *  </ion-split-pane>
- *  ```
- *
- *
- *  | Size | Value                 | Description                                                           |
- *  |------|-----------------------|-----------------------------------------------------------------------|
- *  | `xs` | `(min-width: 0px)`    | Show the split-pane when the min-width is 0px (meaning, always)       |
- *  | `sm` | `(min-width: 576px)`  | Show the split-pane when the min-width is 576px                       |
- *  | `md` | `(min-width: 768px)`  | Show the split-pane when the min-width is 768px (default break point) |
- *  | `lg` | `(min-width: 992px)`  | Show the split-pane when the min-width is 992px                       |
- *  | `xl` | `(min-width: 1200px)` | Show the split-pane when the min-width is 1200px                      |
- *
- *  You can also pass in boolean values that will trigger SplitPane when the value
- *  or expression evaluates to true.
- *
- *
- *  ```html
- *  <ion-split-pane [when]="isLarge">
- *  ...
- *  </ion-split-pane>
- *  ```
- *
- *  ```ts
- *  class MyClass {
- *    public isLarge = false;
- *    constructor(){}
- *  }
- *  ```
- *
- *  Or
- *
- *  ```html
- *  <ion-split-pane [when]="shouldShow()">
- *  ...
- *  </ion-split-pane>
- *  ```
- *
- *  ```ts
- *  class MyClass {
- *    constructor(){}
- *    shouldShow(){
- *      if(conditionA){
- *        return true
- *      } else {
- *        return false
- *      }
- *    }
- *  }
- *  ```
- *
- */
-var SplitPane = (function (_super) {
-    __extends(SplitPane, _super);
-    function SplitPane(_zone, _plt, config, elementRef, renderer) {
-        var _this = _super.call(this, config, elementRef, renderer, 'split-pane') || this;
-        _this._zone = _zone;
-        _this._plt = _plt;
-        _this._init = false;
-        _this._visible = false;
-        _this._isEnabled = true;
-        _this._mediaQuery = QUERY['md'];
-        /**
-         * @hidden
-         */
-        _this.sideContent = null;
-        /**
-         * @hidden
-         */
-        _this.mainContent = null;
-        /**
-         * @output {any} Expression to be called when the split-pane visibility has changed
-         */
-        _this.ionChange = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
-        return _this;
-    }
-    Object.defineProperty(SplitPane.prototype, "_setchildren", {
-        /**
-         * @hidden
-         */
-        set: function (query) {
-            var _this = this;
-            var children = this._children = query.filter((function (child) { return child !== _this; }));
-            children.forEach(function (child) {
-                var isMain = child.initPane();
-                _this._setPaneCSSClass(child.getElementRef(), isMain);
-            });
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(SplitPane.prototype, "when", {
-        get: function () {
-            return this._mediaQuery;
-        },
-        /**
-         * @input {string | boolean} When the split-pane should be shown.
-         * Can be a CSS media query expression, or a shortcut expression.
-         * Can also be a boolean expression.
-         */
-        set: function (query) {
-            if (typeof query === 'boolean') {
-                this._mediaQuery = query;
-            }
-            else {
-                var defaultQuery = QUERY[query];
-                this._mediaQuery = (defaultQuery)
-                    ? defaultQuery
-                    : query;
-            }
-            this._update();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(SplitPane.prototype, "enabled", {
-        get: function () {
-            return this._isEnabled;
-        },
-        /**
-         * @input {boolean} If `false`, the split-pane is disabled, ie. the side pane will
-         * never be displayed. Default `true`.
-         */
-        set: function (val) {
-            this._isEnabled = Object(__WEBPACK_IMPORTED_MODULE_2__util_util__["o" /* isTrueProperty */])(val);
-            this._update();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @hidden
-     */
-    SplitPane.prototype._register = function (node, isMain, callback) {
-        if (this.getElementRef().nativeElement !== node.getElementRef().nativeElement.parentNode) {
-            return false;
-        }
-        this._setPaneCSSClass(node.getElementRef(), isMain);
-        if (callback) {
-            this.ionChange.subscribe(callback);
-        }
-        if (isMain) {
-            if (this.mainContent) {
-                console.error('split pane: main content was already set');
-            }
-            this.mainContent = node;
-        }
-        return true;
-    };
-    /**
-     * @hidden
-     */
-    SplitPane.prototype.ngAfterViewInit = function () {
-        this._init = true;
-        this._update();
-    };
-    /**
-     * @hidden
-     */
-    SplitPane.prototype._update = function () {
-        var _this = this;
-        if (!this._init) {
-            return;
-        }
-        // Unlisten
-        this._rmListener && this._rmListener();
-        this._rmListener = null;
-        // Check if the split-pane is disabled
-        if (!this._isEnabled) {
-            this._setVisible(false);
-            return;
-        }
-        var query = this._mediaQuery;
-        if (typeof query === 'boolean') {
-            this._setVisible(query);
-            return;
-        }
-        if (query && query.length > 0) {
-            // Listen
-            var callback_1 = function (query) { return _this._setVisible(query.matches); };
-            var mediaList_1 = this._plt.win().matchMedia(query);
-            mediaList_1.addListener(callback_1);
-            this._setVisible(mediaList_1.matches);
-            this._rmListener = function () {
-                mediaList_1.removeListener(callback_1);
-            };
-        }
-        else {
-            this._setVisible(false);
-        }
-    };
-    /**
-     * @hidden
-     */
-    SplitPane.prototype._updateChildren = function () {
-        this.mainContent = null;
-        this.sideContent = null;
-        var visible = this._visible;
-        this._children.forEach(function (child) { return child.paneChanged && child.paneChanged(visible); });
-    };
-    /**
-     * @hidden
-     */
-    SplitPane.prototype._setVisible = function (visible) {
-        var _this = this;
-        if (this._visible === visible) {
-            return;
-        }
-        this._visible = visible;
-        this.setElementClass('split-pane-visible', visible);
-        this._updateChildren();
-        this._zone.run(function () {
-            _this.ionChange.emit(_this);
-        });
-    };
-    /**
-     * @hidden
-     */
-    SplitPane.prototype.isVisible = function () {
-        return this._visible;
-    };
-    /**
-     * @hidden
-     */
-    SplitPane.prototype.setElementClass = function (className, add) {
-        this._renderer.setElementClass(this._elementRef.nativeElement, className, add);
-    };
-    /**
-     * @hidden
-     */
-    SplitPane.prototype._setPaneCSSClass = function (elementRef, isMain) {
-        var ele = elementRef.nativeElement;
-        this._renderer.setElementClass(ele, 'split-pane-main', isMain);
-        this._renderer.setElementClass(ele, 'split-pane-side', !isMain);
-    };
-    /**
-     * @hidden
-     */
-    SplitPane.prototype.ngOnDestroy = function () {
-        (void 0) /* assert */;
-        this._rmListener && this._rmListener();
-        this._rmListener = null;
-    };
-    /**
-     * @hidden
-     */
-    SplitPane.prototype.initPane = function () {
-        return true;
-    };
-    SplitPane.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
-                    selector: 'ion-split-pane',
-                    providers: [{ provide: RootNode, useExisting: Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_20" /* forwardRef */])(function () { return SplitPane; }) }]
-                },] },
-    ];
-    /** @nocollapse */
-    SplitPane.ctorParameters = function () { return [
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* NgZone */], },
-        { type: __WEBPACK_IMPORTED_MODULE_4__platform_platform__["a" /* Platform */], },
-        { type: __WEBPACK_IMPORTED_MODULE_3__config_config__["a" /* Config */], },
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* Renderer */], },
-    ]; };
-    SplitPane.propDecorators = {
-        '_setchildren': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["s" /* ContentChildren */], args: [RootNode, { descendants: false },] },],
-        'when': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-        'enabled': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-        'ionChange': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* Output */] },],
-    };
-    return SplitPane;
-}(__WEBPACK_IMPORTED_MODULE_1__ion__["a" /* Ion */]));
-
-//# sourceMappingURL=split-pane.js.map
-
-/***/ }),
-/* 40 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Navbar; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_nav_controller__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__toolbar_base__ = __webpack_require__(146);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__navigation_view_controller__ = __webpack_require__(5);
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-
-
-
-
-
-
-
-/**
- * @name Navbar
- * @description
- * Navbar acts as the navigational toolbar, which also comes with a back
- * button. A navbar can contain a `ion-title`, any number of buttons,
- * a segment, or a searchbar. Navbars must be placed within an
- * `<ion-header>` in order for them to be placed above the content.
- * It's important to note that navbar's are part of the dynamic navigation
- * stack. If you need a static toolbar, use ion-toolbar.
- *
- * @usage
- * ```html
- * <ion-header>
- *
- *   <ion-navbar>
- *     <button ion-button icon-only menuToggle>
- *       <ion-icon name="menu"></ion-icon>
- *     </button>
- *
- *     <ion-title>
- *       Page Title
- *     </ion-title>
- *
- *     <ion-buttons end>
- *       <button ion-button icon-only (click)="openModal()">
- *         <ion-icon name="options"></ion-icon>
- *       </button>
- *     </ion-buttons>
- *   </ion-navbar>
- *
- * </ion-header>
- * ```
- *
- * @demo /docs/demos/src/navbar/
- * @see {@link ../../toolbar/Toolbar/ Toolbar API Docs}
- */
-var Navbar = (function (_super) {
-    __extends(Navbar, _super);
-    function Navbar(_app, viewCtrl, navCtrl, config, elementRef, renderer) {
-        var _this = _super.call(this, config, elementRef, renderer) || this;
-        _this._app = _app;
-        _this.navCtrl = navCtrl;
-        /**
-         * @hidden
-         */
-        _this._hidden = false;
-        /**
-         * @hidden
-         */
-        _this._hideBb = false;
-        viewCtrl && viewCtrl._setNavbar(_this);
-        _this._bbIcon = config.get('backButtonIcon');
-        _this._sbPadding = config.getBoolean('statusbarPadding');
-        _this._backText = config.get('backButtonText', 'Back');
-        return _this;
-    }
-    Object.defineProperty(Navbar.prototype, "hideBackButton", {
-        /**
-         * @input {boolean} If true, the back button will be hidden.
-         */
-        get: function () {
-            return this._hideBb;
-        },
-        set: function (val) {
-            this._hideBb = Object(__WEBPACK_IMPORTED_MODULE_3__util_util__["o" /* isTrueProperty */])(val);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Navbar.prototype.backButtonClick = function (ev) {
-        ev.preventDefault();
-        ev.stopPropagation();
-        this.navCtrl && this.navCtrl.pop(null, null);
-    };
-    /**
-     * Set the text of the Back Button in the Nav Bar. Defaults to "Back".
-     */
-    Navbar.prototype.setBackButtonText = function (text) {
-        this._backText = text;
-    };
-    /**
-     * @hidden
-     */
-    Navbar.prototype.didEnter = function () {
-        try {
-            this._app.setTitle(this.getTitleText());
-        }
-        catch (e) {
-            console.error(e);
-        }
-    };
-    /**
-     * @hidden
-     */
-    Navbar.prototype.setHidden = function (isHidden) {
-        // used to display none/block the navbar
-        this._hidden = isHidden;
-    };
-    Navbar.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
-                    selector: 'ion-navbar',
-                    template: '<div class="toolbar-background" [ngClass]="\'toolbar-background-\' + _mode"></div>' +
-                        '<button (click)="backButtonClick($event)" ion-button="bar-button" class="back-button" [ngClass]="\'back-button-\' + _mode" [hidden]="_hideBb">' +
-                        '<ion-icon class="back-button-icon" [ngClass]="\'back-button-icon-\' + _mode" [name]="_bbIcon"></ion-icon>' +
-                        '<span class="back-button-text" [ngClass]="\'back-button-text-\' + _mode">{{_backText}}</span>' +
-                        '</button>' +
-                        '<ng-content select="[menuToggle],ion-buttons[left]"></ng-content>' +
-                        '<ng-content select="ion-buttons[start]"></ng-content>' +
-                        '<ng-content select="ion-buttons[end],ion-buttons[right]"></ng-content>' +
-                        '<div class="toolbar-content" [ngClass]="\'toolbar-content-\' + _mode">' +
-                        '<ng-content></ng-content>' +
-                        '</div>',
-                    host: {
-                        '[hidden]': '_hidden',
-                        'class': 'toolbar',
-                        '[class.statusbar-padding]': '_sbPadding'
-                    }
-                },] },
-    ];
-    /** @nocollapse */
-    Navbar.ctorParameters = function () { return [
-        { type: __WEBPACK_IMPORTED_MODULE_1__app_app__["a" /* App */], },
-        { type: __WEBPACK_IMPORTED_MODULE_6__navigation_view_controller__["a" /* ViewController */], decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Q" /* Optional */] },] },
-        { type: __WEBPACK_IMPORTED_MODULE_4__navigation_nav_controller__["a" /* NavController */], decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Q" /* Optional */] },] },
-        { type: __WEBPACK_IMPORTED_MODULE_2__config_config__["a" /* Config */], },
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["Z" /* Renderer */], },
-    ]; };
-    Navbar.propDecorators = {
-        'hideBackButton': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-    };
-    return Navbar;
-}(__WEBPACK_IMPORTED_MODULE_5__toolbar_base__["a" /* ToolbarBase */]));
-
-//# sourceMappingURL=navbar.js.map
-
-/***/ }),
 /* 41 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-var Subscriber_1 = __webpack_require__(25);
-/**
- * We need this JSDoc comment for affecting ESDoc.
- * @ignore
- * @extends {Ignored}
- */
-var OuterSubscriber = (function (_super) {
-    __extends(OuterSubscriber, _super);
-    function OuterSubscriber() {
-        _super.apply(this, arguments);
-    }
-    OuterSubscriber.prototype.notifyNext = function (outerValue, innerValue, outerIndex, innerIndex, innerSub) {
-        this.destination.next(innerValue);
-    };
-    OuterSubscriber.prototype.notifyError = function (error, innerSub) {
-        this.destination.error(error);
-    };
-    OuterSubscriber.prototype.notifyComplete = function (innerSub) {
-        this.destination.complete();
-    };
-    return OuterSubscriber;
-}(Subscriber_1.Subscriber));
-exports.OuterSubscriber = OuterSubscriber;
-//# sourceMappingURL=OuterSubscriber.js.map
-
-/***/ }),
-/* 42 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var root_1 = __webpack_require__(28);
-var isArrayLike_1 = __webpack_require__(206);
-var isPromise_1 = __webpack_require__(207);
-var isObject_1 = __webpack_require__(101);
-var Observable_1 = __webpack_require__(9);
-var iterator_1 = __webpack_require__(208);
-var InnerSubscriber_1 = __webpack_require__(209);
-var observable_1 = __webpack_require__(104);
-function subscribeToResult(outerSubscriber, result, outerValue, outerIndex) {
-    var destination = new InnerSubscriber_1.InnerSubscriber(outerSubscriber, outerValue, outerIndex);
-    if (destination.closed) {
-        return null;
-    }
-    if (result instanceof Observable_1.Observable) {
-        if (result._isScalar) {
-            destination.next(result.value);
-            destination.complete();
-            return null;
-        }
-        else {
-            return result.subscribe(destination);
-        }
-    }
-    else if (isArrayLike_1.isArrayLike(result)) {
-        for (var i = 0, len = result.length; i < len && !destination.closed; i++) {
-            destination.next(result[i]);
-        }
-        if (!destination.closed) {
-            destination.complete();
-        }
-    }
-    else if (isPromise_1.isPromise(result)) {
-        result.then(function (value) {
-            if (!destination.closed) {
-                destination.next(value);
-                destination.complete();
-            }
-        }, function (err) { return destination.error(err); })
-            .then(null, function (err) {
-            // Escaping the Promise trap: globally throw unhandled errors
-            root_1.root.setTimeout(function () { throw err; });
-        });
-        return destination;
-    }
-    else if (result && typeof result[iterator_1.iterator] === 'function') {
-        var iterator = result[iterator_1.iterator]();
-        do {
-            var item = iterator.next();
-            if (item.done) {
-                destination.complete();
-                break;
-            }
-            destination.next(item.value);
-            if (destination.closed) {
-                break;
-            }
-        } while (true);
-    }
-    else if (result && typeof result[observable_1.observable] === 'function') {
-        var obs = result[observable_1.observable]();
-        if (typeof obs.subscribe !== 'function') {
-            destination.error(new TypeError('Provided object does not correctly implement Symbol.observable'));
-        }
-        else {
-            return obs.subscribe(new InnerSubscriber_1.InnerSubscriber(outerSubscriber, outerValue, outerIndex));
-        }
-    }
-    else {
-        var value = isObject_1.isObject(result) ? 'an invalid object' : "'" + result + "'";
-        var msg = ("You provided " + value + " where a stream was expected.")
-            + ' You can provide an Observable, Promise, Array, or Iterable.';
-        destination.error(new TypeError(msg));
-    }
-    return null;
-}
-exports.subscribeToResult = subscribeToResult;
-//# sourceMappingURL=subscribeToResult.js.map
-
-/***/ }),
-/* 43 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41337,7 +41217,7 @@ function getNonHydratedSegmentIfLinkAndUrlMatch(urlChunks, navLink) {
 //# sourceMappingURL=url-serializer.js.map
 
 /***/ }),
-/* 44 */
+/* 42 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42387,7 +42267,7 @@ var ACTIVE_TRANSITION_OFFSET = 2000;
 //# sourceMappingURL=nav-controller-base.js.map
 
 /***/ }),
-/* 45 */
+/* 43 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42550,7 +42430,7 @@ var PanGesture = (function () {
 //# sourceMappingURL=pan-gesture.js.map
 
 /***/ }),
-/* 46 */
+/* 44 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42626,7 +42506,7 @@ var TransitionController = (function () {
 //# sourceMappingURL=transition-controller.js.map
 
 /***/ }),
-/* 47 */
+/* 45 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42727,7 +42607,7 @@ var FabButton = (function (_super) {
 //# sourceMappingURL=fab.js.map
 
 /***/ }),
-/* 48 */
+/* 46 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42752,13 +42632,13 @@ var FabButton = (function (_super) {
 /* harmony export (immutable) */ __webpack_exports__["b"] = destroySwiper;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_utils__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_transition__ = __webpack_require__(88);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_progress__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_progress__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_classes__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__swiper_parallax__ = __webpack_require__(167);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_index__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__swiper_parallax__ = __webpack_require__(165);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_index__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__swiper_effects__ = __webpack_require__(91);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__swiper_pagination__ = __webpack_require__(90);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__swiper_zoom__ = __webpack_require__(169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__swiper_zoom__ = __webpack_require__(167);
 /**
  * Adopted from Swiper
  * Most modern mobile touch slider and framework with hardware
@@ -43601,7 +43481,7 @@ function destroySwiper(s) {
 //# sourceMappingURL=swiper.js.map
 
 /***/ }),
-/* 49 */
+/* 47 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43670,7 +43550,7 @@ function updateSlidesProgress(s, translate) {
 //# sourceMappingURL=swiper-progress.js.map
 
 /***/ }),
-/* 50 */
+/* 48 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43719,14 +43599,14 @@ function updateRealIndex(s) {
 //# sourceMappingURL=swiper-index.js.map
 
 /***/ }),
-/* 51 */
+/* 49 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Toolbar; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toolbar_base__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toolbar_base__ = __webpack_require__(144);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -43864,7 +43744,7 @@ var Toolbar = (function (_super) {
 //# sourceMappingURL=toolbar.js.map
 
 /***/ }),
-/* 52 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43876,7 +43756,7 @@ exports.isFunction = isFunction;
 //# sourceMappingURL=isFunction.js.map
 
 /***/ }),
-/* 53 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43886,7 +43766,7 @@ exports.errorObject = { e: {} };
 //# sourceMappingURL=errorObject.js.map
 
 /***/ }),
-/* 54 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43902,6 +43782,126 @@ exports.$$rxSubscriber = exports.rxSubscriber;
 //# sourceMappingURL=rxSubscriber.js.map
 
 /***/ }),
+/* 53 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var Subscriber_1 = __webpack_require__(29);
+/**
+ * We need this JSDoc comment for affecting ESDoc.
+ * @ignore
+ * @extends {Ignored}
+ */
+var OuterSubscriber = (function (_super) {
+    __extends(OuterSubscriber, _super);
+    function OuterSubscriber() {
+        _super.apply(this, arguments);
+    }
+    OuterSubscriber.prototype.notifyNext = function (outerValue, innerValue, outerIndex, innerIndex, innerSub) {
+        this.destination.next(innerValue);
+    };
+    OuterSubscriber.prototype.notifyError = function (error, innerSub) {
+        this.destination.error(error);
+    };
+    OuterSubscriber.prototype.notifyComplete = function (innerSub) {
+        this.destination.complete();
+    };
+    return OuterSubscriber;
+}(Subscriber_1.Subscriber));
+exports.OuterSubscriber = OuterSubscriber;
+//# sourceMappingURL=OuterSubscriber.js.map
+
+/***/ }),
+/* 54 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var root_1 = __webpack_require__(28);
+var isArrayLike_1 = __webpack_require__(206);
+var isPromise_1 = __webpack_require__(207);
+var isObject_1 = __webpack_require__(101);
+var Observable_1 = __webpack_require__(9);
+var iterator_1 = __webpack_require__(208);
+var InnerSubscriber_1 = __webpack_require__(209);
+var observable_1 = __webpack_require__(104);
+function subscribeToResult(outerSubscriber, result, outerValue, outerIndex) {
+    var destination = new InnerSubscriber_1.InnerSubscriber(outerSubscriber, outerValue, outerIndex);
+    if (destination.closed) {
+        return null;
+    }
+    if (result instanceof Observable_1.Observable) {
+        if (result._isScalar) {
+            destination.next(result.value);
+            destination.complete();
+            return null;
+        }
+        else {
+            return result.subscribe(destination);
+        }
+    }
+    else if (isArrayLike_1.isArrayLike(result)) {
+        for (var i = 0, len = result.length; i < len && !destination.closed; i++) {
+            destination.next(result[i]);
+        }
+        if (!destination.closed) {
+            destination.complete();
+        }
+    }
+    else if (isPromise_1.isPromise(result)) {
+        result.then(function (value) {
+            if (!destination.closed) {
+                destination.next(value);
+                destination.complete();
+            }
+        }, function (err) { return destination.error(err); })
+            .then(null, function (err) {
+            // Escaping the Promise trap: globally throw unhandled errors
+            root_1.root.setTimeout(function () { throw err; });
+        });
+        return destination;
+    }
+    else if (result && typeof result[iterator_1.iterator] === 'function') {
+        var iterator = result[iterator_1.iterator]();
+        do {
+            var item = iterator.next();
+            if (item.done) {
+                destination.complete();
+                break;
+            }
+            destination.next(item.value);
+            if (destination.closed) {
+                break;
+            }
+        } while (true);
+    }
+    else if (result && typeof result[observable_1.observable] === 'function') {
+        var obs = result[observable_1.observable]();
+        if (typeof obs.subscribe !== 'function') {
+            destination.error(new TypeError('Provided object does not correctly implement Symbol.observable'));
+        }
+        else {
+            return obs.subscribe(new InnerSubscriber_1.InnerSubscriber(outerSubscriber, outerValue, outerIndex));
+        }
+    }
+    else {
+        var value = isObject_1.isObject(result) ? 'an invalid object' : "'" + result + "'";
+        var msg = ("You provided " + value + " where a stream was expected.")
+            + ' You can provide an Observable, Promise, Array, or Iterable.';
+        destination.error(new TypeError(msg));
+    }
+    return null;
+}
+exports.subscribeToResult = subscribeToResult;
+//# sourceMappingURL=subscribeToResult.js.map
+
+/***/ }),
 /* 55 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -43912,9 +43912,9 @@ exports.$$rxSubscriber = exports.rxSubscriber;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ion__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__overlay_portal__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__overlay_portal__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_constants__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_constants__ = __webpack_require__(34);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -44097,7 +44097,7 @@ var IonicApp = (function (_super) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SlideEdgeGesture; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__slide_gesture__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__slide_gesture__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_dom__ = __webpack_require__(10);
 var __extends = (this && this.__extends) || (function () {
@@ -45250,7 +45250,7 @@ var Label = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__content_content__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__platform_dom_controller__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__item_reorder_gesture__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__item_reorder_gesture__ = __webpack_require__(229);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__platform_platform__ = __webpack_require__(3);
 
 
@@ -45574,7 +45574,7 @@ var ItemReorder = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__picker__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__picker__ = __webpack_require__(125);
 
 
 
@@ -45821,8 +45821,8 @@ var pickerIds = -1;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__platform_dom_controller__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tap_click_haptic__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__picker_options__ = __webpack_require__(229);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tap_click_haptic__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__picker_options__ = __webpack_require__(230);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__util_dom__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__gestures_ui_event_manager__ = __webpack_require__(22);
@@ -46205,7 +46205,7 @@ var PickerColumnCmp = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__fab__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__fab__ = __webpack_require__(45);
 
 
 
@@ -46803,7 +46803,7 @@ var ItemOptions = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__gestures_gesture_controller__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ion__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__item_item_sliding_gesture__ = __webpack_require__(233);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__item_item_sliding_gesture__ = __webpack_require__(234);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__platform_platform__ = __webpack_require__(3);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -47125,11 +47125,11 @@ var loadingIds = -1;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__platform_dom_controller__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__gestures_gesture_controller__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__navigation_nav_controller__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__navigation_nav_controller_base__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__navigation_nav_controller_base__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__transitions_transition_controller__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__transitions_transition_controller__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__navigation_view_controller__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__split_pane_split_pane__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__split_pane_split_pane__ = __webpack_require__(38);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -47452,7 +47452,7 @@ var ModalCmp = (function () {
 /* unused harmony export setupPreloadingImplementation */
 /* harmony export (immutable) */ __webpack_exports__["d"] = setupPreloading;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ng_module_loader__ = __webpack_require__(149);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ng_module_loader__ = __webpack_require__(147);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util__ = __webpack_require__(2);
 
 
@@ -47807,8 +47807,8 @@ var Option = (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Popover; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__navigation_overlay_proxy__ = __webpack_require__(148);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__popover_impl__ = __webpack_require__(239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__navigation_overlay_proxy__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__popover_impl__ = __webpack_require__(240);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -48930,13 +48930,13 @@ var DisplayWhen = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Slides; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_swiper_keyboard__ = __webpack_require__(241);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_swiper_keyboard__ = __webpack_require__(242);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ion__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_swiper_events__ = __webpack_require__(244);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__swiper_swiper_zoom__ = __webpack_require__(169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_swiper_events__ = __webpack_require__(245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__swiper_swiper_zoom__ = __webpack_require__(167);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__swiper_swiper__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__swiper_swiper__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__swiper_swiper_effects__ = __webpack_require__(91);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__navigation_view_controller__ = __webpack_require__(5);
 var __extends = (this && this.__extends) || (function () {
@@ -49941,10 +49941,10 @@ var slidesId = -1;
 /* harmony export (immutable) */ __webpack_exports__["b"] = getWrapperTranslate;
 /* harmony export (immutable) */ __webpack_exports__["c"] = setWrapperTransition;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_utils__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_parallax__ = __webpack_require__(167);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_progress__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_index__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__swiper_controller__ = __webpack_require__(243);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_parallax__ = __webpack_require__(165);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_progress__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_index__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__swiper_controller__ = __webpack_require__(244);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_effects__ = __webpack_require__(91);
 
 
@@ -50081,7 +50081,7 @@ function setWrapperTransition(s, plt, duration, byController) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = updateClasses;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_a11y__ = __webpack_require__(242);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_a11y__ = __webpack_require__(243);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_utils__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_pagination__ = __webpack_require__(90);
 
@@ -50276,7 +50276,7 @@ function updatePaginationClasses(s) {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SWIPER_EFFECTS; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_utils__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__platform_platform_utils__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__platform_platform_utils__ = __webpack_require__(166);
 
 
 /*=========================
@@ -50582,18 +50582,18 @@ var SWIPER_EFFECTS = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Subject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_takeUntil__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_takeUntil__ = __webpack_require__(133);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_takeUntil___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_takeUntil__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_app__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__navigation_deep_linker__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ion__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__platform_keyboard__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__platform_keyboard__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__navigation_nav_controller__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__navigation_nav_util__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__navigation_url_serializer__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__split_pane_split_pane__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__navigation_url_serializer__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__split_pane_split_pane__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__tab_highlight__ = __webpack_require__(93);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__navigation_view_controller__ = __webpack_require__(5);
@@ -51586,7 +51586,7 @@ exports.isObject = isObject;
 
 "use strict";
 
-var errorObject_1 = __webpack_require__(53);
+var errorObject_1 = __webpack_require__(51);
 var tryCatchTarget;
 function tryCatcher() {
     try {
@@ -51653,134 +51653,6 @@ exports.$$observable = exports.observable;
 
 /***/ }),
 /* 105 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-var Observable_1 = __webpack_require__(9);
-var ScalarObservable_1 = __webpack_require__(204);
-var EmptyObservable_1 = __webpack_require__(106);
-var isScheduler_1 = __webpack_require__(107);
-/**
- * We need this JSDoc comment for affecting ESDoc.
- * @extends {Ignored}
- * @hide true
- */
-var ArrayObservable = (function (_super) {
-    __extends(ArrayObservable, _super);
-    function ArrayObservable(array, scheduler) {
-        _super.call(this);
-        this.array = array;
-        this.scheduler = scheduler;
-        if (!scheduler && array.length === 1) {
-            this._isScalar = true;
-            this.value = array[0];
-        }
-    }
-    ArrayObservable.create = function (array, scheduler) {
-        return new ArrayObservable(array, scheduler);
-    };
-    /**
-     * Creates an Observable that emits some values you specify as arguments,
-     * immediately one after the other, and then emits a complete notification.
-     *
-     * <span class="informal">Emits the arguments you provide, then completes.
-     * </span>
-     *
-     * <img src="./img/of.png" width="100%">
-     *
-     * This static operator is useful for creating a simple Observable that only
-     * emits the arguments given, and the complete notification thereafter. It can
-     * be used for composing with other Observables, such as with {@link concat}.
-     * By default, it uses a `null` IScheduler, which means the `next`
-     * notifications are sent synchronously, although with a different IScheduler
-     * it is possible to determine when those notifications will be delivered.
-     *
-     * @example <caption>Emit 10, 20, 30, then 'a', 'b', 'c', then start ticking every second.</caption>
-     * var numbers = Rx.Observable.of(10, 20, 30);
-     * var letters = Rx.Observable.of('a', 'b', 'c');
-     * var interval = Rx.Observable.interval(1000);
-     * var result = numbers.concat(letters).concat(interval);
-     * result.subscribe(x => console.log(x));
-     *
-     * @see {@link create}
-     * @see {@link empty}
-     * @see {@link never}
-     * @see {@link throw}
-     *
-     * @param {...T} values Arguments that represent `next` values to be emitted.
-     * @param {Scheduler} [scheduler] A {@link IScheduler} to use for scheduling
-     * the emissions of the `next` notifications.
-     * @return {Observable<T>} An Observable that emits each given input value.
-     * @static true
-     * @name of
-     * @owner Observable
-     */
-    ArrayObservable.of = function () {
-        var array = [];
-        for (var _i = 0; _i < arguments.length; _i++) {
-            array[_i - 0] = arguments[_i];
-        }
-        var scheduler = array[array.length - 1];
-        if (isScheduler_1.isScheduler(scheduler)) {
-            array.pop();
-        }
-        else {
-            scheduler = null;
-        }
-        var len = array.length;
-        if (len > 1) {
-            return new ArrayObservable(array, scheduler);
-        }
-        else if (len === 1) {
-            return new ScalarObservable_1.ScalarObservable(array[0], scheduler);
-        }
-        else {
-            return new EmptyObservable_1.EmptyObservable(scheduler);
-        }
-    };
-    ArrayObservable.dispatch = function (state) {
-        var array = state.array, index = state.index, count = state.count, subscriber = state.subscriber;
-        if (index >= count) {
-            subscriber.complete();
-            return;
-        }
-        subscriber.next(array[index]);
-        if (subscriber.closed) {
-            return;
-        }
-        state.index = index + 1;
-        this.schedule(state);
-    };
-    ArrayObservable.prototype._subscribe = function (subscriber) {
-        var index = 0;
-        var array = this.array;
-        var count = array.length;
-        var scheduler = this.scheduler;
-        if (scheduler) {
-            return scheduler.schedule(ArrayObservable.dispatch, 0, {
-                array: array, index: index, count: count, subscriber: subscriber
-            });
-        }
-        else {
-            for (var i = 0; i < count && !subscriber.closed; i++) {
-                subscriber.next(array[i]);
-            }
-            subscriber.complete();
-        }
-    };
-    return ArrayObservable;
-}(Observable_1.Observable));
-exports.ArrayObservable = ArrayObservable;
-//# sourceMappingURL=ArrayObservable.js.map
-
-/***/ }),
-/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51867,7 +51739,7 @@ exports.EmptyObservable = EmptyObservable;
 //# sourceMappingURL=EmptyObservable.js.map
 
 /***/ }),
-/* 107 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51879,8 +51751,8 @@ exports.isScheduler = isScheduler;
 //# sourceMappingURL=isScheduler.js.map
 
 /***/ }),
-/* 108 */,
-/* 109 */
+/* 107 */,
+/* 108 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51891,9 +51763,9 @@ exports.isScheduler = isScheduler;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navigation_deep_linker__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__platform_dom_controller__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__navigation_nav_controller_base__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__navigation_nav_controller_base__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__transitions_transition_controller__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__transitions_transition_controller__ = __webpack_require__(44);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -51984,12 +51856,12 @@ var OverlayPortal = (function (_super) {
 //# sourceMappingURL=overlay-portal.js.map
 
 /***/ }),
-/* 110 */
+/* 109 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SlideGesture; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pan_gesture__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pan_gesture__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_dom__ = __webpack_require__(10);
 var __extends = (this && this.__extends) || (function () {
@@ -52085,7 +51957,7 @@ var SlideGesture = (function (_super) {
 //# sourceMappingURL=slide-gesture.js.map
 
 /***/ }),
-/* 111 */
+/* 110 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52192,7 +52064,7 @@ var POINTER_EVENT_TYPE_TOUCH = 2;
 //# sourceMappingURL=pointer-events.js.map
 
 /***/ }),
-/* 112 */
+/* 111 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52381,7 +52253,7 @@ var ActionSheetController = (function () {
 //# sourceMappingURL=action-sheet-controller.js.map
 
 /***/ }),
-/* 113 */
+/* 112 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52633,7 +52505,7 @@ var AlertController = (function () {
 //# sourceMappingURL=alert-controller.js.map
 
 /***/ }),
-/* 114 */
+/* 113 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52664,7 +52536,7 @@ var Avatar = (function () {
 //# sourceMappingURL=avatar.js.map
 
 /***/ }),
-/* 115 */
+/* 114 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52714,7 +52586,7 @@ var Badge = (function (_super) {
 //# sourceMappingURL=badge.js.map
 
 /***/ }),
-/* 116 */
+/* 115 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52760,7 +52632,7 @@ var Card = (function (_super) {
 //# sourceMappingURL=card.js.map
 
 /***/ }),
-/* 117 */
+/* 116 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52806,7 +52678,7 @@ var CardContent = (function (_super) {
 //# sourceMappingURL=card-content.js.map
 
 /***/ }),
-/* 118 */
+/* 117 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52852,7 +52724,7 @@ var CardHeader = (function (_super) {
 //# sourceMappingURL=card-header.js.map
 
 /***/ }),
-/* 119 */
+/* 118 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52898,7 +52770,7 @@ var CardTitle = (function (_super) {
 //# sourceMappingURL=card-title.js.map
 
 /***/ }),
-/* 120 */
+/* 119 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53072,100 +52944,7 @@ var Checkbox = (function (_super) {
 //# sourceMappingURL=checkbox.js.map
 
 /***/ }),
-/* 121 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-var Subscriber_1 = __webpack_require__(25);
-/**
- * Applies a given `project` function to each value emitted by the source
- * Observable, and emits the resulting values as an Observable.
- *
- * <span class="informal">Like [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map),
- * it passes each source value through a transformation function to get
- * corresponding output values.</span>
- *
- * <img src="./img/map.png" width="100%">
- *
- * Similar to the well known `Array.prototype.map` function, this operator
- * applies a projection to each value and emits that projection in the output
- * Observable.
- *
- * @example <caption>Map every click to the clientX position of that click</caption>
- * var clicks = Rx.Observable.fromEvent(document, 'click');
- * var positions = clicks.map(ev => ev.clientX);
- * positions.subscribe(x => console.log(x));
- *
- * @see {@link mapTo}
- * @see {@link pluck}
- *
- * @param {function(value: T, index: number): R} project The function to apply
- * to each `value` emitted by the source Observable. The `index` parameter is
- * the number `i` for the i-th emission that has happened since the
- * subscription, starting from the number `0`.
- * @param {any} [thisArg] An optional argument to define what `this` is in the
- * `project` function.
- * @return {Observable<R>} An Observable that emits the values from the source
- * Observable transformed by the given `project` function.
- * @method map
- * @owner Observable
- */
-function map(project, thisArg) {
-    if (typeof project !== 'function') {
-        throw new TypeError('argument is not a function. Are you looking for `mapTo()`?');
-    }
-    return this.lift(new MapOperator(project, thisArg));
-}
-exports.map = map;
-var MapOperator = (function () {
-    function MapOperator(project, thisArg) {
-        this.project = project;
-        this.thisArg = thisArg;
-    }
-    MapOperator.prototype.call = function (subscriber, source) {
-        return source.subscribe(new MapSubscriber(subscriber, this.project, this.thisArg));
-    };
-    return MapOperator;
-}());
-exports.MapOperator = MapOperator;
-/**
- * We need this JSDoc comment for affecting ESDoc.
- * @ignore
- * @extends {Ignored}
- */
-var MapSubscriber = (function (_super) {
-    __extends(MapSubscriber, _super);
-    function MapSubscriber(destination, project, thisArg) {
-        _super.call(this, destination);
-        this.project = project;
-        this.count = 0;
-        this.thisArg = thisArg || this;
-    }
-    // NOTE: This looks unoptimized, but it's actually purposefully NOT
-    // using try/catch optimizations.
-    MapSubscriber.prototype._next = function (value) {
-        var result;
-        try {
-            result = this.project.call(this.thisArg, value, this.count++);
-        }
-        catch (err) {
-            this.destination.error(err);
-            return;
-        }
-        this.destination.next(result);
-    };
-    return MapSubscriber;
-}(Subscriber_1.Subscriber));
-//# sourceMappingURL=map.js.map
-
-/***/ }),
-/* 122 */
+/* 120 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53200,7 +52979,7 @@ var TimeoutDebouncer = (function () {
 //# sourceMappingURL=debouncer.js.map
 
 /***/ }),
-/* 123 */
+/* 121 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53655,7 +53434,7 @@ var EVENT_OPTS = {
 //# sourceMappingURL=scroll-view.js.map
 
 /***/ }),
-/* 124 */
+/* 122 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53694,7 +53473,7 @@ function findReorderItem(node, listNode) {
 //# sourceMappingURL=item-reorder-util.js.map
 
 /***/ }),
-/* 125 */
+/* 123 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53824,7 +53603,7 @@ var Chip = (function (_super) {
 //# sourceMappingURL=chip.js.map
 
 /***/ }),
-/* 126 */
+/* 124 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53837,7 +53616,7 @@ var Chip = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_base_input__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__item_item__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__util_datetime_util__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__util_datetime_util__ = __webpack_require__(232);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -54611,7 +54390,7 @@ var DEFAULT_FORMAT = 'MMM D, YYYY';
 //# sourceMappingURL=datetime.js.map
 
 /***/ }),
-/* 127 */
+/* 125 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54619,7 +54398,7 @@ var DEFAULT_FORMAT = 'MMM D, YYYY';
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__picker_component__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__picker_transitions__ = __webpack_require__(230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__picker_transitions__ = __webpack_require__(231);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_view_controller__ = __webpack_require__(5);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -54713,7 +54492,7 @@ var Picker = (function (_super) {
 //# sourceMappingURL=picker.js.map
 
 /***/ }),
-/* 128 */
+/* 126 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54721,7 +54500,7 @@ var Picker = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__gestures_ui_event_manager__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__fab__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__fab__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__fab_list__ = __webpack_require__(68);
 
 
@@ -54899,7 +54678,7 @@ var FabContainer = (function () {
 //# sourceMappingURL=fab-container.js.map
 
 /***/ }),
-/* 129 */
+/* 127 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54948,7 +54727,7 @@ var Col = (function () {
 //# sourceMappingURL=col.js.map
 
 /***/ }),
-/* 130 */
+/* 128 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55508,7 +55287,7 @@ var Grid = (function () {
 //# sourceMappingURL=grid.js.map
 
 /***/ }),
-/* 131 */
+/* 129 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55564,7 +55343,7 @@ var Row = (function () {
 //# sourceMappingURL=row.js.map
 
 /***/ }),
-/* 132 */
+/* 130 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55963,7 +55742,7 @@ function getUnitValue(val) {
 //# sourceMappingURL=img.js.map
 
 /***/ }),
-/* 133 */
+/* 131 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56020,7 +55799,7 @@ var InfiniteScrollContent = (function () {
 //# sourceMappingURL=infinite-scroll-content.js.map
 
 /***/ }),
-/* 134 */
+/* 132 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56030,7 +55809,7 @@ var InfiniteScrollContent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_takeUntil__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_takeUntil__ = __webpack_require__(133);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_takeUntil___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_takeUntil__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_app__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__config_config__ = __webpack_require__(1);
@@ -56825,18 +56604,18 @@ function removeClone(plt, srcComponentEle, srcNativeInputEle) {
 //# sourceMappingURL=input.js.map
 
 /***/ }),
-/* 135 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var Observable_1 = __webpack_require__(9);
-var takeUntil_1 = __webpack_require__(232);
+var takeUntil_1 = __webpack_require__(233);
 Observable_1.Observable.prototype.takeUntil = takeUntil_1.takeUntil;
 //# sourceMappingURL=takeUntil.js.map
 
 /***/ }),
-/* 136 */
+/* 134 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56865,7 +56644,7 @@ var ItemContent = (function () {
 //# sourceMappingURL=item-content.js.map
 
 /***/ }),
-/* 137 */
+/* 135 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56914,7 +56693,7 @@ var ItemDivider = (function (_super) {
 //# sourceMappingURL=item-divider.js.map
 
 /***/ }),
-/* 138 */
+/* 136 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56940,7 +56719,7 @@ var ItemGroup = (function () {
 //# sourceMappingURL=item-group.js.map
 
 /***/ }),
-/* 139 */
+/* 137 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57363,13 +57142,13 @@ var ItemSliding = (function () {
 //# sourceMappingURL=item-sliding.js.map
 
 /***/ }),
-/* 140 */
+/* 138 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Reorder; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__item_reorder_util__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__item_reorder_util__ = __webpack_require__(122);
 
 
 /**
@@ -57407,15 +57186,15 @@ var Reorder = (function () {
 //# sourceMappingURL=reorder.js.map
 
 /***/ }),
-/* 141 */
+/* 139 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Loading; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app_constants__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app_constants__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__loading_component__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__loading_transitions__ = __webpack_require__(234);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__loading_transitions__ = __webpack_require__(235);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_view_controller__ = __webpack_require__(5);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -57518,7 +57297,7 @@ var Loading = (function (_super) {
 //# sourceMappingURL=loading.js.map
 
 /***/ }),
-/* 142 */
+/* 140 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57526,7 +57305,7 @@ var Loading = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__loading__ = __webpack_require__(141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__loading__ = __webpack_require__(139);
 
 
 
@@ -57668,7 +57447,7 @@ var LoadingController = (function () {
 //# sourceMappingURL=loading-controller.js.map
 
 /***/ }),
-/* 143 */
+/* 141 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57681,13 +57460,13 @@ var LoadingController = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__platform_dom_controller__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__gestures_gesture_controller__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__platform_keyboard__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__menu_gestures__ = __webpack_require__(235);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__platform_keyboard__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__menu_gestures__ = __webpack_require__(236);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_menu_controller__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__nav_nav__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__gestures_ui_event_manager__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__split_pane_split_pane__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__split_pane_split_pane__ = __webpack_require__(38);
 
 
 
@@ -58353,7 +58132,7 @@ var Menu = (function () {
 //# sourceMappingURL=menu.js.map
 
 /***/ }),
-/* 144 */
+/* 142 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58416,15 +58195,15 @@ var MenuClose = (function () {
 //# sourceMappingURL=menu-close.js.map
 
 /***/ }),
-/* 145 */
+/* 143 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuToggle; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__button_button__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__button_button__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_menu_controller__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__toolbar_navbar__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__toolbar_navbar__ = __webpack_require__(39);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_view_controller__ = __webpack_require__(5);
 
 
@@ -58581,7 +58360,7 @@ var MenuToggle = (function () {
 //# sourceMappingURL=menu-toggle.js.map
 
 /***/ }),
-/* 146 */
+/* 144 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58625,13 +58404,13 @@ var ToolbarBase = (function (_super) {
 //# sourceMappingURL=toolbar-base.js.map
 
 /***/ }),
-/* 147 */
+/* 145 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Modal; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__navigation_overlay_proxy__ = __webpack_require__(148);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__modal_impl__ = __webpack_require__(237);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__navigation_overlay_proxy__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__modal_impl__ = __webpack_require__(238);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -58666,7 +58445,7 @@ var Modal = (function (_super) {
 //# sourceMappingURL=modal.js.map
 
 /***/ }),
-/* 148 */
+/* 146 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58739,7 +58518,7 @@ var OverlayProxy = (function () {
 //# sourceMappingURL=overlay-proxy.js.map
 
 /***/ }),
-/* 149 */
+/* 147 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58771,7 +58550,7 @@ function loadAndCompile(compiler, modulePath, ngModuleExport) {
     if (!ngModuleExport) {
         ngModuleExport = 'default';
     }
-    return __webpack_require__(150)(modulePath)
+    return __webpack_require__(148)(modulePath)
         .then(function (rawModule) {
         var module = rawModule[ngModuleExport];
         if (!module) {
@@ -58781,7 +58560,7 @@ function loadAndCompile(compiler, modulePath, ngModuleExport) {
     });
 }
 function loadPrecompiledFactory(modulePath, ngModuleExport) {
-    return __webpack_require__(150)(modulePath)
+    return __webpack_require__(148)(modulePath)
         .then(function (rawModule) {
         var ngModuleFactory = rawModule[ngModuleExport];
         if (!ngModuleFactory) {
@@ -58793,8 +58572,8 @@ function loadPrecompiledFactory(modulePath, ngModuleExport) {
 //# sourceMappingURL=ng-module-loader.js.map
 
 /***/ }),
-/* 150 */,
-/* 151 */
+/* 148 */,
+/* 149 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58802,7 +58581,7 @@ function loadPrecompiledFactory(modulePath, ngModuleExport) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modal__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modal__ = __webpack_require__(145);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_deep_linker__ = __webpack_require__(14);
 
 
@@ -58968,7 +58747,7 @@ var ModalController = (function () {
 //# sourceMappingURL=modal-controller.js.map
 
 /***/ }),
-/* 152 */
+/* 150 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59022,7 +58801,7 @@ var NavPopAnchor = (function () {
 //# sourceMappingURL=nav-pop-anchor.js.map
 
 /***/ }),
-/* 153 */
+/* 151 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59071,7 +58850,7 @@ var NavPushAnchor = (function () {
 //# sourceMappingURL=nav-push-anchor.js.map
 
 /***/ }),
-/* 154 */
+/* 152 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59138,7 +58917,7 @@ var Note = (function (_super) {
 //# sourceMappingURL=note.js.map
 
 /***/ }),
-/* 155 */
+/* 153 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59286,7 +59065,7 @@ var PopoverController = (function () {
 //# sourceMappingURL=popover-controller.js.map
 
 /***/ }),
-/* 156 */
+/* 154 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59524,7 +59303,7 @@ var RadioButton = (function (_super) {
 //# sourceMappingURL=radio-button.js.map
 
 /***/ }),
-/* 157 */
+/* 155 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59535,7 +59314,7 @@ var RadioButton = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__platform_dom_controller__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_form__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__tap_click_haptic__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__tap_click_haptic__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__util_base_input__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__item_item__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__platform_platform__ = __webpack_require__(3);
@@ -60085,7 +59864,7 @@ var Range = (function (_super) {
 //# sourceMappingURL=range.js.map
 
 /***/ }),
-/* 158 */
+/* 156 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -60165,7 +59944,7 @@ var RangeKnob = (function () {
 //# sourceMappingURL=range-knob.js.map
 
 /***/ }),
-/* 159 */
+/* 157 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -60233,7 +60012,7 @@ var RefresherContent = (function () {
 //# sourceMappingURL=refresher-content.js.map
 
 /***/ }),
-/* 160 */
+/* 158 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -60372,7 +60151,7 @@ var Scroll = (function () {
 //# sourceMappingURL=scroll.js.map
 
 /***/ }),
-/* 161 */
+/* 159 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -60382,7 +60161,7 @@ var Scroll = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_base_input__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_debouncer__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_debouncer__ = __webpack_require__(120);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__platform_platform__ = __webpack_require__(3);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -60769,7 +60548,7 @@ var Searchbar = (function (_super) {
 //# sourceMappingURL=searchbar.js.map
 
 /***/ }),
-/* 162 */
+/* 160 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -60908,7 +60687,7 @@ var Segment = (function (_super) {
 //# sourceMappingURL=segment.js.map
 
 /***/ }),
-/* 163 */
+/* 161 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -61420,7 +61199,7 @@ var Select = (function (_super) {
 //# sourceMappingURL=select.js.map
 
 /***/ }),
-/* 164 */
+/* 162 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -61508,7 +61287,7 @@ var ShowWhen = (function (_super) {
 //# sourceMappingURL=show-when.js.map
 
 /***/ }),
-/* 165 */
+/* 163 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -61595,7 +61374,7 @@ var HideWhen = (function (_super) {
 //# sourceMappingURL=hide-when.js.map
 
 /***/ }),
-/* 166 */
+/* 164 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -61650,7 +61429,7 @@ var Slide = (function () {
 //# sourceMappingURL=slide.js.map
 
 /***/ }),
-/* 167 */
+/* 165 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -61722,7 +61501,7 @@ function parallaxSetTransition(s, duration) {
 //# sourceMappingURL=swiper-parallax.js.map
 
 /***/ }),
-/* 168 */
+/* 166 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -61758,7 +61537,7 @@ function isIosUIWebView(plt) {
 //# sourceMappingURL=platform-utils.js.map
 
 /***/ }),
-/* 169 */
+/* 167 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -62202,7 +61981,7 @@ function detachZoomEvents(s) {
 //# sourceMappingURL=swiper-zoom.js.map
 
 /***/ }),
-/* 170 */
+/* 168 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -62533,7 +62312,7 @@ var SPINNERS = {
 //# sourceMappingURL=spinner.js.map
 
 /***/ }),
-/* 171 */
+/* 169 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -62545,10 +62324,10 @@ var SPINNERS = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__platform_dom_controller__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__gestures_gesture_controller__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__navigation_nav_controller_base__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__navigation_nav_controller_base__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__tabs__ = __webpack_require__(92);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__transitions_transition_controller__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__transitions_transition_controller__ = __webpack_require__(44);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -62942,7 +62721,7 @@ var Tab = (function (_super) {
 //# sourceMappingURL=tab.js.map
 
 /***/ }),
-/* 172 */
+/* 170 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -63030,15 +62809,15 @@ var TabButton = (function (_super) {
 //# sourceMappingURL=tab-button.js.map
 
 /***/ }),
-/* 173 */
+/* 171 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Toast; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app_constants__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app_constants__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toast_component__ = __webpack_require__(94);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__toast_transitions__ = __webpack_require__(245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__toast_transitions__ = __webpack_require__(246);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_view_controller__ = __webpack_require__(5);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -63154,7 +62933,7 @@ var TOAST_POSITION_BOTTOM = 'bottom';
 //# sourceMappingURL=toast.js.map
 
 /***/ }),
-/* 174 */
+/* 172 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -63162,7 +62941,7 @@ var TOAST_POSITION_BOTTOM = 'bottom';
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__toast__ = __webpack_require__(173);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__toast__ = __webpack_require__(171);
 
 
 
@@ -63257,7 +63036,7 @@ var ToastController = (function () {
 //# sourceMappingURL=toast-controller.js.map
 
 /***/ }),
-/* 175 */
+/* 173 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -63268,13 +63047,13 @@ var ToastController = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__platform_dom_controller__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__util_form__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__tap_click_haptic__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__tap_click_haptic__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__util_base_input__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__item_item__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__platform_key__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__toggle_gesture__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__toggle_gesture__ = __webpack_require__(247);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -63508,7 +63287,7 @@ var Toggle = (function (_super) {
 //# sourceMappingURL=toggle.js.map
 
 /***/ }),
-/* 176 */
+/* 174 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -63575,7 +63354,7 @@ var Footer = (function (_super) {
 //# sourceMappingURL=toolbar-footer.js.map
 
 /***/ }),
-/* 177 */
+/* 175 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -63646,17 +63425,17 @@ var Header = (function (_super) {
 //# sourceMappingURL=toolbar-header.js.map
 
 /***/ }),
-/* 178 */
+/* 176 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ToolbarItem; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__button_button__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__button_button__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ion__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navbar__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__toolbar__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navbar__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__toolbar__ = __webpack_require__(49);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -63716,7 +63495,7 @@ var ToolbarItem = (function (_super) {
 //# sourceMappingURL=toolbar-item.js.map
 
 /***/ }),
-/* 179 */
+/* 177 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -63724,8 +63503,8 @@ var ToolbarItem = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ion__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navbar__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toolbar__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navbar__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toolbar__ = __webpack_require__(49);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -63814,7 +63593,7 @@ var ToolbarTitle = (function (_super) {
 //# sourceMappingURL=toolbar-title.js.map
 
 /***/ }),
-/* 180 */
+/* 178 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -63845,7 +63624,7 @@ var Thumbnail = (function () {
 //# sourceMappingURL=thumbnail.js.map
 
 /***/ }),
-/* 181 */
+/* 179 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -63929,13 +63708,13 @@ var Typography = (function (_super) {
 //# sourceMappingURL=typography.js.map
 
 /***/ }),
-/* 182 */
+/* 180 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VirtualScroll; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__virtual_util__ = __webpack_require__(247);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__virtual_util__ = __webpack_require__(248);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__content_content__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__platform_dom_controller__ = __webpack_require__(8);
@@ -64681,7 +64460,7 @@ var SCROLL_DIFFERENCE_MINIMUM = 40;
 //# sourceMappingURL=virtual-scroll.js.map
 
 /***/ }),
-/* 183 */
+/* 181 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -64689,15 +64468,15 @@ var SCROLL_DIFFERENCE_MINIMUM = 40;
 /* unused harmony export isActivatable */
 /* harmony export (immutable) */ __webpack_exports__["b"] = setupTapClick;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__activator__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__activator__ = __webpack_require__(182);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_app_app__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__platform_dom_controller__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__gestures_gesture_controller__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__util_dom__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__gestures_pointer_events__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ripple__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__gestures_pointer_events__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ripple__ = __webpack_require__(250);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__gestures_ui_event_manager__ = __webpack_require__(22);
 
 
@@ -64934,12 +64713,12 @@ function setupTapClick(config, plt, dom, app, gestureCtrl) {
 //# sourceMappingURL=tap-click.js.map
 
 /***/ }),
-/* 184 */
+/* 182 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Activator; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__activator_base__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__activator_base__ = __webpack_require__(183);
 
 var Activator = (function () {
     function Activator(app, config, dom) {
@@ -65052,7 +64831,7 @@ var CLEAR_STATE_DEFERS = 80;
 //# sourceMappingURL=activator.js.map
 
 /***/ }),
-/* 185 */
+/* 183 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -65089,14 +64868,14 @@ function isActivatedDisabled(ev, activatableEle) {
 //# sourceMappingURL=activator-base.js.map
 
 /***/ }),
-/* 186 */
+/* 184 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Events; });
 /* unused harmony export setupEvents */
 /* harmony export (immutable) */ __webpack_exports__["b"] = setupProvideEvents;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__scroll_view__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__scroll_view__ = __webpack_require__(121);
 
 /**
  * @name Events
@@ -65272,7 +65051,7 @@ function setupProvideEvents(plt, dom) {
 //# sourceMappingURL=events.js.map
 
 /***/ }),
-/* 187 */
+/* 185 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -65280,7 +65059,7 @@ function setupProvideEvents(plt, dom) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PlatformConfigToken; });
 /* harmony export (immutable) */ __webpack_exports__["b"] = providePlatformConfigs;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__platform_utils__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__platform_utils__ = __webpack_require__(166);
 
 
 var PLATFORM_CONFIGS = {
@@ -65518,7 +65297,7 @@ function providePlatformConfigs() {
 //# sourceMappingURL=platform-registry.js.map
 
 /***/ }),
-/* 188 */
+/* 186 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -65623,13 +65402,13 @@ function registerModeConfigs(config) {
 //# sourceMappingURL=mode-registry.js.map
 
 /***/ }),
-/* 189 */
+/* 187 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IonicGestureConfig; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(25);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -65669,13 +65448,13 @@ var IonicGestureConfig = (function (_super) {
 //# sourceMappingURL=gesture-config.js.map
 
 /***/ }),
-/* 190 */
+/* 188 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SplashScreen; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_core__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_core__ = __webpack_require__(189);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -65761,19 +65540,19 @@ SplashScreen = __decorate([
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 191 */
+/* 189 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugin__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugin__ = __webpack_require__(190);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__decorators__ = __webpack_require__(259);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__decorators__ = __webpack_require__(260);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__decorators__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__decorators__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_1__decorators__["c"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util__ = __webpack_require__(98);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_plugin__ = __webpack_require__(262);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_plugin__ = __webpack_require__(263);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_3__ionic_native_plugin__["a"]; });
 
 
@@ -65782,7 +65561,7 @@ SplashScreen = __decorate([
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 192 */
+/* 190 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -65795,10 +65574,10 @@ SplashScreen = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return wrap; });
 /* harmony export (immutable) */ __webpack_exports__["e"] = wrapInstance;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bootstrap__ = __webpack_require__(255);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bootstrap__ = __webpack_require__(256);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_fromEvent__ = __webpack_require__(256);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_fromEvent__ = __webpack_require__(257);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_fromEvent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_fromEvent__);
 
 
@@ -66094,13 +65873,13 @@ function wrapInstance(pluginObj, methodName, opts) {
 //# sourceMappingURL=plugin.js.map
 
 /***/ }),
-/* 193 */
+/* 191 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StatusBar; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_core__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_core__ = __webpack_require__(189);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -66303,11 +66082,2239 @@ StatusBar = __decorate([
 //# sourceMappingURL=index.js.map
 
 /***/ }),
+/* 192 */,
+/* 193 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export BrowserXhr */
+/* unused harmony export JSONPBackend */
+/* unused harmony export JSONPConnection */
+/* unused harmony export CookieXSRFStrategy */
+/* unused harmony export XHRBackend */
+/* unused harmony export XHRConnection */
+/* unused harmony export BaseRequestOptions */
+/* unused harmony export RequestOptions */
+/* unused harmony export BaseResponseOptions */
+/* unused harmony export ResponseOptions */
+/* unused harmony export ReadyState */
+/* unused harmony export RequestMethod */
+/* unused harmony export ResponseContentType */
+/* unused harmony export ResponseType */
+/* unused harmony export Headers */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Http; });
+/* unused harmony export Jsonp */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return HttpModule; });
+/* unused harmony export JsonpModule */
+/* unused harmony export Connection */
+/* unused harmony export ConnectionBackend */
+/* unused harmony export XSRFStrategy */
+/* unused harmony export Request */
+/* unused harmony export Response */
+/* unused harmony export QueryEncoder */
+/* unused harmony export URLSearchParams */
+/* unused harmony export VERSION */
+/* unused harmony export ɵg */
+/* unused harmony export ɵa */
+/* unused harmony export ɵf */
+/* unused harmony export ɵb */
+/* unused harmony export ɵc */
+/* unused harmony export ɵd */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__ = __webpack_require__(25);
+
+/**
+ * @license Angular v4.4.3
+ * (c) 2010-2017 Google, Inc. https://angular.io/
+ * License: MIT
+ */
+
+
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * A backend for http that uses the `XMLHttpRequest` browser API.
+ *
+ * Take care not to evaluate this in non-browser contexts.
+ *
+ * \@experimental
+ */
+var BrowserXhr = (function () {
+    function BrowserXhr() {
+    }
+    /**
+     * @return {?}
+     */
+    BrowserXhr.prototype.build = function () { return ((new XMLHttpRequest())); };
+    return BrowserXhr;
+}());
+BrowserXhr.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */] },
+];
+/**
+ * @nocollapse
+ */
+BrowserXhr.ctorParameters = function () { return []; };
+var RequestMethod = {};
+RequestMethod.Get = 0;
+RequestMethod.Post = 1;
+RequestMethod.Put = 2;
+RequestMethod.Delete = 3;
+RequestMethod.Options = 4;
+RequestMethod.Head = 5;
+RequestMethod.Patch = 6;
+RequestMethod[RequestMethod.Get] = "Get";
+RequestMethod[RequestMethod.Post] = "Post";
+RequestMethod[RequestMethod.Put] = "Put";
+RequestMethod[RequestMethod.Delete] = "Delete";
+RequestMethod[RequestMethod.Options] = "Options";
+RequestMethod[RequestMethod.Head] = "Head";
+RequestMethod[RequestMethod.Patch] = "Patch";
+var ReadyState = {};
+ReadyState.Unsent = 0;
+ReadyState.Open = 1;
+ReadyState.HeadersReceived = 2;
+ReadyState.Loading = 3;
+ReadyState.Done = 4;
+ReadyState.Cancelled = 5;
+ReadyState[ReadyState.Unsent] = "Unsent";
+ReadyState[ReadyState.Open] = "Open";
+ReadyState[ReadyState.HeadersReceived] = "HeadersReceived";
+ReadyState[ReadyState.Loading] = "Loading";
+ReadyState[ReadyState.Done] = "Done";
+ReadyState[ReadyState.Cancelled] = "Cancelled";
+var ResponseType = {};
+ResponseType.Basic = 0;
+ResponseType.Cors = 1;
+ResponseType.Default = 2;
+ResponseType.Error = 3;
+ResponseType.Opaque = 4;
+ResponseType[ResponseType.Basic] = "Basic";
+ResponseType[ResponseType.Cors] = "Cors";
+ResponseType[ResponseType.Default] = "Default";
+ResponseType[ResponseType.Error] = "Error";
+ResponseType[ResponseType.Opaque] = "Opaque";
+var ContentType = {};
+ContentType.NONE = 0;
+ContentType.JSON = 1;
+ContentType.FORM = 2;
+ContentType.FORM_DATA = 3;
+ContentType.TEXT = 4;
+ContentType.BLOB = 5;
+ContentType.ARRAY_BUFFER = 6;
+ContentType[ContentType.NONE] = "NONE";
+ContentType[ContentType.JSON] = "JSON";
+ContentType[ContentType.FORM] = "FORM";
+ContentType[ContentType.FORM_DATA] = "FORM_DATA";
+ContentType[ContentType.TEXT] = "TEXT";
+ContentType[ContentType.BLOB] = "BLOB";
+ContentType[ContentType.ARRAY_BUFFER] = "ARRAY_BUFFER";
+var ResponseContentType = {};
+ResponseContentType.Text = 0;
+ResponseContentType.Json = 1;
+ResponseContentType.ArrayBuffer = 2;
+ResponseContentType.Blob = 3;
+ResponseContentType[ResponseContentType.Text] = "Text";
+ResponseContentType[ResponseContentType.Json] = "Json";
+ResponseContentType[ResponseContentType.ArrayBuffer] = "ArrayBuffer";
+ResponseContentType[ResponseContentType.Blob] = "Blob";
+/**
+ * Polyfill for [Headers](https://developer.mozilla.org/en-US/docs/Web/API/Headers/Headers), as
+ * specified in the [Fetch Spec](https://fetch.spec.whatwg.org/#headers-class).
+ *
+ * The only known difference between this `Headers` implementation and the spec is the
+ * lack of an `entries` method.
+ *
+ * ### Example
+ *
+ * ```
+ * import {Headers} from '\@angular/http';
+ *
+ * var firstHeaders = new Headers();
+ * firstHeaders.append('Content-Type', 'image/jpeg');
+ * console.log(firstHeaders.get('Content-Type')) //'image/jpeg'
+ *
+ * // Create headers from Plain Old JavaScript Object
+ * var secondHeaders = new Headers({
+ *   'X-My-Custom-Header': 'Angular'
+ * });
+ * console.log(secondHeaders.get('X-My-Custom-Header')); //'Angular'
+ *
+ * var thirdHeaders = new Headers(secondHeaders);
+ * console.log(thirdHeaders.get('X-My-Custom-Header')); //'Angular'
+ * ```
+ *
+ * \@experimental
+ */
+var Headers = (function () {
+    /**
+     * @param {?=} headers
+     */
+    function Headers(headers) {
+        var _this = this;
+        /**
+         * \@internal header names are lower case
+         */
+        this._headers = new Map();
+        /**
+         * \@internal map lower case names to actual names
+         */
+        this._normalizedNames = new Map();
+        if (!headers) {
+            return;
+        }
+        if (headers instanceof Headers) {
+            headers.forEach(function (values, name) {
+                values.forEach(function (value) { return _this.append(name, value); });
+            });
+            return;
+        }
+        Object.keys(headers).forEach(function (name) {
+            var values = Array.isArray(headers[name]) ? headers[name] : [headers[name]];
+            _this.delete(name);
+            values.forEach(function (value) { return _this.append(name, value); });
+        });
+    }
+    /**
+     * Returns a new Headers instance from the given DOMString of Response Headers
+     * @param {?} headersString
+     * @return {?}
+     */
+    Headers.fromResponseHeaderString = function (headersString) {
+        var /** @type {?} */ headers = new Headers();
+        headersString.split('\n').forEach(function (line) {
+            var /** @type {?} */ index = line.indexOf(':');
+            if (index > 0) {
+                var /** @type {?} */ name = line.slice(0, index);
+                var /** @type {?} */ value = line.slice(index + 1).trim();
+                headers.set(name, value);
+            }
+        });
+        return headers;
+    };
+    /**
+     * Appends a header to existing list of header values for a given header name.
+     * @param {?} name
+     * @param {?} value
+     * @return {?}
+     */
+    Headers.prototype.append = function (name, value) {
+        var /** @type {?} */ values = this.getAll(name);
+        if (values === null) {
+            this.set(name, value);
+        }
+        else {
+            values.push(value);
+        }
+    };
+    /**
+     * Deletes all header values for the given name.
+     * @param {?} name
+     * @return {?}
+     */
+    Headers.prototype.delete = function (name) {
+        var /** @type {?} */ lcName = name.toLowerCase();
+        this._normalizedNames.delete(lcName);
+        this._headers.delete(lcName);
+    };
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    Headers.prototype.forEach = function (fn) {
+        var _this = this;
+        this._headers.forEach(function (values, lcName) { return fn(values, _this._normalizedNames.get(lcName), _this._headers); });
+    };
+    /**
+     * Returns first header that matches given name.
+     * @param {?} name
+     * @return {?}
+     */
+    Headers.prototype.get = function (name) {
+        var /** @type {?} */ values = this.getAll(name);
+        if (values === null) {
+            return null;
+        }
+        return values.length > 0 ? values[0] : null;
+    };
+    /**
+     * Checks for existence of header by given name.
+     * @param {?} name
+     * @return {?}
+     */
+    Headers.prototype.has = function (name) { return this._headers.has(name.toLowerCase()); };
+    /**
+     * Returns the names of the headers
+     * @return {?}
+     */
+    Headers.prototype.keys = function () { return Array.from(this._normalizedNames.values()); };
+    /**
+     * Sets or overrides header value for given name.
+     * @param {?} name
+     * @param {?} value
+     * @return {?}
+     */
+    Headers.prototype.set = function (name, value) {
+        if (Array.isArray(value)) {
+            if (value.length) {
+                this._headers.set(name.toLowerCase(), [value.join(',')]);
+            }
+        }
+        else {
+            this._headers.set(name.toLowerCase(), [value]);
+        }
+        this.mayBeSetNormalizedName(name);
+    };
+    /**
+     * Returns values of all headers.
+     * @return {?}
+     */
+    Headers.prototype.values = function () { return Array.from(this._headers.values()); };
+    /**
+     * @return {?}
+     */
+    Headers.prototype.toJSON = function () {
+        var _this = this;
+        var /** @type {?} */ serialized = {};
+        this._headers.forEach(function (values, name) {
+            var /** @type {?} */ split = [];
+            values.forEach(function (v) { return split.push.apply(split, v.split(',')); });
+            serialized[((_this._normalizedNames.get(name)))] = split;
+        });
+        return serialized;
+    };
+    /**
+     * Returns list of header values for a given name.
+     * @param {?} name
+     * @return {?}
+     */
+    Headers.prototype.getAll = function (name) {
+        return this.has(name) ? this._headers.get(name.toLowerCase()) || null : null;
+    };
+    /**
+     * This method is not implemented.
+     * @return {?}
+     */
+    Headers.prototype.entries = function () { throw new Error('"entries" method is not implemented on Headers class'); };
+    /**
+     * @param {?} name
+     * @return {?}
+     */
+    Headers.prototype.mayBeSetNormalizedName = function (name) {
+        var /** @type {?} */ lcName = name.toLowerCase();
+        if (!this._normalizedNames.has(lcName)) {
+            this._normalizedNames.set(lcName, name);
+        }
+    };
+    return Headers;
+}());
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Creates a response options object to be optionally provided when instantiating a
+ * {\@link Response}.
+ *
+ * This class is based on the `ResponseInit` description in the [Fetch
+ * Spec](https://fetch.spec.whatwg.org/#responseinit).
+ *
+ * All values are null by default. Typical defaults can be found in the
+ * {\@link BaseResponseOptions} class, which sub-classes `ResponseOptions`.
+ *
+ * This class may be used in tests to build {\@link Response Responses} for
+ * mock responses (see {\@link MockBackend}).
+ *
+ * ### Example ([live demo](http://plnkr.co/edit/P9Jkk8e8cz6NVzbcxEsD?p=preview))
+ *
+ * ```typescript
+ * import {ResponseOptions, Response} from '\@angular/http';
+ *
+ * var options = new ResponseOptions({
+ *   body: '{"name":"Jeff"}'
+ * });
+ * var res = new Response(options);
+ *
+ * console.log('res.json():', res.json()); // Object {name: "Jeff"}
+ * ```
+ *
+ * \@experimental
+ */
+var ResponseOptions = (function () {
+    /**
+     * @param {?=} opts
+     */
+    function ResponseOptions(opts) {
+        if (opts === void 0) { opts = {}; }
+        var body = opts.body, status = opts.status, headers = opts.headers, statusText = opts.statusText, type = opts.type, url = opts.url;
+        this.body = body != null ? body : null;
+        this.status = status != null ? status : null;
+        this.headers = headers != null ? headers : null;
+        this.statusText = statusText != null ? statusText : null;
+        this.type = type != null ? type : null;
+        this.url = url != null ? url : null;
+    }
+    /**
+     * Creates a copy of the `ResponseOptions` instance, using the optional input as values to
+     * override
+     * existing values. This method will not change the values of the instance on which it is being
+     * called.
+     *
+     * This may be useful when sharing a base `ResponseOptions` object inside tests,
+     * where certain properties may change from test to test.
+     *
+     * ### Example ([live demo](http://plnkr.co/edit/1lXquqFfgduTFBWjNoRE?p=preview))
+     *
+     * ```typescript
+     * import {ResponseOptions, Response} from '\@angular/http';
+     *
+     * var options = new ResponseOptions({
+     *   body: {name: 'Jeff'}
+     * });
+     * var res = new Response(options.merge({
+     *   url: 'https://google.com'
+     * }));
+     * console.log('options.url:', options.url); // null
+     * console.log('res.json():', res.json()); // Object {name: "Jeff"}
+     * console.log('res.url:', res.url); // https://google.com
+     * ```
+     * @param {?=} options
+     * @return {?}
+     */
+    ResponseOptions.prototype.merge = function (options) {
+        return new ResponseOptions({
+            body: options && options.body != null ? options.body : this.body,
+            status: options && options.status != null ? options.status : this.status,
+            headers: options && options.headers != null ? options.headers : this.headers,
+            statusText: options && options.statusText != null ? options.statusText : this.statusText,
+            type: options && options.type != null ? options.type : this.type,
+            url: options && options.url != null ? options.url : this.url,
+        });
+    };
+    return ResponseOptions;
+}());
+/**
+ * Subclass of {\@link ResponseOptions}, with default values.
+ *
+ * Default values:
+ *  * status: 200
+ *  * headers: empty {\@link Headers} object
+ *
+ * This class could be extended and bound to the {\@link ResponseOptions} class
+ * when configuring an {\@link Injector}, in order to override the default options
+ * used by {\@link Http} to create {\@link Response Responses}.
+ *
+ * ### Example ([live demo](http://plnkr.co/edit/qv8DLT?p=preview))
+ *
+ * ```typescript
+ * import {provide} from '\@angular/core';
+ * import {bootstrap} from '\@angular/platform-browser/browser';
+ * import {HTTP_PROVIDERS, Headers, Http, BaseResponseOptions, ResponseOptions} from
+ * '\@angular/http';
+ * import {App} from './myapp';
+ *
+ * class MyOptions extends BaseResponseOptions {
+ *   headers:Headers = new Headers({network: 'github'});
+ * }
+ *
+ * bootstrap(App, [HTTP_PROVIDERS, {provide: ResponseOptions, useClass: MyOptions}]);
+ * ```
+ *
+ * The options could also be extended when manually creating a {\@link Response}
+ * object.
+ *
+ * ### Example ([live demo](http://plnkr.co/edit/VngosOWiaExEtbstDoix?p=preview))
+ *
+ * ```
+ * import {BaseResponseOptions, Response} from '\@angular/http';
+ *
+ * var options = new BaseResponseOptions();
+ * var res = new Response(options.merge({
+ *   body: 'Angular',
+ *   headers: new Headers({framework: 'angular'})
+ * }));
+ * console.log('res.headers.get("framework"):', res.headers.get('framework')); // angular
+ * console.log('res.text():', res.text()); // Angular;
+ * ```
+ *
+ * \@experimental
+ */
+var BaseResponseOptions = (function (_super) {
+    __WEBPACK_IMPORTED_MODULE_0_tslib__["a" /* __extends */](BaseResponseOptions, _super);
+    function BaseResponseOptions() {
+        return _super.call(this, { status: 200, statusText: 'Ok', type: ResponseType.Default, headers: new Headers() }) || this;
+    }
+    return BaseResponseOptions;
+}(ResponseOptions));
+BaseResponseOptions.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */] },
+];
+/**
+ * @nocollapse
+ */
+BaseResponseOptions.ctorParameters = function () { return []; };
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Abstract class from which real backends are derived.
+ *
+ * The primary purpose of a `ConnectionBackend` is to create new connections to fulfill a given
+ * {\@link Request}.
+ *
+ * \@experimental
+ * @abstract
+ */
+var ConnectionBackend = (function () {
+    function ConnectionBackend() {
+    }
+    /**
+     * @abstract
+     * @param {?} request
+     * @return {?}
+     */
+    ConnectionBackend.prototype.createConnection = function (request) { };
+    return ConnectionBackend;
+}());
+/**
+ * Abstract class from which real connections are derived.
+ *
+ * \@experimental
+ * @abstract
+ */
+var Connection = (function () {
+    function Connection() {
+    }
+    return Connection;
+}());
+/**
+ * An XSRFStrategy configures XSRF protection (e.g. via headers) on an HTTP request.
+ *
+ * \@experimental
+ * @abstract
+ */
+var XSRFStrategy = (function () {
+    function XSRFStrategy() {
+    }
+    /**
+     * @abstract
+     * @param {?} req
+     * @return {?}
+     */
+    XSRFStrategy.prototype.configureRequest = function (req) { };
+    return XSRFStrategy;
+}());
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @param {?} method
+ * @return {?}
+ */
+function normalizeMethodName(method) {
+    if (typeof method !== 'string')
+        return method;
+    switch (method.toUpperCase()) {
+        case 'GET':
+            return RequestMethod.Get;
+        case 'POST':
+            return RequestMethod.Post;
+        case 'PUT':
+            return RequestMethod.Put;
+        case 'DELETE':
+            return RequestMethod.Delete;
+        case 'OPTIONS':
+            return RequestMethod.Options;
+        case 'HEAD':
+            return RequestMethod.Head;
+        case 'PATCH':
+            return RequestMethod.Patch;
+    }
+    throw new Error("Invalid request method. The method \"" + method + "\" is not supported.");
+}
+var isSuccess = function (status) { return (status >= 200 && status < 300); };
+/**
+ * @param {?} xhr
+ * @return {?}
+ */
+function getResponseURL(xhr) {
+    if ('responseURL' in xhr) {
+        return xhr.responseURL;
+    }
+    if (/^X-Request-URL:/m.test(xhr.getAllResponseHeaders())) {
+        return xhr.getResponseHeader('X-Request-URL');
+    }
+    return null;
+}
+/**
+ * @param {?} input
+ * @return {?}
+ */
+/**
+ * @param {?} input
+ * @return {?}
+ */
+function stringToArrayBuffer(input) {
+    var /** @type {?} */ view = new Uint16Array(input.length);
+    for (var /** @type {?} */ i = 0, /** @type {?} */ strLen = input.length; i < strLen; i++) {
+        view[i] = input.charCodeAt(i);
+    }
+    return view.buffer;
+}
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ * @param {?=} rawParams
+ * @return {?}
+ */
+function paramParser(rawParams) {
+    if (rawParams === void 0) { rawParams = ''; }
+    var /** @type {?} */ map = new Map();
+    if (rawParams.length > 0) {
+        var /** @type {?} */ params = rawParams.split('&');
+        params.forEach(function (param) {
+            var /** @type {?} */ eqIdx = param.indexOf('=');
+            var _a = eqIdx == -1 ? [param, ''] : [param.slice(0, eqIdx), param.slice(eqIdx + 1)], key = _a[0], val = _a[1];
+            var /** @type {?} */ list = map.get(key) || [];
+            list.push(val);
+            map.set(key, list);
+        });
+    }
+    return map;
+}
+/**
+ * \@experimental
+ *
+ */
+var QueryEncoder = (function () {
+    function QueryEncoder() {
+    }
+    /**
+     * @param {?} k
+     * @return {?}
+     */
+    QueryEncoder.prototype.encodeKey = function (k) { return standardEncoding(k); };
+    /**
+     * @param {?} v
+     * @return {?}
+     */
+    QueryEncoder.prototype.encodeValue = function (v) { return standardEncoding(v); };
+    return QueryEncoder;
+}());
+/**
+ * @param {?} v
+ * @return {?}
+ */
+function standardEncoding(v) {
+    return encodeURIComponent(v)
+        .replace(/%40/gi, '@')
+        .replace(/%3A/gi, ':')
+        .replace(/%24/gi, '$')
+        .replace(/%2C/gi, ',')
+        .replace(/%3B/gi, ';')
+        .replace(/%2B/gi, '+')
+        .replace(/%3D/gi, '=')
+        .replace(/%3F/gi, '?')
+        .replace(/%2F/gi, '/');
+}
+/**
+ * Map-like representation of url search parameters, based on
+ * [URLSearchParams](https://url.spec.whatwg.org/#urlsearchparams) in the url living standard,
+ * with several extensions for merging URLSearchParams objects:
+ *   - setAll()
+ *   - appendAll()
+ *   - replaceAll()
+ *
+ * This class accepts an optional second parameter of ${\@link QueryEncoder},
+ * which is used to serialize parameters before making a request. By default,
+ * `QueryEncoder` encodes keys and values of parameters using `encodeURIComponent`,
+ * and then un-encodes certain characters that are allowed to be part of the query
+ * according to IETF RFC 3986: https://tools.ietf.org/html/rfc3986.
+ *
+ * These are the characters that are not encoded: `! $ \' ( ) * + , ; A 9 - . _ ~ ? /`
+ *
+ * If the set of allowed query characters is not acceptable for a particular backend,
+ * `QueryEncoder` can be subclassed and provided as the 2nd argument to URLSearchParams.
+ *
+ * ```
+ * import {URLSearchParams, QueryEncoder} from '\@angular/http';
+ * class MyQueryEncoder extends QueryEncoder {
+ *   encodeKey(k: string): string {
+ *     return myEncodingFunction(k);
+ *   }
+ *
+ *   encodeValue(v: string): string {
+ *     return myEncodingFunction(v);
+ *   }
+ * }
+ *
+ * let params = new URLSearchParams('', new MyQueryEncoder());
+ * ```
+ * \@experimental
+ */
+var URLSearchParams = (function () {
+    /**
+     * @param {?=} rawParams
+     * @param {?=} queryEncoder
+     */
+    function URLSearchParams(rawParams, queryEncoder) {
+        if (rawParams === void 0) { rawParams = ''; }
+        if (queryEncoder === void 0) { queryEncoder = new QueryEncoder(); }
+        this.rawParams = rawParams;
+        this.queryEncoder = queryEncoder;
+        this.paramsMap = paramParser(rawParams);
+    }
+    /**
+     * @return {?}
+     */
+    URLSearchParams.prototype.clone = function () {
+        var /** @type {?} */ clone = new URLSearchParams('', this.queryEncoder);
+        clone.appendAll(this);
+        return clone;
+    };
+    /**
+     * @param {?} param
+     * @return {?}
+     */
+    URLSearchParams.prototype.has = function (param) { return this.paramsMap.has(param); };
+    /**
+     * @param {?} param
+     * @return {?}
+     */
+    URLSearchParams.prototype.get = function (param) {
+        var /** @type {?} */ storedParam = this.paramsMap.get(param);
+        return Array.isArray(storedParam) ? storedParam[0] : null;
+    };
+    /**
+     * @param {?} param
+     * @return {?}
+     */
+    URLSearchParams.prototype.getAll = function (param) { return this.paramsMap.get(param) || []; };
+    /**
+     * @param {?} param
+     * @param {?} val
+     * @return {?}
+     */
+    URLSearchParams.prototype.set = function (param, val) {
+        if (val === void 0 || val === null) {
+            this.delete(param);
+            return;
+        }
+        var /** @type {?} */ list = this.paramsMap.get(param) || [];
+        list.length = 0;
+        list.push(val);
+        this.paramsMap.set(param, list);
+    };
+    /**
+     * @param {?} searchParams
+     * @return {?}
+     */
+    URLSearchParams.prototype.setAll = function (searchParams) {
+        var _this = this;
+        searchParams.paramsMap.forEach(function (value, param) {
+            var /** @type {?} */ list = _this.paramsMap.get(param) || [];
+            list.length = 0;
+            list.push(value[0]);
+            _this.paramsMap.set(param, list);
+        });
+    };
+    /**
+     * @param {?} param
+     * @param {?} val
+     * @return {?}
+     */
+    URLSearchParams.prototype.append = function (param, val) {
+        if (val === void 0 || val === null)
+            return;
+        var /** @type {?} */ list = this.paramsMap.get(param) || [];
+        list.push(val);
+        this.paramsMap.set(param, list);
+    };
+    /**
+     * @param {?} searchParams
+     * @return {?}
+     */
+    URLSearchParams.prototype.appendAll = function (searchParams) {
+        var _this = this;
+        searchParams.paramsMap.forEach(function (value, param) {
+            var /** @type {?} */ list = _this.paramsMap.get(param) || [];
+            for (var /** @type {?} */ i = 0; i < value.length; ++i) {
+                list.push(value[i]);
+            }
+            _this.paramsMap.set(param, list);
+        });
+    };
+    /**
+     * @param {?} searchParams
+     * @return {?}
+     */
+    URLSearchParams.prototype.replaceAll = function (searchParams) {
+        var _this = this;
+        searchParams.paramsMap.forEach(function (value, param) {
+            var /** @type {?} */ list = _this.paramsMap.get(param) || [];
+            list.length = 0;
+            for (var /** @type {?} */ i = 0; i < value.length; ++i) {
+                list.push(value[i]);
+            }
+            _this.paramsMap.set(param, list);
+        });
+    };
+    /**
+     * @return {?}
+     */
+    URLSearchParams.prototype.toString = function () {
+        var _this = this;
+        var /** @type {?} */ paramsList = [];
+        this.paramsMap.forEach(function (values, k) {
+            values.forEach(function (v) { return paramsList.push(_this.queryEncoder.encodeKey(k) + '=' + _this.queryEncoder.encodeValue(v)); });
+        });
+        return paramsList.join('&');
+    };
+    /**
+     * @param {?} param
+     * @return {?}
+     */
+    URLSearchParams.prototype.delete = function (param) { this.paramsMap.delete(param); };
+    return URLSearchParams;
+}());
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * HTTP request body used by both {\@link Request} and {\@link Response}
+ * https://fetch.spec.whatwg.org/#body
+ * @abstract
+ */
+var Body = (function () {
+    function Body() {
+    }
+    /**
+     * Attempts to return body as parsed `JSON` object, or raises an exception.
+     * @return {?}
+     */
+    Body.prototype.json = function () {
+        if (typeof this._body === 'string') {
+            return JSON.parse(/** @type {?} */ (this._body));
+        }
+        if (this._body instanceof ArrayBuffer) {
+            return JSON.parse(this.text());
+        }
+        return this._body;
+    };
+    /**
+     * Returns the body as a string, presuming `toString()` can be called on the response body.
+     *
+     * When decoding an `ArrayBuffer`, the optional `encodingHint` parameter determines how the
+     * bytes in the buffer will be interpreted. Valid values are:
+     *
+     * - `legacy` - incorrectly interpret the bytes as UTF-16 (technically, UCS-2). Only characters
+     *   in the Basic Multilingual Plane are supported, surrogate pairs are not handled correctly.
+     *   In addition, the endianness of the 16-bit octet pairs in the `ArrayBuffer` is not taken
+     *   into consideration. This is the default behavior to avoid breaking apps, but should be
+     *   considered deprecated.
+     *
+     * - `iso-8859` - interpret the bytes as ISO-8859 (which can be used for ASCII encoded text).
+     * @param {?=} encodingHint
+     * @return {?}
+     */
+    Body.prototype.text = function (encodingHint) {
+        if (encodingHint === void 0) { encodingHint = 'legacy'; }
+        if (this._body instanceof URLSearchParams) {
+            return this._body.toString();
+        }
+        if (this._body instanceof ArrayBuffer) {
+            switch (encodingHint) {
+                case 'legacy':
+                    return String.fromCharCode.apply(null, new Uint16Array(/** @type {?} */ (this._body)));
+                case 'iso-8859':
+                    return String.fromCharCode.apply(null, new Uint8Array(/** @type {?} */ (this._body)));
+                default:
+                    throw new Error("Invalid value for encodingHint: " + encodingHint);
+            }
+        }
+        if (this._body == null) {
+            return '';
+        }
+        if (typeof this._body === 'object') {
+            return JSON.stringify(this._body, null, 2);
+        }
+        return this._body.toString();
+    };
+    /**
+     * Return the body as an ArrayBuffer
+     * @return {?}
+     */
+    Body.prototype.arrayBuffer = function () {
+        if (this._body instanceof ArrayBuffer) {
+            return (this._body);
+        }
+        return stringToArrayBuffer(this.text());
+    };
+    /**
+     * Returns the request's body as a Blob, assuming that body exists.
+     * @return {?}
+     */
+    Body.prototype.blob = function () {
+        if (this._body instanceof Blob) {
+            return (this._body);
+        }
+        if (this._body instanceof ArrayBuffer) {
+            return new Blob([this._body]);
+        }
+        throw new Error('The request body isn\'t either a blob or an array buffer');
+    };
+    return Body;
+}());
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Creates `Response` instances from provided values.
+ *
+ * Though this object isn't
+ * usually instantiated by end-users, it is the primary object interacted with when it comes time to
+ * add data to a view.
+ *
+ * ### Example
+ *
+ * ```
+ * http.request('my-friends.txt').subscribe(response => this.friends = response.text());
+ * ```
+ *
+ * The Response's interface is inspired by the Response constructor defined in the [Fetch
+ * Spec](https://fetch.spec.whatwg.org/#response-class), but is considered a static value whose body
+ * can be accessed many times. There are other differences in the implementation, but this is the
+ * most significant.
+ *
+ * \@experimental
+ */
+var Response = (function (_super) {
+    __WEBPACK_IMPORTED_MODULE_0_tslib__["a" /* __extends */](Response, _super);
+    /**
+     * @param {?} responseOptions
+     */
+    function Response(responseOptions) {
+        var _this = _super.call(this) || this;
+        _this._body = responseOptions.body;
+        _this.status = responseOptions.status;
+        _this.ok = (_this.status >= 200 && _this.status <= 299);
+        _this.statusText = responseOptions.statusText;
+        _this.headers = responseOptions.headers;
+        _this.type = responseOptions.type;
+        _this.url = responseOptions.url;
+        return _this;
+    }
+    /**
+     * @return {?}
+     */
+    Response.prototype.toString = function () {
+        return "Response with status: " + this.status + " " + this.statusText + " for URL: " + this.url;
+    };
+    return Response;
+}(Body));
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var _nextRequestId = 0;
+var JSONP_HOME = '__ng_jsonp__';
+var _jsonpConnections = null;
+/**
+ * @return {?}
+ */
+function _getJsonpConnections() {
+    var /** @type {?} */ w = typeof window == 'object' ? window : {};
+    if (_jsonpConnections === null) {
+        _jsonpConnections = w[JSONP_HOME] = {};
+    }
+    return _jsonpConnections;
+}
+var BrowserJsonp = (function () {
+    function BrowserJsonp() {
+    }
+    /**
+     * @param {?} url
+     * @return {?}
+     */
+    BrowserJsonp.prototype.build = function (url) {
+        var /** @type {?} */ node = document.createElement('script');
+        node.src = url;
+        return node;
+    };
+    /**
+     * @return {?}
+     */
+    BrowserJsonp.prototype.nextRequestID = function () { return "__req" + _nextRequestId++; };
+    /**
+     * @param {?} id
+     * @return {?}
+     */
+    BrowserJsonp.prototype.requestCallback = function (id) { return JSONP_HOME + "." + id + ".finished"; };
+    /**
+     * @param {?} id
+     * @param {?} connection
+     * @return {?}
+     */
+    BrowserJsonp.prototype.exposeConnection = function (id, connection) {
+        var /** @type {?} */ connections = _getJsonpConnections();
+        connections[id] = connection;
+    };
+    /**
+     * @param {?} id
+     * @return {?}
+     */
+    BrowserJsonp.prototype.removeConnection = function (id) {
+        var /** @type {?} */ connections = _getJsonpConnections();
+        connections[id] = null;
+    };
+    /**
+     * @param {?} node
+     * @return {?}
+     */
+    BrowserJsonp.prototype.send = function (node) { document.body.appendChild(/** @type {?} */ ((node))); };
+    /**
+     * @param {?} node
+     * @return {?}
+     */
+    BrowserJsonp.prototype.cleanup = function (node) {
+        if (node.parentNode) {
+            node.parentNode.removeChild(/** @type {?} */ ((node)));
+        }
+    };
+    return BrowserJsonp;
+}());
+BrowserJsonp.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */] },
+];
+/**
+ * @nocollapse
+ */
+BrowserJsonp.ctorParameters = function () { return []; };
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var JSONP_ERR_NO_CALLBACK = 'JSONP injected script did not invoke callback.';
+var JSONP_ERR_WRONG_METHOD = 'JSONP requests must use GET request method.';
+/**
+ * Abstract base class for an in-flight JSONP request.
+ *
+ * \@experimental
+ * @abstract
+ */
+var JSONPConnection = (function () {
+    function JSONPConnection() {
+    }
+    /**
+     * Callback called when the JSONP request completes, to notify the application
+     * of the new data.
+     * @abstract
+     * @param {?=} data
+     * @return {?}
+     */
+    JSONPConnection.prototype.finished = function (data) { };
+    return JSONPConnection;
+}());
+var JSONPConnection_ = (function (_super) {
+    __WEBPACK_IMPORTED_MODULE_0_tslib__["a" /* __extends */](JSONPConnection_, _super);
+    /**
+     * @param {?} req
+     * @param {?} _dom
+     * @param {?=} baseResponseOptions
+     */
+    function JSONPConnection_(req, _dom, baseResponseOptions) {
+        var _this = _super.call(this) || this;
+        _this._dom = _dom;
+        _this.baseResponseOptions = baseResponseOptions;
+        _this._finished = false;
+        if (req.method !== RequestMethod.Get) {
+            throw new TypeError(JSONP_ERR_WRONG_METHOD);
+        }
+        _this.request = req;
+        _this.response = new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (responseObserver) {
+            _this.readyState = ReadyState.Loading;
+            var id = _this._id = _dom.nextRequestID();
+            _dom.exposeConnection(id, _this);
+            // Workaround Dart
+            // url = url.replace(/=JSONP_CALLBACK(&|$)/, `generated method`);
+            var callback = _dom.requestCallback(_this._id);
+            var url = req.url;
+            if (url.indexOf('=JSONP_CALLBACK&') > -1) {
+                url = url.replace('=JSONP_CALLBACK&', "=" + callback + "&");
+            }
+            else if (url.lastIndexOf('=JSONP_CALLBACK') === url.length - '=JSONP_CALLBACK'.length) {
+                url = url.substring(0, url.length - '=JSONP_CALLBACK'.length) + ("=" + callback);
+            }
+            var script = _this._script = _dom.build(url);
+            var onLoad = function (event) {
+                if (_this.readyState === ReadyState.Cancelled)
+                    return;
+                _this.readyState = ReadyState.Done;
+                _dom.cleanup(script);
+                if (!_this._finished) {
+                    var responseOptions_1 = new ResponseOptions({ body: JSONP_ERR_NO_CALLBACK, type: ResponseType.Error, url: url });
+                    if (baseResponseOptions) {
+                        responseOptions_1 = baseResponseOptions.merge(responseOptions_1);
+                    }
+                    responseObserver.error(new Response(responseOptions_1));
+                    return;
+                }
+                var responseOptions = new ResponseOptions({ body: _this._responseData, url: url });
+                if (_this.baseResponseOptions) {
+                    responseOptions = _this.baseResponseOptions.merge(responseOptions);
+                }
+                responseObserver.next(new Response(responseOptions));
+                responseObserver.complete();
+            };
+            var onError = function (error) {
+                if (_this.readyState === ReadyState.Cancelled)
+                    return;
+                _this.readyState = ReadyState.Done;
+                _dom.cleanup(script);
+                var responseOptions = new ResponseOptions({ body: error.message, type: ResponseType.Error });
+                if (baseResponseOptions) {
+                    responseOptions = baseResponseOptions.merge(responseOptions);
+                }
+                responseObserver.error(new Response(responseOptions));
+            };
+            script.addEventListener('load', onLoad);
+            script.addEventListener('error', onError);
+            _dom.send(script);
+            return function () {
+                _this.readyState = ReadyState.Cancelled;
+                script.removeEventListener('load', onLoad);
+                script.removeEventListener('error', onError);
+                _this._dom.cleanup(script);
+            };
+        });
+        return _this;
+    }
+    /**
+     * @param {?=} data
+     * @return {?}
+     */
+    JSONPConnection_.prototype.finished = function (data) {
+        // Don't leak connections
+        this._finished = true;
+        this._dom.removeConnection(this._id);
+        if (this.readyState === ReadyState.Cancelled)
+            return;
+        this._responseData = data;
+    };
+    return JSONPConnection_;
+}(JSONPConnection));
+/**
+ * A {\@link ConnectionBackend} that uses the JSONP strategy of making requests.
+ *
+ * \@experimental
+ * @abstract
+ */
+var JSONPBackend = (function (_super) {
+    __WEBPACK_IMPORTED_MODULE_0_tslib__["a" /* __extends */](JSONPBackend, _super);
+    function JSONPBackend() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    return JSONPBackend;
+}(ConnectionBackend));
+var JSONPBackend_ = (function (_super) {
+    __WEBPACK_IMPORTED_MODULE_0_tslib__["a" /* __extends */](JSONPBackend_, _super);
+    /**
+     * @param {?} _browserJSONP
+     * @param {?} _baseResponseOptions
+     */
+    function JSONPBackend_(_browserJSONP, _baseResponseOptions) {
+        var _this = _super.call(this) || this;
+        _this._browserJSONP = _browserJSONP;
+        _this._baseResponseOptions = _baseResponseOptions;
+        return _this;
+    }
+    /**
+     * @param {?} request
+     * @return {?}
+     */
+    JSONPBackend_.prototype.createConnection = function (request) {
+        return new JSONPConnection_(request, this._browserJSONP, this._baseResponseOptions);
+    };
+    return JSONPBackend_;
+}(JSONPBackend));
+JSONPBackend_.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */] },
+];
+/**
+ * @nocollapse
+ */
+JSONPBackend_.ctorParameters = function () { return [
+    { type: BrowserJsonp, },
+    { type: ResponseOptions, },
+]; };
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var XSSI_PREFIX = /^\)\]\}',?\n/;
+/**
+ * Creates connections using `XMLHttpRequest`. Given a fully-qualified
+ * request, an `XHRConnection` will immediately create an `XMLHttpRequest` object and send the
+ * request.
+ *
+ * This class would typically not be created or interacted with directly inside applications, though
+ * the {\@link MockConnection} may be interacted with in tests.
+ *
+ * \@experimental
+ */
+var XHRConnection = (function () {
+    /**
+     * @param {?} req
+     * @param {?} browserXHR
+     * @param {?=} baseResponseOptions
+     */
+    function XHRConnection(req, browserXHR, baseResponseOptions) {
+        var _this = this;
+        this.request = req;
+        this.response = new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (responseObserver) {
+            var _xhr = browserXHR.build();
+            _xhr.open(RequestMethod[req.method].toUpperCase(), req.url);
+            if (req.withCredentials != null) {
+                _xhr.withCredentials = req.withCredentials;
+            }
+            // load event handler
+            var onLoad = function () {
+                // normalize IE9 bug (http://bugs.jquery.com/ticket/1450)
+                var status = _xhr.status === 1223 ? 204 : _xhr.status;
+                var body = null;
+                // HTTP 204 means no content
+                if (status !== 204) {
+                    // responseText is the old-school way of retrieving response (supported by IE8 & 9)
+                    // response/responseType properties were introduced in ResourceLoader Level2 spec
+                    // (supported by IE10)
+                    body = (typeof _xhr.response === 'undefined') ? _xhr.responseText : _xhr.response;
+                    // Implicitly strip a potential XSSI prefix.
+                    if (typeof body === 'string') {
+                        body = body.replace(XSSI_PREFIX, '');
+                    }
+                }
+                // fix status code when it is 0 (0 status is undocumented).
+                // Occurs when accessing file resources or on Android 4.1 stock browser
+                // while retrieving files from application cache.
+                if (status === 0) {
+                    status = body ? 200 : 0;
+                }
+                var headers = Headers.fromResponseHeaderString(_xhr.getAllResponseHeaders());
+                // IE 9 does not provide the way to get URL of response
+                var url = getResponseURL(_xhr) || req.url;
+                var statusText = _xhr.statusText || 'OK';
+                var responseOptions = new ResponseOptions({ body: body, status: status, headers: headers, statusText: statusText, url: url });
+                if (baseResponseOptions != null) {
+                    responseOptions = baseResponseOptions.merge(responseOptions);
+                }
+                var response = new Response(responseOptions);
+                response.ok = isSuccess(status);
+                if (response.ok) {
+                    responseObserver.next(response);
+                    // TODO(gdi2290): defer complete if array buffer until done
+                    responseObserver.complete();
+                    return;
+                }
+                responseObserver.error(response);
+            };
+            // error event handler
+            var onError = function (err) {
+                var responseOptions = new ResponseOptions({
+                    body: err,
+                    type: ResponseType.Error,
+                    status: _xhr.status,
+                    statusText: _xhr.statusText,
+                });
+                if (baseResponseOptions != null) {
+                    responseOptions = baseResponseOptions.merge(responseOptions);
+                }
+                responseObserver.error(new Response(responseOptions));
+            };
+            _this.setDetectedContentType(req, _xhr);
+            if (req.headers == null) {
+                req.headers = new Headers();
+            }
+            if (!req.headers.has('Accept')) {
+                req.headers.append('Accept', 'application/json, text/plain, */*');
+            }
+            req.headers.forEach(function (values, name) { return _xhr.setRequestHeader(name, values.join(',')); });
+            // Select the correct buffer type to store the response
+            if (req.responseType != null && _xhr.responseType != null) {
+                switch (req.responseType) {
+                    case ResponseContentType.ArrayBuffer:
+                        _xhr.responseType = 'arraybuffer';
+                        break;
+                    case ResponseContentType.Json:
+                        _xhr.responseType = 'json';
+                        break;
+                    case ResponseContentType.Text:
+                        _xhr.responseType = 'text';
+                        break;
+                    case ResponseContentType.Blob:
+                        _xhr.responseType = 'blob';
+                        break;
+                    default:
+                        throw new Error('The selected responseType is not supported');
+                }
+            }
+            _xhr.addEventListener('load', onLoad);
+            _xhr.addEventListener('error', onError);
+            _xhr.send(_this.request.getBody());
+            return function () {
+                _xhr.removeEventListener('load', onLoad);
+                _xhr.removeEventListener('error', onError);
+                _xhr.abort();
+            };
+        });
+    }
+    /**
+     * @param {?} req
+     * @param {?} _xhr
+     * @return {?}
+     */
+    XHRConnection.prototype.setDetectedContentType = function (req /** TODO Request */, _xhr /** XMLHttpRequest */) {
+        // Skip if a custom Content-Type header is provided
+        if (req.headers != null && req.headers.get('Content-Type') != null) {
+            return;
+        }
+        // Set the detected content type
+        switch (req.contentType) {
+            case ContentType.NONE:
+                break;
+            case ContentType.JSON:
+                _xhr.setRequestHeader('content-type', 'application/json');
+                break;
+            case ContentType.FORM:
+                _xhr.setRequestHeader('content-type', 'application/x-www-form-urlencoded;charset=UTF-8');
+                break;
+            case ContentType.TEXT:
+                _xhr.setRequestHeader('content-type', 'text/plain');
+                break;
+            case ContentType.BLOB:
+                var /** @type {?} */ blob = req.blob();
+                if (blob.type) {
+                    _xhr.setRequestHeader('content-type', blob.type);
+                }
+                break;
+        }
+    };
+    return XHRConnection;
+}());
+/**
+ * `XSRFConfiguration` sets up Cross Site Request Forgery (XSRF) protection for the application
+ * using a cookie. See https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)
+ * for more information on XSRF.
+ *
+ * Applications can configure custom cookie and header names by binding an instance of this class
+ * with different `cookieName` and `headerName` values. See the main HTTP documentation for more
+ * details.
+ *
+ * \@experimental
+ */
+var CookieXSRFStrategy = (function () {
+    /**
+     * @param {?=} _cookieName
+     * @param {?=} _headerName
+     */
+    function CookieXSRFStrategy(_cookieName, _headerName) {
+        if (_cookieName === void 0) { _cookieName = 'XSRF-TOKEN'; }
+        if (_headerName === void 0) { _headerName = 'X-XSRF-TOKEN'; }
+        this._cookieName = _cookieName;
+        this._headerName = _headerName;
+    }
+    /**
+     * @param {?} req
+     * @return {?}
+     */
+    CookieXSRFStrategy.prototype.configureRequest = function (req) {
+        var /** @type {?} */ xsrfToken = Object(__WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["g" /* ɵgetDOM */])().getCookie(this._cookieName);
+        if (xsrfToken) {
+            req.headers.set(this._headerName, xsrfToken);
+        }
+    };
+    return CookieXSRFStrategy;
+}());
+/**
+ * Creates {\@link XHRConnection} instances.
+ *
+ * This class would typically not be used by end users, but could be
+ * overridden if a different backend implementation should be used,
+ * such as in a node backend.
+ *
+ * ### Example
+ *
+ * ```
+ * import {Http, MyNodeBackend, HTTP_PROVIDERS, BaseRequestOptions} from '\@angular/http';
+ * \@Component({
+ *   viewProviders: [
+ *     HTTP_PROVIDERS,
+ *     {provide: Http, useFactory: (backend, options) => {
+ *       return new Http(backend, options);
+ *     }, deps: [MyNodeBackend, BaseRequestOptions]}]
+ * })
+ * class MyComponent {
+ *   constructor(http:Http) {
+ *     http.request('people.json').subscribe(res => this.people = res.json());
+ *   }
+ * }
+ * ```
+ * \@experimental
+ */
+var XHRBackend = (function () {
+    /**
+     * @param {?} _browserXHR
+     * @param {?} _baseResponseOptions
+     * @param {?} _xsrfStrategy
+     */
+    function XHRBackend(_browserXHR, _baseResponseOptions, _xsrfStrategy) {
+        this._browserXHR = _browserXHR;
+        this._baseResponseOptions = _baseResponseOptions;
+        this._xsrfStrategy = _xsrfStrategy;
+    }
+    /**
+     * @param {?} request
+     * @return {?}
+     */
+    XHRBackend.prototype.createConnection = function (request) {
+        this._xsrfStrategy.configureRequest(request);
+        return new XHRConnection(request, this._browserXHR, this._baseResponseOptions);
+    };
+    return XHRBackend;
+}());
+XHRBackend.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */] },
+];
+/**
+ * @nocollapse
+ */
+XHRBackend.ctorParameters = function () { return [
+    { type: BrowserXhr, },
+    { type: ResponseOptions, },
+    { type: XSRFStrategy, },
+]; };
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Creates a request options object to be optionally provided when instantiating a
+ * {\@link Request}.
+ *
+ * This class is based on the `RequestInit` description in the [Fetch
+ * Spec](https://fetch.spec.whatwg.org/#requestinit).
+ *
+ * All values are null by default. Typical defaults can be found in the {\@link BaseRequestOptions}
+ * class, which sub-classes `RequestOptions`.
+ *
+ * ```typescript
+ * import {RequestOptions, Request, RequestMethod} from '\@angular/http';
+ *
+ * const options = new RequestOptions({
+ *   method: RequestMethod.Post,
+ *   url: 'https://google.com'
+ * });
+ * const req = new Request(options);
+ * console.log('req.method:', RequestMethod[req.method]); // Post
+ * console.log('options.url:', options.url); // https://google.com
+ * ```
+ *
+ * \@experimental
+ */
+var RequestOptions = (function () {
+    /**
+     * @param {?=} opts
+     */
+    function RequestOptions(opts) {
+        if (opts === void 0) { opts = {}; }
+        var method = opts.method, headers = opts.headers, body = opts.body, url = opts.url, search = opts.search, params = opts.params, withCredentials = opts.withCredentials, responseType = opts.responseType;
+        this.method = method != null ? normalizeMethodName(method) : null;
+        this.headers = headers != null ? headers : null;
+        this.body = body != null ? body : null;
+        this.url = url != null ? url : null;
+        this.params = this._mergeSearchParams(params || search);
+        this.withCredentials = withCredentials != null ? withCredentials : null;
+        this.responseType = responseType != null ? responseType : null;
+    }
+    Object.defineProperty(RequestOptions.prototype, "search", {
+        /**
+         * @deprecated from 4.0.0. Use params instead.
+         * @return {?}
+         */
+        get: function () { return this.params; },
+        /**
+         * @deprecated from 4.0.0. Use params instead.
+         * @param {?} params
+         * @return {?}
+         */
+        set: function (params) { this.params = params; },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Creates a copy of the `RequestOptions` instance, using the optional input as values to override
+     * existing values. This method will not change the values of the instance on which it is being
+     * called.
+     *
+     * Note that `headers` and `search` will override existing values completely if present in
+     * the `options` object. If these values should be merged, it should be done prior to calling
+     * `merge` on the `RequestOptions` instance.
+     *
+     * ```typescript
+     * import {RequestOptions, Request, RequestMethod} from '\@angular/http';
+     *
+     * const options = new RequestOptions({
+     *   method: RequestMethod.Post
+     * });
+     * const req = new Request(options.merge({
+     *   url: 'https://google.com'
+     * }));
+     * console.log('req.method:', RequestMethod[req.method]); // Post
+     * console.log('options.url:', options.url); // null
+     * console.log('req.url:', req.url); // https://google.com
+     * ```
+     * @param {?=} options
+     * @return {?}
+     */
+    RequestOptions.prototype.merge = function (options) {
+        return new RequestOptions({
+            method: options && options.method != null ? options.method : this.method,
+            headers: options && options.headers != null ? options.headers : new Headers(this.headers),
+            body: options && options.body != null ? options.body : this.body,
+            url: options && options.url != null ? options.url : this.url,
+            params: options && this._mergeSearchParams(options.params || options.search),
+            withCredentials: options && options.withCredentials != null ? options.withCredentials :
+                this.withCredentials,
+            responseType: options && options.responseType != null ? options.responseType :
+                this.responseType
+        });
+    };
+    /**
+     * @param {?=} params
+     * @return {?}
+     */
+    RequestOptions.prototype._mergeSearchParams = function (params) {
+        if (!params)
+            return this.params;
+        if (params instanceof URLSearchParams) {
+            return params.clone();
+        }
+        if (typeof params === 'string') {
+            return new URLSearchParams(params);
+        }
+        return this._parseParams(params);
+    };
+    /**
+     * @param {?=} objParams
+     * @return {?}
+     */
+    RequestOptions.prototype._parseParams = function (objParams) {
+        var _this = this;
+        if (objParams === void 0) { objParams = {}; }
+        var /** @type {?} */ params = new URLSearchParams();
+        Object.keys(objParams).forEach(function (key) {
+            var /** @type {?} */ value = objParams[key];
+            if (Array.isArray(value)) {
+                value.forEach(function (item) { return _this._appendParam(key, item, params); });
+            }
+            else {
+                _this._appendParam(key, value, params);
+            }
+        });
+        return params;
+    };
+    /**
+     * @param {?} key
+     * @param {?} value
+     * @param {?} params
+     * @return {?}
+     */
+    RequestOptions.prototype._appendParam = function (key, value, params) {
+        if (typeof value !== 'string') {
+            value = JSON.stringify(value);
+        }
+        params.append(key, value);
+    };
+    return RequestOptions;
+}());
+/**
+ * Subclass of {\@link RequestOptions}, with default values.
+ *
+ * Default values:
+ *  * method: {\@link RequestMethod RequestMethod.Get}
+ *  * headers: empty {\@link Headers} object
+ *
+ * This class could be extended and bound to the {\@link RequestOptions} class
+ * when configuring an {\@link Injector}, in order to override the default options
+ * used by {\@link Http} to create and send {\@link Request Requests}.
+ *
+ * ```typescript
+ * import {BaseRequestOptions, RequestOptions} from '\@angular/http';
+ *
+ * class MyOptions extends BaseRequestOptions {
+ *   search: string = 'coreTeam=true';
+ * }
+ *
+ * {provide: RequestOptions, useClass: MyOptions};
+ * ```
+ *
+ * The options could also be extended when manually creating a {\@link Request}
+ * object.
+ *
+ * ```
+ * import {BaseRequestOptions, Request, RequestMethod} from '\@angular/http';
+ *
+ * const options = new BaseRequestOptions();
+ * const req = new Request(options.merge({
+ *   method: RequestMethod.Post,
+ *   url: 'https://google.com'
+ * }));
+ * console.log('req.method:', RequestMethod[req.method]); // Post
+ * console.log('options.url:', options.url); // null
+ * console.log('req.url:', req.url); // https://google.com
+ * ```
+ *
+ * \@experimental
+ */
+var BaseRequestOptions = (function (_super) {
+    __WEBPACK_IMPORTED_MODULE_0_tslib__["a" /* __extends */](BaseRequestOptions, _super);
+    function BaseRequestOptions() {
+        return _super.call(this, { method: RequestMethod.Get, headers: new Headers() }) || this;
+    }
+    return BaseRequestOptions;
+}(RequestOptions));
+BaseRequestOptions.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */] },
+];
+/**
+ * @nocollapse
+ */
+BaseRequestOptions.ctorParameters = function () { return []; };
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Creates `Request` instances from provided values.
+ *
+ * The Request's interface is inspired by the Request constructor defined in the [Fetch
+ * Spec](https://fetch.spec.whatwg.org/#request-class),
+ * but is considered a static value whose body can be accessed many times. There are other
+ * differences in the implementation, but this is the most significant.
+ *
+ * `Request` instances are typically created by higher-level classes, like {\@link Http} and
+ * {\@link Jsonp}, but it may occasionally be useful to explicitly create `Request` instances.
+ * One such example is when creating services that wrap higher-level services, like {\@link Http},
+ * where it may be useful to generate a `Request` with arbitrary headers and search params.
+ *
+ * ```typescript
+ * import {Injectable, Injector} from '\@angular/core';
+ * import {HTTP_PROVIDERS, Http, Request, RequestMethod} from '\@angular/http';
+ *
+ * \@Injectable()
+ * class AutoAuthenticator {
+ *   constructor(public http:Http) {}
+ *   request(url:string) {
+ *     return this.http.request(new Request({
+ *       method: RequestMethod.Get,
+ *       url: url,
+ *       search: 'password=123'
+ *     }));
+ *   }
+ * }
+ *
+ * var injector = Injector.resolveAndCreate([HTTP_PROVIDERS, AutoAuthenticator]);
+ * var authenticator = injector.get(AutoAuthenticator);
+ * authenticator.request('people.json').subscribe(res => {
+ *   //URL should have included '?password=123'
+ *   console.log('people', res.json());
+ * });
+ * ```
+ *
+ * \@experimental
+ */
+var Request = (function (_super) {
+    __WEBPACK_IMPORTED_MODULE_0_tslib__["a" /* __extends */](Request, _super);
+    /**
+     * @param {?} requestOptions
+     */
+    function Request(requestOptions) {
+        var _this = _super.call(this) || this;
+        // TODO: assert that url is present
+        var url = requestOptions.url;
+        _this.url = requestOptions.url;
+        var paramsArg = requestOptions.params || requestOptions.search;
+        if (paramsArg) {
+            var params = void 0;
+            if (typeof paramsArg === 'object' && !(paramsArg instanceof URLSearchParams)) {
+                params = urlEncodeParams(paramsArg).toString();
+            }
+            else {
+                params = paramsArg.toString();
+            }
+            if (params.length > 0) {
+                var prefix = '?';
+                if (_this.url.indexOf('?') != -1) {
+                    prefix = (_this.url[_this.url.length - 1] == '&') ? '' : '&';
+                }
+                // TODO: just delete search-query-looking string in url?
+                _this.url = url + prefix + params;
+            }
+        }
+        _this._body = requestOptions.body;
+        _this.method = normalizeMethodName(requestOptions.method);
+        // TODO(jeffbcross): implement behavior
+        // Defaults to 'omit', consistent with browser
+        _this.headers = new Headers(requestOptions.headers);
+        _this.contentType = _this.detectContentType();
+        _this.withCredentials = requestOptions.withCredentials;
+        _this.responseType = requestOptions.responseType;
+        return _this;
+    }
+    /**
+     * Returns the content type enum based on header options.
+     * @return {?}
+     */
+    Request.prototype.detectContentType = function () {
+        switch (this.headers.get('content-type')) {
+            case 'application/json':
+                return ContentType.JSON;
+            case 'application/x-www-form-urlencoded':
+                return ContentType.FORM;
+            case 'multipart/form-data':
+                return ContentType.FORM_DATA;
+            case 'text/plain':
+            case 'text/html':
+                return ContentType.TEXT;
+            case 'application/octet-stream':
+                return this._body instanceof ArrayBuffer$1 ? ContentType.ARRAY_BUFFER : ContentType.BLOB;
+            default:
+                return this.detectContentTypeFromBody();
+        }
+    };
+    /**
+     * Returns the content type of request's body based on its type.
+     * @return {?}
+     */
+    Request.prototype.detectContentTypeFromBody = function () {
+        if (this._body == null) {
+            return ContentType.NONE;
+        }
+        else if (this._body instanceof URLSearchParams) {
+            return ContentType.FORM;
+        }
+        else if (this._body instanceof FormData) {
+            return ContentType.FORM_DATA;
+        }
+        else if (this._body instanceof Blob$1) {
+            return ContentType.BLOB;
+        }
+        else if (this._body instanceof ArrayBuffer$1) {
+            return ContentType.ARRAY_BUFFER;
+        }
+        else if (this._body && typeof this._body === 'object') {
+            return ContentType.JSON;
+        }
+        else {
+            return ContentType.TEXT;
+        }
+    };
+    /**
+     * Returns the request's body according to its type. If body is undefined, return
+     * null.
+     * @return {?}
+     */
+    Request.prototype.getBody = function () {
+        switch (this.contentType) {
+            case ContentType.JSON:
+                return this.text();
+            case ContentType.FORM:
+                return this.text();
+            case ContentType.FORM_DATA:
+                return this._body;
+            case ContentType.TEXT:
+                return this.text();
+            case ContentType.BLOB:
+                return this.blob();
+            case ContentType.ARRAY_BUFFER:
+                return this.arrayBuffer();
+            default:
+                return null;
+        }
+    };
+    return Request;
+}(Body));
+/**
+ * @param {?} params
+ * @return {?}
+ */
+function urlEncodeParams(params) {
+    var /** @type {?} */ searchParams = new URLSearchParams();
+    Object.keys(params).forEach(function (key) {
+        var /** @type {?} */ value = params[key];
+        if (value && Array.isArray(value)) {
+            value.forEach(function (element) { return searchParams.append(key, element.toString()); });
+        }
+        else {
+            searchParams.append(key, value.toString());
+        }
+    });
+    return searchParams;
+}
+var noop = function () { };
+var w = typeof window == 'object' ? window : noop;
+var FormData = ((w) /** TODO #9100 */)['FormData'] || noop;
+var Blob$1 = ((w) /** TODO #9100 */)['Blob'] || noop;
+var ArrayBuffer$1 = ((w) /** TODO #9100 */)['ArrayBuffer'] || noop;
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @param {?} backend
+ * @param {?} request
+ * @return {?}
+ */
+function httpRequest(backend, request) {
+    return backend.createConnection(request).response;
+}
+/**
+ * @param {?} defaultOpts
+ * @param {?} providedOpts
+ * @param {?} method
+ * @param {?} url
+ * @return {?}
+ */
+function mergeOptions(defaultOpts, providedOpts, method, url) {
+    var /** @type {?} */ newOptions = defaultOpts;
+    if (providedOpts) {
+        // Hack so Dart can used named parameters
+        return (newOptions.merge(new RequestOptions({
+            method: providedOpts.method || method,
+            url: providedOpts.url || url,
+            search: providedOpts.search,
+            params: providedOpts.params,
+            headers: providedOpts.headers,
+            body: providedOpts.body,
+            withCredentials: providedOpts.withCredentials,
+            responseType: providedOpts.responseType
+        })));
+    }
+    return (newOptions.merge(new RequestOptions({ method: method, url: url })));
+}
+/**
+ * Performs http requests using `XMLHttpRequest` as the default backend.
+ *
+ * `Http` is available as an injectable class, with methods to perform http requests. Calling
+ * `request` returns an `Observable` which will emit a single {\@link Response} when a
+ * response is received.
+ *
+ * ### Example
+ *
+ * ```typescript
+ * import {Http, HTTP_PROVIDERS} from '\@angular/http';
+ * import 'rxjs/add/operator/map'
+ * \@Component({
+ *   selector: 'http-app',
+ *   viewProviders: [HTTP_PROVIDERS],
+ *   templateUrl: 'people.html'
+ * })
+ * class PeopleComponent {
+ *   constructor(http: Http) {
+ *     http.get('people.json')
+ *       // Call map on the response observable to get the parsed people object
+ *       .map(res => res.json())
+ *       // Subscribe to the observable to get the parsed people object and attach it to the
+ *       // component
+ *       .subscribe(people => this.people = people);
+ *   }
+ * }
+ * ```
+ *
+ *
+ * ### Example
+ *
+ * ```
+ * http.get('people.json').subscribe((res:Response) => this.people = res.json());
+ * ```
+ *
+ * The default construct used to perform requests, `XMLHttpRequest`, is abstracted as a "Backend" (
+ * {\@link XHRBackend} in this case), which could be mocked with dependency injection by replacing
+ * the {\@link XHRBackend} provider, as in the following example:
+ *
+ * ### Example
+ *
+ * ```typescript
+ * import {BaseRequestOptions, Http} from '\@angular/http';
+ * import {MockBackend} from '\@angular/http/testing';
+ * var injector = Injector.resolveAndCreate([
+ *   BaseRequestOptions,
+ *   MockBackend,
+ *   {provide: Http, useFactory:
+ *       function(backend, defaultOptions) {
+ *         return new Http(backend, defaultOptions);
+ *       },
+ *       deps: [MockBackend, BaseRequestOptions]}
+ * ]);
+ * var http = injector.get(Http);
+ * http.get('request-from-mock-backend.json').subscribe((res:Response) => doSomething(res));
+ * ```
+ *
+ * \@experimental
+ */
+var Http = (function () {
+    /**
+     * @param {?} _backend
+     * @param {?} _defaultOptions
+     */
+    function Http(_backend, _defaultOptions) {
+        this._backend = _backend;
+        this._defaultOptions = _defaultOptions;
+    }
+    /**
+     * Performs any type of http request. First argument is required, and can either be a url or
+     * a {\@link Request} instance. If the first argument is a url, an optional {\@link RequestOptions}
+     * object can be provided as the 2nd argument. The options object will be merged with the values
+     * of {\@link BaseRequestOptions} before performing the request.
+     * @param {?} url
+     * @param {?=} options
+     * @return {?}
+     */
+    Http.prototype.request = function (url, options) {
+        var /** @type {?} */ responseObservable;
+        if (typeof url === 'string') {
+            responseObservable = httpRequest(this._backend, new Request(mergeOptions(this._defaultOptions, options, RequestMethod.Get, /** @type {?} */ (url))));
+        }
+        else if (url instanceof Request) {
+            responseObservable = httpRequest(this._backend, url);
+        }
+        else {
+            throw new Error('First argument must be a url string or Request instance.');
+        }
+        return responseObservable;
+    };
+    /**
+     * Performs a request with `get` http method.
+     * @param {?} url
+     * @param {?=} options
+     * @return {?}
+     */
+    Http.prototype.get = function (url, options) {
+        return this.request(new Request(mergeOptions(this._defaultOptions, options, RequestMethod.Get, url)));
+    };
+    /**
+     * Performs a request with `post` http method.
+     * @param {?} url
+     * @param {?} body
+     * @param {?=} options
+     * @return {?}
+     */
+    Http.prototype.post = function (url, body, options) {
+        return this.request(new Request(mergeOptions(this._defaultOptions.merge(new RequestOptions({ body: body })), options, RequestMethod.Post, url)));
+    };
+    /**
+     * Performs a request with `put` http method.
+     * @param {?} url
+     * @param {?} body
+     * @param {?=} options
+     * @return {?}
+     */
+    Http.prototype.put = function (url, body, options) {
+        return this.request(new Request(mergeOptions(this._defaultOptions.merge(new RequestOptions({ body: body })), options, RequestMethod.Put, url)));
+    };
+    /**
+     * Performs a request with `delete` http method.
+     * @param {?} url
+     * @param {?=} options
+     * @return {?}
+     */
+    Http.prototype.delete = function (url, options) {
+        return this.request(new Request(mergeOptions(this._defaultOptions, options, RequestMethod.Delete, url)));
+    };
+    /**
+     * Performs a request with `patch` http method.
+     * @param {?} url
+     * @param {?} body
+     * @param {?=} options
+     * @return {?}
+     */
+    Http.prototype.patch = function (url, body, options) {
+        return this.request(new Request(mergeOptions(this._defaultOptions.merge(new RequestOptions({ body: body })), options, RequestMethod.Patch, url)));
+    };
+    /**
+     * Performs a request with `head` http method.
+     * @param {?} url
+     * @param {?=} options
+     * @return {?}
+     */
+    Http.prototype.head = function (url, options) {
+        return this.request(new Request(mergeOptions(this._defaultOptions, options, RequestMethod.Head, url)));
+    };
+    /**
+     * Performs a request with `options` http method.
+     * @param {?} url
+     * @param {?=} options
+     * @return {?}
+     */
+    Http.prototype.options = function (url, options) {
+        return this.request(new Request(mergeOptions(this._defaultOptions, options, RequestMethod.Options, url)));
+    };
+    return Http;
+}());
+Http.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */] },
+];
+/**
+ * @nocollapse
+ */
+Http.ctorParameters = function () { return [
+    { type: ConnectionBackend, },
+    { type: RequestOptions, },
+]; };
+/**
+ * \@experimental
+ */
+var Jsonp = (function (_super) {
+    __WEBPACK_IMPORTED_MODULE_0_tslib__["a" /* __extends */](Jsonp, _super);
+    /**
+     * @param {?} backend
+     * @param {?} defaultOptions
+     */
+    function Jsonp(backend, defaultOptions) {
+        return _super.call(this, backend, defaultOptions) || this;
+    }
+    /**
+     * Performs any type of http request. First argument is required, and can either be a url or
+     * a {\@link Request} instance. If the first argument is a url, an optional {\@link RequestOptions}
+     * object can be provided as the 2nd argument. The options object will be merged with the values
+     * of {\@link BaseRequestOptions} before performing the request.
+     *
+     * \@security Regular XHR is the safest alternative to JSONP for most applications, and is
+     * supported by all current browsers. Because JSONP creates a `<script>` element with
+     * contents retrieved from a remote source, attacker-controlled data introduced by an untrusted
+     * source could expose your application to XSS risks. Data exposed by JSONP may also be
+     * readable by malicious third-party websites. In addition, JSONP introduces potential risk for
+     * future security issues (e.g. content sniffing).  For more detail, see the
+     * [Security Guide](http://g.co/ng/security).
+     * @param {?} url
+     * @param {?=} options
+     * @return {?}
+     */
+    Jsonp.prototype.request = function (url, options) {
+        var /** @type {?} */ responseObservable;
+        if (typeof url === 'string') {
+            url =
+                new Request(mergeOptions(this._defaultOptions, options, RequestMethod.Get, /** @type {?} */ (url)));
+        }
+        if (url instanceof Request) {
+            if (url.method !== RequestMethod.Get) {
+                throw new Error('JSONP requests must use GET request method.');
+            }
+            responseObservable = httpRequest(this._backend, url);
+        }
+        else {
+            throw new Error('First argument must be a url string or Request instance.');
+        }
+        return responseObservable;
+    };
+    return Jsonp;
+}(Http));
+Jsonp.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */] },
+];
+/**
+ * @nocollapse
+ */
+Jsonp.ctorParameters = function () { return [
+    { type: ConnectionBackend, },
+    { type: RequestOptions, },
+]; };
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @module
+ * @description
+ * The http module provides services to perform http requests. To get started, see the {@link Http}
+ * class.
+ */
+/**
+ * @return {?}
+ */
+function _createDefaultCookieXSRFStrategy() {
+    return new CookieXSRFStrategy();
+}
+/**
+ * @param {?} xhrBackend
+ * @param {?} requestOptions
+ * @return {?}
+ */
+function httpFactory(xhrBackend, requestOptions) {
+    return new Http(xhrBackend, requestOptions);
+}
+/**
+ * @param {?} jsonpBackend
+ * @param {?} requestOptions
+ * @return {?}
+ */
+function jsonpFactory(jsonpBackend, requestOptions) {
+    return new Jsonp(jsonpBackend, requestOptions);
+}
+/**
+ * The module that includes http's providers
+ *
+ * \@experimental
+ */
+var HttpModule = (function () {
+    function HttpModule() {
+    }
+    return HttpModule;
+}());
+HttpModule.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["L" /* NgModule */], args: [{
+                providers: [
+                    // TODO(pascal): use factory type annotations once supported in DI
+                    // issue: https://github.com/angular/angular/issues/3183
+                    { provide: Http, useFactory: httpFactory, deps: [XHRBackend, RequestOptions] },
+                    BrowserXhr,
+                    { provide: RequestOptions, useClass: BaseRequestOptions },
+                    { provide: ResponseOptions, useClass: BaseResponseOptions },
+                    XHRBackend,
+                    { provide: XSRFStrategy, useFactory: _createDefaultCookieXSRFStrategy },
+                ],
+            },] },
+];
+/**
+ * @nocollapse
+ */
+HttpModule.ctorParameters = function () { return []; };
+/**
+ * The module that includes jsonp's providers
+ *
+ * \@experimental
+ */
+var JsonpModule = (function () {
+    function JsonpModule() {
+    }
+    return JsonpModule;
+}());
+JsonpModule.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["L" /* NgModule */], args: [{
+                providers: [
+                    // TODO(pascal): use factory type annotations once supported in DI
+                    // issue: https://github.com/angular/angular/issues/3183
+                    { provide: Jsonp, useFactory: jsonpFactory, deps: [JSONPBackend, RequestOptions] },
+                    BrowserJsonp,
+                    { provide: RequestOptions, useClass: BaseRequestOptions },
+                    { provide: ResponseOptions, useClass: BaseResponseOptions },
+                    { provide: JSONPBackend, useClass: JSONPBackend_ },
+                ],
+            },] },
+];
+/**
+ * @nocollapse
+ */
+JsonpModule.ctorParameters = function () { return []; };
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @module
+ * @description
+ * Entry point for all public APIs of the common package.
+ */
+/**
+ * \@stable
+ */
+var VERSION = new __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* Version */]('4.4.3');
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @module
+ * @description
+ * Entry point for all public APIs of the http package.
+ */
+// This file only reexports content of the `src` folder. Keep it that way.
+/**
+ * Generated bundle index. Do not edit.
+ */
+
+//# sourceMappingURL=http.es5.js.map
+
+
+/***/ }),
 /* 194 */,
 /* 195 */,
 /* 196 */,
-/* 197 */,
-/* 198 */
+/* 197 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -66317,10 +68324,10 @@ StatusBar = __decorate([
 /* unused harmony export ɵINTERNAL_BROWSER_DYNAMIC_PLATFORM_PROVIDERS */
 /* unused harmony export ɵResourceLoaderImpl */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_compiler__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_compiler__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_platform_browser__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_platform_browser__ = __webpack_require__(25);
 
 /**
  * @license Angular v4.4.3
@@ -66490,7 +68497,7 @@ var platformBrowserDynamic = Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__[
 
 
 /***/ }),
-/* 199 */
+/* 198 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -94530,13 +96537,13 @@ function _mergeArrays(parts) {
 //# sourceMappingURL=compiler.es5.js.map
 
 /***/ }),
-/* 200 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var Subscriber_1 = __webpack_require__(25);
-var rxSubscriber_1 = __webpack_require__(54);
+var Subscriber_1 = __webpack_require__(29);
+var rxSubscriber_1 = __webpack_require__(52);
 var Observer_1 = __webpack_require__(103);
 function toSubscriber(nextOrObserver, error, complete) {
     if (nextOrObserver) {
@@ -94556,7 +96563,7 @@ exports.toSubscriber = toSubscriber;
 //# sourceMappingURL=toSubscriber.js.map
 
 /***/ }),
-/* 201 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -94587,25 +96594,25 @@ exports.UnsubscriptionError = UnsubscriptionError;
 //# sourceMappingURL=UnsubscriptionError.js.map
 
 /***/ }),
+/* 201 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var merge_1 = __webpack_require__(202);
+exports.merge = merge_1.mergeStatic;
+//# sourceMappingURL=merge.js.map
+
+/***/ }),
 /* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var merge_1 = __webpack_require__(203);
-exports.merge = merge_1.mergeStatic;
-//# sourceMappingURL=merge.js.map
-
-/***/ }),
-/* 203 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
 var Observable_1 = __webpack_require__(9);
-var ArrayObservable_1 = __webpack_require__(105);
+var ArrayObservable_1 = __webpack_require__(203);
 var mergeAll_1 = __webpack_require__(205);
-var isScheduler_1 = __webpack_require__(107);
+var isScheduler_1 = __webpack_require__(106);
 /* tslint:enable:max-line-length */
 /**
  * Creates an output Observable which concurrently emits all values from every
@@ -94748,6 +96755,134 @@ exports.mergeStatic = mergeStatic;
 //# sourceMappingURL=merge.js.map
 
 /***/ }),
+/* 203 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var Observable_1 = __webpack_require__(9);
+var ScalarObservable_1 = __webpack_require__(204);
+var EmptyObservable_1 = __webpack_require__(105);
+var isScheduler_1 = __webpack_require__(106);
+/**
+ * We need this JSDoc comment for affecting ESDoc.
+ * @extends {Ignored}
+ * @hide true
+ */
+var ArrayObservable = (function (_super) {
+    __extends(ArrayObservable, _super);
+    function ArrayObservable(array, scheduler) {
+        _super.call(this);
+        this.array = array;
+        this.scheduler = scheduler;
+        if (!scheduler && array.length === 1) {
+            this._isScalar = true;
+            this.value = array[0];
+        }
+    }
+    ArrayObservable.create = function (array, scheduler) {
+        return new ArrayObservable(array, scheduler);
+    };
+    /**
+     * Creates an Observable that emits some values you specify as arguments,
+     * immediately one after the other, and then emits a complete notification.
+     *
+     * <span class="informal">Emits the arguments you provide, then completes.
+     * </span>
+     *
+     * <img src="./img/of.png" width="100%">
+     *
+     * This static operator is useful for creating a simple Observable that only
+     * emits the arguments given, and the complete notification thereafter. It can
+     * be used for composing with other Observables, such as with {@link concat}.
+     * By default, it uses a `null` IScheduler, which means the `next`
+     * notifications are sent synchronously, although with a different IScheduler
+     * it is possible to determine when those notifications will be delivered.
+     *
+     * @example <caption>Emit 10, 20, 30, then 'a', 'b', 'c', then start ticking every second.</caption>
+     * var numbers = Rx.Observable.of(10, 20, 30);
+     * var letters = Rx.Observable.of('a', 'b', 'c');
+     * var interval = Rx.Observable.interval(1000);
+     * var result = numbers.concat(letters).concat(interval);
+     * result.subscribe(x => console.log(x));
+     *
+     * @see {@link create}
+     * @see {@link empty}
+     * @see {@link never}
+     * @see {@link throw}
+     *
+     * @param {...T} values Arguments that represent `next` values to be emitted.
+     * @param {Scheduler} [scheduler] A {@link IScheduler} to use for scheduling
+     * the emissions of the `next` notifications.
+     * @return {Observable<T>} An Observable that emits each given input value.
+     * @static true
+     * @name of
+     * @owner Observable
+     */
+    ArrayObservable.of = function () {
+        var array = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            array[_i - 0] = arguments[_i];
+        }
+        var scheduler = array[array.length - 1];
+        if (isScheduler_1.isScheduler(scheduler)) {
+            array.pop();
+        }
+        else {
+            scheduler = null;
+        }
+        var len = array.length;
+        if (len > 1) {
+            return new ArrayObservable(array, scheduler);
+        }
+        else if (len === 1) {
+            return new ScalarObservable_1.ScalarObservable(array[0], scheduler);
+        }
+        else {
+            return new EmptyObservable_1.EmptyObservable(scheduler);
+        }
+    };
+    ArrayObservable.dispatch = function (state) {
+        var array = state.array, index = state.index, count = state.count, subscriber = state.subscriber;
+        if (index >= count) {
+            subscriber.complete();
+            return;
+        }
+        subscriber.next(array[index]);
+        if (subscriber.closed) {
+            return;
+        }
+        state.index = index + 1;
+        this.schedule(state);
+    };
+    ArrayObservable.prototype._subscribe = function (subscriber) {
+        var index = 0;
+        var array = this.array;
+        var count = array.length;
+        var scheduler = this.scheduler;
+        if (scheduler) {
+            return scheduler.schedule(ArrayObservable.dispatch, 0, {
+                array: array, index: index, count: count, subscriber: subscriber
+            });
+        }
+        else {
+            for (var i = 0; i < count && !subscriber.closed; i++) {
+                subscriber.next(array[i]);
+            }
+            subscriber.complete();
+        }
+    };
+    return ArrayObservable;
+}(Observable_1.Observable));
+exports.ArrayObservable = ArrayObservable;
+//# sourceMappingURL=ArrayObservable.js.map
+
+/***/ }),
 /* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -94822,8 +96957,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var OuterSubscriber_1 = __webpack_require__(41);
-var subscribeToResult_1 = __webpack_require__(42);
+var OuterSubscriber_1 = __webpack_require__(53);
+var subscribeToResult_1 = __webpack_require__(54);
 /**
  * Converts a higher-order Observable into a first-order Observable which
  * concurrently delivers all values that are emitted on the inner Observables.
@@ -95004,7 +97139,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var Subscriber_1 = __webpack_require__(25);
+var Subscriber_1 = __webpack_require__(29);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @ignore
@@ -95141,7 +97276,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var Subject_1 = __webpack_require__(33);
 var Observable_1 = __webpack_require__(9);
-var Subscriber_1 = __webpack_require__(25);
+var Subscriber_1 = __webpack_require__(29);
 var Subscription_1 = __webpack_require__(32);
 /**
  * @class ConnectableObservable<T>
@@ -96184,10 +98319,10 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Observable_1 = __webpack_require__(9);
-var EmptyObservable_1 = __webpack_require__(106);
+var EmptyObservable_1 = __webpack_require__(105);
 var isArray_1 = __webpack_require__(100);
-var subscribeToResult_1 = __webpack_require__(42);
-var OuterSubscriber_1 = __webpack_require__(41);
+var subscribeToResult_1 = __webpack_require__(54);
+var OuterSubscriber_1 = __webpack_require__(53);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -96429,11 +98564,104 @@ function dispatchError(arg) {
 
 /***/ }),
 /* 228 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var Subscriber_1 = __webpack_require__(29);
+/**
+ * Applies a given `project` function to each value emitted by the source
+ * Observable, and emits the resulting values as an Observable.
+ *
+ * <span class="informal">Like [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map),
+ * it passes each source value through a transformation function to get
+ * corresponding output values.</span>
+ *
+ * <img src="./img/map.png" width="100%">
+ *
+ * Similar to the well known `Array.prototype.map` function, this operator
+ * applies a projection to each value and emits that projection in the output
+ * Observable.
+ *
+ * @example <caption>Map every click to the clientX position of that click</caption>
+ * var clicks = Rx.Observable.fromEvent(document, 'click');
+ * var positions = clicks.map(ev => ev.clientX);
+ * positions.subscribe(x => console.log(x));
+ *
+ * @see {@link mapTo}
+ * @see {@link pluck}
+ *
+ * @param {function(value: T, index: number): R} project The function to apply
+ * to each `value` emitted by the source Observable. The `index` parameter is
+ * the number `i` for the i-th emission that has happened since the
+ * subscription, starting from the number `0`.
+ * @param {any} [thisArg] An optional argument to define what `this` is in the
+ * `project` function.
+ * @return {Observable<R>} An Observable that emits the values from the source
+ * Observable transformed by the given `project` function.
+ * @method map
+ * @owner Observable
+ */
+function map(project, thisArg) {
+    if (typeof project !== 'function') {
+        throw new TypeError('argument is not a function. Are you looking for `mapTo()`?');
+    }
+    return this.lift(new MapOperator(project, thisArg));
+}
+exports.map = map;
+var MapOperator = (function () {
+    function MapOperator(project, thisArg) {
+        this.project = project;
+        this.thisArg = thisArg;
+    }
+    MapOperator.prototype.call = function (subscriber, source) {
+        return source.subscribe(new MapSubscriber(subscriber, this.project, this.thisArg));
+    };
+    return MapOperator;
+}());
+exports.MapOperator = MapOperator;
+/**
+ * We need this JSDoc comment for affecting ESDoc.
+ * @ignore
+ * @extends {Ignored}
+ */
+var MapSubscriber = (function (_super) {
+    __extends(MapSubscriber, _super);
+    function MapSubscriber(destination, project, thisArg) {
+        _super.call(this, destination);
+        this.project = project;
+        this.count = 0;
+        this.thisArg = thisArg || this;
+    }
+    // NOTE: This looks unoptimized, but it's actually purposefully NOT
+    // using try/catch optimizations.
+    MapSubscriber.prototype._next = function (value) {
+        var result;
+        try {
+            result = this.project.call(this.thisArg, value, this.count++);
+        }
+        catch (err) {
+            this.destination.error(err);
+            return;
+        }
+        this.destination.next(result);
+    };
+    return MapSubscriber;
+}(Subscriber_1.Subscriber));
+//# sourceMappingURL=map.js.map
+
+/***/ }),
+/* 229 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemReorderGesture; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__item_reorder_util__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__item_reorder_util__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_dom__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__gestures_ui_event_manager__ = __webpack_require__(22);
 
@@ -96581,7 +98809,7 @@ var ITEM_REORDER_ACTIVE = 'reorder-active';
 //# sourceMappingURL=item-reorder-gesture.js.map
 
 /***/ }),
-/* 229 */
+/* 230 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -96596,7 +98824,7 @@ var MAX_PICKER_SPEED = 60;
 //# sourceMappingURL=picker-options.js.map
 
 /***/ }),
-/* 230 */
+/* 231 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -96654,7 +98882,7 @@ var PickerSlideOut = (function (_super) {
 //# sourceMappingURL=picker-transitions.js.map
 
 /***/ }),
-/* 231 */
+/* 232 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -97106,7 +99334,7 @@ var VALID_AMPM_PREFIX = [
 //# sourceMappingURL=datetime-util.js.map
 
 /***/ }),
-/* 232 */
+/* 233 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -97116,8 +99344,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var OuterSubscriber_1 = __webpack_require__(41);
-var subscribeToResult_1 = __webpack_require__(42);
+var OuterSubscriber_1 = __webpack_require__(53);
+var subscribeToResult_1 = __webpack_require__(54);
 /**
  * Emits the values emitted by the source Observable until a `notifier`
  * Observable emits a value.
@@ -97187,13 +99415,13 @@ var TakeUntilSubscriber = (function (_super) {
 //# sourceMappingURL=takeUntil.js.map
 
 /***/ }),
-/* 233 */
+/* 234 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemSlidingGesture; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__gestures_pan_gesture__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__gestures_pan_gesture__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_dom__ = __webpack_require__(10);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -97309,7 +99537,7 @@ function clickedOptionButton(ev) {
 //# sourceMappingURL=item-sliding-gesture.js.map
 
 /***/ }),
-/* 234 */
+/* 235 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -97459,7 +99687,7 @@ var LoadingWpPopOut = (function (_super) {
 //# sourceMappingURL=loading-transitions.js.map
 
 /***/ }),
-/* 235 */
+/* 236 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -97568,7 +99796,7 @@ var MenuContentGesture = (function (_super) {
 //# sourceMappingURL=menu-gestures.js.map
 
 /***/ }),
-/* 236 */
+/* 237 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -97735,15 +99963,15 @@ __WEBPACK_IMPORTED_MODULE_1__app_menu_controller__["a" /* MenuController */].reg
 //# sourceMappingURL=menu-types.js.map
 
 /***/ }),
-/* 237 */
+/* 238 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ModalImpl; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app_constants__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app_constants__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__modal_component__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modal_transitions__ = __webpack_require__(238);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modal_transitions__ = __webpack_require__(239);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_view_controller__ = __webpack_require__(5);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -97820,7 +100048,7 @@ var ModalImpl = (function (_super) {
 //# sourceMappingURL=modal-impl.js.map
 
 /***/ }),
-/* 238 */
+/* 239 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -97943,14 +100171,14 @@ var ModalMDSlideOut = (function (_super) {
 //# sourceMappingURL=modal-transitions.js.map
 
 /***/ }),
-/* 239 */
+/* 240 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PopoverImpl; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__popover_component__ = __webpack_require__(81);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__popover_transitions__ = __webpack_require__(240);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__popover_transitions__ = __webpack_require__(241);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__ = __webpack_require__(5);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -98011,7 +100239,7 @@ var PopoverImpl = (function (_super) {
 //# sourceMappingURL=popover-impl.js.map
 
 /***/ }),
-/* 240 */
+/* 241 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -98285,13 +100513,13 @@ var POPOVER_MD_BODY_PADDING = 12;
 //# sourceMappingURL=popover-transitions.js.map
 
 /***/ }),
-/* 241 */
+/* 242 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = enableKeyboardControl;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_utils__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper__ = __webpack_require__(46);
 
 
 /*=========================
@@ -98392,7 +100620,7 @@ function enableKeyboardControl(s, plt, shouldEnable) {
 //# sourceMappingURL=swiper-keyboard.js.map
 
 /***/ }),
-/* 242 */
+/* 243 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -98489,15 +100717,15 @@ function onEnterKey(_, __) {
 //# sourceMappingURL=swiper-a11y.js.map
 
 /***/ }),
-/* 243 */
+/* 244 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SWIPER_CONTROLLER; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_index__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_index__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_utils__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_progress__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_progress__ = __webpack_require__(47);
 
 
 
@@ -98616,16 +100844,16 @@ var SWIPER_CONTROLLER = {
 //# sourceMappingURL=swiper-controller.js.map
 
 /***/ }),
-/* 244 */
+/* 245 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = initEvents;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_utils__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_transition__ = __webpack_require__(88);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_progress__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__swiper_index__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_progress__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__swiper_index__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_pagination__ = __webpack_require__(90);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__swiper_classes__ = __webpack_require__(89);
 
@@ -99382,7 +101610,7 @@ function doResize(s, plt, forceUpdatePagination) {
 //# sourceMappingURL=swiper-events.js.map
 
 /***/ }),
-/* 245 */
+/* 246 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -99608,13 +101836,13 @@ var TOAST_POSITION_MIDDLE = 'middle';
 //# sourceMappingURL=toast-transitions.js.map
 
 /***/ }),
-/* 246 */
+/* 247 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ToggleGesture; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__gestures_pan_gesture__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__gestures_pan_gesture__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_dom__ = __webpack_require__(10);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -99668,7 +101896,7 @@ var ToggleGesture = (function (_super) {
 //# sourceMappingURL=toggle-gesture.js.map
 
 /***/ }),
-/* 247 */
+/* 248 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -100218,7 +102446,7 @@ var REQUIRED_DOM_READS = 2;
 //# sourceMappingURL=virtual-util.js.map
 
 /***/ }),
-/* 248 */
+/* 249 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -100505,13 +102733,13 @@ function IonicPage(_config) {
 //# sourceMappingURL=ionic-page.js.map
 
 /***/ }),
-/* 249 */
+/* 250 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RippleActivator; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__activator_base__ = __webpack_require__(185);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__activator__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__activator_base__ = __webpack_require__(183);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__activator__ = __webpack_require__(182);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_dom__ = __webpack_require__(10);
 
 
@@ -100626,13 +102854,13 @@ var TOUCH_DOWN_ACCEL = 300;
 //# sourceMappingURL=ripple.js.map
 
 /***/ }),
-/* 250 */
+/* 251 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export Gesture */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__hammer__ = __webpack_require__(251);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__hammer__ = __webpack_require__(252);
 
 
 /**
@@ -100701,7 +102929,7 @@ var Gesture = (function () {
 //# sourceMappingURL=gesture.js.map
 
 /***/ }),
-/* 251 */
+/* 252 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -102859,7 +105087,7 @@ win.Hammer = Hammer;
 //# sourceMappingURL=hammer.js.map
 
 /***/ }),
-/* 252 */
+/* 253 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -102942,7 +105170,7 @@ var IonicErrorHandler = (function (_super) {
 //# sourceMappingURL=ionic-error-handler.js.map
 
 /***/ }),
-/* 253 */
+/* 254 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -102950,125 +105178,125 @@ var IonicErrorHandler = (function (_super) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return IonicPageModule; });
 /* unused harmony export provideLocationStrategy */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_app_app__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_app_app_root__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__navigation_deep_linker__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__platform_dom_controller__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__util_events__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__util_events__ = __webpack_require__(184);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__util_form__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__gestures_gesture_config__ = __webpack_require__(189);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__tap_click_haptic__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__platform_keyboard__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__gestures_gesture_config__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__tap_click_haptic__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__platform_keyboard__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__util_module_loader__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__util_ng_module_loader__ = __webpack_require__(149);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__util_ng_module_loader__ = __webpack_require__(147);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__platform_platform_registry__ = __webpack_require__(187);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__tap_click_tap_click__ = __webpack_require__(183);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__config_mode_registry__ = __webpack_require__(188);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__transitions_transition_controller__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__navigation_url_serializer__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__platform_platform_registry__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__tap_click_tap_click__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__config_mode_registry__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__transitions_transition_controller__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__navigation_url_serializer__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_action_sheet_action_sheet_component__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_action_sheet_action_sheet_controller__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_action_sheet_action_sheet_controller__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_alert_alert_component__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_alert_alert_controller__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_app_click_block__ = __webpack_require__(254);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_app_overlay_portal__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__components_avatar_avatar__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_alert_alert_controller__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_app_click_block__ = __webpack_require__(255);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_app_overlay_portal__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__components_avatar_avatar__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_backdrop_backdrop__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__components_badge_badge__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__components_button_button__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__components_card_card__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__components_card_card_content__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__components_card_card_header__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__components_card_card_title__ = __webpack_require__(119);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__components_checkbox_checkbox__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__components_chip_chip__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__components_badge_badge__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__components_button_button__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__components_card_card__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__components_card_card_content__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__components_card_card_header__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__components_card_card_title__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__components_checkbox_checkbox__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__components_chip_chip__ = __webpack_require__(123);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__components_content_content__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__components_datetime_datetime__ = __webpack_require__(126);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__components_fab_fab__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__components_fab_fab_container__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__components_datetime_datetime__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__components_fab_fab__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__components_fab_fab_container__ = __webpack_require__(126);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__components_fab_fab_list__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__components_grid_col__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__components_grid_grid__ = __webpack_require__(130);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__components_grid_row__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__components_grid_col__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__components_grid_grid__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__components_grid_row__ = __webpack_require__(129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__components_icon_icon__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__components_img_img__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__components_img_img__ = __webpack_require__(130);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__components_infinite_scroll_infinite_scroll__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__components_infinite_scroll_infinite_scroll_content__ = __webpack_require__(133);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__components_input_input__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__components_infinite_scroll_infinite_scroll_content__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__components_input_input__ = __webpack_require__(132);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__components_item_item__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__components_item_item_content__ = __webpack_require__(136);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__components_item_item_divider__ = __webpack_require__(137);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__components_item_item_group__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__components_item_item_content__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__components_item_item_divider__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__components_item_item_group__ = __webpack_require__(136);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__components_item_item_options__ = __webpack_require__(70);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__components_item_item_reorder__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__components_item_item_sliding__ = __webpack_require__(139);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__components_item_reorder__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__components_item_item_sliding__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__components_item_reorder__ = __webpack_require__(138);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__components_label_label__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__components_list_list__ = __webpack_require__(71);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__components_list_list_header__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__components_loading_loading_component__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__components_loading_loading_controller__ = __webpack_require__(142);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__components_menu_menu__ = __webpack_require__(143);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__components_menu_menu_close__ = __webpack_require__(144);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__components_loading_loading_controller__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__components_menu_menu__ = __webpack_require__(141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__components_menu_menu_close__ = __webpack_require__(142);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_67__components_app_menu_controller__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__components_menu_menu_toggle__ = __webpack_require__(145);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__components_menu_menu_toggle__ = __webpack_require__(143);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_69__components_modal_modal_component__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_70__components_modal_modal_controller__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_70__components_modal_modal_controller__ = __webpack_require__(149);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__components_nav_nav__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_72__components_nav_nav_pop__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_73__components_nav_nav_pop_anchor__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_73__components_nav_nav_pop_anchor__ = __webpack_require__(150);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_74__components_nav_nav_push__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_75__components_nav_nav_push_anchor__ = __webpack_require__(153);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_76__components_note_note__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_75__components_nav_nav_push_anchor__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_76__components_note_note__ = __webpack_require__(152);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_77__components_option_option__ = __webpack_require__(79);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_78__components_picker_picker_component__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_79__components_picker_picker_column__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_80__components_picker_picker_controller__ = __webpack_require__(65);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_81__components_popover_popover_component__ = __webpack_require__(81);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_82__components_popover_popover_controller__ = __webpack_require__(155);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_83__components_radio_radio_button__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_82__components_popover_popover_controller__ = __webpack_require__(153);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_83__components_radio_radio_button__ = __webpack_require__(154);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_84__components_radio_radio_group__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_85__components_range_range__ = __webpack_require__(157);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_86__components_range_range_knob__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_85__components_range_range__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_86__components_range_range_knob__ = __webpack_require__(156);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_87__components_refresher_refresher__ = __webpack_require__(83);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_88__components_refresher_refresher_content__ = __webpack_require__(159);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_89__components_scroll_scroll__ = __webpack_require__(160);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_90__components_searchbar_searchbar__ = __webpack_require__(161);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_91__components_segment_segment__ = __webpack_require__(162);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_92__components_select_select__ = __webpack_require__(163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_88__components_refresher_refresher_content__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_89__components_scroll_scroll__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_90__components_searchbar_searchbar__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_91__components_segment_segment__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_92__components_select_select__ = __webpack_require__(161);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_93__components_select_select_popover_component__ = __webpack_require__(85);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_94__components_segment_segment_button__ = __webpack_require__(84);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_95__components_show_hide_when_show_when__ = __webpack_require__(164);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_96__components_show_hide_when_hide_when__ = __webpack_require__(165);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_97__components_slides_slide__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_95__components_show_hide_when_show_when__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_96__components_show_hide_when_hide_when__ = __webpack_require__(163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_97__components_slides_slide__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_98__components_slides_slides__ = __webpack_require__(87);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_99__components_spinner_spinner__ = __webpack_require__(170);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_100__components_split_pane_split_pane__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_101__components_tabs_tab__ = __webpack_require__(171);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_102__components_tabs_tab_button__ = __webpack_require__(172);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_99__components_spinner_spinner__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_100__components_split_pane_split_pane__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_101__components_tabs_tab__ = __webpack_require__(169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_102__components_tabs_tab_button__ = __webpack_require__(170);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_103__components_tabs_tab_highlight__ = __webpack_require__(93);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_104__components_tabs_tabs__ = __webpack_require__(92);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_105__components_thumbnail_thumbnail__ = __webpack_require__(180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_105__components_thumbnail_thumbnail__ = __webpack_require__(178);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_106__components_toast_toast_component__ = __webpack_require__(94);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_107__components_toast_toast_controller__ = __webpack_require__(174);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_108__components_toggle_toggle__ = __webpack_require__(175);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_109__components_toolbar_toolbar_footer__ = __webpack_require__(176);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_110__components_toolbar_toolbar_header__ = __webpack_require__(177);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_111__components_toolbar_toolbar__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_112__components_toolbar_toolbar_item__ = __webpack_require__(178);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_113__components_toolbar_toolbar_title__ = __webpack_require__(179);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_114__components_toolbar_navbar__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_115__components_typography_typography__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_107__components_toast_toast_controller__ = __webpack_require__(172);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_108__components_toggle_toggle__ = __webpack_require__(173);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_109__components_toolbar_toolbar_footer__ = __webpack_require__(174);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_110__components_toolbar_toolbar_header__ = __webpack_require__(175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_111__components_toolbar_toolbar__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_112__components_toolbar_toolbar_item__ = __webpack_require__(176);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_113__components_toolbar_toolbar_title__ = __webpack_require__(177);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_114__components_toolbar_navbar__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_115__components_typography_typography__ = __webpack_require__(179);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_116__components_virtual_scroll_virtual_footer__ = __webpack_require__(95);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_117__components_virtual_scroll_virtual_header__ = __webpack_require__(96);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_118__components_virtual_scroll_virtual_item__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_119__components_virtual_scroll_virtual_scroll__ = __webpack_require__(182);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_119__components_virtual_scroll_virtual_scroll__ = __webpack_require__(180);
 /**
  * Import Angular
  */
@@ -103575,7 +105803,7 @@ function provideLocationStrategy(platformLocationStrategy, baseHref, config) {
 //# sourceMappingURL=module.js.map
 
 /***/ }),
-/* 254 */
+/* 255 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -103657,7 +105885,7 @@ var ClickBlock = (function () {
 //# sourceMappingURL=click-block.js.map
 
 /***/ }),
-/* 255 */
+/* 256 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -103683,28 +105911,28 @@ function checkReady() {
 //# sourceMappingURL=bootstrap.js.map
 
 /***/ }),
-/* 256 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var Observable_1 = __webpack_require__(9);
-var fromEvent_1 = __webpack_require__(257);
-Observable_1.Observable.fromEvent = fromEvent_1.fromEvent;
-//# sourceMappingURL=fromEvent.js.map
-
-/***/ }),
 /* 257 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var FromEventObservable_1 = __webpack_require__(258);
-exports.fromEvent = FromEventObservable_1.FromEventObservable.create;
+var Observable_1 = __webpack_require__(9);
+var fromEvent_1 = __webpack_require__(258);
+Observable_1.Observable.fromEvent = fromEvent_1.fromEvent;
 //# sourceMappingURL=fromEvent.js.map
 
 /***/ }),
 /* 258 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var FromEventObservable_1 = __webpack_require__(259);
+exports.fromEvent = FromEventObservable_1.FromEventObservable.create;
+//# sourceMappingURL=fromEvent.js.map
+
+/***/ }),
+/* 259 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -103716,8 +105944,8 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var Observable_1 = __webpack_require__(9);
 var tryCatch_1 = __webpack_require__(102);
-var isFunction_1 = __webpack_require__(52);
-var errorObject_1 = __webpack_require__(53);
+var isFunction_1 = __webpack_require__(50);
+var errorObject_1 = __webpack_require__(51);
 var Subscription_1 = __webpack_require__(32);
 var toString = Object.prototype.toString;
 function isNodeStyleEventEmitter(sourceObj) {
@@ -103850,7 +106078,7 @@ exports.FromEventObservable = FromEventObservable;
 //# sourceMappingURL=FromEventObservable.js.map
 
 /***/ }),
-/* 259 */
+/* 260 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -103863,11 +106091,11 @@ exports.FromEventObservable = FromEventObservable;
 /* unused harmony export InstanceProperty */
 /* unused harmony export CordovaFunctionOverride */
 /* unused harmony export CordovaFiniteObservable */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugin__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugin__ = __webpack_require__(190);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util__ = __webpack_require__(98);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_observable_throw__ = __webpack_require__(260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_observable_throw__ = __webpack_require__(261);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_observable_throw___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_observable_throw__);
 
 
@@ -104131,17 +106359,17 @@ function CordovaFiniteObservable(opts) {
 //# sourceMappingURL=decorators.js.map
 
 /***/ }),
-/* 260 */
+/* 261 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var ErrorObservable_1 = __webpack_require__(261);
+var ErrorObservable_1 = __webpack_require__(262);
 exports._throw = ErrorObservable_1.ErrorObservable.create;
 //# sourceMappingURL=throw.js.map
 
 /***/ }),
-/* 261 */
+/* 262 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -104230,7 +106458,7 @@ exports.ErrorObservable = ErrorObservable;
 //# sourceMappingURL=ErrorObservable.js.map
 
 /***/ }),
-/* 262 */
+/* 263 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -104267,2557 +106495,6 @@ var IonicNativePlugin = (function () {
 }());
 
 //# sourceMappingURL=ionic-native-plugin.js.map
-
-/***/ }),
-/* 263 */,
-/* 264 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* unused harmony export HttpBackend */
-/* unused harmony export HttpHandler */
-/* unused harmony export HttpClient */
-/* unused harmony export HttpHeaders */
-/* unused harmony export HTTP_INTERCEPTORS */
-/* unused harmony export JsonpClientBackend */
-/* unused harmony export JsonpInterceptor */
-/* unused harmony export HttpClientJsonpModule */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HttpClientModule; });
-/* unused harmony export HttpClientXsrfModule */
-/* unused harmony export ɵinterceptingHandler */
-/* unused harmony export HttpParams */
-/* unused harmony export HttpUrlEncodingCodec */
-/* unused harmony export HttpRequest */
-/* unused harmony export HttpErrorResponse */
-/* unused harmony export HttpEventType */
-/* unused harmony export HttpHeaderResponse */
-/* unused harmony export HttpResponse */
-/* unused harmony export HttpResponseBase */
-/* unused harmony export HttpXhrBackend */
-/* unused harmony export XhrFactory */
-/* unused harmony export HttpXsrfTokenExtractor */
-/* unused harmony export ɵa */
-/* unused harmony export ɵb */
-/* unused harmony export ɵc */
-/* unused harmony export ɵd */
-/* unused harmony export ɵg */
-/* unused harmony export ɵh */
-/* unused harmony export ɵe */
-/* unused harmony export ɵf */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_tslib__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__ = __webpack_require__(265);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_concatMap__ = __webpack_require__(266);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_concatMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_operator_concatMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_filter__ = __webpack_require__(268);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_filter___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_operator_filter__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_map__ = __webpack_require__(121);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_common__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_Observable__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_Observable__);
-
-/**
- * @license Angular v4.4.3
- * (c) 2010-2017 Google, Inc. https://angular.io/
- * License: MIT
- */
-
-
-
-
-
-
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * Transforms an `HttpRequest` into a stream of `HttpEvent`s, one of which will likely be a
- * `HttpResponse`.
- *
- * `HttpHandler` is injectable. When injected, the handler instance dispatches requests to the
- * first interceptor in the chain, which dispatches to the second, etc, eventually reaching the
- * `HttpBackend`.
- *
- * In an `HttpInterceptor`, the `HttpHandler` parameter is the next interceptor in the chain.
- *
- * \@experimental
- * @abstract
- */
-var HttpHandler = (function () {
-    function HttpHandler() {
-    }
-    /**
-     * @abstract
-     * @param {?} req
-     * @return {?}
-     */
-    HttpHandler.prototype.handle = function (req) { };
-    return HttpHandler;
-}());
-/**
- * A final `HttpHandler` which will dispatch the request via browser HTTP APIs to a backend.
- *
- * Interceptors sit between the `HttpClient` interface and the `HttpBackend`.
- *
- * When injected, `HttpBackend` dispatches requests directly to the backend, without going
- * through the interceptor chain.
- *
- * \@experimental
- * @abstract
- */
-var HttpBackend = (function () {
-    function HttpBackend() {
-    }
-    /**
-     * @abstract
-     * @param {?} req
-     * @return {?}
-     */
-    HttpBackend.prototype.handle = function (req) { };
-    return HttpBackend;
-}());
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * A `HttpParameterCodec` that uses `encodeURIComponent` and `decodeURIComponent` to
- * serialize and parse URL parameter keys and values.
- *
- * \@experimental
- */
-var HttpUrlEncodingCodec = (function () {
-    function HttpUrlEncodingCodec() {
-    }
-    /**
-     * @param {?} k
-     * @return {?}
-     */
-    HttpUrlEncodingCodec.prototype.encodeKey = function (k) { return standardEncoding(k); };
-    /**
-     * @param {?} v
-     * @return {?}
-     */
-    HttpUrlEncodingCodec.prototype.encodeValue = function (v) { return standardEncoding(v); };
-    /**
-     * @param {?} k
-     * @return {?}
-     */
-    HttpUrlEncodingCodec.prototype.decodeKey = function (k) { return decodeURIComponent(k); };
-    /**
-     * @param {?} v
-     * @return {?}
-     */
-    HttpUrlEncodingCodec.prototype.decodeValue = function (v) { return decodeURIComponent(v); };
-    return HttpUrlEncodingCodec;
-}());
-/**
- * @param {?} rawParams
- * @param {?} codec
- * @return {?}
- */
-function paramParser(rawParams, codec) {
-    var /** @type {?} */ map$$1 = new Map();
-    if (rawParams.length > 0) {
-        var /** @type {?} */ params = rawParams.split('&');
-        params.forEach(function (param) {
-            var /** @type {?} */ eqIdx = param.indexOf('=');
-            var _a = eqIdx == -1 ?
-                [codec.decodeKey(param), ''] :
-                [codec.decodeKey(param.slice(0, eqIdx)), codec.decodeValue(param.slice(eqIdx + 1))], key = _a[0], val = _a[1];
-            var /** @type {?} */ list = map$$1.get(key) || [];
-            list.push(val);
-            map$$1.set(key, list);
-        });
-    }
-    return map$$1;
-}
-/**
- * @param {?} v
- * @return {?}
- */
-function standardEncoding(v) {
-    return encodeURIComponent(v)
-        .replace(/%40/gi, '@')
-        .replace(/%3A/gi, ':')
-        .replace(/%24/gi, '$')
-        .replace(/%2C/gi, ',')
-        .replace(/%3B/gi, ';')
-        .replace(/%2B/gi, '+')
-        .replace(/%3D/gi, '=')
-        .replace(/%3F/gi, '?')
-        .replace(/%2F/gi, '/');
-}
-/**
- * An HTTP request/response body that represents serialized parameters,
- * per the MIME type `application/x-www-form-urlencoded`.
- *
- * This class is immuatable - all mutation operations return a new instance.
- *
- * \@experimental
- */
-var HttpParams = (function () {
-    /**
-     * @param {?=} options
-     */
-    function HttpParams(options) {
-        if (options === void 0) { options = {}; }
-        this.updates = null;
-        this.cloneFrom = null;
-        this.encoder = options.encoder || new HttpUrlEncodingCodec();
-        this.map = !!options.fromString ? paramParser(options.fromString, this.encoder) : null;
-    }
-    /**
-     * Check whether the body has one or more values for the given parameter name.
-     * @param {?} param
-     * @return {?}
-     */
-    HttpParams.prototype.has = function (param) {
-        this.init();
-        return ((this.map)).has(param);
-    };
-    /**
-     * Get the first value for the given parameter name, or `null` if it's not present.
-     * @param {?} param
-     * @return {?}
-     */
-    HttpParams.prototype.get = function (param) {
-        this.init();
-        var /** @type {?} */ res = ((this.map)).get(param);
-        return !!res ? res[0] : null;
-    };
-    /**
-     * Get all values for the given parameter name, or `null` if it's not present.
-     * @param {?} param
-     * @return {?}
-     */
-    HttpParams.prototype.getAll = function (param) {
-        this.init();
-        return ((this.map)).get(param) || null;
-    };
-    /**
-     * Get all the parameter names for this body.
-     * @return {?}
-     */
-    HttpParams.prototype.keys = function () {
-        this.init();
-        return Array.from(/** @type {?} */ ((this.map)).keys());
-    };
-    /**
-     * Construct a new body with an appended value for the given parameter name.
-     * @param {?} param
-     * @param {?} value
-     * @return {?}
-     */
-    HttpParams.prototype.append = function (param, value) { return this.clone({ param: param, value: value, op: 'a' }); };
-    /**
-     * Construct a new body with a new value for the given parameter name.
-     * @param {?} param
-     * @param {?} value
-     * @return {?}
-     */
-    HttpParams.prototype.set = function (param, value) { return this.clone({ param: param, value: value, op: 's' }); };
-    /**
-     * Construct a new body with either the given value for the given parameter
-     * removed, if a value is given, or all values for the given parameter removed
-     * if not.
-     * @param {?} param
-     * @param {?=} value
-     * @return {?}
-     */
-    HttpParams.prototype.delete = function (param, value) { return this.clone({ param: param, value: value, op: 'd' }); };
-    /**
-     * Serialize the body to an encoded string, where key-value pairs (separated by `=`) are
-     * separated by `&`s.
-     * @return {?}
-     */
-    HttpParams.prototype.toString = function () {
-        var _this = this;
-        this.init();
-        return this.keys()
-            .map(function (key) {
-            var /** @type {?} */ eKey = _this.encoder.encodeKey(key);
-            return ((((_this.map)).get(key))).map(function (value) { return eKey + '=' + _this.encoder.encodeValue(value); })
-                .join('&');
-        })
-            .join('&');
-    };
-    /**
-     * @param {?} update
-     * @return {?}
-     */
-    HttpParams.prototype.clone = function (update) {
-        var /** @type {?} */ clone = new HttpParams({ encoder: this.encoder });
-        clone.cloneFrom = this.cloneFrom || this;
-        clone.updates = (this.updates || []).concat([update]);
-        return clone;
-    };
-    /**
-     * @return {?}
-     */
-    HttpParams.prototype.init = function () {
-        var _this = this;
-        if (this.map === null) {
-            this.map = new Map();
-        }
-        if (this.cloneFrom !== null) {
-            this.cloneFrom.init();
-            this.cloneFrom.keys().forEach(function (key) { return ((_this.map)).set(key, /** @type {?} */ ((((((_this.cloneFrom)).map)).get(key)))); }); /** @type {?} */
-            ((this.updates)).forEach(function (update) {
-                switch (update.op) {
-                    case 'a':
-                    case 's':
-                        var /** @type {?} */ base = (update.op === 'a' ? ((_this.map)).get(update.param) : undefined) || [];
-                        base.push(/** @type {?} */ ((update.value))); /** @type {?} */
-                        ((_this.map)).set(update.param, base);
-                        break;
-                    case 'd':
-                        if (update.value !== undefined) {
-                            var /** @type {?} */ base_1 = ((_this.map)).get(update.param) || [];
-                            var /** @type {?} */ idx = base_1.indexOf(update.value);
-                            if (idx !== -1) {
-                                base_1.splice(idx, 1);
-                            }
-                            if (base_1.length > 0) {
-                                ((_this.map)).set(update.param, base_1);
-                            }
-                            else {
-                                ((_this.map)).delete(update.param);
-                            }
-                        }
-                        else {
-                            ((_this.map)).delete(update.param);
-                            break;
-                        }
-                }
-            });
-            this.cloneFrom = null;
-        }
-    };
-    return HttpParams;
-}());
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * Immutable set of Http headers, with lazy parsing.
- * \@experimental
- */
-var HttpHeaders = (function () {
-    /**
-     * @param {?=} headers
-     */
-    function HttpHeaders(headers) {
-        var _this = this;
-        /**
-         * Internal map of lowercased header names to the normalized
-         * form of the name (the form seen first).
-         */
-        this.normalizedNames = new Map();
-        /**
-         * Queued updates to be materialized the next initialization.
-         */
-        this.lazyUpdate = null;
-        if (!headers) {
-            this.headers = new Map();
-        }
-        else if (typeof headers === 'string') {
-            this.lazyInit = function () {
-                _this.headers = new Map();
-                headers.split('\n').forEach(function (line) {
-                    var index = line.indexOf(':');
-                    if (index > 0) {
-                        var name = line.slice(0, index);
-                        var key = name.toLowerCase();
-                        var value = line.slice(index + 1).trim();
-                        _this.maybeSetNormalizedName(name, key);
-                        if (_this.headers.has(key)) {
-                            _this.headers.get(key).push(value);
-                        }
-                        else {
-                            _this.headers.set(key, [value]);
-                        }
-                    }
-                });
-            };
-        }
-        else {
-            this.lazyInit = function () {
-                _this.headers = new Map();
-                Object.keys(headers).forEach(function (name) {
-                    var values = headers[name];
-                    var key = name.toLowerCase();
-                    if (typeof values === 'string') {
-                        values = [values];
-                    }
-                    if (values.length > 0) {
-                        _this.headers.set(key, values);
-                        _this.maybeSetNormalizedName(name, key);
-                    }
-                });
-            };
-        }
-    }
-    /**
-     * Checks for existence of header by given name.
-     * @param {?} name
-     * @return {?}
-     */
-    HttpHeaders.prototype.has = function (name) {
-        this.init();
-        return this.headers.has(name.toLowerCase());
-    };
-    /**
-     * Returns first header that matches given name.
-     * @param {?} name
-     * @return {?}
-     */
-    HttpHeaders.prototype.get = function (name) {
-        this.init();
-        var /** @type {?} */ values = this.headers.get(name.toLowerCase());
-        return values && values.length > 0 ? values[0] : null;
-    };
-    /**
-     * Returns the names of the headers
-     * @return {?}
-     */
-    HttpHeaders.prototype.keys = function () {
-        this.init();
-        return Array.from(this.normalizedNames.values());
-    };
-    /**
-     * Returns list of header values for a given name.
-     * @param {?} name
-     * @return {?}
-     */
-    HttpHeaders.prototype.getAll = function (name) {
-        this.init();
-        return this.headers.get(name.toLowerCase()) || null;
-    };
-    /**
-     * @param {?} name
-     * @param {?} value
-     * @return {?}
-     */
-    HttpHeaders.prototype.append = function (name, value) {
-        return this.clone({ name: name, value: value, op: 'a' });
-    };
-    /**
-     * @param {?} name
-     * @param {?} value
-     * @return {?}
-     */
-    HttpHeaders.prototype.set = function (name, value) {
-        return this.clone({ name: name, value: value, op: 's' });
-    };
-    /**
-     * @param {?} name
-     * @param {?=} value
-     * @return {?}
-     */
-    HttpHeaders.prototype.delete = function (name, value) {
-        return this.clone({ name: name, value: value, op: 'd' });
-    };
-    /**
-     * @param {?} name
-     * @param {?} lcName
-     * @return {?}
-     */
-    HttpHeaders.prototype.maybeSetNormalizedName = function (name, lcName) {
-        if (!this.normalizedNames.has(lcName)) {
-            this.normalizedNames.set(lcName, name);
-        }
-    };
-    /**
-     * @return {?}
-     */
-    HttpHeaders.prototype.init = function () {
-        var _this = this;
-        if (!!this.lazyInit) {
-            if (this.lazyInit instanceof HttpHeaders) {
-                this.copyFrom(this.lazyInit);
-            }
-            else {
-                this.lazyInit();
-            }
-            this.lazyInit = null;
-            if (!!this.lazyUpdate) {
-                this.lazyUpdate.forEach(function (update) { return _this.applyUpdate(update); });
-                this.lazyUpdate = null;
-            }
-        }
-    };
-    /**
-     * @param {?} other
-     * @return {?}
-     */
-    HttpHeaders.prototype.copyFrom = function (other) {
-        var _this = this;
-        other.init();
-        Array.from(other.headers.keys()).forEach(function (key) {
-            _this.headers.set(key, /** @type {?} */ ((other.headers.get(key))));
-            _this.normalizedNames.set(key, /** @type {?} */ ((other.normalizedNames.get(key))));
-        });
-    };
-    /**
-     * @param {?} update
-     * @return {?}
-     */
-    HttpHeaders.prototype.clone = function (update) {
-        var /** @type {?} */ clone = new HttpHeaders();
-        clone.lazyInit =
-            (!!this.lazyInit && this.lazyInit instanceof HttpHeaders) ? this.lazyInit : this;
-        clone.lazyUpdate = (this.lazyUpdate || []).concat([update]);
-        return clone;
-    };
-    /**
-     * @param {?} update
-     * @return {?}
-     */
-    HttpHeaders.prototype.applyUpdate = function (update) {
-        var /** @type {?} */ key = update.name.toLowerCase();
-        switch (update.op) {
-            case 'a':
-            case 's':
-                var /** @type {?} */ value = ((update.value));
-                if (typeof value === 'string') {
-                    value = [value];
-                }
-                if (value.length === 0) {
-                    return;
-                }
-                this.maybeSetNormalizedName(update.name, key);
-                var /** @type {?} */ base = (update.op === 'a' ? this.headers.get(key) : undefined) || [];
-                base.push.apply(base, value);
-                this.headers.set(key, base);
-                break;
-            case 'd':
-                var /** @type {?} */ toDelete_1 = (update.value);
-                if (!toDelete_1) {
-                    this.headers.delete(key);
-                    this.normalizedNames.delete(key);
-                }
-                else {
-                    var /** @type {?} */ existing = this.headers.get(key);
-                    if (!existing) {
-                        return;
-                    }
-                    existing = existing.filter(function (value) { return toDelete_1.indexOf(value) === -1; });
-                    if (existing.length === 0) {
-                        this.headers.delete(key);
-                        this.normalizedNames.delete(key);
-                    }
-                    else {
-                        this.headers.set(key, existing);
-                    }
-                }
-                break;
-        }
-    };
-    /**
-     * \@internal
-     * @param {?} fn
-     * @return {?}
-     */
-    HttpHeaders.prototype.forEach = function (fn) {
-        var _this = this;
-        this.init();
-        Array.from(this.normalizedNames.keys())
-            .forEach(function (key) { return fn(/** @type {?} */ ((_this.normalizedNames.get(key))), /** @type {?} */ ((_this.headers.get(key)))); });
-    };
-    return HttpHeaders;
-}());
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * Determine whether the given HTTP method may include a body.
- * @param {?} method
- * @return {?}
- */
-function mightHaveBody(method) {
-    switch (method) {
-        case 'DELETE':
-        case 'GET':
-        case 'HEAD':
-        case 'OPTIONS':
-        case 'JSONP':
-            return false;
-        default:
-            return true;
-    }
-}
-/**
- * Safely assert whether the given value is an ArrayBuffer.
- *
- * In some execution environments ArrayBuffer is not defined.
- * @param {?} value
- * @return {?}
- */
-function isArrayBuffer(value) {
-    return typeof ArrayBuffer !== 'undefined' && value instanceof ArrayBuffer;
-}
-/**
- * Safely assert whether the given value is a Blob.
- *
- * In some execution environments Blob is not defined.
- * @param {?} value
- * @return {?}
- */
-function isBlob(value) {
-    return typeof Blob !== 'undefined' && value instanceof Blob;
-}
-/**
- * Safely assert whether the given value is a FormData instance.
- *
- * In some execution environments FormData is not defined.
- * @param {?} value
- * @return {?}
- */
-function isFormData(value) {
-    return typeof FormData !== 'undefined' && value instanceof FormData;
-}
-/**
- * An outgoing HTTP request with an optional typed body.
- *
- * `HttpRequest` represents an outgoing request, including URL, method,
- * headers, body, and other request configuration options. Instances should be
- * assumed to be immutable. To modify a `HttpRequest`, the `clone`
- * method should be used.
- *
- * \@experimental
- */
-var HttpRequest = (function () {
-    /**
-     * @param {?} method
-     * @param {?} url
-     * @param {?=} third
-     * @param {?=} fourth
-     */
-    function HttpRequest(method, url, third, fourth) {
-        this.url = url;
-        /**
-         * The request body, or `null` if one isn't set.
-         *
-         * Bodies are not enforced to be immutable, as they can include a reference to any
-         * user-defined data type. However, interceptors should take care to preserve
-         * idempotence by treating them as such.
-         */
-        this.body = null;
-        /**
-         * Whether this request should be made in a way that exposes progress events.
-         *
-         * Progress events are expensive (change detection runs on each event) and so
-         * they should only be requested if the consumer intends to monitor them.
-         */
-        this.reportProgress = false;
-        /**
-         * Whether this request should be sent with outgoing credentials (cookies).
-         */
-        this.withCredentials = false;
-        /**
-         * The expected response type of the server.
-         *
-         * This is used to parse the response appropriately before returning it to
-         * the requestee.
-         */
-        this.responseType = 'json';
-        this.method = method.toUpperCase();
-        // Next, need to figure out which argument holds the HttpRequestInit
-        // options, if any.
-        var options;
-        // Check whether a body argument is expected. The only valid way to omit
-        // the body argument is to use a known no-body method like GET.
-        if (mightHaveBody(this.method) || !!fourth) {
-            // Body is the third argument, options are the fourth.
-            this.body = third || null;
-            options = fourth;
-        }
-        else {
-            // No body required, options are the third argument. The body stays null.
-            options = third;
-        }
-        // If options have been passed, interpret them.
-        if (options) {
-            // Normalize reportProgress and withCredentials.
-            this.reportProgress = !!options.reportProgress;
-            this.withCredentials = !!options.withCredentials;
-            // Override default response type of 'json' if one is provided.
-            if (!!options.responseType) {
-                this.responseType = options.responseType;
-            }
-            // Override headers if they're provided.
-            if (!!options.headers) {
-                this.headers = options.headers;
-            }
-            if (!!options.params) {
-                this.params = options.params;
-            }
-        }
-        // If no headers have been passed in, construct a new HttpHeaders instance.
-        if (!this.headers) {
-            this.headers = new HttpHeaders();
-        }
-        // If no parameters have been passed in, construct a new HttpUrlEncodedParams instance.
-        if (!this.params) {
-            this.params = new HttpParams();
-            this.urlWithParams = url;
-        }
-        else {
-            // Encode the parameters to a string in preparation for inclusion in the URL.
-            var params = this.params.toString();
-            if (params.length === 0) {
-                // No parameters, the visible URL is just the URL given at creation time.
-                this.urlWithParams = url;
-            }
-            else {
-                // Does the URL already have query parameters? Look for '?'.
-                var qIdx = url.indexOf('?');
-                // There are 3 cases to handle:
-                // 1) No existing parameters -> append '?' followed by params.
-                // 2) '?' exists and is followed by existing query string ->
-                //    append '&' followed by params.
-                // 3) '?' exists at the end of the url -> append params directly.
-                // This basically amounts to determining the character, if any, with
-                // which to join the URL and parameters.
-                var sep = qIdx === -1 ? '?' : (qIdx < url.length - 1 ? '&' : '');
-                this.urlWithParams = url + sep + params;
-            }
-        }
-    }
-    /**
-     * Transform the free-form body into a serialized format suitable for
-     * transmission to the server.
-     * @return {?}
-     */
-    HttpRequest.prototype.serializeBody = function () {
-        // If no body is present, no need to serialize it.
-        if (this.body === null) {
-            return null;
-        }
-        // Check whether the body is already in a serialized form. If so,
-        // it can just be returned directly.
-        if (isArrayBuffer(this.body) || isBlob(this.body) || isFormData(this.body) ||
-            typeof this.body === 'string') {
-            return this.body;
-        }
-        // Check whether the body is an instance of HttpUrlEncodedParams.
-        if (this.body instanceof HttpParams) {
-            return this.body.toString();
-        }
-        // Check whether the body is an object or array, and serialize with JSON if so.
-        if (typeof this.body === 'object' || typeof this.body === 'boolean' ||
-            Array.isArray(this.body)) {
-            return JSON.stringify(this.body);
-        }
-        // Fall back on toString() for everything else.
-        return ((this.body)).toString();
-    };
-    /**
-     * Examine the body and attempt to infer an appropriate MIME type
-     * for it.
-     *
-     * If no such type can be inferred, this method will return `null`.
-     * @return {?}
-     */
-    HttpRequest.prototype.detectContentTypeHeader = function () {
-        // An empty body has no content type.
-        if (this.body === null) {
-            return null;
-        }
-        // FormData bodies rely on the browser's content type assignment.
-        if (isFormData(this.body)) {
-            return null;
-        }
-        // Blobs usually have their own content type. If it doesn't, then
-        // no type can be inferred.
-        if (isBlob(this.body)) {
-            return this.body.type || null;
-        }
-        // Array buffers have unknown contents and thus no type can be inferred.
-        if (isArrayBuffer(this.body)) {
-            return null;
-        }
-        // Technically, strings could be a form of JSON data, but it's safe enough
-        // to assume they're plain strings.
-        if (typeof this.body === 'string') {
-            return 'text/plain';
-        }
-        // `HttpUrlEncodedParams` has its own content-type.
-        if (this.body instanceof HttpParams) {
-            return 'application/x-www-form-urlencoded;charset=UTF-8';
-        }
-        // Arrays, objects, and numbers will be encoded as JSON.
-        if (typeof this.body === 'object' || typeof this.body === 'number' ||
-            Array.isArray(this.body)) {
-            return 'application/json';
-        }
-        // No type could be inferred.
-        return null;
-    };
-    /**
-     * @param {?=} update
-     * @return {?}
-     */
-    HttpRequest.prototype.clone = function (update) {
-        if (update === void 0) { update = {}; }
-        // For method, url, and responseType, take the current value unless
-        // it is overridden in the update hash.
-        var /** @type {?} */ method = update.method || this.method;
-        var /** @type {?} */ url = update.url || this.url;
-        var /** @type {?} */ responseType = update.responseType || this.responseType;
-        // The body is somewhat special - a `null` value in update.body means
-        // whatever current body is present is being overridden with an empty
-        // body, whereas an `undefined` value in update.body implies no
-        // override.
-        var /** @type {?} */ body = (update.body !== undefined) ? update.body : this.body;
-        // Carefully handle the boolean options to differentiate between
-        // `false` and `undefined` in the update args.
-        var /** @type {?} */ withCredentials = (update.withCredentials !== undefined) ? update.withCredentials : this.withCredentials;
-        var /** @type {?} */ reportProgress = (update.reportProgress !== undefined) ? update.reportProgress : this.reportProgress;
-        // Headers and params may be appended to if `setHeaders` or
-        // `setParams` are used.
-        var /** @type {?} */ headers = update.headers || this.headers;
-        var /** @type {?} */ params = update.params || this.params;
-        // Check whether the caller has asked to add headers.
-        if (update.setHeaders !== undefined) {
-            // Set every requested header.
-            headers =
-                Object.keys(update.setHeaders)
-                    .reduce(function (headers, name) { return headers.set(name, /** @type {?} */ ((update.setHeaders))[name]); }, headers);
-        }
-        // Check whether the caller has asked to set params.
-        if (update.setParams) {
-            // Set every requested param.
-            params = Object.keys(update.setParams)
-                .reduce(function (params, param) { return params.set(param, /** @type {?} */ ((update.setParams))[param]); }, params);
-        }
-        // Finally, construct the new HttpRequest using the pieces from above.
-        return new HttpRequest(method, url, body, {
-            params: params, headers: headers, reportProgress: reportProgress, responseType: responseType, withCredentials: withCredentials,
-        });
-    };
-    return HttpRequest;
-}());
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-var HttpEventType = {};
-HttpEventType.Sent = 0;
-HttpEventType.UploadProgress = 1;
-HttpEventType.ResponseHeader = 2;
-HttpEventType.DownloadProgress = 3;
-HttpEventType.Response = 4;
-HttpEventType.User = 5;
-HttpEventType[HttpEventType.Sent] = "Sent";
-HttpEventType[HttpEventType.UploadProgress] = "UploadProgress";
-HttpEventType[HttpEventType.ResponseHeader] = "ResponseHeader";
-HttpEventType[HttpEventType.DownloadProgress] = "DownloadProgress";
-HttpEventType[HttpEventType.Response] = "Response";
-HttpEventType[HttpEventType.User] = "User";
-/**
- * Base class for both `HttpResponse` and `HttpHeaderResponse`.
- *
- * \@experimental
- * @abstract
- */
-var HttpResponseBase = (function () {
-    /**
-     * Super-constructor for all responses.
-     *
-     * The single parameter accepted is an initialization hash. Any properties
-     * of the response passed there will override the default values.
-     * @param {?} init
-     * @param {?=} defaultStatus
-     * @param {?=} defaultStatusText
-     */
-    function HttpResponseBase(init, defaultStatus, defaultStatusText) {
-        if (defaultStatus === void 0) { defaultStatus = 200; }
-        if (defaultStatusText === void 0) { defaultStatusText = 'OK'; }
-        // If the hash has values passed, use them to initialize the response.
-        // Otherwise use the default values.
-        this.headers = init.headers || new HttpHeaders();
-        this.status = init.status !== undefined ? init.status : defaultStatus;
-        this.statusText = init.statusText || defaultStatusText;
-        this.url = init.url || null;
-        // Cache the ok value to avoid defining a getter.
-        this.ok = this.status >= 200 && this.status < 300;
-    }
-    return HttpResponseBase;
-}());
-/**
- * A partial HTTP response which only includes the status and header data,
- * but no response body.
- *
- * `HttpHeaderResponse` is a `HttpEvent` available on the response
- * event stream, only when progress events are requested.
- *
- * \@experimental
- */
-var HttpHeaderResponse = (function (_super) {
-    __WEBPACK_IMPORTED_MODULE_0_tslib__["a" /* __extends */](HttpHeaderResponse, _super);
-    /**
-     * Create a new `HttpHeaderResponse` with the given parameters.
-     * @param {?=} init
-     */
-    function HttpHeaderResponse(init) {
-        if (init === void 0) { init = {}; }
-        var _this = _super.call(this, init) || this;
-        _this.type = HttpEventType.ResponseHeader;
-        return _this;
-    }
-    /**
-     * Copy this `HttpHeaderResponse`, overriding its contents with the
-     * given parameter hash.
-     * @param {?=} update
-     * @return {?}
-     */
-    HttpHeaderResponse.prototype.clone = function (update) {
-        if (update === void 0) { update = {}; }
-        // Perform a straightforward initialization of the new HttpHeaderResponse,
-        // overriding the current parameters with new ones if given.
-        return new HttpHeaderResponse({
-            headers: update.headers || this.headers,
-            status: update.status !== undefined ? update.status : this.status,
-            statusText: update.statusText || this.statusText,
-            url: update.url || this.url || undefined,
-        });
-    };
-    return HttpHeaderResponse;
-}(HttpResponseBase));
-/**
- * A full HTTP response, including a typed response body (which may be `null`
- * if one was not returned).
- *
- * `HttpResponse` is a `HttpEvent` available on the response event
- * stream.
- *
- * \@experimental
- */
-var HttpResponse = (function (_super) {
-    __WEBPACK_IMPORTED_MODULE_0_tslib__["a" /* __extends */](HttpResponse, _super);
-    /**
-     * Construct a new `HttpResponse`.
-     * @param {?=} init
-     */
-    function HttpResponse(init) {
-        if (init === void 0) { init = {}; }
-        var _this = _super.call(this, init) || this;
-        _this.type = HttpEventType.Response;
-        _this.body = init.body || null;
-        return _this;
-    }
-    /**
-     * @param {?=} update
-     * @return {?}
-     */
-    HttpResponse.prototype.clone = function (update) {
-        if (update === void 0) { update = {}; }
-        return new HttpResponse({
-            body: (update.body !== undefined) ? update.body : this.body,
-            headers: update.headers || this.headers,
-            status: (update.status !== undefined) ? update.status : this.status,
-            statusText: update.statusText || this.statusText,
-            url: update.url || this.url || undefined,
-        });
-    };
-    return HttpResponse;
-}(HttpResponseBase));
-/**
- * A response that represents an error or failure, either from a
- * non-successful HTTP status, an error while executing the request,
- * or some other failure which occurred during the parsing of the response.
- *
- * Any error returned on the `Observable` response stream will be
- * wrapped in an `HttpErrorResponse` to provide additional context about
- * the state of the HTTP layer when the error occurred. The error property
- * will contain either a wrapped Error object or the error response returned
- * from the server.
- *
- * \@experimental
- */
-var HttpErrorResponse = (function (_super) {
-    __WEBPACK_IMPORTED_MODULE_0_tslib__["a" /* __extends */](HttpErrorResponse, _super);
-    /**
-     * @param {?} init
-     */
-    function HttpErrorResponse(init) {
-        var _this = 
-        // Initialize with a default status of 0 / Unknown Error.
-        _super.call(this, init, 0, 'Unknown Error') || this;
-        _this.name = 'HttpErrorResponse';
-        /**
-         * Errors are never okay, even when the status code is in the 2xx success range.
-         */
-        _this.ok = false;
-        // If the response was successful, then this was a parse error. Otherwise, it was
-        // a protocol-level failure of some sort. Either the request failed in transit
-        // or the server returned an unsuccessful status code.
-        if (_this.status >= 200 && _this.status < 300) {
-            _this.message = "Http failure during parsing for " + (init.url || '(unknown url)');
-        }
-        else {
-            _this.message =
-                "Http failure response for " + (init.url || '(unknown url)') + ": " + init.status + " " + init.statusText;
-        }
-        _this.error = init.error || null;
-        return _this;
-    }
-    return HttpErrorResponse;
-}(HttpResponseBase));
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * Construct an instance of `HttpRequestOptions<T>` from a source `HttpMethodOptions` and
- * the given `body`. Basically, this clones the object and adds the body.
- * @template T
- * @param {?} options
- * @param {?} body
- * @return {?}
- */
-function addBody(options, body) {
-    return {
-        body: body,
-        headers: options.headers,
-        observe: options.observe,
-        params: options.params,
-        reportProgress: options.reportProgress,
-        responseType: options.responseType,
-        withCredentials: options.withCredentials,
-    };
-}
-/**
- * Perform HTTP requests.
- *
- * `HttpClient` is available as an injectable class, with methods to perform HTTP requests.
- * Each request method has multiple signatures, and the return type varies according to which
- * signature is called (mainly the values of `observe` and `responseType`).
- *
- * \@experimental
- */
-var HttpClient = (function () {
-    /**
-     * @param {?} handler
-     */
-    function HttpClient(handler) {
-        this.handler = handler;
-    }
-    /**
-     * Constructs an `Observable` for a particular HTTP request that, when subscribed,
-     * fires the request through the chain of registered interceptors and on to the
-     * server.
-     *
-     * This method can be called in one of two ways. Either an `HttpRequest`
-     * instance can be passed directly as the only parameter, or a method can be
-     * passed as the first parameter, a string URL as the second, and an
-     * options hash as the third.
-     *
-     * If a `HttpRequest` object is passed directly, an `Observable` of the
-     * raw `HttpEvent` stream will be returned.
-     *
-     * If a request is instead built by providing a URL, the options object
-     * determines the return type of `request()`. In addition to configuring
-     * request parameters such as the outgoing headers and/or the body, the options
-     * hash specifies two key pieces of information about the request: the
-     * `responseType` and what to `observe`.
-     *
-     * The `responseType` value determines how a successful response body will be
-     * parsed. If `responseType` is the default `json`, a type interface for the
-     * resulting object may be passed as a type parameter to `request()`.
-     *
-     * The `observe` value determines the return type of `request()`, based on what
-     * the consumer is interested in observing. A value of `events` will return an
-     * `Observable<HttpEvent>` representing the raw `HttpEvent` stream,
-     * including progress events by default. A value of `response` will return an
-     * `Observable<HttpResponse<T>>` where the `T` parameter of `HttpResponse`
-     * depends on the `responseType` and any optionally provided type parameter.
-     * A value of `body` will return an `Observable<T>` with the same `T` body type.
-     * @param {?} first
-     * @param {?=} url
-     * @param {?=} options
-     * @return {?}
-     */
-    HttpClient.prototype.request = function (first, url, options) {
-        var _this = this;
-        if (options === void 0) { options = {}; }
-        var /** @type {?} */ req;
-        // Firstly, check whether the primary argument is an instance of `HttpRequest`.
-        if (first instanceof HttpRequest) {
-            // It is. The other arguments must be undefined (per the signatures) and can be
-            // ignored.
-            req = (first);
-        }
-        else {
-            // It's a string, so it represents a URL. Construct a request based on it,
-            // and incorporate the remaining arguments (assuming GET unless a method is
-            // provided.
-            req = new HttpRequest(first, /** @type {?} */ ((url)), options.body || null, {
-                headers: options.headers,
-                params: options.params,
-                reportProgress: options.reportProgress,
-                // By default, JSON is assumed to be returned for all calls.
-                responseType: options.responseType || 'json',
-                withCredentials: options.withCredentials,
-            });
-        }
-        // Start with an Observable.of() the initial request, and run the handler (which
-        // includes all interceptors) inside a concatMap(). This way, the handler runs
-        // inside an Observable chain, which causes interceptors to be re-run on every
-        // subscription (this also makes retries re-run the handler, including interceptors).
-        var /** @type {?} */ events$ = __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_concatMap__["concatMap"].call(Object(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__["of"])(req), function (req) { return _this.handler.handle(req); });
-        // If coming via the API signature which accepts a previously constructed HttpRequest,
-        // the only option is to get the event stream. Otherwise, return the event stream if
-        // that is what was requested.
-        if (first instanceof HttpRequest || options.observe === 'events') {
-            return events$;
-        }
-        // The requested stream contains either the full response or the body. In either
-        // case, the first step is to filter the event stream to extract a stream of
-        // responses(s).
-        var /** @type {?} */ res$ = __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_filter__["filter"].call(events$, function (event) { return event instanceof HttpResponse; });
-        // Decide which stream to return.
-        switch (options.observe || 'body') {
-            case 'body':
-                // The requested stream is the body. Map the response stream to the response
-                // body. This could be done more simply, but a misbehaving interceptor might
-                // transform the response body into a different format and ignore the requested
-                // responseType. Guard against this by validating that the response is of the
-                // requested type.
-                switch (req.responseType) {
-                    case 'arraybuffer':
-                        return __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_map__["map"].call(res$, function (res) {
-                            // Validate that the body is an ArrayBuffer.
-                            if (res.body !== null && !(res.body instanceof ArrayBuffer)) {
-                                throw new Error('Response is not an ArrayBuffer.');
-                            }
-                            return res.body;
-                        });
-                    case 'blob':
-                        return __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_map__["map"].call(res$, function (res) {
-                            // Validate that the body is a Blob.
-                            if (res.body !== null && !(res.body instanceof Blob)) {
-                                throw new Error('Response is not a Blob.');
-                            }
-                            return res.body;
-                        });
-                    case 'text':
-                        return __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_map__["map"].call(res$, function (res) {
-                            // Validate that the body is a string.
-                            if (res.body !== null && typeof res.body !== 'string') {
-                                throw new Error('Response is not a string.');
-                            }
-                            return res.body;
-                        });
-                    case 'json':
-                    default:
-                        // No validation needed for JSON responses, as they can be of any type.
-                        return __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_map__["map"].call(res$, function (res) { return res.body; });
-                }
-            case 'response':
-                // The response stream was requested directly, so return it.
-                return res$;
-            default:
-                // Guard against new future observe types being added.
-                throw new Error("Unreachable: unhandled observe type " + options.observe + "}");
-        }
-    };
-    /**
-     * Constructs an `Observable` which, when subscribed, will cause the configured
-     * DELETE request to be executed on the server. See the individual overloads for
-     * details of `delete()`'s return type based on the provided options.
-     * @param {?} url
-     * @param {?=} options
-     * @return {?}
-     */
-    HttpClient.prototype.delete = function (url, options) {
-        if (options === void 0) { options = {}; }
-        return this.request('DELETE', url, /** @type {?} */ (options));
-    };
-    /**
-     * Constructs an `Observable` which, when subscribed, will cause the configured
-     * GET request to be executed on the server. See the individual overloads for
-     * details of `get()`'s return type based on the provided options.
-     * @param {?} url
-     * @param {?=} options
-     * @return {?}
-     */
-    HttpClient.prototype.get = function (url, options) {
-        if (options === void 0) { options = {}; }
-        return this.request('GET', url, /** @type {?} */ (options));
-    };
-    /**
-     * Constructs an `Observable` which, when subscribed, will cause the configured
-     * HEAD request to be executed on the server. See the individual overloads for
-     * details of `head()`'s return type based on the provided options.
-     * @param {?} url
-     * @param {?=} options
-     * @return {?}
-     */
-    HttpClient.prototype.head = function (url, options) {
-        if (options === void 0) { options = {}; }
-        return this.request('HEAD', url, /** @type {?} */ (options));
-    };
-    /**
-     * Constructs an `Observable` which, when subscribed, will cause a request
-     * with the special method `JSONP` to be dispatched via the interceptor pipeline.
-     *
-     * A suitable interceptor must be installed (e.g. via the `HttpClientJsonpModule`).
-     * If no such interceptor is reached, then the `JSONP` request will likely be
-     * rejected by the configured backend.
-     * @template T
-     * @param {?} url
-     * @param {?} callbackParam
-     * @return {?}
-     */
-    HttpClient.prototype.jsonp = function (url, callbackParam) {
-        return this.request('JSONP', url, {
-            params: new HttpParams().append(callbackParam, 'JSONP_CALLBACK'),
-            observe: 'body',
-            responseType: 'json',
-        });
-    };
-    /**
-     * Constructs an `Observable` which, when subscribed, will cause the configured
-     * OPTIONS request to be executed on the server. See the individual overloads for
-     * details of `options()`'s return type based on the provided options.
-     * @param {?} url
-     * @param {?=} options
-     * @return {?}
-     */
-    HttpClient.prototype.options = function (url, options) {
-        if (options === void 0) { options = {}; }
-        return this.request('OPTIONS', url, /** @type {?} */ (options));
-    };
-    /**
-     * Constructs an `Observable` which, when subscribed, will cause the configured
-     * PATCH request to be executed on the server. See the individual overloads for
-     * details of `patch()`'s return type based on the provided options.
-     * @param {?} url
-     * @param {?} body
-     * @param {?=} options
-     * @return {?}
-     */
-    HttpClient.prototype.patch = function (url, body, options) {
-        if (options === void 0) { options = {}; }
-        return this.request('PATCH', url, addBody(options, body));
-    };
-    /**
-     * Constructs an `Observable` which, when subscribed, will cause the configured
-     * POST request to be executed on the server. See the individual overloads for
-     * details of `post()`'s return type based on the provided options.
-     * @param {?} url
-     * @param {?} body
-     * @param {?=} options
-     * @return {?}
-     */
-    HttpClient.prototype.post = function (url, body, options) {
-        if (options === void 0) { options = {}; }
-        return this.request('POST', url, addBody(options, body));
-    };
-    /**
-     * Constructs an `Observable` which, when subscribed, will cause the configured
-     * POST request to be executed on the server. See the individual overloads for
-     * details of `post()`'s return type based on the provided options.
-     * @param {?} url
-     * @param {?} body
-     * @param {?=} options
-     * @return {?}
-     */
-    HttpClient.prototype.put = function (url, body, options) {
-        if (options === void 0) { options = {}; }
-        return this.request('PUT', url, addBody(options, body));
-    };
-    return HttpClient;
-}());
-HttpClient.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */] },
-];
-/**
- * @nocollapse
- */
-HttpClient.ctorParameters = function () { return [
-    { type: HttpHandler, },
-]; };
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * `HttpHandler` which applies an `HttpInterceptor` to an `HttpRequest`.
- *
- * \@experimental
- */
-var HttpInterceptorHandler = (function () {
-    /**
-     * @param {?} next
-     * @param {?} interceptor
-     */
-    function HttpInterceptorHandler(next, interceptor) {
-        this.next = next;
-        this.interceptor = interceptor;
-    }
-    /**
-     * @param {?} req
-     * @return {?}
-     */
-    HttpInterceptorHandler.prototype.handle = function (req) {
-        return this.interceptor.intercept(req, this.next);
-    };
-    return HttpInterceptorHandler;
-}());
-/**
- * A multi-provider token which represents the array of `HttpInterceptor`s that
- * are registered.
- *
- * \@experimental
- */
-var HTTP_INTERCEPTORS = new __WEBPACK_IMPORTED_MODULE_1__angular_core__["C" /* InjectionToken */]('HTTP_INTERCEPTORS');
-var NoopInterceptor = (function () {
-    function NoopInterceptor() {
-    }
-    /**
-     * @param {?} req
-     * @param {?} next
-     * @return {?}
-     */
-    NoopInterceptor.prototype.intercept = function (req, next) {
-        return next.handle(req);
-    };
-    return NoopInterceptor;
-}());
-NoopInterceptor.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */] },
-];
-/**
- * @nocollapse
- */
-NoopInterceptor.ctorParameters = function () { return []; };
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-// Every request made through JSONP needs a callback name that's unique across the
-// whole page. Each request is assigned an id and the callback name is constructed
-// from that. The next id to be assigned is tracked in a global variable here that
-// is shared among all applications on the page.
-var nextRequestId = 0;
-// Error text given when a JSONP script is injected, but doesn't invoke the callback
-// passed in its URL.
-var JSONP_ERR_NO_CALLBACK = 'JSONP injected script did not invoke callback.';
-// Error text given when a request is passed to the JsonpClientBackend that doesn't
-// have a request method JSONP.
-var JSONP_ERR_WRONG_METHOD = 'JSONP requests must use JSONP request method.';
-var JSONP_ERR_WRONG_RESPONSE_TYPE = 'JSONP requests must use Json response type.';
-/**
- * DI token/abstract type representing a map of JSONP callbacks.
- *
- * In the browser, this should always be the `window` object.
- *
- * \@experimental
- * @abstract
- */
-var JsonpCallbackContext = (function () {
-    function JsonpCallbackContext() {
-    }
-    return JsonpCallbackContext;
-}());
-/**
- * `HttpBackend` that only processes `HttpRequest` with the JSONP method,
- * by performing JSONP style requests.
- *
- * \@experimental
- */
-var JsonpClientBackend = (function () {
-    /**
-     * @param {?} callbackMap
-     * @param {?} document
-     */
-    function JsonpClientBackend(callbackMap, document) {
-        this.callbackMap = callbackMap;
-        this.document = document;
-    }
-    /**
-     * Get the name of the next callback method, by incrementing the global `nextRequestId`.
-     * @return {?}
-     */
-    JsonpClientBackend.prototype.nextCallback = function () { return "ng_jsonp_callback_" + nextRequestId++; };
-    /**
-     * Process a JSONP request and return an event stream of the results.
-     * @param {?} req
-     * @return {?}
-     */
-    JsonpClientBackend.prototype.handle = function (req) {
-        var _this = this;
-        // Firstly, check both the method and response type. If either doesn't match
-        // then the request was improperly routed here and cannot be handled.
-        if (req.method !== 'JSONP') {
-            throw new Error(JSONP_ERR_WRONG_METHOD);
-        }
-        else if (req.responseType !== 'json') {
-            throw new Error(JSONP_ERR_WRONG_RESPONSE_TYPE);
-        }
-        // Everything else happens inside the Observable boundary.
-        return new __WEBPACK_IMPORTED_MODULE_7_rxjs_Observable__["Observable"](function (observer) {
-            // The first step to make a request is to generate the callback name, and replace the
-            // callback placeholder in the URL with the name. Care has to be taken here to ensure
-            // a trailing &, if matched, gets inserted back into the URL in the correct place.
-            var /** @type {?} */ callback = _this.nextCallback();
-            var /** @type {?} */ url = req.urlWithParams.replace(/=JSONP_CALLBACK(&|$)/, "=" + callback + "$1");
-            // Construct the <script> tag and point it at the URL.
-            var /** @type {?} */ node = _this.document.createElement('script');
-            node.src = url;
-            // A JSONP request requires waiting for multiple callbacks. These variables
-            // are closed over and track state across those callbacks.
-            // The response object, if one has been received, or null otherwise.
-            var /** @type {?} */ body = null;
-            // Whether the response callback has been called.
-            var /** @type {?} */ finished = false;
-            // Whether the request has been cancelled (and thus any other callbacks)
-            // should be ignored.
-            var /** @type {?} */ cancelled = false;
-            // Set the response callback in this.callbackMap (which will be the window
-            // object in the browser. The script being loaded via the <script> tag will
-            // eventually call this callback.
-            _this.callbackMap[callback] = function (data) {
-                // Data has been received from the JSONP script. Firstly, delete this callback.
-                delete _this.callbackMap[callback];
-                // Next, make sure the request wasn't cancelled in the meantime.
-                if (cancelled) {
-                    return;
-                }
-                // Set state to indicate data was received.
-                body = data;
-                finished = true;
-            };
-            // cleanup() is a utility closure that removes the <script> from the page and
-            // the response callback from the window. This logic is used in both the
-            // success, error, and cancellation paths, so it's extracted out for convenience.
-            var /** @type {?} */ cleanup = function () {
-                // Remove the <script> tag if it's still on the page.
-                if (node.parentNode) {
-                    node.parentNode.removeChild(node);
-                }
-                // Remove the response callback from the callbackMap (window object in the
-                // browser).
-                delete _this.callbackMap[callback];
-            };
-            // onLoad() is the success callback which runs after the response callback
-            // if the JSONP script loads successfully. The event itself is unimportant.
-            // If something went wrong, onLoad() may run without the response callback
-            // having been invoked.
-            var /** @type {?} */ onLoad = function (event) {
-                // Do nothing if the request has been cancelled.
-                if (cancelled) {
-                    return;
-                }
-                // Cleanup the page.
-                cleanup();
-                // Check whether the response callback has run.
-                if (!finished) {
-                    // It hasn't, something went wrong with the request. Return an error via
-                    // the Observable error path. All JSONP errors have status 0.
-                    observer.error(new HttpErrorResponse({
-                        url: url,
-                        status: 0,
-                        statusText: 'JSONP Error',
-                        error: new Error(JSONP_ERR_NO_CALLBACK),
-                    }));
-                    return;
-                }
-                // Success. body either contains the response body or null if none was
-                // returned.
-                observer.next(new HttpResponse({
-                    body: body,
-                    status: 200,
-                    statusText: 'OK', url: url,
-                }));
-                // Complete the stream, the resposne is over.
-                observer.complete();
-            };
-            // onError() is the error callback, which runs if the script returned generates
-            // a Javascript error. It emits the error via the Observable error channel as
-            // a HttpErrorResponse.
-            var /** @type {?} */ onError = function (error) {
-                // If the request was already cancelled, no need to emit anything.
-                if (cancelled) {
-                    return;
-                }
-                cleanup();
-                // Wrap the error in a HttpErrorResponse.
-                observer.error(new HttpErrorResponse({
-                    error: error,
-                    status: 0,
-                    statusText: 'JSONP Error', url: url,
-                }));
-            };
-            // Subscribe to both the success (load) and error events on the <script> tag,
-            // and add it to the page.
-            node.addEventListener('load', onLoad);
-            node.addEventListener('error', onError);
-            _this.document.body.appendChild(node);
-            // The request has now been successfully sent.
-            observer.next({ type: HttpEventType.Sent });
-            // Cancellation handler.
-            return function () {
-                // Track the cancellation so event listeners won't do anything even if already scheduled.
-                cancelled = true;
-                // Remove the event listeners so they won't run if the events later fire.
-                node.removeEventListener('load', onLoad);
-                node.removeEventListener('error', onError);
-                // And finally, clean up the page.
-                cleanup();
-            };
-        });
-    };
-    return JsonpClientBackend;
-}());
-JsonpClientBackend.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */] },
-];
-/**
- * @nocollapse
- */
-JsonpClientBackend.ctorParameters = function () { return [
-    { type: JsonpCallbackContext, },
-    { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Inject */], args: [__WEBPACK_IMPORTED_MODULE_6__angular_common__["c" /* DOCUMENT */],] },] },
-]; };
-/**
- * An `HttpInterceptor` which identifies requests with the method JSONP and
- * shifts them to the `JsonpClientBackend`.
- *
- * \@experimental
- */
-var JsonpInterceptor = (function () {
-    /**
-     * @param {?} jsonp
-     */
-    function JsonpInterceptor(jsonp) {
-        this.jsonp = jsonp;
-    }
-    /**
-     * @param {?} req
-     * @param {?} next
-     * @return {?}
-     */
-    JsonpInterceptor.prototype.intercept = function (req, next) {
-        if (req.method === 'JSONP') {
-            return this.jsonp.handle(/** @type {?} */ (req));
-        }
-        // Fall through for normal HTTP requests.
-        return next.handle(req);
-    };
-    return JsonpInterceptor;
-}());
-JsonpInterceptor.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */] },
-];
-/**
- * @nocollapse
- */
-JsonpInterceptor.ctorParameters = function () { return [
-    { type: JsonpClientBackend, },
-]; };
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-var XSSI_PREFIX = /^\)\]\}',?\n/;
-/**
- * Determine an appropriate URL for the response, by checking either
- * XMLHttpRequest.responseURL or the X-Request-URL header.
- * @param {?} xhr
- * @return {?}
- */
-function getResponseUrl(xhr) {
-    if ('responseURL' in xhr && xhr.responseURL) {
-        return xhr.responseURL;
-    }
-    if (/^X-Request-URL:/m.test(xhr.getAllResponseHeaders())) {
-        return xhr.getResponseHeader('X-Request-URL');
-    }
-    return null;
-}
-/**
- * A wrapper around the `XMLHttpRequest` constructor.
- *
- * \@experimental
- * @abstract
- */
-var XhrFactory = (function () {
-    function XhrFactory() {
-    }
-    /**
-     * @abstract
-     * @return {?}
-     */
-    XhrFactory.prototype.build = function () { };
-    return XhrFactory;
-}());
-/**
- * A factory for \@{link HttpXhrBackend} that uses the `XMLHttpRequest` browser API.
- *
- * \@experimental
- */
-var BrowserXhr = (function () {
-    function BrowserXhr() {
-    }
-    /**
-     * @return {?}
-     */
-    BrowserXhr.prototype.build = function () { return ((new XMLHttpRequest())); };
-    return BrowserXhr;
-}());
-BrowserXhr.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */] },
-];
-/**
- * @nocollapse
- */
-BrowserXhr.ctorParameters = function () { return []; };
-/**
- * An `HttpBackend` which uses the XMLHttpRequest API to send
- * requests to a backend server.
- *
- * \@experimental
- */
-var HttpXhrBackend = (function () {
-    /**
-     * @param {?} xhrFactory
-     */
-    function HttpXhrBackend(xhrFactory) {
-        this.xhrFactory = xhrFactory;
-    }
-    /**
-     * Process a request and return a stream of response events.
-     * @param {?} req
-     * @return {?}
-     */
-    HttpXhrBackend.prototype.handle = function (req) {
-        var _this = this;
-        // Quick check to give a better error message when a user attempts to use
-        // HttpClient.jsonp() without installing the JsonpClientModule
-        if (req.method === 'JSONP') {
-            throw new Error("Attempted to construct Jsonp request without JsonpClientModule installed.");
-        }
-        // Everything happens on Observable subscription.
-        return new __WEBPACK_IMPORTED_MODULE_7_rxjs_Observable__["Observable"](function (observer) {
-            // Start by setting up the XHR object with request method, URL, and withCredentials flag.
-            var /** @type {?} */ xhr = _this.xhrFactory.build();
-            xhr.open(req.method, req.urlWithParams);
-            if (!!req.withCredentials) {
-                xhr.withCredentials = true;
-            }
-            // Add all the requested headers.
-            req.headers.forEach(function (name, values) { return xhr.setRequestHeader(name, values.join(',')); });
-            // Add an Accept header if one isn't present already.
-            if (!req.headers.has('Accept')) {
-                xhr.setRequestHeader('Accept', 'application/json, text/plain, */*');
-            }
-            // Auto-detect the Content-Type header if one isn't present already.
-            if (!req.headers.has('Content-Type')) {
-                var /** @type {?} */ detectedType = req.detectContentTypeHeader();
-                // Sometimes Content-Type detection fails.
-                if (detectedType !== null) {
-                    xhr.setRequestHeader('Content-Type', detectedType);
-                }
-            }
-            // Set the responseType if one was requested.
-            if (req.responseType) {
-                var /** @type {?} */ responseType = req.responseType.toLowerCase();
-                // JSON responses need to be processed as text. This is because if the server
-                // returns an XSSI-prefixed JSON response, the browser will fail to parse it,
-                // xhr.response will be null, and xhr.responseText cannot be accessed to
-                // retrieve the prefixed JSON data in order to strip the prefix. Thus, all JSON
-                // is parsed by first requesting text and then applying JSON.parse.
-                xhr.responseType = (((responseType !== 'json') ? responseType : 'text'));
-            }
-            // Serialize the request body if one is present. If not, this will be set to null.
-            var /** @type {?} */ reqBody = req.serializeBody();
-            // If progress events are enabled, response headers will be delivered
-            // in two events - the HttpHeaderResponse event and the full HttpResponse
-            // event. However, since response headers don't change in between these
-            // two events, it doesn't make sense to parse them twice. So headerResponse
-            // caches the data extracted from the response whenever it's first parsed,
-            // to ensure parsing isn't duplicated.
-            var /** @type {?} */ headerResponse = null;
-            // partialFromXhr extracts the HttpHeaderResponse from the current XMLHttpRequest
-            // state, and memoizes it into headerResponse.
-            var /** @type {?} */ partialFromXhr = function () {
-                if (headerResponse !== null) {
-                    return headerResponse;
-                }
-                // Read status and normalize an IE9 bug (http://bugs.jquery.com/ticket/1450).
-                var /** @type {?} */ status = xhr.status === 1223 ? 204 : xhr.status;
-                var /** @type {?} */ statusText = xhr.statusText || 'OK';
-                // Parse headers from XMLHttpRequest - this step is lazy.
-                var /** @type {?} */ headers = new HttpHeaders(xhr.getAllResponseHeaders());
-                // Read the response URL from the XMLHttpResponse instance and fall back on the
-                // request URL.
-                var /** @type {?} */ url = getResponseUrl(xhr) || req.url;
-                // Construct the HttpHeaderResponse and memoize it.
-                headerResponse = new HttpHeaderResponse({ headers: headers, status: status, statusText: statusText, url: url });
-                return headerResponse;
-            };
-            // Next, a few closures are defined for the various events which XMLHttpRequest can
-            // emit. This allows them to be unregistered as event listeners later.
-            // First up is the load event, which represents a response being fully available.
-            var /** @type {?} */ onLoad = function () {
-                // Read response state from the memoized partial data.
-                var _a = partialFromXhr(), headers = _a.headers, status = _a.status, statusText = _a.statusText, url = _a.url;
-                // The body will be read out if present.
-                var /** @type {?} */ body = null;
-                if (status !== 204) {
-                    // Use XMLHttpRequest.response if set, responseText otherwise.
-                    body = (typeof xhr.response === 'undefined') ? xhr.responseText : xhr.response;
-                }
-                // Normalize another potential bug (this one comes from CORS).
-                if (status === 0) {
-                    status = !!body ? 200 : 0;
-                }
-                // ok determines whether the response will be transmitted on the event or
-                // error channel. Unsuccessful status codes (not 2xx) will always be errors,
-                // but a successful status code can still result in an error if the user
-                // asked for JSON data and the body cannot be parsed as such.
-                var /** @type {?} */ ok = status >= 200 && status < 300;
-                // Check whether the body needs to be parsed as JSON (in many cases the browser
-                // will have done that already).
-                if (ok && req.responseType === 'json' && typeof body === 'string') {
-                    // Attempt the parse. If it fails, a parse error should be delivered to the user.
-                    body = body.replace(XSSI_PREFIX, '');
-                    try {
-                        body = JSON.parse(body);
-                    }
-                    catch (error) {
-                        // Even though the response status was 2xx, this is still an error.
-                        ok = false;
-                        // The parse error contains the text of the body that failed to parse.
-                        body = ({ error: error, text: body });
-                    }
-                }
-                if (ok) {
-                    // A successful response is delivered on the event stream.
-                    observer.next(new HttpResponse({
-                        body: body,
-                        headers: headers,
-                        status: status,
-                        statusText: statusText,
-                        url: url || undefined,
-                    }));
-                    // The full body has been received and delivered, no further events
-                    // are possible. This request is complete.
-                    observer.complete();
-                }
-                else {
-                    // An unsuccessful request is delivered on the error channel.
-                    observer.error(new HttpErrorResponse({
-                        // The error in this case is the response body (error from the server).
-                        error: body,
-                        headers: headers,
-                        status: status,
-                        statusText: statusText,
-                        url: url || undefined,
-                    }));
-                }
-            };
-            // The onError callback is called when something goes wrong at the network level.
-            // Connection timeout, DNS error, offline, etc. These are actual errors, and are
-            // transmitted on the error channel.
-            var /** @type {?} */ onError = function (error) {
-                var /** @type {?} */ res = new HttpErrorResponse({
-                    error: error,
-                    status: xhr.status || 0,
-                    statusText: xhr.statusText || 'Unknown Error',
-                });
-                observer.error(res);
-            };
-            // The sentHeaders flag tracks whether the HttpResponseHeaders event
-            // has been sent on the stream. This is necessary to track if progress
-            // is enabled since the event will be sent on only the first download
-            // progerss event.
-            var /** @type {?} */ sentHeaders = false;
-            // The download progress event handler, which is only registered if
-            // progress events are enabled.
-            var /** @type {?} */ onDownProgress = function (event) {
-                // Send the HttpResponseHeaders event if it hasn't been sent already.
-                if (!sentHeaders) {
-                    observer.next(partialFromXhr());
-                    sentHeaders = true;
-                }
-                // Start building the download progress event to deliver on the response
-                // event stream.
-                var /** @type {?} */ progressEvent = {
-                    type: HttpEventType.DownloadProgress,
-                    loaded: event.loaded,
-                };
-                // Set the total number of bytes in the event if it's available.
-                if (event.lengthComputable) {
-                    progressEvent.total = event.total;
-                }
-                // If the request was for text content and a partial response is
-                // available on XMLHttpRequest, include it in the progress event
-                // to allow for streaming reads.
-                if (req.responseType === 'text' && !!xhr.responseText) {
-                    progressEvent.partialText = xhr.responseText;
-                }
-                // Finally, fire the event.
-                observer.next(progressEvent);
-            };
-            // The upload progress event handler, which is only registered if
-            // progress events are enabled.
-            var /** @type {?} */ onUpProgress = function (event) {
-                // Upload progress events are simpler. Begin building the progress
-                // event.
-                var /** @type {?} */ progress = {
-                    type: HttpEventType.UploadProgress,
-                    loaded: event.loaded,
-                };
-                // If the total number of bytes being uploaded is available, include
-                // it.
-                if (event.lengthComputable) {
-                    progress.total = event.total;
-                }
-                // Send the event.
-                observer.next(progress);
-            };
-            // By default, register for load and error events.
-            xhr.addEventListener('load', onLoad);
-            xhr.addEventListener('error', onError);
-            // Progress events are only enabled if requested.
-            if (req.reportProgress) {
-                // Download progress is always enabled if requested.
-                xhr.addEventListener('progress', onDownProgress);
-                // Upload progress depends on whether there is a body to upload.
-                if (reqBody !== null && xhr.upload) {
-                    xhr.upload.addEventListener('progress', onUpProgress);
-                }
-            }
-            // Fire the request, and notify the event stream that it was fired.
-            xhr.send(reqBody);
-            observer.next({ type: HttpEventType.Sent });
-            // This is the return from the Observable function, which is the
-            // request cancellation handler.
-            return function () {
-                // On a cancellation, remove all registered event listeners.
-                xhr.removeEventListener('error', onError);
-                xhr.removeEventListener('load', onLoad);
-                if (req.reportProgress) {
-                    xhr.removeEventListener('progress', onDownProgress);
-                    if (reqBody !== null && xhr.upload) {
-                        xhr.upload.removeEventListener('progress', onUpProgress);
-                    }
-                }
-                // Finally, abort the in-flight request.
-                xhr.abort();
-            };
-        });
-    };
-    return HttpXhrBackend;
-}());
-HttpXhrBackend.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */] },
-];
-/**
- * @nocollapse
- */
-HttpXhrBackend.ctorParameters = function () { return [
-    { type: XhrFactory, },
-]; };
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-var XSRF_COOKIE_NAME = new __WEBPACK_IMPORTED_MODULE_1__angular_core__["C" /* InjectionToken */]('XSRF_COOKIE_NAME');
-var XSRF_HEADER_NAME = new __WEBPACK_IMPORTED_MODULE_1__angular_core__["C" /* InjectionToken */]('XSRF_HEADER_NAME');
-/**
- * Retrieves the current XSRF token to use with the next outgoing request.
- *
- * \@experimental
- * @abstract
- */
-var HttpXsrfTokenExtractor = (function () {
-    function HttpXsrfTokenExtractor() {
-    }
-    /**
-     * Get the XSRF token to use with an outgoing request.
-     *
-     * Will be called for every request, so the token may change between requests.
-     * @abstract
-     * @return {?}
-     */
-    HttpXsrfTokenExtractor.prototype.getToken = function () { };
-    return HttpXsrfTokenExtractor;
-}());
-/**
- * `HttpXsrfTokenExtractor` which retrieves the token from a cookie.
- */
-var HttpXsrfCookieExtractor = (function () {
-    /**
-     * @param {?} doc
-     * @param {?} platform
-     * @param {?} cookieName
-     */
-    function HttpXsrfCookieExtractor(doc, platform, cookieName) {
-        this.doc = doc;
-        this.platform = platform;
-        this.cookieName = cookieName;
-        this.lastCookieString = '';
-        this.lastToken = null;
-        /**
-         * \@internal for testing
-         */
-        this.parseCount = 0;
-    }
-    /**
-     * @return {?}
-     */
-    HttpXsrfCookieExtractor.prototype.getToken = function () {
-        if (this.platform === 'server') {
-            return null;
-        }
-        var /** @type {?} */ cookieString = this.doc.cookie || '';
-        if (cookieString !== this.lastCookieString) {
-            this.parseCount++;
-            this.lastToken = Object(__WEBPACK_IMPORTED_MODULE_6__angular_common__["j" /* ɵparseCookieValue */])(cookieString, this.cookieName);
-            this.lastCookieString = cookieString;
-        }
-        return this.lastToken;
-    };
-    return HttpXsrfCookieExtractor;
-}());
-HttpXsrfCookieExtractor.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */] },
-];
-/**
- * @nocollapse
- */
-HttpXsrfCookieExtractor.ctorParameters = function () { return [
-    { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Inject */], args: [__WEBPACK_IMPORTED_MODULE_6__angular_common__["c" /* DOCUMENT */],] },] },
-    { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Inject */], args: [__WEBPACK_IMPORTED_MODULE_1__angular_core__["T" /* PLATFORM_ID */],] },] },
-    { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Inject */], args: [XSRF_COOKIE_NAME,] },] },
-]; };
-/**
- * `HttpInterceptor` which adds an XSRF token to eligible outgoing requests.
- */
-var HttpXsrfInterceptor = (function () {
-    /**
-     * @param {?} tokenService
-     * @param {?} headerName
-     */
-    function HttpXsrfInterceptor(tokenService, headerName) {
-        this.tokenService = tokenService;
-        this.headerName = headerName;
-    }
-    /**
-     * @param {?} req
-     * @param {?} next
-     * @return {?}
-     */
-    HttpXsrfInterceptor.prototype.intercept = function (req, next) {
-        var /** @type {?} */ lcUrl = req.url.toLowerCase();
-        // Skip both non-mutating requests and absolute URLs.
-        // Non-mutating requests don't require a token, and absolute URLs require special handling
-        // anyway as the cookie set
-        // on our origin is not the same as the token expected by another origin.
-        if (req.method === 'GET' || req.method === 'HEAD' || lcUrl.startsWith('http://') ||
-            lcUrl.startsWith('https://')) {
-            return next.handle(req);
-        }
-        var /** @type {?} */ token = this.tokenService.getToken();
-        // Be careful not to overwrite an existing header of the same name.
-        if (token !== null && !req.headers.has(this.headerName)) {
-            req = req.clone({ headers: req.headers.set(this.headerName, token) });
-        }
-        return next.handle(req);
-    };
-    return HttpXsrfInterceptor;
-}());
-HttpXsrfInterceptor.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */] },
-];
-/**
- * @nocollapse
- */
-HttpXsrfInterceptor.ctorParameters = function () { return [
-    { type: HttpXsrfTokenExtractor, },
-    { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Inject */], args: [XSRF_HEADER_NAME,] },] },
-]; };
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * Constructs an `HttpHandler` that applies a bunch of `HttpInterceptor`s
- * to a request before passing it to the given `HttpBackend`.
- *
- * Meant to be used as a factory function within `HttpClientModule`.
- *
- * \@experimental
- * @param {?} backend
- * @param {?=} interceptors
- * @return {?}
- */
-function interceptingHandler(backend, interceptors) {
-    if (interceptors === void 0) { interceptors = []; }
-    if (!interceptors) {
-        return backend;
-    }
-    return interceptors.reduceRight(function (next, interceptor) { return new HttpInterceptorHandler(next, interceptor); }, backend);
-}
-/**
- * Factory function that determines where to store JSONP callbacks.
- *
- * Ordinarily JSONP callbacks are stored on the `window` object, but this may not exist
- * in test environments. In that case, callbacks are stored on an anonymous object instead.
- *
- * \@experimental
- * @return {?}
- */
-function jsonpCallbackContext() {
-    if (typeof window === 'object') {
-        return window;
-    }
-    return {};
-}
-/**
- * `NgModule` which adds XSRF protection support to outgoing requests.
- *
- * Provided the server supports a cookie-based XSRF protection system, this
- * module can be used directly to configure XSRF protection with the correct
- * cookie and header names.
- *
- * If no such names are provided, the default is to use `X-XSRF-TOKEN` for
- * the header name and `XSRF-TOKEN` for the cookie name.
- *
- * \@experimental
- */
-var HttpClientXsrfModule = (function () {
-    function HttpClientXsrfModule() {
-    }
-    /**
-     * Disable the default XSRF protection.
-     * @return {?}
-     */
-    HttpClientXsrfModule.disable = function () {
-        return {
-            ngModule: HttpClientXsrfModule,
-            providers: [
-                { provide: HttpXsrfInterceptor, useClass: NoopInterceptor },
-            ],
-        };
-    };
-    /**
-     * Configure XSRF protection to use the given cookie name or header name,
-     * or the default names (as described above) if not provided.
-     * @param {?=} options
-     * @return {?}
-     */
-    HttpClientXsrfModule.withOptions = function (options) {
-        if (options === void 0) { options = {}; }
-        return {
-            ngModule: HttpClientXsrfModule,
-            providers: [
-                options.cookieName ? { provide: XSRF_COOKIE_NAME, useValue: options.cookieName } : [],
-                options.headerName ? { provide: XSRF_HEADER_NAME, useValue: options.headerName } : [],
-            ],
-        };
-    };
-    return HttpClientXsrfModule;
-}());
-HttpClientXsrfModule.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["L" /* NgModule */], args: [{
-                providers: [
-                    HttpXsrfInterceptor,
-                    { provide: HTTP_INTERCEPTORS, useExisting: HttpXsrfInterceptor, multi: true },
-                    { provide: HttpXsrfTokenExtractor, useClass: HttpXsrfCookieExtractor },
-                    { provide: XSRF_COOKIE_NAME, useValue: 'XSRF-TOKEN' },
-                    { provide: XSRF_HEADER_NAME, useValue: 'X-XSRF-TOKEN' },
-                ],
-            },] },
-];
-/**
- * @nocollapse
- */
-HttpClientXsrfModule.ctorParameters = function () { return []; };
-/**
- * `NgModule` which provides the `HttpClient` and associated services.
- *
- * Interceptors can be added to the chain behind `HttpClient` by binding them
- * to the multiprovider for `HTTP_INTERCEPTORS`.
- *
- * \@experimental
- */
-var HttpClientModule = (function () {
-    function HttpClientModule() {
-    }
-    return HttpClientModule;
-}());
-HttpClientModule.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["L" /* NgModule */], args: [{
-                imports: [
-                    HttpClientXsrfModule.withOptions({
-                        cookieName: 'XSRF-TOKEN',
-                        headerName: 'X-XSRF-TOKEN',
-                    }),
-                ],
-                providers: [
-                    HttpClient,
-                    // HttpHandler is the backend + interceptors and is constructed
-                    // using the interceptingHandler factory function.
-                    {
-                        provide: HttpHandler,
-                        useFactory: interceptingHandler,
-                        deps: [HttpBackend, [new __WEBPACK_IMPORTED_MODULE_1__angular_core__["Q" /* Optional */](), new __WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Inject */](HTTP_INTERCEPTORS)]],
-                    },
-                    HttpXhrBackend,
-                    { provide: HttpBackend, useExisting: HttpXhrBackend },
-                    BrowserXhr,
-                    { provide: XhrFactory, useExisting: BrowserXhr },
-                ],
-            },] },
-];
-/**
- * @nocollapse
- */
-HttpClientModule.ctorParameters = function () { return []; };
-/**
- * `NgModule` which enables JSONP support in `HttpClient`.
- *
- * Without this module, Jsonp requests will reach the backend
- * with method JSONP, where they'll be rejected.
- *
- * \@experimental
- */
-var HttpClientJsonpModule = (function () {
-    function HttpClientJsonpModule() {
-    }
-    return HttpClientJsonpModule;
-}());
-HttpClientJsonpModule.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["L" /* NgModule */], args: [{
-                providers: [
-                    JsonpClientBackend,
-                    { provide: JsonpCallbackContext, useFactory: jsonpCallbackContext },
-                    { provide: HTTP_INTERCEPTORS, useClass: JsonpInterceptor, multi: true },
-                ],
-            },] },
-];
-/**
- * @nocollapse
- */
-HttpClientJsonpModule.ctorParameters = function () { return []; };
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * Generated bundle index. Do not edit.
- */
-
-//# sourceMappingURL=http.es5.js.map
-
-
-/***/ }),
-/* 265 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var ArrayObservable_1 = __webpack_require__(105);
-exports.of = ArrayObservable_1.ArrayObservable.of;
-//# sourceMappingURL=of.js.map
-
-/***/ }),
-/* 266 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var mergeMap_1 = __webpack_require__(267);
-/* tslint:enable:max-line-length */
-/**
- * Projects each source value to an Observable which is merged in the output
- * Observable, in a serialized fashion waiting for each one to complete before
- * merging the next.
- *
- * <span class="informal">Maps each value to an Observable, then flattens all of
- * these inner Observables using {@link concatAll}.</span>
- *
- * <img src="./img/concatMap.png" width="100%">
- *
- * Returns an Observable that emits items based on applying a function that you
- * supply to each item emitted by the source Observable, where that function
- * returns an (so-called "inner") Observable. Each new inner Observable is
- * concatenated with the previous inner Observable.
- *
- * __Warning:__ if source values arrive endlessly and faster than their
- * corresponding inner Observables can complete, it will result in memory issues
- * as inner Observables amass in an unbounded buffer waiting for their turn to
- * be subscribed to.
- *
- * Note: `concatMap` is equivalent to `mergeMap` with concurrency parameter set
- * to `1`.
- *
- * @example <caption>For each click event, tick every second from 0 to 3, with no concurrency</caption>
- * var clicks = Rx.Observable.fromEvent(document, 'click');
- * var result = clicks.concatMap(ev => Rx.Observable.interval(1000).take(4));
- * result.subscribe(x => console.log(x));
- *
- * // Results in the following:
- * // (results are not concurrent)
- * // For every click on the "document" it will emit values 0 to 3 spaced
- * // on a 1000ms interval
- * // one click = 1000ms-> 0 -1000ms-> 1 -1000ms-> 2 -1000ms-> 3
- *
- * @see {@link concat}
- * @see {@link concatAll}
- * @see {@link concatMapTo}
- * @see {@link exhaustMap}
- * @see {@link mergeMap}
- * @see {@link switchMap}
- *
- * @param {function(value: T, ?index: number): ObservableInput} project A function
- * that, when applied to an item emitted by the source Observable, returns an
- * Observable.
- * @param {function(outerValue: T, innerValue: I, outerIndex: number, innerIndex: number): any} [resultSelector]
- * A function to produce the value on the output Observable based on the values
- * and the indices of the source (outer) emission and the inner Observable
- * emission. The arguments passed to this function are:
- * - `outerValue`: the value that came from the source
- * - `innerValue`: the value that came from the projected Observable
- * - `outerIndex`: the "index" of the value that came from the source
- * - `innerIndex`: the "index" of the value from the projected Observable
- * @return {Observable} An Observable that emits the result of applying the
- * projection function (and the optional `resultSelector`) to each item emitted
- * by the source Observable and taking values from each projected inner
- * Observable sequentially.
- * @method concatMap
- * @owner Observable
- */
-function concatMap(project, resultSelector) {
-    return this.lift(new mergeMap_1.MergeMapOperator(project, resultSelector, 1));
-}
-exports.concatMap = concatMap;
-//# sourceMappingURL=concatMap.js.map
-
-/***/ }),
-/* 267 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-var subscribeToResult_1 = __webpack_require__(42);
-var OuterSubscriber_1 = __webpack_require__(41);
-/* tslint:enable:max-line-length */
-/**
- * Projects each source value to an Observable which is merged in the output
- * Observable.
- *
- * <span class="informal">Maps each value to an Observable, then flattens all of
- * these inner Observables using {@link mergeAll}.</span>
- *
- * <img src="./img/mergeMap.png" width="100%">
- *
- * Returns an Observable that emits items based on applying a function that you
- * supply to each item emitted by the source Observable, where that function
- * returns an Observable, and then merging those resulting Observables and
- * emitting the results of this merger.
- *
- * @example <caption>Map and flatten each letter to an Observable ticking every 1 second</caption>
- * var letters = Rx.Observable.of('a', 'b', 'c');
- * var result = letters.mergeMap(x =>
- *   Rx.Observable.interval(1000).map(i => x+i)
- * );
- * result.subscribe(x => console.log(x));
- *
- * // Results in the following:
- * // a0
- * // b0
- * // c0
- * // a1
- * // b1
- * // c1
- * // continues to list a,b,c with respective ascending integers
- *
- * @see {@link concatMap}
- * @see {@link exhaustMap}
- * @see {@link merge}
- * @see {@link mergeAll}
- * @see {@link mergeMapTo}
- * @see {@link mergeScan}
- * @see {@link switchMap}
- *
- * @param {function(value: T, ?index: number): ObservableInput} project A function
- * that, when applied to an item emitted by the source Observable, returns an
- * Observable.
- * @param {function(outerValue: T, innerValue: I, outerIndex: number, innerIndex: number): any} [resultSelector]
- * A function to produce the value on the output Observable based on the values
- * and the indices of the source (outer) emission and the inner Observable
- * emission. The arguments passed to this function are:
- * - `outerValue`: the value that came from the source
- * - `innerValue`: the value that came from the projected Observable
- * - `outerIndex`: the "index" of the value that came from the source
- * - `innerIndex`: the "index" of the value from the projected Observable
- * @param {number} [concurrent=Number.POSITIVE_INFINITY] Maximum number of input
- * Observables being subscribed to concurrently.
- * @return {Observable} An Observable that emits the result of applying the
- * projection function (and the optional `resultSelector`) to each item emitted
- * by the source Observable and merging the results of the Observables obtained
- * from this transformation.
- * @method mergeMap
- * @owner Observable
- */
-function mergeMap(project, resultSelector, concurrent) {
-    if (concurrent === void 0) { concurrent = Number.POSITIVE_INFINITY; }
-    if (typeof resultSelector === 'number') {
-        concurrent = resultSelector;
-        resultSelector = null;
-    }
-    return this.lift(new MergeMapOperator(project, resultSelector, concurrent));
-}
-exports.mergeMap = mergeMap;
-var MergeMapOperator = (function () {
-    function MergeMapOperator(project, resultSelector, concurrent) {
-        if (concurrent === void 0) { concurrent = Number.POSITIVE_INFINITY; }
-        this.project = project;
-        this.resultSelector = resultSelector;
-        this.concurrent = concurrent;
-    }
-    MergeMapOperator.prototype.call = function (observer, source) {
-        return source.subscribe(new MergeMapSubscriber(observer, this.project, this.resultSelector, this.concurrent));
-    };
-    return MergeMapOperator;
-}());
-exports.MergeMapOperator = MergeMapOperator;
-/**
- * We need this JSDoc comment for affecting ESDoc.
- * @ignore
- * @extends {Ignored}
- */
-var MergeMapSubscriber = (function (_super) {
-    __extends(MergeMapSubscriber, _super);
-    function MergeMapSubscriber(destination, project, resultSelector, concurrent) {
-        if (concurrent === void 0) { concurrent = Number.POSITIVE_INFINITY; }
-        _super.call(this, destination);
-        this.project = project;
-        this.resultSelector = resultSelector;
-        this.concurrent = concurrent;
-        this.hasCompleted = false;
-        this.buffer = [];
-        this.active = 0;
-        this.index = 0;
-    }
-    MergeMapSubscriber.prototype._next = function (value) {
-        if (this.active < this.concurrent) {
-            this._tryNext(value);
-        }
-        else {
-            this.buffer.push(value);
-        }
-    };
-    MergeMapSubscriber.prototype._tryNext = function (value) {
-        var result;
-        var index = this.index++;
-        try {
-            result = this.project(value, index);
-        }
-        catch (err) {
-            this.destination.error(err);
-            return;
-        }
-        this.active++;
-        this._innerSub(result, value, index);
-    };
-    MergeMapSubscriber.prototype._innerSub = function (ish, value, index) {
-        this.add(subscribeToResult_1.subscribeToResult(this, ish, value, index));
-    };
-    MergeMapSubscriber.prototype._complete = function () {
-        this.hasCompleted = true;
-        if (this.active === 0 && this.buffer.length === 0) {
-            this.destination.complete();
-        }
-    };
-    MergeMapSubscriber.prototype.notifyNext = function (outerValue, innerValue, outerIndex, innerIndex, innerSub) {
-        if (this.resultSelector) {
-            this._notifyResultSelector(outerValue, innerValue, outerIndex, innerIndex);
-        }
-        else {
-            this.destination.next(innerValue);
-        }
-    };
-    MergeMapSubscriber.prototype._notifyResultSelector = function (outerValue, innerValue, outerIndex, innerIndex) {
-        var result;
-        try {
-            result = this.resultSelector(outerValue, innerValue, outerIndex, innerIndex);
-        }
-        catch (err) {
-            this.destination.error(err);
-            return;
-        }
-        this.destination.next(result);
-    };
-    MergeMapSubscriber.prototype.notifyComplete = function (innerSub) {
-        var buffer = this.buffer;
-        this.remove(innerSub);
-        this.active--;
-        if (buffer.length > 0) {
-            this._next(buffer.shift());
-        }
-        else if (this.active === 0 && this.hasCompleted) {
-            this.destination.complete();
-        }
-    };
-    return MergeMapSubscriber;
-}(OuterSubscriber_1.OuterSubscriber));
-exports.MergeMapSubscriber = MergeMapSubscriber;
-//# sourceMappingURL=mergeMap.js.map
-
-/***/ }),
-/* 268 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-var Subscriber_1 = __webpack_require__(25);
-/* tslint:enable:max-line-length */
-/**
- * Filter items emitted by the source Observable by only emitting those that
- * satisfy a specified predicate.
- *
- * <span class="informal">Like
- * [Array.prototype.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter),
- * it only emits a value from the source if it passes a criterion function.</span>
- *
- * <img src="./img/filter.png" width="100%">
- *
- * Similar to the well-known `Array.prototype.filter` method, this operator
- * takes values from the source Observable, passes them through a `predicate`
- * function and only emits those values that yielded `true`.
- *
- * @example <caption>Emit only click events whose target was a DIV element</caption>
- * var clicks = Rx.Observable.fromEvent(document, 'click');
- * var clicksOnDivs = clicks.filter(ev => ev.target.tagName === 'DIV');
- * clicksOnDivs.subscribe(x => console.log(x));
- *
- * @see {@link distinct}
- * @see {@link distinctUntilChanged}
- * @see {@link distinctUntilKeyChanged}
- * @see {@link ignoreElements}
- * @see {@link partition}
- * @see {@link skip}
- *
- * @param {function(value: T, index: number): boolean} predicate A function that
- * evaluates each value emitted by the source Observable. If it returns `true`,
- * the value is emitted, if `false` the value is not passed to the output
- * Observable. The `index` parameter is the number `i` for the i-th source
- * emission that has happened since the subscription, starting from the number
- * `0`.
- * @param {any} [thisArg] An optional argument to determine the value of `this`
- * in the `predicate` function.
- * @return {Observable} An Observable of values from the source that were
- * allowed by the `predicate` function.
- * @method filter
- * @owner Observable
- */
-function filter(predicate, thisArg) {
-    return this.lift(new FilterOperator(predicate, thisArg));
-}
-exports.filter = filter;
-var FilterOperator = (function () {
-    function FilterOperator(predicate, thisArg) {
-        this.predicate = predicate;
-        this.thisArg = thisArg;
-    }
-    FilterOperator.prototype.call = function (subscriber, source) {
-        return source.subscribe(new FilterSubscriber(subscriber, this.predicate, this.thisArg));
-    };
-    return FilterOperator;
-}());
-/**
- * We need this JSDoc comment for affecting ESDoc.
- * @ignore
- * @extends {Ignored}
- */
-var FilterSubscriber = (function (_super) {
-    __extends(FilterSubscriber, _super);
-    function FilterSubscriber(destination, predicate, thisArg) {
-        _super.call(this, destination);
-        this.predicate = predicate;
-        this.thisArg = thisArg;
-        this.count = 0;
-    }
-    // the try catch block below is left specifically for
-    // optimization and perf reasons. a tryCatcher is not necessary here.
-    FilterSubscriber.prototype._next = function (value) {
-        var result;
-        try {
-            result = this.predicate.call(this.thisArg, value, this.count++);
-        }
-        catch (err) {
-            this.destination.error(err);
-            return;
-        }
-        if (result) {
-            this.destination.next(value);
-        }
-    };
-    return FilterSubscriber;
-}(Subscriber_1.Subscriber));
-//# sourceMappingURL=filter.js.map
 
 /***/ })
 /******/ ]);
